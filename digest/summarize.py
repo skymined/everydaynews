@@ -74,13 +74,17 @@ def _fallback_classify_news(item: Item) -> NewsClassification:
             "api",
         )
     )
-    reason = "AI 모델/제품/정책/연구 관련 키워드가 포함되어 트렌드 후보로 판단했습니다." if include else "AI 트렌드 직접 연관성이 낮아 제외했습니다."
+    reason = (
+        "제목/요약에 AI 모델·제품·연구 관련 키워드가 있어 트렌드 항목으로 포함합니다."
+        if include
+        else "AI 트렌드와 직접 관련성이 낮아 제외합니다."
+    )
     return NewsClassification(include=include, reason_kr=reason)
 
 
 def _fallback_news_summary(item: Item) -> NewsSummary:
     excerpt = _excerpt(item, max_chars=700)
-    points = []
+    points: list[str] = []
     for sentence in re.split(r"(?<=[\.\!\?])\s+", excerpt):
         sentence = sentence.strip(" -")
         if len(sentence) < 15:
@@ -91,8 +95,8 @@ def _fallback_news_summary(item: Item) -> NewsSummary:
     if not points:
         points = [item.title]
 
-    headline = f"{item.source_name}에서 '{item.title}' 관련 핵심 발표"
-    why = ["해당 발표는 AI 제품/연구/정책 변화 흐름을 보여줘 후속 발표와 비교 가치가 큽니다."]
+    headline = f"{item.source_name}에서 '{item.title}' 관련 발표"
+    why = ["해당 발표는 AI 제품/연구/정책 흐름을 보여주며 후속 발표와 비교 가치가 있습니다."]
     keywords = re.findall(r"[A-Za-z0-9\-\_]{3,}", item.title)[:6]
     if not keywords:
         keywords = ["ai", "trend", "news"]
@@ -105,7 +109,7 @@ def _fallback_news_summary(item: Item) -> NewsSummary:
 
 
 def _paper_sentences(excerpt: str) -> list[str]:
-    cleaned = excerpt.replace("Abstract", " ").replace("摘要", " ")
+    cleaned = excerpt.replace("Abstract", " ").replace("요약", " ")
     cleaned = _clean_text(cleaned)
     if not cleaned:
         return []
@@ -127,10 +131,10 @@ def _infer_paper_subject(title: str, excerpt: str) -> str:
         (("agent", "policy", "planner"), "AI 에이전트"),
         (("robot", "humanoid", "embodied"), "로보틱스/체화 AI"),
         (("diffusion", "video generation"), "생성 모델(diffusion)"),
-        (("retrieval", "rag", "memory"), "리트리벌/메모리 기반 AI"),
-        (("benchmark", "evaluation", "reliability"), "모델 평가·신뢰성"),
+        (("retrieval", "rag", "memory"), "검색/메모리 기반 AI"),
+        (("benchmark", "evaluation", "reliability"), "모델 평가/신뢰성"),
         (("multimodal", "vision-language", "vlm"), "멀티모달 AI"),
-        (("attention", "transformer"), "모델 아키텍처/연산 최적화"),
+        (("attention", "transformer"), "모델 아키텍처/계산 최적화"),
         (("factual", "hallucination"), "사실성/환각 완화"),
     ]
     for keys, label in mapping:
@@ -149,7 +153,7 @@ def _infer_paper_contribution(title: str, excerpt: str) -> str:
         return "새 프레임워크/시스템"
     if any(key in text for key in ("model", "architecture", "method", "approach")):
         return "새 모델/방법론"
-    return "새 접근"
+    return "새 접근법"
 
 
 def _infer_paper_goal(title: str, excerpt: str) -> str:
@@ -161,7 +165,7 @@ def _infer_paper_goal(title: str, excerpt: str) -> str:
     if any(key in text for key in ("generalization", "zero-shot", "transfer", "open-vocabulary")):
         return "일반화 성능"
     if any(key in text for key in ("accuracy", "performance", "sota")):
-        return "성능"
+        return "정확도 성능"
     return "실사용 성능"
 
 
@@ -232,15 +236,15 @@ def _fallback_paper_summary(item: Item) -> PaperSummary:
     concrete_3 = sentences[2][:170] if len(sentences) >= 3 else ""
 
     detail_lines = [
-        f"문제 설정: {subject}에서 기존 방법의 한계를 개선하려는 목적을 가집니다.",
+        f"문제 정의: {subject}에서 기존 방법의 한계를 개선하려는 목적이 있습니다.",
         f"접근 방법: {contribution} 중심으로 해결 전략을 제시합니다.",
     ]
     if concrete_1:
-        detail_lines.append(f"원문 핵심 1: {concrete_1}")
+        detail_lines.append(f"논문 근거 1: {concrete_1}")
     if concrete_2:
-        detail_lines.append(f"원문 핵심 2: {concrete_2}")
+        detail_lines.append(f"논문 근거 2: {concrete_2}")
     if concrete_3:
-        detail_lines.append(f"원문 핵심 3: {concrete_3}")
+        detail_lines.append(f"논문 근거 3: {concrete_3}")
 
     core = " ".join(detail_lines[:4])
     keywords = _build_paper_keywords(item.title, excerpt)

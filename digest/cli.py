@@ -44,7 +44,7 @@ def _build_parser() -> argparse.ArgumentParser:
     run.add_argument("--refresh", action="store_true", help="Ignore cached summaries and regenerate.")
     run.add_argument("--config", default="sources.yaml")
     run.add_argument("--db-path", default="data/digest.sqlite3")
-    run.add_argument("--latest-path", default="reports/latest.md")
+    run.add_argument("--latest-path", default="website/reports/latest.md")
     run.add_argument("--log-level", default="INFO")
     return parser
 
@@ -180,7 +180,7 @@ def run_pipeline(args: argparse.Namespace) -> int:
     paper_prompt = load_prompt("prompts/paper_summarize.md")
 
     target_date = datetime.fromisoformat(args.target_date).date()
-    out_path = Path(args.out) if args.out else Path(f"reports/{target_date.isoformat()}.md")
+    out_path = Path(args.out) if args.out else Path(f"website/reports/{target_date.isoformat()}.md")
     out_path.parent.mkdir(parents=True, exist_ok=True)
     latest_path = Path(args.latest_path)
     latest_path.parent.mkdir(parents=True, exist_ok=True)
@@ -263,4 +263,3 @@ def main(argv: list[str] | None = None) -> int:
         return run_pipeline(args)
     parser.print_help()
     return 1
-

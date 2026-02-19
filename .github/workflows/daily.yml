@@ -26,16 +26,18 @@ jobs:
 
       - name: Run digest
         env:
+          LLM_MODE: api
+          LLM_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python -m digest run --date "$(date -u +%F)" --out "reports/$(date -u +%F).md" --provider openai
+          python -m digest run --date "$(date -u +%F)" --out "website/reports/$(date -u +%F).md" --latest-path "website/reports/latest.md"
+          python website/scripts/build_reports_index.py
 
       - name: Commit report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add reports/ data/digest.sqlite3 || true
+          git add website/reports/ website/reports.json data/digest.sqlite3 || true
           git commit -m "chore: daily digest $(date -u +%F)" || exit 0
           git push
-
