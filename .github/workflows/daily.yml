@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add website/reports/ website/reports.json data/digest.sqlite3 || true
+          git add website/reports/ website/posts/ website/reports.json website/.nojekyll data/digest.sqlite3 || true
           git commit -m "chore: daily digest $(date -u +%F)" || exit 0
           git push
