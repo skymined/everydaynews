@@ -19,7 +19,11 @@
     downloadLink.setAttribute("download", fileName);
 
     try {
-      const response = await fetch(`../../reports/${fileName}`, { cache: "no-cache" });
+      const reportPath = `../../reports/${fileName}`;
+      const reportUrl = window.SiteCommon.withCacheBust
+        ? window.SiteCommon.withCacheBust(reportPath)
+        : reportPath;
+      const response = await fetch(reportUrl, { cache: "no-store" });
       if (!response.ok) {
         throw new Error(`리포트 로드 실패 (${response.status})`);
       }

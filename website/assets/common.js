@@ -185,8 +185,13 @@
     return `${m[1]}-${m[2]}-${m[3]}`;
   }
 
+  function withCacheBust(path) {
+    const separator = path.includes("?") ? "&" : "?";
+    return `${path}${separator}v=${Date.now()}`;
+  }
+
   async function loadReportsIndex(path = "./reports.json") {
-    const response = await fetch(path, { cache: "no-cache" });
+    const response = await fetch(withCacheBust(path), { cache: "no-store" });
     if (!response.ok) {
       throw new Error(`reports.json 로드 실패 (${response.status})`);
     }
@@ -243,6 +248,7 @@
     stripFirstHeading,
     normalizeDigestTitle,
     formatDateLabel,
+    withCacheBust,
     loadReportsIndex,
   };
 })();
