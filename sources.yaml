@@ -1,0 +1,159 @@
+defaults:
+  max_items_per_source: 10
+  user_agent: "ai-trend-digest/0.1 (+https://github.com/your-org/ai-trend-digest)"
+  timeout_sec: 30
+  concurrency: 6
+  host_rps: 1.5
+  extract_max_chars: 8000
+
+llm:
+  default_mode: "local"
+  default_provider: "openai"
+  openai_model: "gpt-4.1-mini"
+  gemini_model: "gemini-2.0-flash"
+  max_items_to_summarize: 30
+  local_backend: "llama"
+  local_base_url: "http://127.0.0.1:11434/v1"
+  local_model: "qwen2.5:7b"
+
+report:
+  timezone: "Asia/Seoul"
+  max_news_items: 12
+  max_papers: 10
+
+scoring:
+  source_weights:
+    openai_news: 1.0
+    google_the_keyword: 0.9
+    google_research: 1.0
+    microsoft_research: 0.85
+    aws_ml_blog: 0.8
+    nvidia_dev_blog: 0.8
+    arxiv_cs_ai: 0.75
+    hf_blog: 0.9
+    hf_papers_today: 1.0
+  priority_keywords:
+    - "release"
+    - "launch"
+    - "agent"
+    - "reasoning"
+    - "benchmark"
+    - "security"
+    - "policy"
+    - "governance"
+    - "open-source"
+    - "inference"
+  tag_keywords:
+    product:
+      - "release"
+      - "launch"
+      - "api"
+      - "pricing"
+    policy:
+      - "policy"
+      - "regulation"
+      - "governance"
+      - "compliance"
+    research:
+      - "paper"
+      - "benchmark"
+      - "evaluation"
+      - "method"
+    security:
+      - "security"
+      - "safety"
+      - "red team"
+      - "jailbreak"
+    infrastructure:
+      - "inference"
+      - "training"
+      - "gpu"
+      - "latency"
+      - "throughput"
+
+sources:
+  - id: openai_news
+    name: OpenAI News
+    type: rss
+    url: "https://openai.com/news/rss.xml"
+    max_items: 10
+
+  - id: google_the_keyword
+    name: Google Blog (The Keyword)
+    type: rss
+    url: "https://blog.google/rss/"
+    max_items: 10
+    include_keywords:
+      - "ai"
+      - "gemini"
+      - "machine learning"
+      - "model"
+      - "llm"
+      - "agent"
+      - "research"
+    exclude_keywords:
+      - "pixel"
+      - "waze"
+      - "android auto"
+
+  - id: google_research
+    name: Google Research Blog
+    type: rss
+    url: "https://research.google/blog/rss/"
+    max_items: 10
+
+  - id: microsoft_research
+    name: Microsoft Research Blog
+    type: rss
+    url: "https://www.microsoft.com/en-us/research/blog/feed/"
+    max_items: 10
+
+  - id: aws_ml_blog
+    name: AWS Machine Learning Blog
+    type: rss
+    url: "https://aws.amazon.com/blogs/machine-learning/feed/"
+    max_items: 10
+
+  - id: nvidia_dev_blog
+    name: NVIDIA Developer Blog
+    type: rss
+    url: "https://developer.nvidia.com/blog/feed/"
+    max_items: 10
+
+  - id: arxiv_cs_ai
+    name: arXiv cs.AI
+    type: rss
+    url: "https://export.arxiv.org/rss/cs.AI"
+    max_items: 10
+
+  - id: hf_blog
+    name: Hugging Face Blog
+    type: rss
+    url: "https://huggingface.co/blog/feed.xml"
+    max_items: 10
+
+  - id: hf_papers_today
+    name: Hugging Face Papers (Top today)
+    type: html
+    url: "https://huggingface.co/papers"
+    max_items: 10
+    selectors:
+      item: "article, li"
+      title: "h3, h2, a"
+      link: "a"
+
+watch_sites: []
+# watch_sites:
+#   - id: openai_home
+#     name: OpenAI Home
+#     type: html
+#     url: "https://openai.com/"
+#     max_items: 10
+#     selectors:
+#       item: "a"
+#       title: "a"
+#       link: "a"
+#     include_keywords:
+#       - "ai"
+#       - "model"
+#       - "api"

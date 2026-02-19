@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+run_debug.log
+
+# Local scratch DBs from iterative runs
+data/digest_final*.sqlite3
+data/digest_rebuild.sqlite3
+
