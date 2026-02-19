@@ -17,7 +17,7 @@ run_debug.log
 # Local scratch DBs from iterative runs
 data/digest_final*.sqlite3
 data/digest_rebuild.sqlite3
-
+s
 # OS / IDE noise
 .DS_Store
 Thumbs.db
