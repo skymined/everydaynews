@@ -89,62 +89,62 @@
 
 ## Papers (Hugging Face Top 10)
 
-1. **SLA2: Sparse-Linear Attention with Learnable Routing and QAT**
-   - 한 줄 요약: SLA2는 학습 가능한 라우터와 직접적인 주의 형식을 도입하여 스-라인어트ention의 효율성을 향상시키고, 양질의 비디오 생성을 달성한다.
-   - 핵심 아이디어: SLA2는 기존 SLA의 한계를 극복하기 위해 학습 가능한 라우터와 직접적인 주의 형식을 도입하여 각 주의 계산이 스 또는 라인어트ention 중 어느 방향으로 수행되어야 하는지 결정하게 합니다. 또한, 양자화 인식 적응 훈련을 통해 저비트 주의를 도입하여 양자화 오차를 줄이는 방안도 제시합니다. 이를 통해 비디오 생성 모델에서 97%의 주의 스성과 18.6배의 속도 향상을 달성하면서 동시에 생성 질을 유지할 수 있음을 실험적으로 증명하였습니다.
-   - 키워드: #sla2 #스parse-라인어트ention #학습-가능한-라우터 #양자화-인식-적응-훈련 #비디오-생성 #속도-향상
-   - 링크: https://huggingface.co/papers/2602.12675
+### SLA2: Sparse-Linear Attention with Learnable Routing and QAT
+- 한 줄 요약: SLA2는 학습 가능한 라우터와 직접적인 주의 형식을 도입하여 스-라인어트ention의 효율성을 향상시키고, 양질의 비디오 생성을 달성한다.
+- 핵심 아이디어: SLA2는 기존 SLA의 한계를 극복하기 위해 학습 가능한 라우터와 직접적인 주의 형식을 도입하여 각 주의 계산이 스 또는 라인어트ention 중 어느 방향으로 수행되어야 하는지 결정하게 합니다. 또한, 양자화 인식 적응 훈련을 통해 저비트 주의를 도입하여 양자화 오차를 줄이는 방안도 제시합니다. 이를 통해 비디오 생성 모델에서 97%의 주의 스성과 18.6배의 속도 향상을 달성하면서 동시에 생성 질을 유지할 수 있음을 실험적으로 증명하였습니다.
+- 키워드: #sla2 #스parse-라인어트ention #학습-가능한-라우터 #양자화-인식-적응-훈련 #비디오-생성 #속도-향상
+- 링크: https://huggingface.co/papers/2602.12675
 
-2. **Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation**
-   - 한 줄 요약: HERO는 대형 시각 모델과 역학적 제어 기법을 결합하여 humanoid 로봇의 다양한 실내외 환경에서의 물체 조작 능력을 향상시킨다.
-   - 핵심 아이디어:  HERO는 대형 시각 모델과 역학적 제어 기법을 결합하여 humanoid 로봇이 다양한 실내외 환경에서 물체를 정확하게 조작할 수 있도록 합니다. 이 방법은 대형 시각 모델의 일반화 능력과 역학적 제어의 뛰어난 성능을 동시에 활용합니다. HERO는 역동적인 잔차 의식적 엣드-에지 추적 정책을 설계하여, 반복 계획 및 목표 조정 등을 통해 로봇이 다양한 실생활 물체를 정확하게 조작할 수 있게 합니다.
-   - 키워드: #hero #humanoid-로봇 #시각-모델 #역학적-제어 #잔차-의식적-추적 #물체-조작
-   - 링크: https://huggingface.co/papers/2602.16705
+### Learning Humanoid End-Effector Control for Open-Vocabulary Visual Loco-Manipulation
+- 한 줄 요약: HERO는 대형 시각 모델과 역학적 제어 기법을 결합하여 humanoid 로봇의 다양한 실내외 환경에서의 물체 조작 능력을 향상시킨다.
+- 핵심 아이디어:  HERO는 대형 시각 모델과 역학적 제어 기법을 결합하여 humanoid 로봇이 다양한 실내외 환경에서 물체를 정확하게 조작할 수 있도록 합니다. 이 방법은 대형 시각 모델의 일반화 능력과 역학적 제어의 뛰어난 성능을 동시에 활용합니다. HERO는 역동적인 잔차 의식적 엣드-에지 추적 정책을 설계하여, 반복 계획 및 목표 조정 등을 통해 로봇이 다양한 실생활 물체를 정확하게 조작할 수 있게 합니다.
+- 키워드: #hero #humanoid-로봇 #시각-모델 #역학적-제어 #잔차-의식적-추적 #물체-조작
+- 링크: https://huggingface.co/papers/2602.16705
 
-3. **RynnBrain: Open Embodied Foundation Models**
-   - 한 줄 요약: RynnBrain는 2B, 8B 및 30B-A3B MoE 규모의 오픈소스 공간-시간 기반 모델로, 감각, 추론 및 계획 능력을 통합하여 embodied 인텔리전스를 지원한다.
-   - 핵심 아이디어: RynnBrain은 embodied 인텔리전스 커뮤니티가 부족한 통합적이고 물리적으로 근거된 공간-시간 기반 모델을 제시하며, 감각, 추론 및 계획 능력을 통합하여 실제 세계의 공간-시간 동적 내에서 강화한다. 이를 통해 RynnBrain은 다양한 embodied 작업이나 복잡한 공간 추론 작업에 적응할 수 있는 네 가지 포스트 트레이닝 변형 모델을 제공하며, 기존 embodied 기반 모델보다 훨씬 우수한 성능을 보여준다.
-   - 키워드: #rynnbrain #embodied-intelligence #spatiotemporal-foundation-model #perception #reasoning #planning
-   - 링크: https://huggingface.co/papers/2602.14979
+### RynnBrain: Open Embodied Foundation Models
+- 한 줄 요약: RynnBrain는 2B, 8B 및 30B-A3B MoE 규모의 오픈소스 공간-시간 기반 모델로, 감각, 추론 및 계획 능력을 통합하여 embodied 인텔리전스를 지원한다.
+- 핵심 아이디어: RynnBrain은 embodied 인텔리전스 커뮤니티가 부족한 통합적이고 물리적으로 근거된 공간-시간 기반 모델을 제시하며, 감각, 추론 및 계획 능력을 통합하여 실제 세계의 공간-시간 동적 내에서 강화한다. 이를 통해 RynnBrain은 다양한 embodied 작업이나 복잡한 공간 추론 작업에 적응할 수 있는 네 가지 포스트 트레이닝 변형 모델을 제공하며, 기존 embodied 기반 모델보다 훨씬 우수한 성능을 보여준다.
+- 키워드: #rynnbrain #embodied-intelligence #spatiotemporal-foundation-model #perception #reasoning #planning
+- 링크: https://huggingface.co/papers/2602.14979
 
-4. **Empty Shelves or Lost Keys? Recall Is the Bottleneck for Parametric Factuality**
-   - 한 줄 요약: LLM의 사실성 평가에서 추출 가능성 문제는 기억력 부족이 아니라 정보 접근 제한 때문임을 밝혀내며, 이를 WikiProfile이라는 새로운 벤치마크를 통해 확인
-   - 핵심 아이디어: 연구는 대형 언어 모델(Large Language Models)의 사실성 평가에서 오류가 주로 기억력 부족이 아니라 정보 접근 제한 때문임을 밝힌다. 이를 위해 웹 검색 기반으로 생성된 WikiProfile이라는 새로운 벤치마크를 통해 400만 개 이상의 응답을 분석하였다. 결과적으로, GPT-5와 Gemini-3는 대부분의 사실을 인코딩하지만, 기억력 문제로 인해 많은 오류가 발생한다는 것을 발견하였다.
-   - 키워드: #llm #wikiprofile #사실성-평가 #인코딩 #추출-가능성 #기억력
-   - 링크: https://huggingface.co/papers/2602.14080
+### Empty Shelves or Lost Keys? Recall Is the Bottleneck for Parametric Factuality
+- 한 줄 요약: LLM의 사실성 평가에서 추출 가능성 문제는 기억력 부족이 아니라 정보 접근 제한 때문임을 밝혀내며, 이를 WikiProfile이라는 새로운 벤치마크를 통해 확인
+- 핵심 아이디어: 연구는 대형 언어 모델(Large Language Models)의 사실성 평가에서 오류가 주로 기억력 부족이 아니라 정보 접근 제한 때문임을 밝힌다. 이를 위해 웹 검색 기반으로 생성된 WikiProfile이라는 새로운 벤치마크를 통해 400만 개 이상의 응답을 분석하였다. 결과적으로, GPT-5와 Gemini-3는 대부분의 사실을 인코딩하지만, 기억력 문제로 인해 많은 오류가 발생한다는 것을 발견하였다.
+- 키워드: #llm #wikiprofile #사실성-평가 #인코딩 #추출-가능성 #기억력
+- 링크: https://huggingface.co/papers/2602.14080
 
-5. **SAM 3D Body: Robust Full-Body Human Mesh Recovery**
-   - 한 줄 요약: SAM 3D Body는 새로운 파라미터화 메시 표현과 인코더-디코더 아키텍처를 사용하여 강력한 일반화 능력을 보이는 단일 이미지 전체 신체 3D 인간 메시 복원 모델을 제시한다.
-   - 핵심 아이디어: SAM 3D Body는 Momentum Human Rig라는 새로운 파라미터화 메시 표현을 사용하여 체격과 표면 형태를 분리하고, 인코더-디코더 아키텍처와 함께 다양한 조건에서 우수한 성능을 보이는 모델을 제안한다. 이 모델은 키포인트와 마스크 등의 보조 프롬프트를 지원하여 사용자 지도 추론이 가능하다. 데이터 엔진은 다각도로 주어진 조건과 포즈를 고려하여 다양한 이미지 조건에서의 일반화 능력을 증가시키는 데 기여한다.
-   - 키워드: #sam-3d-body #momentum-human-rig-(mhr) #인코더-디코더-아키텍처
-   - 링크: https://huggingface.co/papers/2602.15989
+### SAM 3D Body: Robust Full-Body Human Mesh Recovery
+- 한 줄 요약: SAM 3D Body는 새로운 파라미터화 메시 표현과 인코더-디코더 아키텍처를 사용하여 강력한 일반화 능력을 보이는 단일 이미지 전체 신체 3D 인간 메시 복원 모델을 제시한다.
+- 핵심 아이디어: SAM 3D Body는 Momentum Human Rig라는 새로운 파라미터화 메시 표현을 사용하여 체격과 표면 형태를 분리하고, 인코더-디코더 아키텍처와 함께 다양한 조건에서 우수한 성능을 보이는 모델을 제안한다. 이 모델은 키포인트와 마스크 등의 보조 프롬프트를 지원하여 사용자 지도 추론이 가능하다. 데이터 엔진은 다각도로 주어진 조건과 포즈를 고려하여 다양한 이미지 조건에서의 일반화 능력을 증가시키는 데 기여한다.
+- 키워드: #sam-3d-body #momentum-human-rig-(mhr) #인코더-디코더-아키텍처
+- 링크: https://huggingface.co/papers/2602.15989
 
-6. **Multi-agent cooperation through in-context co-player inference**
-   - 한 줄 요약: 시퀀스 모델을 활용한 다중 에이전트 협동 학습에서, 인텍스트 컨텍스트 내의 코플레이어 추론을 통해 공조 행동이 자연스럽게 발생.
-   - 핵심 아이디어: 다중 에이전트 환경에서 시퀀스 모델은 코플레이어의 학습 동태를 고려하지 않고도 협동적 행동을 emergence시킬 수 있음을 보여줍니다. 이는 코플레이어 다양성과 함께 decentralised reinforcement learning을 통해 가능하며, 코플레이어에 대한 인텍스트 내 추론이 공조 행동의 핵심 역할을 합니다.
-   - 키워드: #multi-agent #reinforcement-learning #sequence-model #co-player-inference #cooperative-behavior #in-context-learning
-   - 링크: https://huggingface.co/papers/2602.16301
+### Multi-agent cooperation through in-context co-player inference
+- 한 줄 요약: 시퀀스 모델을 활용한 다중 에이전트 협동 학습에서, 인텍스트 컨텍스트 내의 코플레이어 추론을 통해 공조 행동이 자연스럽게 발생.
+- 핵심 아이디어: 다중 에이전트 환경에서 시퀀스 모델은 코플레이어의 학습 동태를 고려하지 않고도 협동적 행동을 emergence시킬 수 있음을 보여줍니다. 이는 코플레이어 다양성과 함께 decentralised reinforcement learning을 통해 가능하며, 코플레이어에 대한 인텍스트 내 추론이 공조 행동의 핵심 역할을 합니다.
+- 키워드: #multi-agent #reinforcement-learning #sequence-model #co-player-inference #cooperative-behavior #in-context-learning
+- 링크: https://huggingface.co/papers/2602.16301
 
-7. **World Action Models are Zero-shot Policies**
-   - 한 줄 요약: DreamZero는 비디오 확산 기반의 월드 액션 모델로, 신규 환경과 embodimen에 대한 물리적 동작 일반화 능력을 향상시킨다.
-   - 핵심 아이디어: DreamZero는 비디오 확산 모델을 활용하여 물리적 동작을 예측하는 월드 액션 모델(WAM)로, 기존의 시각-언어-액션(VLA) 모델보다 새로운 환경과 embodimen에 대한 일반화 능력을 크게 향상시킨다. 이는 다양한 로봇 데이터에서 효과적인 기술 스킬 학습이 가능하며, 실제 로봇 실험에서는 VLA 모델 대비 2배 이상의 성능 개선을 보였다. 또한, 모델과 시스템 최적화를 통해 14B 자동 회귀 비디오 확산 모델을 실시간으로 제어할 수 있게 했다.
-   - 키워드: #world-action-model #video-diffusion #generalization
-   - 링크: https://huggingface.co/papers/2602.15922
+### World Action Models are Zero-shot Policies
+- 한 줄 요약: DreamZero는 비디오 확산 기반의 월드 액션 모델로, 신규 환경과 embodimen에 대한 물리적 동작 일반화 능력을 향상시킨다.
+- 핵심 아이디어: DreamZero는 비디오 확산 모델을 활용하여 물리적 동작을 예측하는 월드 액션 모델(WAM)로, 기존의 시각-언어-액션(VLA) 모델보다 새로운 환경과 embodimen에 대한 일반화 능력을 크게 향상시킨다. 이는 다양한 로봇 데이터에서 효과적인 기술 스킬 학습이 가능하며, 실제 로봇 실험에서는 VLA 모델 대비 2배 이상의 성능 개선을 보였다. 또한, 모델과 시스템 최적화를 통해 14B 자동 회귀 비디오 확산 모델을 실시간으로 제어할 수 있게 했다.
+- 키워드: #world-action-model #video-diffusion #generalization
+- 링크: https://huggingface.co/papers/2602.15922
 
-8. **Towards a Science of AI Agent Reliability**
-   - 한 줄 요약: 이 연구는 AI 에이전트의 일관성, 견고성, 예측 가능성 및 안전성을 다각도로 평가하기 위한 12개의 구체적 지표를 제안한다.
-   - 핵심 아이디어: 현재 AI 에이전트 평가 방식은 단일 성공 지표로 애초의 행동을 압축하여 중요한 운영 결함을 가려내지 못하고 있다. 이 연구는 안전한 엔지니어링에 기반해 일관성, 견고성, 예측 가능성 및 안전성을 네 가지 주요 차원으로 분해하는 12개의 구체적 지표를 제안한다. 이를 통해 최근 능력 향상은 신뢰성 측면에서 미미한 성과만을 보여주고 있음을 밝혀냈다.
-   - 키워드: #ai-에이전트 #신뢰성-평가 #일관성 #견고성 #예측-가능성 #안전성
-   - 링크: https://huggingface.co/papers/2602.16666
+### Towards a Science of AI Agent Reliability
+- 한 줄 요약: 이 연구는 AI 에이전트의 일관성, 견고성, 예측 가능성 및 안전성을 다각도로 평가하기 위한 12개의 구체적 지표를 제안한다.
+- 핵심 아이디어: 현재 AI 에이전트 평가 방식은 단일 성공 지표로 애초의 행동을 압축하여 중요한 운영 결함을 가려내지 못하고 있다. 이 연구는 안전한 엔지니어링에 기반해 일관성, 견고성, 예측 가능성 및 안전성을 네 가지 주요 차원으로 분해하는 12개의 구체적 지표를 제안한다. 이를 통해 최근 능력 향상은 신뢰성 측면에서 미미한 성과만을 보여주고 있음을 밝혀냈다.
+- 키워드: #ai-에이전트 #신뢰성-평가 #일관성 #견고성 #예측-가능성 #안전성
+- 링크: https://huggingface.co/papers/2602.16666
 
-9. **Learning Situated Awareness in the Real World**
-   - 한 줄 요약: SAW-Bench은 실시간 동영상 데이터셋을 사용하여 모델의 주관적 공간 인식 능력을 평가하는 새로운 벤치마크
-   - 핵심 아이디어: 현재 대부분의 멀티모달 기반 모델(MFM) 벤치마크는 주변 환경 간 관계에 초점을 맞추고 있어, 자신과 주변 환경 간 관계를 이해하는 주관적 공간 인식 능력이 부족한 상황을 반영하고 있습니다. SAW-Bench은 이 문제를 해결하기 위해 실시간 동영상 데이터셋과 인간의 질문-답변 쌍을 사용하여 모델의 주관적 공간 인식 능력을 평가하는 새로운 벤치마크입니다. 이를 통해 모델이 부분적인 기하학적 힌트를 활용하지만, 카메라의 일관된 기하 구조를 추론하지 못해 공간적 사고에서 오류를 발생한다는 점을 발견했습니다.
-   - 키워드: #saw-bench #실시간-동영상 #주관적-공간-인식 #모델-평가 #기하학적-힌트 #카메라-기하-구조
-   - 링크: https://huggingface.co/papers/2602.16682
+### Learning Situated Awareness in the Real World
+- 한 줄 요약: SAW-Bench은 실시간 동영상 데이터셋을 사용하여 모델의 주관적 공간 인식 능력을 평가하는 새로운 벤치마크
+- 핵심 아이디어: 현재 대부분의 멀티모달 기반 모델(MFM) 벤치마크는 주변 환경 간 관계에 초점을 맞추고 있어, 자신과 주변 환경 간 관계를 이해하는 주관적 공간 인식 능력이 부족한 상황을 반영하고 있습니다. SAW-Bench은 이 문제를 해결하기 위해 실시간 동영상 데이터셋과 인간의 질문-답변 쌍을 사용하여 모델의 주관적 공간 인식 능력을 평가하는 새로운 벤치마크입니다. 이를 통해 모델이 부분적인 기하학적 힌트를 활용하지만, 카메라의 일관된 기하 구조를 추론하지 못해 공간적 사고에서 오류를 발생한다는 점을 발견했습니다.
+- 키워드: #saw-bench #실시간-동영상 #주관적-공간-인식 #모델-평가 #기하학적-힌트 #카메라-기하-구조
+- 링크: https://huggingface.co/papers/2602.16682
 
-10. **MMA: Multimodal Memory Agent**
-   - 한 줄 요약: MMA: Multimodal Memory Agent는 동적 신뢰성 점수를 부여하여 비주얼 편향을 처리하며, 장기적인 다모달 에이전트 성능을 개선한다.
-   - 핵심 아이디어: 장기적인 다모달 에이전트는 외부 메모리를 필요로 하지만, 유사성 기반 검색은 때때로 낡고 신뢰성이 낮거나 충돌하는 항목들을 표출할 수 있다. MMA는 각각의 추출된 메모리 항목에 소스 신뢰성, 시간적 감소 및 충돌 인식 네트워크 합의를 결합하여 동적으로 신뢰성 점수를 부여하고 이를 증거 재중량화와 부족한 지원 시의 판단을 위한 회피로 사용한다. 이 연구는 MMA-Bench라는 프로그래밍으로 생성된 믿음 역동성 테스트 프레임워크를 통해 비주얼 플레이스보 효과를 발견하였다.
-   - 키워드: #mma #multimodal-memory-agent #dynamic-reliability-score
-   - 링크: https://huggingface.co/papers/2602.16493
+### MMA: Multimodal Memory Agent
+- 한 줄 요약: MMA: Multimodal Memory Agent는 동적 신뢰성 점수를 부여하여 비주얼 편향을 처리하며, 장기적인 다모달 에이전트 성능을 개선한다.
+- 핵심 아이디어: 장기적인 다모달 에이전트는 외부 메모리를 필요로 하지만, 유사성 기반 검색은 때때로 낡고 신뢰성이 낮거나 충돌하는 항목들을 표출할 수 있다. MMA는 각각의 추출된 메모리 항목에 소스 신뢰성, 시간적 감소 및 충돌 인식 네트워크 합의를 결합하여 동적으로 신뢰성 점수를 부여하고 이를 증거 재중량화와 부족한 지원 시의 판단을 위한 회피로 사용한다. 이 연구는 MMA-Bench라는 프로그래밍으로 생성된 믿음 역동성 테스트 프레임워크를 통해 비주얼 플레이스보 효과를 발견하였다.
+- 키워드: #mma #multimodal-memory-agent #dynamic-reliability-score
+- 링크: https://huggingface.co/papers/2602.16493

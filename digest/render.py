@@ -60,15 +60,15 @@ def render_digest_markdown(
         lines.append("- Hugging Face Top 10 논문을 가져오지 못했습니다.")
         lines.append("")
     else:
-        for idx, item in enumerate(paper_items, start=1):
+        for item in paper_items:
             summary = paper_summaries.get(item.url)
             if summary is None:
                 continue
-            lines.append(f"{idx}. **{item.title}**")
-            lines.append(f"   - 한 줄 요약: {summary.one_liner_kr}")
-            lines.append(f"   - 핵심 아이디어: {summary.core_idea_kr}")
-            lines.append(f"   - 키워드: {_render_tags(summary.keywords)}")
-            lines.append(f"   - 링크: {item.url}")
+            lines.append(f"### {item.title}")
+            lines.append(f"- 한 줄 요약: {summary.one_liner_kr}")
+            lines.append(f"- 핵심 아이디어: {summary.core_idea_kr}")
+            lines.append(f"- 키워드: {_render_tags(summary.keywords)}")
+            lines.append(f"- 링크: {item.url}")
             lines.append("")
 
     return "\n".join(lines).strip() + "\n"
