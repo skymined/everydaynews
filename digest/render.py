@@ -27,7 +27,7 @@ def render_digest_markdown(
     paper_summaries: dict[str, PaperSummary],
 ) -> str:
     lines: list[str] = []
-    lines.append(f"# AI Trend Digest - {target_date.isoformat()}")
+    lines.append(f"# IMDIGEST - {target_date.isoformat()}")
     lines.append("")
     lines.append(f"- 기준일(KST): {kst_yesterday.isoformat()} 00:00:00 ~ 23:59:59")
     lines.append("")
@@ -72,4 +72,3 @@ def render_digest_markdown(
             lines.append("")
 
     return "\n".join(lines).strip() + "\n"
-

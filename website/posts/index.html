@@ -3,18 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IMEVERYDAY | 목록</title>
+  <title>IMDIGEST | 목록</title>
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a class="logo" href="../">IMEVERYDAY</a>
-      <nav class="nav">
-        <a href="../">Home</a>
-        <a class="active" href="./">목록</a>
-        <a href="../about/">About</a>
-      </nav>
+      <div class="left-group">
+        <a class="logo" href="../">IMDIGEST</a>
+        <nav class="nav">
+          <a href="../">Home</a>
+          <a class="active" href="./">목록</a>
+          <a href="../about/">About</a>
+        </nav>
+      </div>
+      <button class="theme-toggle" type="button" data-theme-toggle>다크 모드</button>
     </div>
   </header>
 
@@ -23,7 +26,7 @@
       <div class="card-head">
         <h1>리포트 목록</h1>
       </div>
-      <p class="muted">최신 리포트가 위에 오도록 정렬됩니다.</p>
+      <p class="muted">최신 리포트가 위에 오도록 자동 정렬됩니다.</p>
       <div id="posts-list" class="post-grid"></div>
     </section>
   </main>

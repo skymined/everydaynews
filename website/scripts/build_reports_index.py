@@ -7,6 +7,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 
+BRAND_NAME = "IMDIGEST"
 WEBSITE_DIR = Path("website")
 REPORTS_DIR = WEBSITE_DIR / "reports"
 POSTS_DIR = WEBSITE_DIR / "posts"
@@ -19,18 +20,21 @@ DETAIL_TEMPLATE = """<!doctype html>
 <head>
   <meta charset=\"utf-8\">
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-  <title>IMEVERYDAY | {date}</title>
+  <title>{brand} | {date}</title>
   <link rel=\"stylesheet\" href=\"../../assets/style.css\">
 </head>
 <body>
   <header class=\"site-header\">
     <div class=\"header-inner\">
-      <a class=\"logo\" href=\"../../\">IMEVERYDAY</a>
-      <nav class=\"nav\">
-        <a href=\"../../\">Home</a>
-        <a class=\"active\" href=\"../\">목록</a>
-        <a href=\"../../about/\">About</a>
-      </nav>
+      <div class=\"left-group\">
+        <a class=\"logo\" href=\"../../\">{brand}</a>
+        <nav class=\"nav\">
+          <a href=\"../../\">Home</a>
+          <a class=\"active\" href=\"../\">목록</a>
+          <a href=\"../../about/\">About</a>
+        </nav>
+      </div>
+      <button class=\"theme-toggle\" type=\"button\" data-theme-toggle>다크 모드</button>
     </div>
   </header>
 
@@ -39,9 +43,9 @@ DETAIL_TEMPLATE = """<!doctype html>
       <div class=\"article-meta\">
         <div>
           <div class=\"meta\" id=\"report-date\">{date}</div>
-          <h1 id=\"report-title\">{title}</h1>
+          <h1 id=\"report-title\" class=\"article-title\">{title}</h1>
         </div>
-        <a id=\"raw-link\" class=\"btn-link\" href=\"../../reports/{file}\" target=\"_blank\" rel=\"noopener noreferrer\">원본 Markdown</a>
+        <a id=\"raw-download-link\" class=\"btn-secondary\" href=\"../../reports/{file}\" download=\"{file}\">Markdown 다운로드</a>
       </div>
       <article id=\"report-article\" class=\"article\">
         <p class=\"muted\">리포트를 불러오는 중...</p>
@@ -57,11 +61,17 @@ DETAIL_TEMPLATE = """<!doctype html>
 """
 
 
+def _normalize_title(title: str) -> str:
+    if not title:
+        return title
+    return re.sub(r"^AI Trend Digest", BRAND_NAME, title, flags=re.IGNORECASE)
+
+
 def _first_heading(path: Path) -> str:
     for line in path.read_text(encoding="utf-8").splitlines():
         stripped = line.strip()
         if stripped.startswith("# "):
-            return stripped[2:].strip()
+            return _normalize_title(stripped[2:].strip())
     return ""
 
 
@@ -81,7 +91,10 @@ def _extract_excerpt(path: Path, max_len: int = 220) -> str:
             continue
         s = re.sub(r"^[-*]\s+", "", s)
         s = re.sub(r"^\d+\.\s+", "", s)
-        lines.append(s)
+        s = re.sub(r"\*\*(.*?)\*\*", r"\1", s)
+        s = re.sub(r"https?://\S+", "", s)
+        if s:
+            lines.append(s)
 
     joined = " ".join(lines)
     joined = re.sub(r"\s+", " ", joined).strip()
@@ -102,7 +115,7 @@ def build_index() -> dict:
             {
                 "date": path.stem,
                 "file": path.name,
-                "title": _first_heading(path) or f"AI Trend Digest - {path.stem}",
+                "title": _first_heading(path) or f"{BRAND_NAME} - {path.stem}",
                 "excerpt": _extract_excerpt(path),
             }
         )
@@ -112,6 +125,7 @@ def build_index() -> dict:
     latest_file = "latest.md" if latest_exists else (items[0]["file"] if items else "")
 
     return {
+        "brand": BRAND_NAME,
         "latest": latest_file,
         "items": items,
         "generated_at_utc": datetime.now(UTC).isoformat(),
@@ -133,6 +147,7 @@ def sync_detail_pages(items: list[dict]) -> None:
         post_dir = POSTS_DIR / item["date"]
         post_dir.mkdir(parents=True, exist_ok=True)
         html = DETAIL_TEMPLATE.format(
+            brand=BRAND_NAME,
             date=item["date"],
             file=item["file"],
             title=item["title"],

@@ -3,25 +3,21 @@
 
   const preview = document.getElementById("latest-preview");
   const todayPostLink = document.getElementById("today-post-link");
-  const todayRawLink = document.getElementById("today-raw-link");
 
   async function run() {
     try {
       const index = await window.SiteCommon.loadReportsIndex();
       const latestFile = index.latest || "latest.md";
       const latestItem = Array.isArray(index.items) ? index.items[0] : null;
-
       const latestDate = latestFile === "latest.md"
         ? (latestItem?.date || "latest")
         : latestFile.replace(/\.md$/, "");
 
       const detailPath = `./posts/${latestDate}/`;
-      const reportPath = `./reports/${latestFile}`;
-      const title = latestItem?.title || `AI Trend Digest - ${latestDate}`;
-      const excerpt = latestItem?.excerpt || "리포트 본문을 열어 상세 내용을 확인해 주세요.";
-
       todayPostLink.href = detailPath;
-      todayRawLink.href = reportPath;
+
+      const title = window.SiteCommon.normalizeDigestTitle(latestItem?.title || `IMDIGEST - ${latestDate}`);
+      const excerpt = latestItem?.excerpt || "리포트 본문을 열어 상세 내용을 확인해 주세요.";
 
       preview.innerHTML = `
         <article class="preview-card">

@@ -2,9 +2,9 @@
   "use strict";
 
   const article = document.getElementById("report-article");
-  const title = document.getElementById("report-title");
-  const date = document.getElementById("report-date");
-  const rawLink = document.getElementById("raw-link");
+  const titleNode = document.getElementById("report-title");
+  const dateNode = document.getElementById("report-date");
+  const downloadLink = document.getElementById("raw-download-link");
 
   async function run() {
     const fileName = window.REPORT_FILE || "";
@@ -14,17 +14,22 @@
       return;
     }
 
-    date.textContent = dateSlug;
-    rawLink.href = `../../reports/${fileName}`;
+    dateNode.textContent = dateSlug;
+    downloadLink.href = `../../reports/${fileName}`;
+    downloadLink.setAttribute("download", fileName);
 
     try {
       const response = await fetch(`../../reports/${fileName}`, { cache: "no-cache" });
       if (!response.ok) {
         throw new Error(`리포트 로드 실패 (${response.status})`);
       }
+
       const markdown = await response.text();
-      title.textContent = `AI Trend Digest - ${dateSlug}`;
-      article.innerHTML = window.SiteCommon.markdownToHtml(markdown);
+      const stripped = window.SiteCommon.stripFirstHeading(markdown);
+      const heading = window.SiteCommon.normalizeDigestTitle(stripped.title || `IMDIGEST - ${dateSlug}`);
+
+      titleNode.textContent = heading;
+      article.innerHTML = window.SiteCommon.markdownToHtml(stripped.markdown);
     } catch (error) {
       article.innerHTML = `<p class="muted">리포트를 불러오지 못했습니다: ${error.message}</p>`;
     }
