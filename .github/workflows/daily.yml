@@ -4,15 +4,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - website
-    paths:
-      - "digest/**"
-      - "prompts/**"
-      - "sources.yaml"
-      - "pyproject.toml"
-      - ".github/workflows/daily.yml"
 
 jobs:
   digest:
@@ -23,7 +14,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: website
           fetch-depth: 0
 
       - name: Setup Python
@@ -53,4 +43,4 @@ jobs:
           git add website/reports/ website/posts/ website/reports.json website/.nojekyll data/digest.sqlite3 || true
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: daily digest $(date -u +%F)"
-          git push origin HEAD:website
+          git push origin HEAD:main

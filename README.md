@@ -116,22 +116,23 @@ python -m http.server 8000
 - 파일: `.github/workflows/daily.yml`
 - 동작:
   - 매일 UTC 00:00 실행
-  - `website` 브랜치 기준으로 체크아웃 후 실행
+  - `main` 브랜치 기준으로 실행
   - `website/reports/*.md` 생성
   - `website/reports.json` 생성
-  - `website` 브랜치로 자동 커밋/푸시
+  - `main` 브랜치로 자동 커밋/푸시
 
-### Website 배포 (GitHub Pages, Deploy from a branch)
+### Website 배포 (GitHub Pages, GitHub Actions)
+
+- 파일: `.github/workflows/pages.yml`
+- 동작:
+  - `main` 브랜치의 `website/**` 변경 시 자동 배포
+  - `website/` 디렉터리를 Pages 아티팩트로 업로드 후 배포
 
 - 저장소 설정:
-  - `Settings > Pages > Build and deployment > Source`: `Deploy from a branch`
-  - `Branch`: `website`
-  - `Folder`: `/(root)`
-- 이유:
-  - 현재 저장소는 `website` 브랜치에서 정적 파일이 갱신되며, Pages는 해당 브랜치 루트를 그대로 서빙함
+  - `Settings > Pages > Build and deployment > Source`: `GitHub Actions`
 - 주의:
   - `schedule` 트리거는 GitHub 기본 브랜치의 워크플로우 파일을 기준으로 실행됨
-  - 기본 브랜치가 `main`이면, `main`에도 동일한 `.github/workflows/daily.yml`이 있어야 스케줄 실행됨
+  - 기본 브랜치가 `main`이면, 스케줄 워크플로우는 `main`의 `.github/workflows/daily.yml`로 동작함
 
 ## 6. 커스터마이징 포인트
 
