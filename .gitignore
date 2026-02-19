@@ -2,10 +2,27 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .venv/
+.python-version
+
+# Secrets / local env files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
 
 run_debug.log
+*.log
 
 # Local scratch DBs from iterative runs
 data/digest_final*.sqlite3
 data/digest_rebuild.sqlite3
 
+# OS / IDE noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# document
+document
