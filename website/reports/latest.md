@@ -4,7 +4,7 @@
 
 ## AI News
 
-- **Google.org, AI를 활용한 과학 연구 지원을 위한 새로운 도전 기회 공개**
+### Google.org, AI를 활용한 과학 연구 지원을 위한 새로운 도전 기회 공개
   - 무슨 내용?
     - $30백만 규모의 Google.org Impact Challenge: AI for Science 프로그램 출시
     - 건강 및 생명과학, 재난 대응, 환경 과학 분야에서 혁신적인 연구 지원
@@ -15,7 +15,7 @@
   - 키워드: #google.org #ai-for-science #과학-연구 #기술-지원 #비영리-기관 #혁신
   - 링크: https://blog.google/company-news/outreach-and-initiatives/google-org/impact-challenge-ai-science-open-call
 
-- **Google, 인도에서 AI 영향력 정상회담 개최: 전 세계에 이르는 협력 강화**
+### Google, 인도에서 AI 영향력 정상회담 개최: 전 세계에 이르는 협력 강화
   - 무슨 내용?
     - Google은 인도에서 AI Impact Summit을 개최하고 새로운 파트너십과 프로그램을 발표하여 전 세계적으로 AI 접근성을 확대한다.
     - 미국-인도 연결 프로젝트를 통해 대양주 지역까지의 광섬유 케이블을 설치하여 디지털 연결성을 강화한다.
@@ -24,7 +24,7 @@
   - 키워드: #google #ai-impact-summit #인도 #디지털-연결성
   - 링크: https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india
 
-- **Google.org, 정부 혁신을 위한 AI 도전 과제 발표**
+### Google.org, 정부 혁신을 위한 AI 도전 과제 발표
   - 무슨 내용?
     - $30백만 규모의 Google.org AI 정부 혁신 영향력 도전 과제 출시
     - 공익 단체와 사회 기업, 교육 기관 등에 대한 AI 기반 솔루션 제안 모집
@@ -35,7 +35,7 @@
   - 키워드: #google.org #ai #정부혁신 #공익활동 #기술협력 #스케일링
   - 링크: https://blog.google/company-news/outreach-and-initiatives/google-org/global-impact-challenge-ai-government-2026
 
-- **Google 연구진이 AI에게 지도를 읽는 기술을 가르쳤습니다.**
+### Google 연구진이 AI에게 지도를 읽는 기술을 가르쳤습니다.
   - 무슨 내용?
     - Google은 MLLMs(Multimodal Large Language Models)에 새로운 데이터 생성 파이프라인을 도입하여 경로 추적 능력을 향상시켰습니다.
     - Gemini 2.5 Pro와 Imagen-4 모델을 활용해 200만 개의 질문과 답변 쌍을 오픈소스로 공개했습니다.
@@ -44,7 +44,7 @@
   - 키워드: #google #ai #지도 #경로-추적 #데이터-생성 #mllms
   - 링크: https://research.google/blog/teaching-ai-to-read-a-map
 
-- **Gradio의 gr.HTML 기능으로 웹 애플리케이션을 한 번에 만들 수 있게 됨**
+### Gradio의 gr.HTML 기능으로 웹 애플리케이션을 한 번에 만들 수 있게 됨
   - 무슨 내용?
     - gr.HTML가 사용자 정의 템플릿, 스코프 CSS 및 자바스크립트 상호작용을 지원하게 되어 다양한 웹 컴포넌트를 생성할 수 있음
     - 클로이드와 같은 LLM은 프론트엔드, 백엔드 및 상태 관리를 포함한 단일 파이썬 파일에서 완전한 애플리케이션을 생성할 수 있게 됨
@@ -53,7 +53,7 @@
   - 키워드: #gradio #gr.html #클라우드 #웹-애플리케이션 #ml #hugging-face
   - 링크: https://huggingface.co/blog/gradio-html-one-shot-apps
 
-- **NVIDIA가 일본어 소규모 언어 모델 Nemotron-Nano-9B-v2-Japanese를 출시하여 엔터프라이즈 AI 발전에 기여**
+### NVIDIA가 일본어 소규모 언어 모델 Nemotron-Nano-9B-v2-Japanese를 출시하여 엔터프라이즈 AI 발전에 기여
   - 무슨 내용?
     - NVIDIA는 Nemotron-Nano-9B-v2-Japanese라는 최신 일본어 소규모 언어 모델을 공개함으로써, 일본의 엔터프라이즈 AI 개발에 중요한 마일스톤을 세웠습니다.
     - 이 모델은 고급 일본어 이해와 강력한 에이전시 기능을 실현하면서도, 작은 크기로 유지되어 도입이 용이합니다.
@@ -62,7 +62,7 @@
   - 키워드: #nvidia #nemotron-nano-9b-v2-japanese #소규모-언어-모델 #엔터프라이즈-ai #일본어-이해 #에이전시-기능
   - 링크: https://huggingface.co/blog/nvidia/nemotron-nano-9b-v2-japanese-ja
 
-- **구글이 2026년 책임 있는 AI 진행 보고서를 공개**
+### 구글이 2026년 책임 있는 AI 진행 보고서를 공개
   - 무슨 내용?
     - 구글은 2025년부터 AI가 도움이 되는 파트너로서의 역할을 강화하고, 모델이 더욱 복잡해짐에 따라 전반적인 검증 프로세스와 심도 있는 보호 수단을 구축했다.
     - 구글은 25년간의 사용자 신뢰 데이터와 AI를 활용한 자동화된 테스트 전략을 결합하여 대규모에서 빠르게 이 과정을 수행하고 있다.
@@ -72,7 +72,7 @@
   - 키워드: #구글 #책임있는-ai #보고서 #모델-검증 #ai-원칙
   - 링크: https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work
 
-- **NVIDIA가 기업용 AI 준비된 지식 시스템 구축을 위한 다중모드 RAG 능력 5 가지를 제시**
+### NVIDIA가 기업용 AI 준비된 지식 시스템 구축을 위한 다중모드 RAG 능력 5 가지를 제시
   - 무슨 내용?
     - NVIDIA는 기업 데이터의 복잡성을 해결하기 위해 다중모드 RAG(Retrieval-Augmented Generation) 기술을 강조하고 있습니다.
     - 블루프린트에는 텍스트, 표, 차트 및 도표와 같은 다양한 형식의 정보를 처리할 수 있는 모듈화된 구조가 포함되어 있습니다.
