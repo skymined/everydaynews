@@ -36,6 +36,10 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--text);
   background:
@@ -297,11 +301,51 @@ body {
   margin-top: 8px;
 }
 
+.toc {
+  margin-bottom: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--panel) 90%, var(--bg-accent)) 0%, var(--panel) 100%);
+  padding: 14px 16px;
+}
+
+.toc-title {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.toc-list,
+.toc-list ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.toc-list > li {
+  margin: 6px 0;
+}
+
+.toc-list ul li {
+  margin: 4px 0;
+}
+
+.toc a {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+
 .article h1,
 .article h2,
 .article h3 {
   margin: 24px 0 12px;
   line-height: 1.35;
+  scroll-margin-top: 92px;
 }
 
 .article h1 {

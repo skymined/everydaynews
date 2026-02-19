@@ -50,6 +50,10 @@ DETAIL_TEMPLATE = """<!doctype html>
         </div>
         <a id=\"raw-download-link\" class=\"btn-secondary\" href=\"../../reports/{file}\" download=\"{file}\">Markdown 다운로드</a>
       </div>
+      <nav id=\"report-toc\" class=\"toc\" aria-label=\"문서 목차\" hidden>
+        <p class=\"toc-title\">목차</p>
+        <div id=\"toc-list\"></div>
+      </nav>
       <article id=\"report-article\" class=\"article\">
         <p class=\"muted\">리포트를 불러오는 중...</p>
       </article>
