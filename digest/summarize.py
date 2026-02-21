@@ -10,6 +10,9 @@ from .store import DigestStore
 
 logger = logging.getLogger(__name__)
 
+HANGUL_RE = re.compile(r"[\uac00-\ud7a3]")
+FORBIDDEN_SCRIPT_RE = re.compile(r"[\u3040-\u30ff\u31f0-\u31ff\u0400-\u04ff]")
+
 
 def score_item(item: Item, scoring: ScoringConfig, now: datetime | None = None) -> float:
     now = now or datetime.now(UTC)
@@ -39,6 +42,22 @@ def rank_items(items: Iterable[Item], scoring: ScoringConfig) -> list[Item]:
 
 def _clean_text(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
+
+
+def _require_korean_text(text: str, field_name: str) -> str:
+    normalized = _clean_text(text)
+    if not normalized:
+        raise ValueError(f"{field_name} is empty")
+    if FORBIDDEN_SCRIPT_RE.search(normalized):
+        raise ValueError(f"{field_name} contains unsupported script")
+    if not HANGUL_RE.search(normalized):
+        raise ValueError(f"{field_name} must include Korean text")
+    return normalized
+
+
+def _is_korean_usable(text: str) -> bool:
+    normalized = _clean_text(text)
+    return bool(normalized) and bool(HANGUL_RE.search(normalized)) and not FORBIDDEN_SCRIPT_RE.search(normalized)
 
 
 def _excerpt(item: Item, max_chars: int = 1800) -> str:
@@ -89,22 +108,29 @@ def _fallback_news_summary(item: Item) -> NewsSummary:
         sentence = sentence.strip(" -")
         if len(sentence) < 15:
             continue
+        if not _is_korean_usable(sentence):
+            continue
         points.append(sentence[:170])
         if len(points) >= 4:
             break
     if not points:
-        points = [item.title]
+        points = [
+            f"{item.source_name}에서 '{item.title}' 관련 내용을 공개했습니다.",
+            "공개된 자료를 기준으로 핵심 변경 사항과 영향 범위를 확인할 수 있습니다.",
+        ]
 
     headline = f"{item.source_name}에서 '{item.title}' 관련 발표"
     why = ["해당 발표는 AI 제품/연구/정책 흐름을 보여주며 후속 발표와 비교 가치가 있습니다."]
     keywords = re.findall(r"[A-Za-z0-9\-\_]{3,}", item.title)[:6]
     if not keywords:
         keywords = ["ai", "trend", "news"]
-    return NewsSummary(
+    return _validate_news_summary(
+        NewsSummary(
         headline_kr=headline,
         what=points[:4],
         why_trend=why,
         keywords=[k.lower() for k in keywords][:6],
+        ).model_dump()
     )
 
 
@@ -231,13 +257,15 @@ def _fallback_paper_summary(item: Item) -> PaperSummary:
     one_liner = f"{subject} 영역에서 {contribution}을 제안해 {goal} 개선을 노린 연구입니다."
 
     sentences = _paper_sentences(excerpt)
-    concrete_1 = sentences[0][:170] if len(sentences) >= 1 else item.title
-    concrete_2 = sentences[1][:170] if len(sentences) >= 2 else ""
-    concrete_3 = sentences[2][:170] if len(sentences) >= 3 else ""
+    korean_sentences = [s[:170] for s in sentences if _is_korean_usable(s)]
+    concrete_1 = korean_sentences[0] if len(korean_sentences) >= 1 else ""
+    concrete_2 = korean_sentences[1] if len(korean_sentences) >= 2 else ""
+    concrete_3 = korean_sentences[2] if len(korean_sentences) >= 3 else ""
 
     detail_lines = [
         f"문제 정의: {subject}에서 기존 방법의 한계를 개선하려는 목적이 있습니다.",
         f"접근 방법: {contribution} 중심으로 해결 전략을 제시합니다.",
+        f"기대 효과: 제시된 방법을 통해 {goal} 지표 개선을 목표로 합니다.",
     ]
     if concrete_1:
         detail_lines.append(f"논문 근거 1: {concrete_1}")
@@ -248,10 +276,12 @@ def _fallback_paper_summary(item: Item) -> PaperSummary:
 
     core = " ".join(detail_lines[:4])
     keywords = _build_paper_keywords(item.title, excerpt)
-    return PaperSummary(
+    return _validate_paper_summary(
+        PaperSummary(
         one_liner_kr=one_liner,
         core_idea_kr=core,
         keywords=keywords[:6],
+        ).model_dump()
     )
 
 
@@ -261,15 +291,30 @@ def _validate_news_classification(raw: dict) -> NewsClassification:
 
 def _validate_news_summary(raw: dict) -> NewsSummary:
     summary = NewsSummary.model_validate(raw)
-    summary.what = [w.strip() for w in summary.what if w and w.strip()][:4]
-    summary.why_trend = [w.strip() for w in summary.why_trend if w and w.strip()][:2]
-    summary.keywords = [k.strip() for k in summary.keywords if k and k.strip()][:6]
+    summary.headline_kr = _require_korean_text(summary.headline_kr, "headline_kr")
+    summary.what = [_require_korean_text(w, "what") for w in summary.what if w and w.strip()][:4]
+    summary.why_trend = [_require_korean_text(w, "why_trend") for w in summary.why_trend if w and w.strip()][:2]
+    summary.keywords = [
+        k.strip()
+        for k in summary.keywords
+        if k and k.strip() and not FORBIDDEN_SCRIPT_RE.search(k)
+    ][:6]
+    if not summary.keywords:
+        summary.keywords = ["ai"]
     return summary
 
 
 def _validate_paper_summary(raw: dict) -> PaperSummary:
     summary = PaperSummary.model_validate(raw)
-    summary.keywords = [k.strip() for k in summary.keywords if k and k.strip()][:6]
+    summary.one_liner_kr = _require_korean_text(summary.one_liner_kr, "one_liner_kr")
+    summary.core_idea_kr = _require_korean_text(summary.core_idea_kr, "core_idea_kr")
+    summary.keywords = [
+        k.strip()
+        for k in summary.keywords
+        if k and k.strip() and not FORBIDDEN_SCRIPT_RE.search(k)
+    ][:6]
+    if not summary.keywords:
+        summary.keywords = ["ai"]
     return summary
 
 
