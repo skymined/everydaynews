@@ -10,9 +10,10 @@ Input fields:
 Output rules:
 - Output exactly one JSON object.
 - No markdown.
-- Write all natural-language fields in Korean.
-- Do not use Japanese, Cyrillic, or mixed-script words in natural-language fields.
-- Keep paper/model names in original form when needed, but explain contributions in Korean sentences.
+- Explain primarily in Korean.
+- Keep paper/model names, method names, benchmark names, and task names in original English when present in the title/excerpt.
+- English technical terms are allowed inside Korean sentences. Do not force transliteration (e.g., keep "Visual Loco-Manipulation" as English).
+- Do not use Japanese or Cyrillic scripts in natural-language fields.
 - Do not use generic one-liners like "주목할 만한 연구를 다룬다".
 - one_liner_kr must identify the specific paper contribution.
 - core_idea_kr must describe: (1) problem, (2) method, (3) claimed outcome in 2-4 sentences.

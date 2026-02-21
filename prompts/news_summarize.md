@@ -10,9 +10,10 @@ Input fields:
 Output rules:
 - Output exactly one JSON object.
 - No markdown.
-- Write all natural-language fields in Korean.
-- Do not use Japanese, Cyrillic, or mixed-script words in natural-language fields.
-- Keep proper nouns (product/model names) as-is, but explain them in Korean sentences.
+- Explain primarily in Korean.
+- Keep official names, product/model names, method names, and task names in original English when present in the input.
+- English technical terms are allowed inside Korean sentences. Do not force transliteration (e.g., keep "Loco-Manipulation" as English).
+- Do not use Japanese or Cyrillic scripts in natural-language fields.
 - Avoid meta phrases like "업데이트 확인", "메타 정보", "공지".
 - Be concrete: mention product/model/org names and what changed.
 

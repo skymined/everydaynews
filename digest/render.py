@@ -44,13 +44,9 @@ def render_digest_markdown(
                 continue
             unknown_mark = " (게시일 불명)" if item.published_unknown else ""
             lines.append(f"### {summary.headline_kr}{unknown_mark}")
-            lines.append("  - 무슨 내용?")
+            lines.append("  - 내용 요약")
             for point in summary.what[:4]:
                 lines.append(f"    - {point}")
-            lines.append("  - 왜 트렌드인가?")
-            for point in summary.why_trend[:2]:
-                lines.append(f"    - {point}")
-            lines.append(f"  - 키워드: {_render_tags(summary.keywords)}")
             lines.append(f"  - 링크: {item.url}")
             lines.append("")
 

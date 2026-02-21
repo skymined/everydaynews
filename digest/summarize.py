@@ -12,6 +12,8 @@ logger = logging.getLogger(__name__)
 
 HANGUL_RE = re.compile(r"[\uac00-\ud7a3]")
 FORBIDDEN_SCRIPT_RE = re.compile(r"[\u3040-\u30ff\u31f0-\u31ff\u0400-\u04ff]")
+TECH_TERM_RE = re.compile(r"\b[A-Za-z][A-Za-z0-9]*(?:[._/-][A-Za-z0-9]+)+\b")
+TECH_TERM_STOPWORDS = {"ai", "llm", "ml", "nlp"}
 
 
 def score_item(item: Item, scoring: ScoringConfig, now: datetime | None = None) -> float:
@@ -58,6 +60,33 @@ def _require_korean_text(text: str, field_name: str) -> str:
 def _is_korean_usable(text: str) -> bool:
     normalized = _clean_text(text)
     return bool(normalized) and bool(HANGUL_RE.search(normalized)) and not FORBIDDEN_SCRIPT_RE.search(normalized)
+
+
+def _extract_technical_terms(title: str, limit: int = 3) -> list[str]:
+    terms: list[str] = []
+    seen: set[str] = set()
+    for token in TECH_TERM_RE.findall(title or ""):
+        lowered = token.lower()
+        if lowered in TECH_TERM_STOPWORDS or len(token) < 6:
+            continue
+        if lowered in seen:
+            continue
+        seen.add(lowered)
+        terms.append(token)
+        if len(terms) >= limit:
+            break
+    return terms
+
+
+def _ensure_english_terms(text: str, terms: list[str]) -> str:
+    normalized = _clean_text(text)
+    if not normalized or not terms:
+        return normalized
+    lower_text = normalized.lower()
+    missing = [term for term in terms if term.lower() not in lower_text]
+    if not missing:
+        return normalized
+    return _clean_text(f"{normalized} (원문 용어: {', '.join(missing[:2])})")
 
 
 def _excerpt(item: Item, max_chars: int = 1800) -> str:
@@ -130,7 +159,8 @@ def _fallback_news_summary(item: Item) -> NewsSummary:
         what=points[:4],
         why_trend=why,
         keywords=[k.lower() for k in keywords][:6],
-        ).model_dump()
+        ).model_dump(),
+        title=item.title,
     )
 
 
@@ -281,7 +311,8 @@ def _fallback_paper_summary(item: Item) -> PaperSummary:
         one_liner_kr=one_liner,
         core_idea_kr=core,
         keywords=keywords[:6],
-        ).model_dump()
+        ).model_dump(),
+        title=item.title,
     )
 
 
@@ -289,7 +320,7 @@ def _validate_news_classification(raw: dict) -> NewsClassification:
     return NewsClassification.model_validate(raw)
 
 
-def _validate_news_summary(raw: dict) -> NewsSummary:
+def _validate_news_summary(raw: dict, title: str = "") -> NewsSummary:
     summary = NewsSummary.model_validate(raw)
     summary.headline_kr = _require_korean_text(summary.headline_kr, "headline_kr")
     summary.what = [_require_korean_text(w, "what") for w in summary.what if w and w.strip()][:4]
@@ -301,10 +332,19 @@ def _validate_news_summary(raw: dict) -> NewsSummary:
     ][:6]
     if not summary.keywords:
         summary.keywords = ["ai"]
+    required_terms = _extract_technical_terms(title)
+    if required_terms:
+        combined = f"{summary.headline_kr} {' '.join(summary.what)}".lower()
+        missing = [term for term in required_terms if term.lower() not in combined]
+        if missing:
+            if summary.what:
+                summary.what[0] = _ensure_english_terms(summary.what[0], missing)
+            else:
+                summary.what = [f"핵심 용어: {', '.join(missing[:2])}"]
     return summary
 
 
-def _validate_paper_summary(raw: dict) -> PaperSummary:
+def _validate_paper_summary(raw: dict, title: str = "") -> PaperSummary:
     summary = PaperSummary.model_validate(raw)
     summary.one_liner_kr = _require_korean_text(summary.one_liner_kr, "one_liner_kr")
     summary.core_idea_kr = _require_korean_text(summary.core_idea_kr, "core_idea_kr")
@@ -315,6 +355,12 @@ def _validate_paper_summary(raw: dict) -> PaperSummary:
     ][:6]
     if not summary.keywords:
         summary.keywords = ["ai"]
+    required_terms = _extract_technical_terms(title)
+    if required_terms:
+        combined = f"{summary.one_liner_kr} {summary.core_idea_kr}".lower()
+        missing = [term for term in required_terms if term.lower() not in combined]
+        if missing:
+            summary.one_liner_kr = _ensure_english_terms(summary.one_liner_kr, missing)
     return summary
 
 
@@ -340,7 +386,7 @@ def summarize_with_llm(
             try:
                 classification = _validate_news_classification(cached.get("classification", {}))
                 if classification.include:
-                    summary = _validate_news_summary(cached.get("summary", {}))
+                    summary = _validate_news_summary(cached.get("summary", {}), title=item.title)
             except Exception:
                 classification = None
                 summary = None
@@ -360,7 +406,7 @@ def summarize_with_llm(
                 summary = _fallback_news_summary(item)
             else:
                 try:
-                    summary = _validate_news_summary(backend.summarize_news(_payload(item)))
+                    summary = _validate_news_summary(backend.summarize_news(_payload(item)), title=item.title)
                 except Exception as exc:
                     logger.warning("summarize_news failed (%s): %s", item.url, exc)
                     summary = _fallback_news_summary(item)
@@ -382,7 +428,7 @@ def summarize_with_llm(
         summary: PaperSummary | None = None
         if cached and cached.get("kind") == "paper":
             try:
-                summary = _validate_paper_summary(cached.get("summary", {}))
+                summary = _validate_paper_summary(cached.get("summary", {}), title=item.title)
             except Exception:
                 summary = None
 
@@ -391,7 +437,7 @@ def summarize_with_llm(
                 summary = _fallback_paper_summary(item)
             else:
                 try:
-                    summary = _validate_paper_summary(backend.summarize_paper(_payload(item)))
+                    summary = _validate_paper_summary(backend.summarize_paper(_payload(item)), title=item.title)
                 except Exception as exc:
                     logger.warning("summarize_paper failed (%s): %s", item.url, exc)
                     summary = _fallback_paper_summary(item)
