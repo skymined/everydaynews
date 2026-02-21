@@ -7,7 +7,7 @@ on:
 
 jobs:
   digest:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux]
     permissions:
       contents: write
     steps:
@@ -28,11 +28,12 @@ jobs:
 
       - name: Run digest
         env:
-          LLM_MODE: api
-          LLM_PROVIDER: openai
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_MODE: local
+          LOCAL_LLM_BACKEND: llama
+          LOCAL_LLM_BASE_URL: http://127.0.0.1:11434/v1
+          LOCAL_LLM_MODEL: qwen2.5:7b
         run: |
+          curl -fsS "${LOCAL_LLM_BASE_URL}/models" >/dev/null
           python -m digest run --date "$(date -u +%F)" --out "website/reports/$(date -u +%F).md" --latest-path "website/reports/latest.md"
           python website/scripts/build_reports_index.py
 
