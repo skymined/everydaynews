@@ -36,9 +36,9 @@ def _build_parser() -> argparse.ArgumentParser:
     run.add_argument("--skip-llm", action="store_true")
     run.add_argument(
         "--window",
-        choices=["yesterday-kst", "since-hours"],
-        default="yesterday-kst",
-        help="Default is yesterday KST window.",
+        choices=["target-date-kst", "yesterday-kst", "since-hours"],
+        default="target-date-kst",
+        help="Default is target date KST window.",
     )
     run.add_argument("--since-hours", type=int, default=36)
     run.add_argument("--refresh", action="store_true", help="Ignore cached summaries and regenerate.")
@@ -139,9 +139,9 @@ def _split_items_by_window(
     timezone_name: str,
 ) -> tuple[list[Item], list[Item], date]:
     tz = ZoneInfo(timezone_name)
-    yesterday = target_date - timedelta(days=1)
-    start = datetime.combine(yesterday, time.min, tzinfo=tz)
-    end = datetime.combine(yesterday, time.max, tzinfo=tz)
+    coverage_date = target_date - timedelta(days=1) if window == "yesterday-kst" else target_date
+    start = datetime.combine(coverage_date, time.min, tzinfo=tz)
+    end = datetime.combine(coverage_date, time.max, tzinfo=tz)
 
     papers: list[Item] = []
     news: list[Item] = []
@@ -172,7 +172,7 @@ def _split_items_by_window(
             unknown_item.published_unknown = True
             news.append(unknown_item)
 
-    return news, papers, yesterday
+    return news, papers, coverage_date
 
 
 def run_pipeline(args: argparse.Namespace) -> int:
@@ -182,6 +182,7 @@ def run_pipeline(args: argparse.Namespace) -> int:
     paper_prompt = load_prompt("prompts/paper_summarize.md")
 
     target_date = datetime.fromisoformat(args.target_date).date()
+    fetch_date = target_date - timedelta(days=1) if args.window == "yesterday-kst" else target_date
     out_path = Path(args.out) if args.out else Path(f"website/reports/{target_date.isoformat()}.md")
     out_path.parent.mkdir(parents=True, exist_ok=True)
     latest_path = Path(args.latest_path)
@@ -194,12 +195,12 @@ def run_pipeline(args: argparse.Namespace) -> int:
         cfg=cfg,
         store=store,
         max_items_override=args.max_items,
-        target_date=target_date,
+        target_date=fetch_date,
     )
     items = _dedupe_current_run([_to_item(raw) for raw in raw_items], store=store)
     logger.info("Items after dedupe(current run): %s", len(items))
 
-    news_candidates, paper_candidates, kst_yesterday = _split_items_by_window(
+    news_candidates, paper_candidates, kst_date = _split_items_by_window(
         items=items,
         target_date=target_date,
         window=args.window,
@@ -240,7 +241,7 @@ def run_pipeline(args: argparse.Namespace) -> int:
 
     markdown = render_digest_markdown(
         target_date=target_date,
-        kst_yesterday=kst_yesterday,
+        kst_date=kst_date,
         news_items=selected_news,
         paper_items=selected_papers,
         news_summaries=news_summaries,

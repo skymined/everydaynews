@@ -20,7 +20,7 @@ def _render_tags(tags: list[str]) -> str:
 def render_digest_markdown(
     *,
     target_date: date,
-    kst_yesterday: date,
+    kst_date: date,
     news_items: list[Item],
     paper_items: list[Item],
     news_summaries: dict[str, NewsSummary],
@@ -29,13 +29,13 @@ def render_digest_markdown(
     lines: list[str] = []
     lines.append(f"# IMDIGEST - {target_date.isoformat()}")
     lines.append("")
-    lines.append(f"- 기준일(KST): {kst_yesterday.isoformat()} 00:00:00 ~ 23:59:59")
+    lines.append(f"- 기준일(KST): {kst_date.isoformat()} 00:00:00 ~ 23:59:59")
     lines.append("")
 
     lines.append("## AI News")
     lines.append("")
     if not news_items:
-        lines.append("- 어제자 기준으로 트렌드 포함 뉴스가 없습니다.")
+        lines.append("- 기준일에 해당하는 트렌드 포함 뉴스가 없습니다.")
         lines.append("")
     else:
         for item in news_items:

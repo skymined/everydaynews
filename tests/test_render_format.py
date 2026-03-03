@@ -27,7 +27,7 @@ class RenderFormatTest(unittest.TestCase):
         )
         md = render_digest_markdown(
             target_date=date(2026, 2, 19),
-            kst_yesterday=date(2026, 2, 18),
+            kst_date=date(2026, 2, 19),
             news_items=[news_item],
             paper_items=[paper_item],
             news_summaries={

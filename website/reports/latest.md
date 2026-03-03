@@ -1,10 +1,24 @@
 # IMDIGEST - 2026-03-03
 
-- 기준일(KST): 2026-03-02 00:00:00 ~ 23:59:59
+- 기준일(KST): 2026-03-03 00:00:00 ~ 23:59:59
 
 ## AI News
 
-- 어제자 기준으로 트렌드 포함 뉴스가 없습니다.
+### [Amazon AWS가 제안하는 Nova Forge는 전문성과 일반 인텔리전스를 동시에 유지할 수 있는 새로운 AI 개발 도구입니다.](https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action)
+
+- Nova Forge는 Amazon의 새로운 서비스로, 기업들이 자체 모델을 개발하고 보유한 데이터와 Amazon이 수집한 데이터를 혼합하여 사용할 수 있게 합니다.
+- PEFT와 Full-rank SFT 방법론을 통해 전문 지식을 더 효과적으로 통합하면서도 일반 인텔리전스를 유지할 수 있는 방안을 제공합니다.
+- AWS 중국 연구팀은 Nova Forge를 사용한 고객 의견 분류 작업에서 우수한 성능을 보여주며, 기존 오픈소스 모델보다 뛰어난 결과를 얻었습니다.
+
+### [Amazon SageMaker AI를 활용한 서버리스 콘VERSATIONAL AI 에이전트 구축](https://aws.amazon.com/blogs/machine-learning/build-a-serverless-conversational-ai-agent-using-claude-with-langgraph-and-managed-mlflow-on-amazon-sagemaker-ai)
+
+- LangGraph와 managed MLflow를 사용하여 Amazon SageMaker AI에서 Claude로 서버리스 콘VERSATIONAL AI 에이전트를 구축
+- 주문 조회, 취소 등의 고객 서비스 작업을 위한 그래프 기반 대화 흐름 구현
+
+### [Amazon Bedrock Guardrails로 안전한Generative AI 응용 프로그램 개발](https://aws.amazon.com/blogs/machine-learning/build-safe-generative-ai-applications-like-a-pro-best-practices-with-amazon-bedrock-guardrails)
+
+- Amazon Bedrock Guardrails를 사용하여 콘텐츠 필터링, 주제 분류, 민감 정보 보호 등을 설정할 수 있습니다.
+- 생산 환경에서 최적의 성능을 위해 가드레일 정책을 선택하고 구현하는 방법을 제시합니다.
 
 ## Papers (Hugging Face Top 10)
 
@@ -38,6 +52,12 @@
 - 키워드: #llada-o #mixture-of-diffusion-(mod) #오미니-디퓨전-모델 #공유-어텐션-백본 #데이터-중심적-길이-적응
 - 링크: https://huggingface.co/papers/2603.01068
 
+### When Does RL Help Medical VLMs? Disentangling Vision, SFT, and RL Gains
+- 한 줄 요약: 이 연구는 의료 분야의 시각-언어 모델에서 강화학습(RL)이 주로 출력 분포를 둔화시키며, 이전에 확장된 초기 능력을 보완하는 역할을 한다.
+- 핵심 아이디어: 연구는 의료 VLMs에서 RL과 SFT의 효과를 분리하여, 모델이 이미 충분한 논리적 지원을 받고 있을 때 RL은 주로 출력 분포를 둔화시키며, 이전에 확장된 초기 능력을 보완한다고 밝힌다. 이를 위해 MedMNIST와 같은 다중모달 테스트베드에서 시각 인식과 논리적 지원 및 샘플링 효율성을 평가하였으며, 이러한 결과를 바탕으로 모델의 경계에 맞춘 레시피를 제안하였다.
+- 키워드: #reinforcement-learning #medical-vlms #supervised-fine-tuning #pass@k #medmnist #visual-perception
+- 링크: https://huggingface.co/papers/2603.01301
+
 ### Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data
 - 한 줄 요약: Tool-R0는 초기 데이터 없이 대형 언어 모델을 기반으로 한 도구 사용 능력을 학습하는 자가 진화하는 LLM 에이전트 프레임워크입니다. (원문 용어: Self-Evolving, Tool-Learning)
 - 핵심 아이디어: Tool-R0는 대형 언어 모델에서 시작하여 자기 플레이 강화학습을 통해 도구 사용 능력을 배우는 일반적인 도구 호출 에이전트를 학습하는 방법을 제시합니다. 이 프레임워크는 초기 데이터 없이 가정하더라도, 생성기와 해결기가 서로의 기술 경계에서 도전적인 작업을 제안하고 이를 해결하면서 자가 진화하는 루프를 형성합니다. 이를 통해 Tool-R0은 기본 모델보다 92.5% 성능 향상을 달성하며 완전히 감독하된 도구 호출 기반 모델들을 초과했습니다.
@@ -49,12 +69,6 @@
 - 핵심 아이디어: 법적 정보 검색-증강 생성(RAG) 시스템의 종합적인 평가를 위해 Legal RAG Bench이 제안되었습니다. 이 벤치마크는 복잡한 질문에 대한 정답과 지원 문서를 제공하는 4,876개의 판문서로 구성되어 있으며, 정보 검색 모델과 추론 모델의 기여도를 분석하기 위한 고급 요인 설계와 계층적 오류 분해 프레임워크를 사용합니다. 연구 결과, 정보 검색이 RAG 시스템 성능에 가장 큰 영향을 미치며, 언어 모델은 더 적은 영향력을 가졌습니다.
 - 키워드: #legal-rag-bench #information-retrieval #rag-system #factorial-design #error-decomposition
 - 링크: https://huggingface.co/papers/2603.01710
-
-### When Does RL Help Medical VLMs? Disentangling Vision, SFT, and RL Gains
-- 한 줄 요약: 이 연구는 의료 분야의 시각-언어 모델에서 강화학습(RL)이 주로 출력 분포를 둔화시키며, 이전에 확장된 초기 능력을 보완하는 역할을 한다.
-- 핵심 아이디어: 연구는 의료 VLMs에서 RL과 SFT의 효과를 분리하여, 모델이 이미 충분한 논리적 지원을 받고 있을 때 RL은 주로 출력 분포를 둔화시키며, 이전에 확장된 초기 능력을 보완한다고 밝힌다. 이를 위해 MedMNIST와 같은 다중모달 테스트베드에서 시각 인식과 논리적 지원 및 샘플링 효율성을 평가하였으며, 이러한 결과를 바탕으로 모델의 경계에 맞춘 레시피를 제안하였다.
-- 키워드: #reinforcement-learning #medical-vlms #supervised-fine-tuning #pass@k #medmnist #visual-perception
-- 링크: https://huggingface.co/papers/2603.01301
 
 ### CC-VQA: Conflict- and Correlation-Aware Method for Mitigating Knowledge Conflict in Knowledge-Based Visual Question Answering
 - 한 줄 요약: CC-VQA는 시각적 상관성과 갈등에 대한 인식을 통한 지식 기반 비주얼 질문 응답에서의 지식 갈등 해소 방법을 제시한다. (원문 용어: Correlation-Aware, Knowledge-Based)
