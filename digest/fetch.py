@@ -4,7 +4,7 @@ import logging
 import re
 import threading
 import time
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from email.utils import parsedate_to_datetime
 from typing import Any
 from urllib.parse import urljoin, urlparse
@@ -51,6 +51,7 @@ BAD_LINK_SUFFIXES = (
     ".ttf",
     ".xml",
 )
+HF_DATE_PATH_RE = re.compile(r"/papers/date/(\d{4}-\d{2}-\d{2})")
 
 
 class HostRateLimiter:
@@ -106,7 +107,7 @@ def _http_get(
     store: DigestStore,
     limiter: HostRateLimiter,
     include_cache_headers: bool = True,
-) -> tuple[int, str, dict[str, str]]:
+) -> tuple[int, str, dict[str, str], str]:
     limiter.wait(url)
     headers = {"User-Agent": defaults.user_agent}
     cached = store.get_http_cache(url) or {}
@@ -121,6 +122,7 @@ def _http_get(
             resp = client.get(url, headers=headers)
             status = resp.status_code
             text = resp.text if status != 304 else ""
+            final_url = str(resp.url)
             resp_headers = {
                 "etag": resp.headers.get("ETag", ""),
                 "last_modified": resp.headers.get("Last-Modified", ""),
@@ -131,6 +133,7 @@ def _http_get(
             with urlopen(req, timeout=defaults.timeout_sec) as resp:  # noqa: S310
                 status = getattr(resp, "status", 200)
                 text = resp.read().decode("utf-8", errors="replace")
+                final_url = str(getattr(resp, "url", url))
                 resp_headers = {
                     "etag": resp.headers.get("ETag", ""),
                     "last_modified": resp.headers.get("Last-Modified", ""),
@@ -138,6 +141,7 @@ def _http_get(
         except Exception as exc:
             status = 500
             text = ""
+            final_url = url
             resp_headers = {}
             logger.warning("HTTP fallback request failed for %s: %s", url, exc)
 
@@ -145,7 +149,25 @@ def _http_get(
         store.upsert_http_cache(
             url, etag=resp_headers.get("etag"), last_modified=resp_headers.get("last_modified")
         )
-    return status, text, resp_headers
+    return status, text, resp_headers, final_url
+
+
+def _build_hf_papers_date_url(source: SourceConfig, target_date: date | None) -> str:
+    if source.id != "hf_papers_today" or target_date is None:
+        return str(source.url)
+    parsed = urlparse(str(source.url))
+    base = f"{parsed.scheme}://{parsed.netloc}" if parsed.scheme and parsed.netloc else "https://huggingface.co"
+    return f"{base}/papers/date/{target_date.isoformat()}"
+
+
+def _resolved_hf_papers_date(url: str) -> date | None:
+    match = HF_DATE_PATH_RE.search(url)
+    if not match:
+        return None
+    try:
+        return date.fromisoformat(match.group(1))
+    except ValueError:
+        return None
 
 
 def _parse_rss_items(
@@ -430,15 +452,22 @@ def fetch_source(
     store: DigestStore,
     limiter: HostRateLimiter,
     max_items_override: int | None = None,
+    target_date: date | None = None,
 ) -> list[RawItem]:
     fetched_at = datetime.now(UTC)
     max_items = max_items_override or source.max_items or defaults.max_items_per_source
-    status, text, _ = _http_get(str(source.url), defaults=defaults, store=store, limiter=limiter)
+    request_url = _build_hf_papers_date_url(source, target_date)
+    status, text, _, final_url = _http_get(
+        request_url,
+        defaults=defaults,
+        store=store,
+        limiter=limiter,
+    )
 
     if status == 304:
         logger.info("Not modified (ETag/Last-Modified): %s, fallback to full fetch", source.id)
-        status, text, _ = _http_get(
-            str(source.url),
+        status, text, _, final_url = _http_get(
+            request_url,
             defaults=defaults,
             store=store,
             limiter=limiter,
@@ -450,6 +479,22 @@ def fetch_source(
     if not text.strip():
         logger.warning("Empty response: %s", source.id)
         return []
+    if source.id == "hf_papers_today" and target_date is not None:
+        resolved_date = _resolved_hf_papers_date(final_url)
+        if resolved_date is None:
+            logger.warning(
+                "HF papers fetch returned unexpected URL: requested=%s resolved=%s",
+                request_url,
+                final_url,
+            )
+            return []
+        if resolved_date != target_date:
+            logger.info(
+                "HF papers unavailable for requested date %s (resolved to %s), skipping.",
+                target_date.isoformat(),
+                resolved_date.isoformat(),
+            )
+            return []
 
     try:
         if source.type == "rss":

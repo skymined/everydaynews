@@ -89,6 +89,7 @@ def _fetch_all_sources(
     cfg,
     store: DigestStore,
     max_items_override: int,
+    target_date: date,
 ) -> list[RawItem]:
     limiter = HostRateLimiter(rps=cfg.defaults.host_rps)
     logger.info("Fetch start: %s sources", len(sources))
@@ -103,6 +104,7 @@ def _fetch_all_sources(
                 store=store,
                 limiter=limiter,
                 max_items_override=max_items_override if max_items_override > 0 else None,
+                target_date=target_date,
             ): source
             for source in sources
         }
@@ -192,6 +194,7 @@ def run_pipeline(args: argparse.Namespace) -> int:
         cfg=cfg,
         store=store,
         max_items_override=args.max_items,
+        target_date=target_date,
     )
     items = _dedupe_current_run([_to_item(raw) for raw in raw_items], store=store)
     logger.info("Items after dedupe(current run): %s", len(items))
