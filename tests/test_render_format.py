@@ -48,10 +48,14 @@ class RenderFormatTest(unittest.TestCase):
         )
         self.assertIn("## AI News", md)
         self.assertIn("## Papers (Hugging Face Top 10)", md)
+        self.assertIn("### [헤드라인](https://example.com/news)", md)
+        self.assertIn("- a", md)
+        self.assertIn("- b", md)
+        self.assertNotIn("내용 요약", md)
+        self.assertNotIn("링크: https://example.com/news", md)
         self.assertNotIn("## Top Themes", md)
         self.assertNotIn("## Source-wise Highlights", md)
 
 
 if __name__ == "__main__":
     unittest.main()
-

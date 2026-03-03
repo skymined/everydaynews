@@ -43,11 +43,10 @@ def render_digest_markdown(
             if summary is None:
                 continue
             unknown_mark = " (게시일 불명)" if item.published_unknown else ""
-            lines.append(f"### {summary.headline_kr}{unknown_mark}")
-            lines.append("  - 내용 요약")
+            lines.append(f"### [{summary.headline_kr}]({item.url}){unknown_mark}")
+            lines.append("")
             for point in summary.what[:4]:
-                lines.append(f"    - {point}")
-            lines.append(f"  - 링크: {item.url}")
+                lines.append(f"- {point}")
             lines.append("")
 
     lines.append("## Papers (Hugging Face Top 10)")
