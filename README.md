@@ -99,6 +99,7 @@ python -m http.server 8000
 파일: `.github/workflows/daily.yml`
 
 - 매일 `00:00 UTC`, 즉 `09:00 KST`에 실행
+ - 매일 `22:00 UTC`, 즉 `07:00 KST`에 실행
 - Gemini로 리포트를 생성
 - `website/reports/`, `website/posts/`, `website/reports.json`을 갱신
 - `main` 브랜치로 자동 커밋/푸시
