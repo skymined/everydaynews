@@ -7,29 +7,37 @@ defaults:
   extract_max_chars: 8000
 
 llm:
-  default_mode: "local"
-  default_provider: "openai"
+  default_mode: "api"
+  default_provider: "gemini"
   openai_model: "gpt-4.1-mini"
-  gemini_model: "gemini-2.0-flash"
-  max_items_to_summarize: 30
+  gemini_model: "gemini-2.5-flash"
+  max_items_to_summarize: 40
   local_backend: "llama"
   local_base_url: "http://127.0.0.1:11434/v1"
   local_model: "qwen2.5:7b"
 
 report:
   timezone: "Asia/Seoul"
-  max_news_items: 12
+  max_news_items: 16
   max_papers: 10
 
 scoring:
   source_weights:
     openai_news: 1.0
-    google_the_keyword: 0.9
-    google_research: 1.0
-    microsoft_research: 0.85
+    google_deepmind_blog: 1.0
+    google_research: 0.95
+    anthropic_news: 0.95
+    meta_ai_blog: 0.9
+    microsoft_research: 0.9
     aws_ml_blog: 0.8
-    nvidia_dev_blog: 0.8
-    arxiv_cs_ai: 0.75
+    nvidia_dev_blog: 0.85
+    techcrunch_ai: 0.82
+    google_news_ai_search: 0.84
+    x_search: 0.83
+    threads_recent: 0.8
+    reddit_machinelearning: 0.76
+    reddit_localllama: 0.78
+    reddit_artificial: 0.74
     hf_blog: 0.9
     hf_papers_today: 1.0
   priority_keywords:
@@ -43,12 +51,17 @@ scoring:
     - "governance"
     - "open-source"
     - "inference"
+    - "gemini"
+    - "gpt"
+    - "claude"
+    - "robot"
   tag_keywords:
     product:
       - "release"
       - "launch"
       - "api"
       - "pricing"
+      - "agent"
     policy:
       - "policy"
       - "regulation"
@@ -59,11 +72,11 @@ scoring:
       - "benchmark"
       - "evaluation"
       - "method"
-    security:
-      - "security"
-      - "safety"
-      - "red team"
-      - "jailbreak"
+    community:
+      - "reddit"
+      - "discussion"
+      - "thread"
+      - "community"
     infrastructure:
       - "inference"
       - "training"
@@ -78,23 +91,11 @@ sources:
     url: "https://openai.com/news/rss.xml"
     max_items: 10
 
-  - id: google_the_keyword
-    name: Google Blog (The Keyword)
+  - id: google_deepmind_blog
+    name: Google DeepMind Blog
     type: rss
-    url: "https://blog.google/rss/"
+    url: "https://deepmind.google/blog/rss.xml"
     max_items: 10
-    include_keywords:
-      - "ai"
-      - "gemini"
-      - "machine learning"
-      - "model"
-      - "llm"
-      - "agent"
-      - "research"
-    exclude_keywords:
-      - "pixel"
-      - "waze"
-      - "android auto"
 
   - id: google_research
     name: Google Research Blog
@@ -120,11 +121,70 @@ sources:
     url: "https://developer.nvidia.com/blog/feed/"
     max_items: 10
 
-  - id: arxiv_cs_ai
-    name: arXiv cs.AI
+  - id: techcrunch_ai
+    name: TechCrunch AI
     type: rss
-    url: "https://export.arxiv.org/rss/cs.AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
     max_items: 10
+
+  - id: google_news_ai_search
+    name: Google News AI Search
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:1d+AI+OR+LLM+OR+OpenAI+OR+Anthropic+OR+Gemini+OR+Claude+OR+NVIDIA&hl=en-US&gl=US&ceid=US:en"
+    max_items: 10
+    include_keywords:
+      - "ai"
+      - "llm"
+      - "openai"
+      - "anthropic"
+      - "gemini"
+      - "claude"
+      - "nvidia"
+      - "robot"
+      - "agent"
+
+  - id: reddit_machinelearning
+    name: Reddit r/MachineLearning
+    type: rss
+    url: "https://www.reddit.com/r/MachineLearning/new/.rss"
+    max_items: 10
+    include_keywords:
+      - "[R]"
+      - "[P]"
+      - "[D]"
+      - "llm"
+      - "agent"
+      - "model"
+      - "benchmark"
+      - "paper"
+
+  - id: reddit_localllama
+    name: Reddit r/LocalLLaMA
+    type: rss
+    url: "https://www.reddit.com/r/LocalLLaMA/new/.rss"
+    max_items: 10
+    include_keywords:
+      - "llama"
+      - "openai"
+      - "gemini"
+      - "claude"
+      - "qwen"
+      - "deepseek"
+      - "agent"
+      - "benchmark"
+
+  - id: reddit_artificial
+    name: Reddit r/artificial
+    type: rss
+    url: "https://www.reddit.com/r/artificial/hot/.rss"
+    max_items: 10
+    include_keywords:
+      - "ai"
+      - "agent"
+      - "model"
+      - "research"
+      - "robot"
+      - "paper"
 
   - id: hf_blog
     name: Hugging Face Blog
@@ -143,17 +203,3 @@ sources:
       link: "a"
 
 watch_sites: []
-# watch_sites:
-#   - id: openai_home
-#     name: OpenAI Home
-#     type: html
-#     url: "https://openai.com/"
-#     max_items: 10
-#     selectors:
-#       item: "a"
-#       title: "a"
-#       link: "a"
-#     include_keywords:
-#       - "ai"
-#       - "model"
-#       - "api"

@@ -65,7 +65,7 @@ class HFPapersDateFetchTest(unittest.TestCase):
                 mock_http_get.call_args.args[0],
             )
 
-    def test_skips_when_hf_redirects_to_other_date(self) -> None:
+    def test_falls_back_to_latest_available_hf_date(self) -> None:
         with (
             patch(
                 "digest.fetch._http_get",
@@ -78,6 +78,16 @@ class HFPapersDateFetchTest(unittest.TestCase):
             ),
             patch("digest.fetch._parse_html_items") as mock_parse_html_items,
         ):
+            mock_parse_html_items.return_value = [
+                RawItem(
+                    source_id="hf_papers_today",
+                    source_name="HF",
+                    title="paper",
+                    url="https://huggingface.co/papers/2602.17270",
+                    published_at=None,
+                    fetched_at=datetime(2026, 2, 22, 0, 0, tzinfo=UTC),
+                )
+            ]
             items = fetch_source(
                 source=self.source,
                 defaults=self.defaults,
@@ -85,8 +95,9 @@ class HFPapersDateFetchTest(unittest.TestCase):
                 limiter=self.limiter,
                 target_date=date(2026, 2, 22),
             )
-            self.assertEqual(items, [])
-            mock_parse_html_items.assert_not_called()
+            self.assertEqual(len(items), 1)
+            self.assertIn("2026-02-20 기준", items[0].source_name)
+            mock_parse_html_items.assert_called_once()
 
 
 if __name__ == "__main__":

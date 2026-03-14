@@ -6,6 +6,7 @@ import random
 import time
 from typing import Any, Callable
 
+from ..models import NewsClassification, NewsSummary, PaperSummary
 from .json_utils import load_json_object
 
 
@@ -56,7 +57,7 @@ class APIBackend:
         retry_markers = ("429", "rate", "timeout", "timed out", "connection", "503", "502", "500")
         return any(marker in message for marker in retry_markers)
 
-    def _with_backoff(self, fn: Callable[[], str], max_attempts: int = 3) -> str:
+    def _with_backoff(self, fn: Callable[[], Any], max_attempts: int = 3) -> Any:
         last_exc: Exception | None = None
         for attempt in range(max_attempts):
             try:
@@ -76,7 +77,7 @@ class APIBackend:
             return load_json_object(raw)
         except Exception:
             repaired = call_fn(
-                "이전 응답의 JSON 파싱에 실패했습니다. 다른 텍스트 없이 JSON 객체 하나만 다시 출력하세요."
+                "이전 응답의 JSON 파싱이 실패했습니다. 다른 설명 없이 JSON 객체 하나만 다시 출력하세요."
                 f"\n스키마 힌트: {schema_hint}"
             )
             return load_json_object(repaired)
@@ -115,26 +116,36 @@ class APIBackend:
         payload: dict[str, Any],
         temperature: float,
         max_tokens: int,
-        retry_instruction: str = "",
-    ) -> str:
+        schema_model: type | None = None,
+    ) -> dict[str, Any]:
         assert self._gemini_client is not None
+        from google.genai import types  # type: ignore
 
-        def _call() -> str:
+        def _call() -> dict[str, Any]:
             prompt = (
                 f"{system_prompt}\n\n"
                 f"입력(JSON):\n{json.dumps(payload, ensure_ascii=False)}\n"
-                f"{retry_instruction}\n"
+                "반드시 JSON만 출력하세요."
             )
             resp = self._gemini_client.models.generate_content(
                 model=self.gemini_model,
                 contents=prompt,
-                config={
-                    "temperature": temperature,
-                    "max_output_tokens": max_tokens,
-                    "response_mime_type": "application/json",
-                },
+                config=types.GenerateContentConfig(
+                    temperature=temperature,
+                    max_output_tokens=max_tokens,
+                    response_mime_type="application/json",
+                    response_schema=schema_model,
+                    thinking_config=types.ThinkingConfig(thinking_budget=0),
+                ),
             )
-            return (getattr(resp, "text", "") or "").strip()
+            parsed = getattr(resp, "parsed", None)
+            if parsed is not None:
+                if hasattr(parsed, "model_dump"):
+                    return parsed.model_dump()
+                if isinstance(parsed, dict):
+                    return parsed
+            text = (getattr(resp, "text", "") or "").strip()
+            return load_json_object(text)
 
         return self._with_backoff(_call, max_attempts=3)
 
@@ -145,6 +156,7 @@ class APIBackend:
         temperature: float,
         max_tokens: int,
         schema_hint: str,
+        schema_model: type | None = None,
     ) -> dict:
         if self.provider == "openai":
             return self._parse_or_retry_json(
@@ -157,15 +169,12 @@ class APIBackend:
                 ),
                 schema_hint=schema_hint,
             )
-        return self._parse_or_retry_json(
-            lambda retry_msg: self._chat_gemini(
-                system_prompt=prompt,
-                payload=payload,
-                temperature=temperature,
-                max_tokens=max_tokens,
-                retry_instruction=retry_msg,
-            ),
-            schema_hint=schema_hint,
+        return self._chat_gemini(
+            system_prompt=prompt,
+            payload=payload,
+            temperature=temperature,
+            max_tokens=max_tokens,
+            schema_model=schema_model,
         )
 
     def classify_news(self, payload: dict) -> dict:
@@ -175,6 +184,7 @@ class APIBackend:
             temperature=0.1,
             max_tokens=200,
             schema_hint='{"include": true, "reason_kr": "..."}',
+            schema_model=NewsClassification,
         )
 
     def summarize_news(self, payload: dict) -> dict:
@@ -184,6 +194,7 @@ class APIBackend:
             temperature=0.25,
             max_tokens=700,
             schema_hint='{"headline_kr":"...","what":["..."],"why_trend":["..."],"keywords":["..."]}',
+            schema_model=NewsSummary,
         )
 
     def summarize_paper(self, payload: dict) -> dict:
@@ -193,5 +204,5 @@ class APIBackend:
             temperature=0.25,
             max_tokens=800,
             schema_hint='{"one_liner_kr":"...","core_idea_kr":"...","keywords":["..."]}',
+            schema_model=PaperSummary,
         )
-

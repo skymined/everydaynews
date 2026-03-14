@@ -106,7 +106,7 @@ class LLMConfig(BaseModel):
     default_mode: str = "local"
     default_provider: str = "openai"
     openai_model: str = "gpt-4.1-mini"
-    gemini_model: str = "gemini-2.0-flash"
+    gemini_model: str = "gemini-2.5-flash"
     max_items_to_summarize: int = 30
     local_backend: str = "llama"
     local_base_url: str = "http://127.0.0.1:11434/v1"

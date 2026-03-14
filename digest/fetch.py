@@ -479,6 +479,7 @@ def fetch_source(
     if not text.strip():
         logger.warning("Empty response: %s", source.id)
         return []
+    resolved_date: date | None = None
     if source.id == "hf_papers_today" and target_date is not None:
         resolved_date = _resolved_hf_papers_date(final_url)
         if resolved_date is None:
@@ -490,17 +491,23 @@ def fetch_source(
             return []
         if resolved_date != target_date:
             logger.info(
-                "HF papers unavailable for requested date %s (resolved to %s), skipping.",
+                "HF papers unavailable for requested date %s (resolved to %s), using latest available page.",
                 target_date.isoformat(),
                 resolved_date.isoformat(),
             )
-            return []
 
     try:
         if source.type == "rss":
             parsed = _parse_rss_items(text, source, max_items, fetched_at)
         else:
             parsed = _parse_html_items(text, source, max_items, fetched_at)
+        if source.id == "hf_papers_today" and resolved_date is not None and resolved_date != target_date:
+            parsed = [
+                item.model_copy(
+                    update={"source_name": f"{source.name} ({resolved_date.isoformat()} 기준)"}
+                )
+                for item in parsed
+            ]
         return _apply_source_keyword_filters(parsed, source)
     except Exception as exc:  # pragma: no cover
         logger.exception("Parse failed for %s: %s", source.id, exc)

@@ -1,23 +1,27 @@
-﻿# AI Trend Digest
+# AI Trend Digest
 
-AI 뉴스와 Hugging Face Papers Top 10을 수집해 일일 리포트를 생성하고, `website/` 정적 페이지로 바로 게시하는 프로젝트입니다.
+Gemini를 우선 사용해 오늘의 AI 뉴스와 커뮤니티 반응, Hugging Face Top 10 Papers를 모아 일일 리포트를 만들고 `website/` 정적 페이지로 자동 발행하는 프로젝트입니다.
 
-## 1. 구조
+## 구조
 
-- 리포트 생성 경로: `website/reports/`
+- 리포트 마크다운: `website/reports/`
 - 웹 페이지 소스: `website/`
-- 자동 리포트 인덱스: `website/reports.json`
+- 자동 인덱스: `website/reports.json`
+- 스케줄 실행: `.github/workflows/daily.yml`
 
-## 2. 빠른 실행 (로컬 LLM)
+## 수집 범위
 
-### 2-1. 저장소 준비
+- 공식 블로그: OpenAI, Google DeepMind, Google Research, Microsoft Research, AWS ML, NVIDIA
+- 검색형 뉴스: Google News AI 검색 RSS
+- 소셜/커뮤니티: X 최근 검색, Threads 최근 게시물, Reddit
+- 커뮤니티: Reddit `r/MachineLearning`, `r/LocalLLaMA`, `r/artificial`
+- 논문: Hugging Face Papers 날짜별 Top 10
 
-```bash
-git clone <YOUR_REPO_URL>
-cd everydaynews
-```
+Hugging Face가 당일 페이지를 아직 열지 않은 경우에는 가장 최근 공개된 날짜의 Top 10을 가져오고, 리포트에 기준 날짜를 함께 표시합니다.
 
-### 2-2. 가상환경/의존성 설치
+## 로컬 실행
+
+### 1. 설치
 
 Windows PowerShell:
 
@@ -37,30 +41,32 @@ python -m pip install --upgrade pip
 pip install -e .
 ```
 
-### 2-3. Ollama + Qwen 준비
+### 2. `.env` 준비
 
-```bash
-ollama pull qwen2.5:7b
+프로젝트 루트의 `.env`를 자동으로 읽습니다.
+
+```dotenv
+LLM_MODE=api
+LLM_PROVIDER=gemini
+GEMINI_API_KEY=YOUR_GEMINI_KEY
+GEMINI_MODEL=gemini-2.5-flash
+X_BEARER_TOKEN=YOUR_X_BEARER
+THREADS_ACCESS_TOKEN=YOUR_THREADS_TOKEN
 ```
 
-### 2-4. 리포트 생성
+Gemini 호출이 실패하면 규칙 기반 요약으로 폴백합니다.
+X와 Threads 토큰이 없으면 해당 소스는 자동으로 건너뜁니다.
 
-Windows PowerShell:
+### 3. 리포트 생성
 
 ```powershell
-$env:LLM_MODE="local"
-$env:LOCAL_LLM_BASE_URL="http://127.0.0.1:11434/v1"
-$env:LOCAL_LLM_MODEL="qwen2.5:7b"
 python -m digest run
 ```
 
-macOS/Linux:
+특정 날짜를 다시 만들려면:
 
-```bash
-export LLM_MODE=local
-export LOCAL_LLM_BASE_URL=http://127.0.0.1:11434/v1
-export LOCAL_LLM_MODEL=qwen2.5:7b
-python -m digest run
+```powershell
+python -m digest run --date 2026-03-14 --refresh
 ```
 
 생성 결과:
@@ -68,82 +74,60 @@ python -m digest run
 - `website/reports/YYYY-MM-DD.md`
 - `website/reports/latest.md`
 - `website/reports.json`
+- `website/posts/YYYY-MM-DD/index.html`
 
-필요 시 인덱스만 수동 재생성:
+인덱스만 다시 만들려면:
 
-```bash
+```powershell
 python website/scripts/build_reports_index.py
 ```
 
-## 3. API 모드 실행
+## 웹 확인
 
-OpenAI:
-
-```bash
-export LLM_MODE=api
-export LLM_PROVIDER=openai
-export OPENAI_API_KEY=<YOUR_KEY>
-export OPENAI_MODEL=gpt-4.1-mini
-python -m digest run
-```
-
-Gemini:
-
-```bash
-export LLM_MODE=api
-export LLM_PROVIDER=gemini
-export GEMINI_API_KEY=<YOUR_KEY>
-export GEMINI_MODEL=gemini-2.0-flash
-python -m digest run
-```
-
-## 4. 웹페이지 로컬 확인
-
-가볍게 정적 서버로 확인:
-
-```bash
+```powershell
 python -m http.server 8000
 ```
 
-브라우저에서 접속:
+브라우저:
 
 - `http://127.0.0.1:8000/website/`
 
-## 5. GitHub 자동화
+## 자동 발행
 
-### Daily 리포트 생성/커밋
+### GitHub Actions
 
-- 파일: `.github/workflows/daily.yml`
-- 동작:
-  - 매일 UTC 00:00 실행
-  - `main` 브랜치 기준으로 실행
-  - `website/reports/*.md` 생성
-  - `website/reports.json` 생성
-  - `main` 브랜치로 자동 커밋/푸시
+파일: `.github/workflows/daily.yml`
 
-### Website 배포 (GitHub Pages, GitHub Actions)
+- 매일 `00:00 UTC`, 즉 `09:00 KST`에 실행
+- Gemini로 리포트를 생성
+- `website/reports/`, `website/posts/`, `website/reports.json`을 갱신
+- `main` 브랜치로 자동 커밋/푸시
 
-- 파일: `.github/workflows/pages.yml`
-- 동작:
-  - `main` 브랜치의 `website/**` 변경 시 자동 배포
-  - `website/` 디렉터리를 Pages 아티팩트로 업로드 후 배포
+필수 GitHub Secret:
 
-- 저장소 설정:
-  - `Settings > Pages > Build and deployment > Source`: `GitHub Actions`
-- 주의:
-  - `schedule` 트리거는 GitHub 기본 브랜치의 워크플로우 파일을 기준으로 실행됨
-  - 기본 브랜치가 `main`이면, 스케줄 워크플로우는 `main`의 `.github/workflows/daily.yml`로 동작함
+- `GEMINI_API_KEY`
 
-## 6. 커스터마이징 포인트
+선택 GitHub Secret:
 
-- 수집 소스/키워드: `sources.yaml`
+- `X_BEARER_TOKEN`
+- `THREADS_ACCESS_TOKEN`
+
+### GitHub Pages
+
+파일: `.github/workflows/pages.yml`
+
+- `website/**` 변경 시 자동 배포
+- `website/` 디렉터리를 GitHub Pages에 게시
+
+## 커스터마이징 포인트
+
+- 수집 소스/우선순위: `sources.yaml`
 - 뉴스 분류 프롬프트: `prompts/news_classify.md`
 - 뉴스 요약 프롬프트: `prompts/news_summarize.md`
 - 논문 요약 프롬프트: `prompts/paper_summarize.md`
-- 후처리 로직: `digest/summarize.py`
+- 렌더링 포맷: `digest/render.py`
 
-## 7. 보안 체크
+## 보안
 
-- API 키는 환경변수/Secrets만 사용
-- 로컬 LLM 서버는 `127.0.0.1` 바인딩 권장
-- `.env`, 키 파일(`*.key`, `*.pem`) 커밋 금지
+- `.env`는 `.gitignore`에 포함되어 커밋되지 않습니다.
+- API 키는 로컬 `.env` 또는 GitHub Secrets로만 관리하세요.

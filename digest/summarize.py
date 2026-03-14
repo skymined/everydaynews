@@ -57,11 +57,6 @@ def _require_korean_text(text: str, field_name: str) -> str:
     return normalized
 
 
-def _is_korean_usable(text: str) -> bool:
-    normalized = _clean_text(text)
-    return bool(normalized) and bool(HANGUL_RE.search(normalized)) and not FORBIDDEN_SCRIPT_RE.search(normalized)
-
-
 def _extract_technical_terms(title: str, limit: int = 3) -> list[str]:
     terms: list[str] = []
     seen: set[str] = set()
@@ -86,7 +81,7 @@ def _ensure_english_terms(text: str, terms: list[str]) -> str:
     missing = [term for term in terms if term.lower() not in lower_text]
     if not missing:
         return normalized
-    return _clean_text(f"{normalized} (원문 용어: {', '.join(missing[:2])})")
+    return _clean_text(f"{normalized} (영문 용어: {', '.join(missing[:2])})")
 
 
 def _excerpt(item: Item, max_chars: int = 1800) -> str:
@@ -105,12 +100,36 @@ def _payload(item: Item) -> dict:
     }
 
 
+def _is_sentence_usable(text: str) -> bool:
+    normalized = _clean_text(text)
+    return bool(normalized) and not FORBIDDEN_SCRIPT_RE.search(normalized)
+
+
+def _excerpt_sentences(excerpt: str) -> list[str]:
+    cleaned = _clean_text(excerpt)
+    if not cleaned:
+        return []
+    parts = re.split(r"(?<=[\.\!\?])\s+", cleaned)
+    out: list[str] = []
+    for part in parts:
+        sentence = part.strip(" -")
+        if len(sentence) < 20:
+            continue
+        if not _is_sentence_usable(sentence):
+            continue
+        out.append(sentence[:180])
+        if len(out) >= 6:
+            break
+    return out
+
+
 def _fallback_classify_news(item: Item) -> NewsClassification:
     text = f"{item.title} {item.summary_raw or ''}".lower()
     include = any(
         key in text
         for key in (
             "ai",
+            "artificial intelligence",
             "model",
             "agent",
             "llm",
@@ -120,197 +139,146 @@ def _fallback_classify_news(item: Item) -> NewsClassification:
             "benchmark",
             "research",
             "api",
+            "gpu",
+            "paper",
+            "robot",
+            "vision-language",
         )
     )
     reason = (
-        "제목/요약에 AI 모델·제품·연구 관련 키워드가 있어 트렌드 항목으로 포함합니다."
+        "AI 모델, 제품, 연구, 정책, 인프라 변화와 직접 연결된 항목으로 판단했습니다."
         if include
-        else "AI 트렌드와 직접 관련성이 낮아 제외합니다."
+        else "AI 변화와 직접 연결된 신호가 약해서 이번 다이제스트에서는 제외했습니다."
     )
     return NewsClassification(include=include, reason_kr=reason)
 
 
+def _build_news_points(item: Item, excerpt: str) -> list[str]:
+    sentences = _excerpt_sentences(excerpt)
+    if sentences:
+        return [f"원문에서 확인된 핵심 내용: {sentence}" for sentence in sentences[:3]]
+
+    return [
+        f"{item.source_name}에서 '{item.title}' 관련 업데이트를 다뤘습니다.",
+        "세부 내용은 원문 링크를 통해 추가 확인이 필요합니다.",
+    ]
+
+
+def _build_news_why(item: Item) -> list[str]:
+    text = f"{item.title} {item.summary_raw or ''}".lower()
+    reasons: list[str] = []
+    if any(token in text for token in ("release", "launch", "api", "model", "agent", "gemini", "gpt", "claude")):
+        reasons.append("새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.")
+    if any(token in text for token in ("benchmark", "research", "paper", "evaluation")):
+        reasons.append("연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다.")
+    if any(token in text for token in ("policy", "regulation", "safety", "security", "governance")):
+        reasons.append("정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다.")
+    if not reasons:
+        reasons.append("오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.")
+    return reasons[:2]
+
+
+def _build_keywords(text: str, fallback: list[str]) -> list[str]:
+    keywords = re.findall(r"[A-Za-z0-9][A-Za-z0-9\-_\.]{2,}", text)
+    stopwords = {
+        "with",
+        "from",
+        "that",
+        "this",
+        "have",
+        "will",
+        "their",
+        "today",
+        "about",
+        "more",
+        "news",
+    }
+    picked: list[str] = []
+    for token in keywords:
+        lowered = token.lower()
+        if lowered in stopwords or lowered in picked:
+            continue
+        picked.append(lowered)
+        if len(picked) >= 6:
+            return picked
+    return fallback[:6]
+
+
 def _fallback_news_summary(item: Item) -> NewsSummary:
     excerpt = _excerpt(item, max_chars=700)
-    points: list[str] = []
-    for sentence in re.split(r"(?<=[\.\!\?])\s+", excerpt):
-        sentence = sentence.strip(" -")
-        if len(sentence) < 15:
-            continue
-        if not _is_korean_usable(sentence):
-            continue
-        points.append(sentence[:170])
-        if len(points) >= 4:
-            break
-    if not points:
-        points = [
-            f"{item.source_name}에서 '{item.title}' 관련 내용을 공개했습니다.",
-            "공개된 자료를 기준으로 핵심 변경 사항과 영향 범위를 확인할 수 있습니다.",
-        ]
-
-    headline = f"{item.source_name}에서 '{item.title}' 관련 발표"
-    why = ["해당 발표는 AI 제품/연구/정책 흐름을 보여주며 후속 발표와 비교 가치가 있습니다."]
-    keywords = re.findall(r"[A-Za-z0-9\-\_]{3,}", item.title)[:6]
-    if not keywords:
-        keywords = ["ai", "trend", "news"]
+    headline = f"{item.source_name}발 '{item.title}' 관련 AI 업데이트"
+    points = _build_news_points(item, excerpt)
+    why = _build_news_why(item)
+    keywords = _build_keywords(
+        f"{item.title} {excerpt}",
+        fallback=["ai", "daily", "trend"],
+    )
     return _validate_news_summary(
         NewsSummary(
-        headline_kr=headline,
-        what=points[:4],
-        why_trend=why,
-        keywords=[k.lower() for k in keywords][:6],
+            headline_kr=headline,
+            what=points[:4],
+            why_trend=why[:2],
+            keywords=keywords[:6],
         ).model_dump(),
         title=item.title,
     )
 
 
-def _paper_sentences(excerpt: str) -> list[str]:
-    cleaned = excerpt.replace("Abstract", " ").replace("요약", " ")
-    cleaned = _clean_text(cleaned)
-    if not cleaned:
-        return []
-    parts = re.split(r"(?<=[\.\!\?])\s+", cleaned)
-    out: list[str] = []
-    for part in parts:
-        s = part.strip(" -")
-        if len(s) < 30:
-            continue
-        if s.lower() in {"abstract"}:
-            continue
-        out.append(s)
-    return out
-
-
-def _infer_paper_subject(title: str, excerpt: str) -> str:
-    text = f"{title} {excerpt}".lower()
+def _infer_paper_domain(text: str) -> str:
+    lowered = text.lower()
     mapping: list[tuple[tuple[str, ...], str]] = [
-        (("agent", "policy", "planner"), "AI 에이전트"),
-        (("robot", "humanoid", "embodied"), "로보틱스/체화 AI"),
-        (("diffusion", "video generation"), "생성 모델(diffusion)"),
-        (("retrieval", "rag", "memory"), "검색/메모리 기반 AI"),
-        (("benchmark", "evaluation", "reliability"), "모델 평가/신뢰성"),
-        (("multimodal", "vision-language", "vlm"), "멀티모달 AI"),
-        (("attention", "transformer"), "모델 아키텍처/계산 최적화"),
-        (("factual", "hallucination"), "사실성/환각 완화"),
+        (("agent", "planner", "tool use"), "에이전트"),
+        (("robot", "embodied", "humanoid"), "로보틱스"),
+        (("video", "diffusion"), "생성 모델"),
+        (("multimodal", "vision-language", "vlm"), "멀티모달"),
+        (("rag", "retrieval", "memory"), "검색 결합형 모델"),
+        (("benchmark", "evaluation", "leaderboard"), "평가"),
+        (("alignment", "safety", "hallucination", "factual"), "안전성과 신뢰성"),
     ]
     for keys, label in mapping:
-        if any(key in text for key in keys):
+        if any(key in lowered for key in keys):
             return label
-    return "AI 모델/시스템"
+    return "AI 연구"
 
 
-def _infer_paper_contribution(title: str, excerpt: str) -> str:
-    text = f"{title} {excerpt}".lower()
-    if any(key in text for key in ("benchmark", "bench", "leaderboard")):
-        return "새 벤치마크/평가 프레임"
-    if any(key in text for key in ("dataset", "data generation", "corpus")):
-        return "새 데이터셋/데이터 생성 방법"
-    if any(key in text for key in ("framework", "pipeline", "system", "agent")):
-        return "새 프레임워크/시스템"
-    if any(key in text for key in ("model", "architecture", "method", "approach")):
-        return "새 모델/방법론"
-    return "새 접근법"
-
-
-def _infer_paper_goal(title: str, excerpt: str) -> str:
-    text = f"{title} {excerpt}".lower()
-    if any(key in text for key in ("efficient", "sparse", "linear", "latency", "throughput", "speed")):
-        return "효율과 처리속도"
-    if any(key in text for key in ("robust", "reliability", "safety", "factual", "uncertainty")):
-        return "신뢰성과 안정성"
-    if any(key in text for key in ("generalization", "zero-shot", "transfer", "open-vocabulary")):
-        return "일반화 성능"
-    if any(key in text for key in ("accuracy", "performance", "sota")):
-        return "정확도 성능"
-    return "실사용 성능"
-
-
-def _build_paper_keywords(title: str, excerpt: str) -> list[str]:
-    text = f"{title} {excerpt}".lower()
-    priority = [
-        "agents",
-        "agent",
-        "multimodal",
-        "diffusion",
-        "retrieval",
-        "rag",
-        "rl",
-        "robotics",
-        "humanoid",
-        "alignment",
-        "benchmark",
-        "evaluation",
-        "memory",
-        "attention",
-        "policy",
-        "inference",
-        "safety",
-        "factuality",
-    ]
-    picked: list[str] = []
-    for token in priority:
-        if token in text and token not in picked:
-            picked.append(token)
-        if len(picked) >= 6:
-            return picked
-
-    fallback = re.findall(r"[A-Za-z0-9\-\_]{3,}", title)
-    stop = {
-        "with",
-        "for",
-        "the",
-        "and",
-        "are",
-        "through",
-        "from",
-        "using",
-        "towards",
-        "learning",
-    }
-    for token in fallback:
-        t = token.lower()
-        if t in stop or t in picked:
-            continue
-        picked.append(t)
-        if len(picked) >= 6:
-            break
-    if not picked:
-        picked = ["ai", "research", "paper"]
-    return picked[:6]
+def _infer_paper_contribution(text: str) -> str:
+    lowered = text.lower()
+    if any(key in lowered for key in ("benchmark", "leaderboard", "evaluation")):
+        return "새 벤치마크 또는 평가 방법"
+    if any(key in lowered for key in ("dataset", "corpus", "data generation")):
+        return "새 데이터셋 또는 데이터 생성 방식"
+    if any(key in lowered for key in ("framework", "system", "pipeline", "agent")):
+        return "새 시스템 또는 프레임워크"
+    if any(key in lowered for key in ("model", "architecture", "method", "approach")):
+        return "새 모델 또는 방법론"
+    return "새 연구 접근"
 
 
 def _fallback_paper_summary(item: Item) -> PaperSummary:
-    excerpt = _excerpt(item, max_chars=800)
-    subject = _infer_paper_subject(item.title, excerpt)
-    contribution = _infer_paper_contribution(item.title, excerpt)
-    goal = _infer_paper_goal(item.title, excerpt)
-    one_liner = f"{subject} 영역에서 {contribution}을 제안해 {goal} 개선을 노린 연구입니다."
+    excerpt = _excerpt(item, max_chars=900)
+    text = f"{item.title} {excerpt}"
+    domain = _infer_paper_domain(text)
+    contribution = _infer_paper_contribution(text)
+    sentences = _excerpt_sentences(excerpt)
 
-    sentences = _paper_sentences(excerpt)
-    korean_sentences = [s[:170] for s in sentences if _is_korean_usable(s)]
-    concrete_1 = korean_sentences[0] if len(korean_sentences) >= 1 else ""
-    concrete_2 = korean_sentences[1] if len(korean_sentences) >= 2 else ""
-    concrete_3 = korean_sentences[2] if len(korean_sentences) >= 3 else ""
+    one_liner = f"이 논문은 {domain} 영역에서 {contribution}을 제안하거나 검증하려는 연구입니다."
 
-    detail_lines = [
-        f"문제 정의: {subject}에서 기존 방법의 한계를 개선하려는 목적이 있습니다.",
-        f"접근 방법: {contribution} 중심으로 해결 전략을 제시합니다.",
-        f"기대 효과: 제시된 방법을 통해 {goal} 지표 개선을 목표로 합니다.",
+    details: list[str] = [
+        f"문제의식은 {domain} 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다.",
+        f"핵심 접근은 {contribution}을 통해 기존 한계를 줄이려는 것입니다.",
     ]
-    if concrete_1:
-        detail_lines.append(f"논문 근거 1: {concrete_1}")
-    if concrete_2:
-        detail_lines.append(f"논문 근거 2: {concrete_2}")
-    if concrete_3:
-        detail_lines.append(f"논문 근거 3: {concrete_3}")
+    if sentences:
+        details.append(f"원문 초록 기준 핵심 설명: {sentences[0]}")
+    if len(sentences) > 1:
+        details.append(f"추가로 눈에 띄는 주장: {sentences[1]}")
 
-    core = " ".join(detail_lines[:4])
-    keywords = _build_paper_keywords(item.title, excerpt)
+    core_idea = " ".join(details[:4])
+    keywords = _build_keywords(text, fallback=["ai", "paper", "research"])
     return _validate_paper_summary(
         PaperSummary(
-        one_liner_kr=one_liner,
-        core_idea_kr=core,
-        keywords=keywords[:6],
+            one_liner_kr=one_liner,
+            core_idea_kr=core_idea,
+            keywords=keywords[:6],
         ).model_dump(),
         title=item.title,
     )
@@ -340,7 +308,7 @@ def _validate_news_summary(raw: dict, title: str = "") -> NewsSummary:
             if summary.what:
                 summary.what[0] = _ensure_english_terms(summary.what[0], missing)
             else:
-                summary.what = [f"핵심 용어: {', '.join(missing[:2])}"]
+                summary.what = [f"원문 핵심 용어: {', '.join(missing[:2])}"]
     return summary
 
 

@@ -9,11 +9,13 @@ from zoneinfo import ZoneInfo
 
 from .config import load_config, load_prompt
 from .dedupe import normalize_url
+from .env import load_env_file
 from .extract import extract_main_text
 from .fetch import HostRateLimiter, fetch_source
 from .llm import create_backend
 from .models import Item, RawItem, SourceConfig
 from .render import render_digest_markdown
+from .social import fetch_social_items
 from .store import DigestStore
 from .summarize import rank_items, summarize_with_llm
 
@@ -197,6 +199,10 @@ def run_pipeline(args: argparse.Namespace) -> int:
         max_items_override=args.max_items,
         target_date=fetch_date,
     )
+    social_items = fetch_social_items(cfg.defaults)
+    if social_items:
+        logger.info("Fetched %s social items from X/Threads", len(social_items))
+        raw_items.extend(social_items)
     items = _dedupe_current_run([_to_item(raw) for raw in raw_items], store=store)
     logger.info("Items after dedupe(current run): %s", len(items))
 
@@ -257,6 +263,7 @@ def run_pipeline(args: argparse.Namespace) -> int:
 
 
 def main(argv: list[str] | None = None) -> int:
+    load_env_file()
     parser = _build_parser()
     args = parser.parse_args(argv)
     logging.basicConfig(
