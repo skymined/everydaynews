@@ -6,7 +6,7 @@
       "date": "2026-03-14",
       "file": "2026-03-14.md",
       "title": "IMDIGEST - 2026-03-14",
-      "excerpt": "생성 방식: Gemini 우선 요약, 실패 시 규칙 기반 폴백 수집 범위: 공식 블로그, 검색 기반 뉴스, Reddit 커뮤니티, Hugging Face Papers 출처: NVIDIA Developer Blog 원문 제목: Scale Synthetic Data and Physical AI Reasoning with NVIDIA Cosmos World Foundation Models 핵심: ..."
+      "excerpt": "2026-03-14 KST 기준으로 수집한 AI 뉴스레터입니다. 2026-03-14 AI 브리핑입니다. 오늘은 NVIDIA Developer Blog, Hugging Face Blog, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인..."
     },
     {
       "date": "2026-03-04",
@@ -93,5 +93,5 @@
       "excerpt": "무슨 내용? $30백만 규모의 Google.org Impact Challenge: AI for Science 프로그램 출시 건강 및 생명과학, 재난 대응, 환경 과학 분야에서 혁신적인 연구 지원 선택된 기관은 엔지니어링 지원과 기술 멘토십을 받게 됨 왜 트렌드인가? AI 기술의 발전으로 과학 연구 분야에서도 혁신이 예상됨 기업의 사회적 책임 실천 및 기업과 비영리 조직 간 협력 강화 키워드:..."
     }
   ],
-  "generated_at_utc": "2026-03-14T02:35:49.909902+00:00"
+  "generated_at_utc": "2026-03-14T02:50:51.968828+00:00"
 }
