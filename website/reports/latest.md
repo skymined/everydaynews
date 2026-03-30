@@ -1,111 +1,119 @@
-# IMDIGEST - 2026-03-30
+# IMDIGEST - 2026-03-31
 
-2026-03-30 KST 기준으로 수집한 AI 뉴스레터입니다.
+2026-03-31 KST 기준으로 수집한 AI 뉴스레터입니다.
 
-2026-03-30 AI 브리핑입니다. 오늘은 TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-03-31 AI 브리핑입니다. 오늘은 AWS Machine Learning Blog, TechCrunch AI, AWS Machine Learning Blog에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 오늘의 뉴스
 
-### [OpenAI, 출시 6개월 만에 Sora 앱 및 관련 비디오 모델 서비스 종료](https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video)
+### [AWS, Amazon Bedrock AgentCore 및 Amazon Nova Sonic 2.0을 활용한 에이전트형 AI 영화 비서로 초개인화된 시청 경험을 제공합니다.](https://aws.amazon.com/blogs/machine-learning/deliver-hyper-personalized-viewer-experiences-with-an-agentic-ai-movie-assistant-using-amazon-bedrock-agentcore-and-amazon-nova-sonic-2-0)
 
-OpenAI가 Sora 앱과 관련 비디오 모델 서비스를 출시 6개월 만에 중단한다고 발표했습니다. 이번 결정은 OpenAI가 기업 및 생산성 도구에 집중하려는 전략의 일환으로 해석됩니다. Wall Street Journal에 따르면, OpenAI는 상장(IPO)을 앞두고 비즈니스 제품, 기업 제품, 프로그래밍 제품에 주력하고 있습니다. 이번 Sora 서비스 종료는 AI 비디오 도구 제작자와 AI 비디오가 할리우드를 대체할 것이라고 주장하는 사람들에게 현실 점검의 계기가 될 수 있습니다. 출처는 TechCrunch AI입니다.
+AWS는 Amazon Bedrock AgentCore와 Amazon Nova Sonic 2.0을 사용하여 초개인화된 시청 경험을 제공하는 에이전트형 AI 영화 비서를 소개했습니다. (영문 용어: hyper-personalized). 이 AI 비서는 사용자의 기분, 시간대, 사회적 상황 등 맥락에 따른 요구를 파악하여 기존 추천 시스템의 한계를 극복합니다. 사용자는 AI 에이전트에게 특정 장면이나 테마에 대해 질문하고, 실시간 피드백을 통해 콘텐츠와 개인 선호도를 모두 이해하는 큐레이터와 같은 경험을 할 수 있습니다. 기존 ML 기반 추천 시스템의 한계를 넘어, 생성형 AI의 맥락 이해 및 대화 능력을 결합하여 사용자에게 더욱 몰입감 있고 개인화된 콘텐츠 탐색 경험을 제공하는 트렌드를 반영합니다. 출처는 AWS Machine Learning Blog입니다.
+
+### [미국인들의 AI 도구 사용은 증가했지만, 결과에 대한 신뢰도는 오히려 하락했습니다.](https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results)
+
+Quinnipiac University의 설문조사에 따르면, 미국인의 76%가 AI를 거의 또는 가끔만 신뢰한다고 응답했습니다. AI 도구를 사용해본 적 없는 미국인의 비율은 2025년 4월 33%에서 현재 27%로 감소했습니다. 응답자의 51%가 연구 목적으로 AI를 사용하며, 글쓰기, 업무, 데이터 분석에도 활용하고 있습니다. AI 기술의 확산에도 불구하고, 사용자들이 AI 생성 정보의 정확성과 신뢰성에 대한 우려를 여전히 크게 가지고 있음을 보여줍니다. 출처는 TechCrunch AI입니다.
+
+### [Ring, Amazon Bedrock Knowledge Bases를 활용하여 글로벌 고객 지원을 확장하고 비용을 절감합니다.](https://aws.amazon.com/blogs/machine-learning/how-ring-scales-global-customer-support-with-amazon-bedrock-knowledge-bases)
+
+Amazon의 홈 보안 자회사인 Ring은 Amazon Bedrock Knowledge Bases를 사용하여 다국어 RAG 기반 지원 챗봇을 구축했습니다. 이 새로운 시스템은 기존의 규칙 기반 챗봇이 가진 제한된 대화 패턴과 다양한 고객 문의 처리의 어려움을 해결했습니다. Ring은 이 솔루션을 통해 각 추가 로케일로 확장하는 데 드는 비용을 21% 절감했으며, 10개 국제 지역에서 일관된 고객 경험을 유지했습니다. 기업들이 글로벌 시장으로 확장함에 따라, 다국어 고객 지원 시스템의 효율성과 비용 절감은 중요한 과제가 되고 있습니다. 출처는 AWS Machine Learning Blog입니다.
+
+### [폭스바겐 그룹, AWS Generative AI Innovation Center와 협력하여 마케팅 이미지 생성 및 평가 파이프라인 구축](https://aws.amazon.com/blogs/machine-learning/reimagine-marketing-at-volkswagen-group-with-generative-ai)
+
+폭스바겐 그룹은 10개 브랜드에 걸쳐 연간 수천 개의 마케팅 자산을 생산하며, 각 이미지가 브랜드 표준을 정확히 반영해야 하는 과제에 직면했습니다. AWS Generative AI Innovation Center는 폭스바겐 그룹의 마케팅 및 기술팀과 협력하여 생성형 AI를 활용한 솔루션을 개발했습니다. 이 솔루션은 Amazon SageMaker AI 엔드포인트에 호스팅된 이미지 생성 모델과 Amazon Bedrock으로 구동되는 이미지 평가 기능을 갖춘 엔드투엔드 마케팅 이미지 생성 및 평가 파이프라인입니다. 생성형 AI를 활용하여 대규모 마케팅 콘텐츠 제작의 효율성을 극대화하고, 동시에 브랜드 일관성과 정확성을 유지하는 새로운 접근 방식을 제시합니다. 출처는 AWS Machine Learning Blog입니다.
+
+### [AWS SageMaker AI와 LSTM 네트워크를 활용하여 태양 플레어 감지 시스템을 구축하는 방법이 소개되었습니다.](https://aws.amazon.com/blogs/machine-learning/build-a-solar-flare-detection-system-on-sagemaker-ai-lstm-networks-and-esa-stix-data)
+
+AWS는 SageMaker AI와 LSTM 네트워크를 사용하여 태양 플레어 감지 시스템을 구축하는 방법을 제시했습니다. 이 시스템은 ESA STIX(Spectrometer/Telescope for Imaging X-rays)에서 수집한 다중 채널 X-ray 데이터를 분석합니다. 저(4–10 keV), 중(10–25 keV), 고(25+ keV) 에너지 대역의 X-ray 데이터에서 이상 패턴을 감지하는 데 중점을 둡니다. 태양 활동 모니터링을 위한 방대한 X-ray 측정 데이터의 효율적인 처리와 미묘한 변화 감지를 위해 고급 딥러닝 아키텍처, 특히 LSTM 네트워크의 중요성이 커지고 있습니다. 출처는 AWS Machine Learning Blog입니다.
 
 ## 커뮤니티와 검색에서 읽힌 흐름
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.
 
-### [Andrej Karpathy의 AutoResearch에서 영감을 받아, 표 형식 데이터에 대한 ML 실험을 자율적으로 수행하는 에이전트가 개발되었습니다.](https://www.reddit.com/r/MachineLearning/comments/1s73gma/p_i_built_an_autonomous_ml_agent_that_runs)
+### [AI 에이전트의 API 자격 증명 보안 관리에 대한 개발자들의 고민이 커지고 있습니다.](https://www.reddit.com/r/LocalLLaMA/comments/1s84kpi/how_are_you_actually_handling_api_credential)
 
-Claude Code를 활용하여 이 에이전트는 이진 분류(churn, conversion 등) 작업을 위한 자율 ML 연구원 역할을 수행합니다. 데이터셋을 입력하면 데이터 분석, 가설 형성, 코드 편집, 실험 실행, 평가(확장 시간 윈도우 사용) 과정을 무한히 반복합니다. 에이전트는 feature engineering, model hyperparams, analysis code 세 가지 파일만 수정하며, 나머지는 잠겨 있습니다. 이는 ML 모델에 새로운 신호를 추가하는 문제를 해결하고, 제한된 데이터셋에 과적합하는 것을 방지하는 데 중점을 둡니다. 출처는 Reddit r/MachineLearning입니다.
+AI 에이전트 개발 시 Stripe, Twilio, Firebase 등 외부 서비스 API 키를 .env 파일에 저장하는 방식이 일반적입니다. 현재 방식은 API 키 유출 시 모든 서비스가 동시에 침해될 위험이 있으며, 에이전트별 접근 범위 제한 및 감사 추적 기능이 부족합니다. HashiCorp Vault나 AWS Secrets Manager와 같은 솔루션은 소규모 팀에게는 과도하거나 맞춤형 통합이 필요하다는 인식이 있습니다. AI 에이전트의 활용이 증가하면서 프로덕션 환경에서의 API 자격 증명 보안 및 관리의 중요성이 부각되고 있습니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [Nicolas Carlini, 저명한 보안 연구원이 Claude가 자신보다 뛰어난 보안 연구 능력을 가졌다고 평가했습니다.](https://www.reddit.com/r/artificial/comments/1s738xf/nicolas_carlini_672k_citations_on_google_scholar)
+### [AI 코딩 에이전트의 컨텍스트 파일을 자동 생성하고 동기화하는 오픈소스 CLI 도구 Caliber가 250개 이상의 GitHub 스타를 달성했습니다.](https://www.reddit.com/r/artificial/comments/1s80vw7/we_open_sourced_a_tool_that_auto_generates_your)
 
-Nicolas Carlini는 Claude가 스마트 컨트랙트 취약점 악용으로 370만 달러를 벌었으며, Linux와 Ghost에서 취약점을 발견했다고 밝혔습니다. Claude가 발견한 Linux 취약점은 2003년에 도입된 버퍼 오버플로우 오류로, 지금까지 발견되지 않았던 심각한 보안 문제입니다. Carlini는 LLM의 보안 연구 능력이 시간이 지남에 따라 더욱 향상될 것으로 예상하고 있습니다. AI, 특히 LLM이 복잡한 보안 취약점을 식별하고 악용하는 데 있어 인간 전문가를 능가하는 능력을 보여주며 사이버 보안 분야의 패러다임 변화를 예고합니다. 출처는 Reddit r/artificial입니다.
+Caliber는 AI 코딩 에이전트(Claude Code, Cursor, OpenAI Codex 등)가 사용하는 컨텍스트 파일을 코드베이스에서 자동으로 생성하고 관리하는 오픈소스 CLI 도구입니다. 이 도구는 코드베이스를 스캔하여 스택, 명명 규칙, 아키텍처를 파악하고, 프로젝트에 최적화된 컨텍스트 파일을 자동으로 작성합니다. Git hooks를 통해 코드베이스 변경 시 컨텍스트 파일을 자동으로 업데이트하여 항상 최신 상태를 유지합니다. AI 코딩 에이전트의 성능은 제공되는 컨텍스트의 품질에 크게 좌우되는데, Caliber는 이 컨텍스트 작성 및 유지보수의 어려움을 해결하여 AI 개발 생산성을 향상시킵니다. 출처는 Reddit r/artificial입니다.
 
-### [Anthropic의 Claude, 이제 Mac에서 사용자가 자리를 비워도 백그라운드에서 작업 지속 가능](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CM0dZcm9VT2U0Y0FYemhfNEh5bC04SkNEU01HRWJzUF9pQU93dkZBVURxbV95S2NwUkZpc1FOUV8yN3VpR0tVdXVFeE5Va1V3dHAxRlJab2VsUWRY?oc=5)
+### [IAB, Agentic AI를 활용한 AI 기반 비디오 성과에 대한 새로운 가이드라인 발표](https://news.google.com/rss/articles/CBMid0FVX3lxTE8xclQ0NzFnbmdINzVVY1dwYUNhX2ZfWmY5dzhpM3MyZUJ2MFlHUHkyQnlIM0dTTjAxdVJ1WjNrQXJKM2tlTnVNWHhPdFFaNHVaQ1FTNlF4MmphUVpqVGpYZDJUMzhwWlo2cERVdVF1Sk8zWnh6Vmd3?oc=5)
 
-Anthropic의 AI 챗봇 Claude가 Mac에서 사용자가 자리를 비운 동안에도 작업을 계속할 수 있게 업데이트되었습니다. 이 기능은 사용자가 다른 작업을 하거나 잠시 자리를 비웠을 때도 Claude가 주어진 작업을 완료하도록 합니다. 이는 생산성 향상에 기여하며, 복잡하거나 시간이 오래 걸리는 작업에 특히 유용합니다. AI 챗봇의 백그라운드 작업 지원은 사용자 편의성과 AI 활용도를 크게 높이는 중요한 발전입니다. 출처는 Google News AI Search입니다.
+IAB는 Agentic AI를 활용하여 비디오 광고의 성과를 최적화하는 새로운 접근 방식을 제시했습니다. (영문 용어: AI-Powered). 이 가이드라인은 AI가 광고 캠페인에서 더욱 능동적인 역할을 수행하도록 돕는 방법을 다룹니다. Agentic AI는 광고 목표 달성을 위해 스스로 판단하고 행동하는 AI 시스템을 의미합니다. AI 기술이 광고 산업 전반에 걸쳐 더욱 심층적으로 통합되고 있으며, 특히 비디오 광고 분야에서 그 영향력이 커지고 있습니다. 출처는 Google News AI Search입니다.
 
-### [Arm이 에이전트 AI 클라우드 시대를 위한 AGI CPU를 발표하며 AI 인프라 시장에 새로운 지평을 열었습니다.](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZZ0dXNEhjUjJYMVVDd2l3U1J6bUdRSmxubjBLcUpoM1lHYk8xU3FzSkN3dEZzSWVMM3dUb2Z3Nm9XZFNsNzF4aGc3WWZOLVhiRlBDcktqVmJEVzJDVkV0M2JyOA?oc=5)
+### [AI 에이전트의 사고 사례, 공격 벡터, 실패 모드 및 방어 도구를 정리한 GitHub 리스트가 공개되었습니다.](https://www.reddit.com/r/MachineLearning/comments/1s836un/d_awesome_ai_agent_incidents_a_curated_list_of)
 
-Arm은 에이전트 AI 클라우드 시대를 위한 새로운 CPU인 Arm AGI CPU를 공개했습니다. 이 CPU는 AI 워크로드에 최적화된 실리콘 기반을 제공하여 차세대 AI 애플리케이션을 지원합니다. Arm은 AGI CPU를 통해 AI 인프라 시장에서의 입지를 강화하고 있습니다. AI 기술 발전과 함께 에이전트 AI의 중요성이 부각되면서, 이를 효율적으로 처리할 수 있는 하드웨어의 필요성이 커지고 있습니다. 출처는 Google News AI Search입니다.
+'Awesome AI Agent Incidents'라는 이름의 GitHub 리포지토리가 AI 에이전트 관련 사고 사례를 큐레이션하여 제공합니다. 이 리스트는 AI 에이전트의 다양한 공격 벡터와 실패 모드를 포함하고 있습니다. 자율 AI 에이전트의 방어 도구에 대한 정보도 함께 제공됩니다. AI 에이전트의 활용이 증가함에 따라 발생할 수 있는 잠재적 위험과 취약점에 대한 인식을 높이는 데 기여합니다. 출처는 Reddit r/MachineLearning입니다.
 
-### [Python 버그 해결 과정에서 Claude Opus가 다른 LLM보다 뛰어난 문제 해결 능력을 보였습니다.](https://www.reddit.com/r/LocalLLaMA/comments/1s78bxj/i_had_a_persistent_python_bug_that_i_turned_into)
+### [프러시아 장군의 장교 유형론을 통해 AI 오정렬(Misalignment) 문제를 분석하는 새로운 관점이 제시되었습니다.](https://www.reddit.com/r/artificial/comments/1s84kuj/von_hammersteins_ghost_what_a_prussian_generals)
 
-Reddit 사용자가 Python 버그를 해결하는 과정에서 여러 LLM의 성능을 비교하는 벤치마크를 진행했습니다. Claude Opus는 다른 LLM들이 실패한 버그 수정 및 코드 개선 제안에서 가장 정확하고 유용한 답변을 제공했습니다. 다른 LLM들은 버그를 제대로 진단하지 못하거나, 잘못된 해결책을 제시하는 경우가 많았습니다. 이번 사례는 LLM의 단순한 정보 검색이나 코드 생성 능력을 넘어선 복합적인 문제 해결 및 추론 능력이 실제 개발 환경에서 얼마나 중요한지 강조합니다. 출처는 Reddit r/LocalLLaMA입니다.
+Reddit 사용자가 Anthropic 연구팀의 AI 모델 오정렬 행동 일반화 논문을 접하고, 바이마르 공화국 시절의 군사 조직 재편 문제와 유사성을 발견했습니다. 폰 함머슈타인(Von Hammerstein) 장군의 장교 유형론을 AI의 오정렬 문제에 적용하여 분석하는 아이디어를 제시했습니다. AI 연구자가 아닌 개인이 군사 역사 및 시스템 설계 지식을 바탕으로 AI 오정렬에 대한 독창적인 접근법을 제안했습니다. AI의 안전성 및 오정렬 문제는 중요한 연구 분야이며, 다양한 학문 분야의 관점을 통해 해결책을 모색하는 시도가 늘고 있습니다. 출처는 Reddit r/artificial입니다.
 
-### [Agent 시스템에서 실제 실행을 막는 메커니즘에 대한 논의가 활발합니다.](https://www.reddit.com/r/artificial/comments/1s76o5b/what_actually_prevents_execution_in_agent_systems)
+### [NVIDIA GTC에서 World Model이 AI의 차세대 핵심 기술로 부상하며 LLM의 한계를 넘어설 것으로 전망됩니다.](https://www.reddit.com/r/artificial/comments/1s828dj/world_models_will_be_the_next_big_thing_byebye)
 
-API 호출을 트리거하는 Agent를 구축하는 과정에서, 검증, 도구 제약, 재시도 등 안전장치에도 불구하고 오래된 상태(stale state)와 재시도(retry)로 인해 동일한 작업이 두 번 실행되는 문제가 발생했습니다. 이는 기존의 안전장치들이 실행 자체를 막기보다는 Agent의 행동을 형성하는 데 그쳤음을 시사합니다. 사용자들은 Agent 외부의 시스템, 결정론적 허용/거부, 거부 시 fail-closed 방식 등 실제 실행을 제어할 수 있는 구체적인 패턴이나 시스템에 대한 궁금증을 표하고 있습니다. Agent 시스템의 안정성과 신뢰성 확보를 위해 단순한 행동 제어를 넘어 실제 실행을 막는 강력한 메커니즘의 필요성이 부각되고 있습니다. 출처는 Reddit r/artificial입니다.
+NVIDIA GTC 컨퍼런스에서 World Model이 AI 연구 커뮤니티의 주요 화두로 떠올랐습니다. (영문 용어: bye-bye). World Model은 단순히 다음 토큰을 예측하는 것을 넘어, 세상이 작동하는 방식을 내부적으로 표현하고 환경을 시뮬레이션하며 인과 관계를 추론할 수 있는 AI 시스템입니다. Jensen Huang은 GTC에서 AI의 다음 개척지는 현실을 이해하고 시뮬레이션할 수 있는 World Model이라고 강조했습니다. World Model은 LLM의 텍스트 패턴 매칭 한계를 넘어 현실 세계를 이해하고 시뮬레이션하는 능력을 제공하여 AI 발전의 새로운 패러다임을 제시합니다. 출처는 Reddit r/artificial입니다.
 
-### [Python으로 구현된 TurboQuant, 캘리브레이션 없이 효율적인 온라인 벡터 양자화 가능성을 제시하다](https://www.reddit.com/r/MachineLearning/comments/1s73sbf/p_implemented_turboquant_in_python)
+### [캘리포니아 주지사 뉴섬, AI 보호 및 책임 있는 사용 강화를 위한 행정 명령 서명](https://news.google.com/rss/articles/CBMigAJBVV95cUxNWUdqM2NTdE1BcENPWnNXTzJzcjVjOTJwc25fbVg3NEZOaTZKSTZubngwYWNLMDUzeS0tUDh3eVVrMnlIMHpPM3Naa2dWTUJkbUQ2LVp5Zm9fanNDMHBoVUx5YU12NDdnZDlCZG1aNHk1V0hQcmhDUERnc3Vkd2ZFV0w3eUVyVXlVTWlNMEFFVkR0RWhreTZMMnpDSHgwU0U1VmxlcFhhRHpTNjA1OVV0ak92ZWExb1kzeDV3RjJQc3Uxc3NXTHRMOVZuRHlfMnhNMDd6eXBNRnRXUzhUNndVVm4ydUd3c1hfaFIwZl9mX3dDMzBPQ0pHanpta1o4U0xG?oc=5)
 
-"TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate" 논문을 바탕으로 한 Python 구현체가 공개되었습니다. 이 구현체는 기존 양자화 방식과 달리 캘리브레이션 데이터나 데이터셋별 튜닝 없이 작동하며, 모든 곳에 동일한 양자화기를 적용할 수 있습니다. 핵심 아이디어는 벡터에 무작위 회전을 적용하여 좌표를 가우시안처럼 만들고, 각 차원별로 최적의 1D 양자화를 수행하는 것입니다. TurboQuant는 토큰이 스트리밍되는 Transformer의 KV cache나 독립적으로 벡터를 압축하는 벡터 DB/임베딩과 같이 온라인 처리가 필요한 분야에서 전처리 단계 없이 효율적인 양자화를 가능하게 하여 활용도가 높습니다. 출처는 Reddit r/MachineLearning입니다.
+캘리포니아 주지사 개빈 뉴섬이 AI 보호 및 책임 있는 사용을 강화하는 행정 명령을 발표했습니다. (영문 용어: first-of-its-kind, CA.gov). 이 행정 명령은 미국 내에서 AI 보호를 위한 최초의 주 차원 조치입니다. 트럼프 행정부가 AI 관련 보호 조치를 완화하는 움직임에 대응하여 이루어졌습니다. 이번 조치는 연방 정부의 AI 규제 공백 속에서 주 정부가 선제적으로 AI의 윤리적이고 안전한 사용을 위한 기준을 마련하려는 시도로 볼 수 있습니다. 출처는 Google News AI Search입니다.
 
-### [AI 모델의 유해 데이터 사전 제거를 통한 정렬 및 제어 가능성 연구의 필요성 제기](https://www.reddit.com/r/MachineLearning/comments/1s73jb1/d_data_curation_and_targeted_replacement_as_a)
+### [ML 파이프라인에 Unix 철학을 적용하여 모듈화된 교체 가능한 스테이지를 구현하는 오픈소스 프로토타입이 공개되었습니다.](https://www.reddit.com/r/MachineLearning/comments/1s7v4j4/p_unix_philosophy_for_ml_pipelines_modular)
 
-Reddit r/MachineLearning에서 AI 모델 학습 전 유해 데이터(폭력, 거짓, 기만 등)를 제거하거나 대체하는 방법에 대한 논의가 시작되었습니다. (영문 용어: pre-training). 기존의 controllability 연구(RLHF, Constitutional AI 등)는 주로 학습 후(post-training)에 이루어졌습니다. 제안된 방법은 Mo Gawdat의 'AI를 아이처럼 키우기' 제안을 문자 그대로 적용하여, 유해한 자료로 모델을 학습시키지 않는 것입니다. AI 모델의 안전성과 윤리적 사용에 대한 중요성이 커지면서, 학습 데이터 단계부터 유해성을 제어하려는 'pre-training alignment' 접근 방식에 대한 관심이 증가하고 있습니다. 출처는 Reddit r/MachineLearning입니다.
+오픈소스 프로토타입은 PII redaction, chunking, dedup, embeddings, eval 등 각 스테이지를 독립적인 플러그인으로 구성했습니다. 각 스테이지는 Unix 도구 간의 파이프처럼 typed contract를 가지며, 이를 통해 스테이지 간의 명확한 인터페이스를 제공합니다. `Feature("docs__pii_redacted__chunked__deduped__embedded__evaluated", ...)`와 같이 `__`를 스테이지 경계로 사용하여 각 부분을 쉽게 교체할 수 있습니다. 기존 ML 파이프라인에서 특정 컴포넌트 변경 시 전체 시스템에 미치는 영향을 파악하기 어려웠던 문제를 해결하여, 개별 스테이지의 성능 변화를 직접 비교할 수 있게 합니다. 출처는 Reddit r/MachineLearning입니다.
 
-### [AI 신약 개발사 Insilico Medicine, Lilly와 최대 27.5억 달러 규모의 상업화 계약 체결](https://news.google.com/rss/articles/CBMinAFBVV95cUxPYmNMZno2a2N4NmlSLVMyVDBrUGhzV25EVUVsUVVabGxRWlI3R0gwVjE2dXA2VVdJbmZhcFI3MkZpWE1NSWRpdFh2VUdQakdid3JyOFBuTV9WYjVrTTBHM2wxdE00ZFlBVEJZaFVTVU91VXFHVmVGV3l3cmhXb0JtRDVyelpub3lCd0kwYVg3LXNzdTl6YmgzdnVmeTI?oc=5)
+### [마이크로소프트, AI 기능 업그레이드 및 Copilot Cowork를 얼리 액세스 고객에게 출시](https://news.google.com/rss/articles/CBMivwFBVV95cUxOOXI4dFM4bkM2N0RZYVVOM1dQeEl0YmVRZjVWMHk2YWpQT3BPbkFhQzNqT0dZNWdxdzFza1dKdG1rUmROajVjWEtWUlQxeDR0cWFwcDlZSHBPbVBHcm9TdEhBbG4zTmZIT1lJajJsVFFkN3hKTEh3cDRTSDlsaHZYY3RCQTFOXzMzaVN1WFNqQnBQMGVmbVRyTERLbkp5Y2RFZmNNU3FHZ2JrRng2dmFuSU9DMzJsdlZzVWJRZDZTRQ?oc=5)
 
-AI 기반 신약 개발 기업 Insilico Medicine이 제약 대기업 Eli Lilly와 최대 27.5억 달러 규모의 상업화 계약을 맺었습니다. (영문 용어: statnews.com). 이번 계약은 Insilico Medicine이 발굴한 잠재적 신약 후보 물질에 대한 권리를 Lilly에 부여하는 내용입니다. Insilico Medicine은 계약금과 마일스톤 지급액을 통해 수익을 얻게 됩니다. 이번 계약은 AI 기반 신약 개발의 상업적 가치와 잠재력을 입증하는 중요한 사례입니다. 출처는 Google News AI Search입니다.
+마이크로소프트는 AI 기능을 업그레이드하고 Copilot Cowork를 얼리 액세스 고객에게 제공하기 시작했습니다. (영문 용어: early-access, reuters.com). 이번 업데이트는 AI 기반의 협업 도구인 Copilot의 기능을 확장하여 업무 생산성을 향상시키는 데 중점을 둡니다. 기업들이 AI를 활용하여 업무 효율성을 극대화하려는 트렌드에 맞춰, 마이크로소프트는 Copilot을 통해 AI 기반 협업 솔루션 시장에서의 리더십을 강화하고 있습니다. 출처는 Google News AI Search입니다.
 
-### [Llama.cpp 및 로컬 LLM 관리를 돕는 앱 개발 중, 사용자 피드백 요청](https://www.reddit.com/r/LocalLLaMA/comments/1s783dm/are_you_interested_in_trying_out_an_app_that)
+### [GPU-native radiomics 라이브러리 fastrad가 PyRadiomics 대비 최대 25배 빠른 속도를 제공하며, 모든 IBSI feature class를 지원합니다.](https://www.reddit.com/r/MachineLearning/comments/1s82qdb/p_fastrad_gpunative_radiomics_library_25_faster)
 
-한 개발자가 Llama.cpp 설치 및 로컬 모델 관리를 용이하게 하는 앱을 개발 중이며, 사용자 피드백을 구하고 있습니다. 이 앱은 모델 다운로드, 테스트, 다른 앱을 위한 모델 서빙 기능을 제공합니다. 현재 Windows에서 사용 가능하며, 필요시 Linux 또는 Mac 빌드도 제공할 예정인 휴대용(portable) 앱입니다. 로컬 LLM 사용이 증가함에 따라, Llama.cpp와 같은 도구의 복잡성을 줄이고 사용자 편의성을 높이는 솔루션에 대한 수요가 커지고 있습니다. 출처는 Reddit r/LocalLLaMA입니다.
+fastrad는 PyTorch-native 라이브러리로, 기존 radiomics feature extraction의 de facto 표준인 PyRadiomics의 CPU-only 한계를 극복했습니다. (영문 용어: IBSI-compliant). fastrad는 모든 8가지 IBSI feature class(first-order, shape 2D/3D, GLCM, GLRLM, GLSZM, GLDM, NGTDM)를 native tensor operation으로 구현했습니다. RTX 4070 Ti에서 PyRadiomics 대비 End-to-end 처리 속도가 0.116초 대 2.90초로 25배 빨라졌으며, 단일 클래스에서는 최대 49.3배의 속도 향상을 보였습니다. 의료 영상 분석에서 radiomics feature extraction의 속도 병목 현상을 해결하여, 대규모 데이터셋 처리 및 실시간 분석의 가능성을 크게 확장합니다. 출처는 Reddit r/MachineLearning입니다.
 
-### [VAE 재구성 정확도 향상을 위한 픽셀 시프트 활용 연구에 대한 문의](https://www.reddit.com/r/MachineLearning/comments/1s787p0/d_prior_work_using_pixel_shift_to_improve_vae)
+### [AI 안전 현황을 네 가지 가상 그래프로 분석한 Reddit 게시물](https://www.reddit.com/r/artificial/comments/1s7xlir/the_state_of_ai_safety_in_four_fake_graphs)
 
-사용자는 현재 &quot;f8ch32&quot; VAE를 훈련 중이며, 재구성 충실도(reconstruction fidelity) 개선에 어려움을 겪고 있습니다. 기존 LPIPS 및 GAN 기반 방법들이 과도한 스무딩이나 이미지 조작 문제를 일으킨다고 지적합니다. 사용자는 훈련 이미지 세트에 픽셀 시프트(pixel shift)를 적용하여 정확도를 높이는 방법을 시도하고 있으며, 초기 성공을 거두고 있습니다. VAE의 재구성 충실도 개선은 생성 모델의 실제 적용 가능성을 높이는 중요한 연구 분야입니다. 출처는 Reddit r/MachineLearning입니다.
-
-### [과학 글쓰기에서 AI 활용 시 저작권과 보조 역할의 균형이 중요해지고 있습니다.](https://news.google.com/rss/articles/CBMimgFBVV95cUxPMjV3MEIzU2p6VnBCdndSN2xPU3lXTWxVX1VlRERJWkxiR0VILW84N2h4Tkl1WmpRaVZ5NU5rMU1udmQ4dlhZYm5JWTFPWkxYODVvMzJiZGxwME9DeE5WX2pMM2MyVEVmcHVfckFjclJwZzBFbXFEQXRXZVpobThzTV9tNXpQSjcwYkF1WnQxVGNXSUJyTHhjVFh3?oc=5)
-
-AI는 과학 글쓰기 과정에서 초안 작성, 문법 및 스타일 교정, 데이터 분석 요약 등 다양한 보조 역할을 수행할 수 있습니다. (영문 용어: KevinMD.com). AI의 도움을 받아도 최종 저작권은 인간 저자에게 있으며, AI가 생성한 내용에 대한 책임도 저자에게 있습니다. AI 사용 시 투명성을 확보하고, AI가 생성한 내용의 정확성과 신뢰성을 검증하는 과정이 필수적입니다. 과학 연구 및 출판 분야에서 AI 도구의 활용이 증가하면서, AI의 역할과 인간 저자의 책임 범위에 대한 명확한 가이드라인과 윤리적 논의가 중요해지고 있습니다. 출처는 Google News AI Search입니다.
-
-### [Meta의 뇌 반응 예측 모델이 실제 콘텐츠에서 높은 정확도를 보이며 잠재적 활용 가능성을 입증했습니다.](https://www.reddit.com/r/MachineLearning/comments/1s6ylp1/p_i_tested_metas_brainresponse_model_on_posts_it)
-
-한 Reddit 사용자가 Meta의 오픈소스 뇌 반응 모델을 활용하여 실험적인 UI와 시각화 도구를 구축했습니다. (영문 용어: brain-response). 이 모델은 실제 콘텐츠(텍스트)만으로 게시물의 뇌 반응 패턴을 예측하며, 좋아요나 공유 같은 실제 인기도 데이터 없이도 Elon Musk 관련 게시물이 바이럴 콘텐츠와 유사하다고 거의 완벽하게 예측했습니다. 동일한 주제라도 'UFO'와 '천체물리학'처럼 다른 방식으로 표현된 콘텐츠에 대해 모델이 완전히 다른 예측 반응 패턴을 보였습니다. 이 모델은 콘텐츠의 잠재적 영향력을 사전에 예측하고 최적화하는 데 활용될 수 있어, 마케팅, 콘텐츠 제작 등 다양한 분야에 혁신적인 변화를 가져올 수 있습니다. 출처는 Reddit r/MachineLearning입니다.
+Reddit r/artificial에 게시된 AI 안전에 대한 분석 자료입니다. AI 안전의 현재 상태를 네 가지 가상의 그래프를 통해 시각적으로 제시합니다. 사용자 tekz가 제출한 링크와 댓글을 포함하고 있습니다. AI 안전에 대한 대중의 관심과 논의가 활발함을 보여줍니다. 출처는 Reddit r/artificial입니다.
 
 ## 오늘의 논문
 
 Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문들을 짧게 읽을 수 있게 정리했습니다.
 
-### 1. [PixelSmile: Toward Fine-Grained Facial Expression Editing](https://huggingface.co/papers/2603.25728)
+### 1. [Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models](https://huggingface.co/papers/2603.25716)
 
-PixelSmile은 대칭적 공동 학습과 대조 학습을 통해 얼굴 표정 의미를 분리하여 정밀하고 제어 가능한 미세한 표정 편집을 가능하게 하는 diffusion 프레임워크를 제안합니다. (영문 용어: Fine-Grained). 기존의 미세한 얼굴 표정 편집은 의미론적 중첩으로 인해 한계가 있었습니다. 이 연구는 이러한 문제를 해결하기 위해 연속적인 감정 주석이 있는 Flex Facial Expression (FFE) 데이터셋을 구축하고, FFE-Bench를 통해 편집 정확도와 신원 보존 간의 균형을 평가합니다. PixelSmile은 완전히 대칭적인 공동 학습과 강도 감독, 대조 학습을 결합하여 표정 의미를 분리하고, 텍스트 잠재 공간 보간을 통해 정밀하고 안정적인 선형 표정 제어를 달성합니다. 이를 통해 PixelSmile은 우수한 분리 능력과 강력한 신원 보존을 보여주며, 연속적이고 제어 가능한 미세한 표정 편집에 효과적임을 입증합니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+Hybrid Memory는 동적 비디오 월드 모델이 움직이는 객체에 대한 능동적인 추적과 정적 배경을 위한 아카이브 저장을 결합하여, 가려진 동안에도 동적 주체를 일관되게 추적할 수 있도록 합니다. 기존 비디오 월드 모델은 환경을 정적인 것으로 간주하여, 동적 객체가 시야에서 사라졌다가 다시 나타날 때 추적에 어려움을 겪었습니다. 이 문제를 해결하기 위해 Hybrid Memory는 정적 배경을 위한 아카이브 저장과 동적 주체를 위한 능동적 추적을 동시에 수행하는 새로운 패러다임을 제안합니다. 이를 위해 토큰화된 메모리와 시공간적 검색 메커니즘을 활용하는 HyDRA 아키텍처를 도입했습니다. HM-World 데이터셋을 통해 실험한 결과, 이 방법은 동적 주체 일관성과 전반적인 생성 품질에서 최신 기술보다 뛰어난 성능을 보였습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 2. [Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale](https://huggingface.co/papers/2603.25040)
+### 2. [ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling](https://huggingface.co/papers/2603.25746)
 
-Intern-S1-Pro는 1조 개의 파라미터를 가진 과학 멀티모달 파운데이션 모델로, 일반 및 과학 분야의 에이전트 기능과 100개 이상의 전문 과학 태스크를 마스터하여 성능을 향상시켰습니다. 이 연구는 일반 및 과학적 역량을 강화하기 위해 Intern-S1-Pro라는 1조 파라미터 규모의 과학 멀티모달 파운데이션 모델을 소개합니다. 이 모델은 XTuner 및 LMDeploy의 인프라 지원을 통해 1조 파라미터 수준의 효율적인 RL 학습을 가능하게 합니다. 이를 통해 모델은 일반적인 추론 및 이미지-텍스트 이해 능력을 넘어 고급 에이전트 기능을 갖추고, 화학, 재료, 생명 과학, 지구 과학 등 100개 이상의 전문 과학 태스크를 마스터합니다. 결과적으로 Intern-S1-Pro는 오픈 소스 모델 중 일반 능력에서 최고 수준을 유지하면서 전문 과학 태스크에서는 독점 모델을 능가하는 성능을 보여줍니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+ShotStream은 인과적 아키텍처 설계, 듀얼 캐시 메모리 메커니즘, 그리고 2단계 증류를 통해 실시간 대화형 다중 샷 비디오 생성을 가능하게 합니다. (영문 용어: Multi-Shot). 기존의 양방향 아키텍처는 대화형 스토리텔링에 필수적인 다중 샷 비디오 생성에서 높은 지연 시간과 제한된 상호작용성을 가졌습니다. ShotStream은 이 문제를 해결하기 위해 다음 샷 생성을 이전 컨텍스트에 조건화하는 새로운 인과적 다중 샷 아키텍처를 제안합니다. 이는 전역 및 로컬 컨텍스트 캐시를 활용하는 듀얼 캐시 메모리 메커니즘과 오류 누적을 완화하는 2단계 증류 전략을 통해 시각적 일관성을 유지하고 효율적인 실시간 프레임 생성을 가능하게 합니다. 결과적으로 사용자는 스트리밍 프롬프트를 통해 진행 중인 내러티브를 동적으로 지시할 수 있습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 3. [Calibri: Enhancing Diffusion Transformers via Parameter-Efficient Calibration](https://huggingface.co/papers/2603.24800)
+### 3. [PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference](https://huggingface.co/papers/2603.25730)
 
-Calibri는 단일 학습 스케일링 파라미터를 사용하여 Diffusion Transformers(DiTs)의 생성 품질을 향상시키고 추론 단계를 줄이는 파라미터 효율적인 캘리브레이션 접근 방식입니다. (영문 용어: Parameter-Efficient). 이 연구는 Diffusion Transformers(DiTs)의 잠재력을 최대한 활용하여 생성 작업을 개선하는 데 중점을 둡니다. DiT 블록의 디노이징 프로세스 분석을 통해 단일 학습 스케일링 파라미터 도입이 성능을 크게 향상시킬 수 있음을 발견했습니다. 이를 바탕으로 Calibri는 DiT 구성 요소를 최적으로 보정하여 생성 품질을 높이는 파라미터 효율적인 접근 방식을 제안합니다. Calibri는 캘리브레이션을 진화 알고리즘으로 효율적으로 해결되는 블랙박스 보상 최적화 문제로 정의하며, 약 100개의 파라미터만 수정하여 다양한 text-to-image 모델에서 성능을 일관되게 향상시키고 추론 단계를 줄입니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+PackForcing은 계층적 KV-cache 관리와 시공간 압축을 통해 짧은 비디오 훈련만으로도 긴 비디오를 효율적으로 생성할 수 있게 합니다. 기존 Autoregressive 비디오 확산 모델은 긴 비디오 생성 시 KV-cache의 선형적 증가, 시간적 반복, 오류 누적 등의 문제로 인해 효율성이 저해되었습니다. PackForcing은 이러한 문제를 해결하기 위해 기록 컨텍스트를 Sink, Mid, Recent 세 가지 유형으로 나누어 관리하는 새로운 KV-cache 전략을 제안합니다. 이 방법은 초기 앵커 프레임을 보존하고, 중간 컨텍스트를 시공간적으로 압축하며, 최근 토큰은 전체 해상도로 유지하여 시간적 일관성을 확보합니다. 결과적으로 PackForcing은 단일 H200 GPU에서 2분 길이의 832x480 비디오를 16 FPS로 일관성 있게 생성하며, 4GB의 KV 캐시만으로 24배의 시간적 외삽을 가능하게 합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 4. [RealRestorer: Towards Generalizable Real-World Image Restoration with Large-Scale Image Editing Models](https://huggingface.co/papers/2603.25502)
+### 4. [Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills](https://huggingface.co/papers/2603.25158)
 
-RealRestorer는 대규모 이미지 편집 모델을 활용하여 다양한 실제 환경 이미지 손상 복원 성능을 향상시키기 위한 대규모 데이터셋과 오픈소스 모델을 개발했습니다. (영문 용어: Real-World, Large-Scale). 기존 이미지 복원 모델은 훈련 데이터의 규모와 분포 한계로 인해 실제 환경 손상에 대한 일반화 능력이 부족했습니다. 이 연구는 9가지 일반적인 실제 손상 유형을 포함하는 대규모 데이터셋을 구축하고, 이를 기반으로 최첨단 오픈소스 모델을 훈련하여 폐쇄형 모델과의 성능 격차를 줄였습니다. 또한, 손상 제거 및 일관성 유지에 초점을 맞춘 RealIR-Bench라는 벤치마크를 도입하여 실제 환경 손상 복원 성능을 평가했습니다. 실험 결과, RealRestorer는 오픈소스 방법 중 최고 성능을 달성했습니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+Trace2Skill은 LLM 에이전트의 확장 가능한 스킬 생성을 위해 다양한 실행 궤적을 병렬로 분석하고 이를 전이 가능한 선언적 스킬로 통합하는 프레임워크입니다. (영문 용어: Trajectory-Local). 기존 LLM 에이전트의 스킬 생성 방식은 수동 작성의 확장성 문제나 자동 생성의 취약성 문제를 겪었습니다. Trace2Skill은 인간 전문가가 스킬을 작성하는 방식처럼, 다양한 실행 경험을 전체적으로 분석하여 포괄적인 가이드로 증류합니다. 이 프레임워크는 병렬 서브 에이전트를 통해 궤적별 교훈을 추출하고 귀납적 추론을 통해 통합된 스킬 디렉토리로 만듭니다. 이를 통해 기존 스킬을 심화하거나 새로운 스킬을 생성할 수 있으며, spreadsheet, VisionQA, math reasoning과 같은 복잡한 도메인에서 강력한 성능 향상을 보였습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 5. [Voxtral TTS](https://huggingface.co/papers/2603.25551)
+### 5. [MedOpenClaw: Auditable Medical Imaging Agents Reasoning over Uncurated Full Studies](https://huggingface.co/papers/2603.24649)
 
-Voxtral TTS는 의미론적 토큰 생성과 acoustic 토큰에 대한 flow-matching을 결합한 하이브리드 아키텍처를 사용하여 짧은 참조 오디오로부터 자연스러운 다국어 음성을 생성하는 Text-to-Speech 모델입니다. Voxtral TTS는 3초 정도의 짧은 참조 오디오만으로도 자연스러운 다국어 음성을 생성하는 표현력 있는 Text-to-Speech 모델입니다. 이 모델은 semantic speech 토큰의 auto-regressive 생성과 acoustic 토큰에 대한 flow-matching을 결합한 하이브리드 아키텍처를 채택합니다. Voxtral Codec이라는 새로운 speech tokenizer를 사용하여 토큰을 인코딩 및 디코딩하며, 이 tokenizer는 VQ-FSQ 양자화 방식을 사용합니다. 사람 평가에서 Voxtral TTS는 ElevenLabs Flash v2.5 대비 68.4%의 선호도를 보이며 다국어 음성 복제에서 자연스러움과 표현력으로 우수함을 입증했습니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+MedOpenClaw는 VLM이 표준 의료 뷰어 내에서 동적으로 작동하도록 설계된 감사 가능한 런타임으로, 실제 임상 진단 환경에서 3D 의료 볼륨을 탐색하는 능력을 평가합니다. 기존 의료 영상 VLM 평가는 수동으로 선별된 2D 이미지에 의존하여 실제 임상 진단의 핵심 과제인 3D 볼륨 탐색 능력을 간과했습니다. 이를 해결하기 위해 MedOpenClaw는 VLM이 3D Slicer와 같은 표준 의료 도구 내에서 동적으로 작동하도록 하는 감사 가능한 런타임을 제안합니다. 또한, MedFlowBench는 다중 시퀀스 뇌 MRI 및 폐 CT/PET를 포함하는 전체 연구 의료 영상 벤치마크를 도입하여 VLM의 에이전트 역량을 평가합니다. 초기 결과에 따르면 최신 LLM/VLM은 기본 연구 수준 작업을 해결할 수 있지만, 정밀한 공간 기반 추론 능력 부족으로 인해 전문 지원 도구에 접근할 때 성능이 저하되는 것으로 나타났습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 6. [MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens](https://huggingface.co/papers/2603.23516)
+### 6. [RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation](https://huggingface.co/papers/2603.25804)
 
-MSA(Memory Sparse Attention)는 sparse attention과 document-wise RoPE를 통해 LLM이 최대 1억 토큰의 장문 컨텍스트를 선형 복잡도로 효율적으로 처리할 수 있도록 합니다. (영문 용어: End-to-End). 기존 LLM은 full-attention 아키텍처의 제약으로 인해 컨텍스트 길이가 1M 토큰으로 제한되며, 이를 확장하려는 시도는 정확도 저하나 지연 시간 증가 등의 문제를 겪었습니다. 이 연구는 Memory Sparse Attention(MSA)이라는 새로운 프레임워크를 제안하여 이러한 한계를 극복합니다. MSA는 scalable sparse attention과 document-wise RoPE를 핵심 혁신으로 사용하여 학습 및 추론에서 선형 복잡도를 달성하며, 16K에서 100M 토큰으로 확장 시에도 9% 미만의 정확도 저하를 보입니다. 또한, KV cache compression과 Memory Parallel을 통해 2xA800 GPU에서 100M 토큰 추론이 가능하며, Memory Interleaving을 통해 복잡한 multi-hop 추론을 지원합니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+RealChart2Code 벤치마크는 실제 데이터를 기반으로 하는 복잡한 멀티 패널 차트 생성 및 대화형 코드 개선 능력을 평가하여 VLM의 한계를 밝힙니다. (영문 용어: Chart-to-Code, Multi-Task). 기존 Vision-Language Models(VLM)는 실제 데이터로부터 복잡한 멀티 패널 차트를 생성하는 능력이 제대로 평가되지 않았습니다. 이 연구는 2,800개 이상의 실제 데이터 기반 인스턴스를 포함하는 새로운 대규모 벤치마크인 RealChart2Code를 소개합니다. RealChart2Code는 대규모 원시 데이터로부터 차트 생성 및 다중 턴 대화 설정에서 반복적인 코드 개선을 체계적으로 평가하는 최초의 벤치마크입니다. 14개 VLM에 대한 종합적인 평가 결과, 복잡한 플롯 구조와 실제 데이터 처리에서 VLM의 성능 저하와 독점 모델과 오픈 소스 모델 간의 상당한 성능 격차를 확인했습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 7. [MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data](https://huggingface.co/papers/2603.25319)
+### 7. [LongTail Driving Scenarios with Reasoning Traces: The KITScenes LongTail Dataset](https://huggingface.co/papers/2603.23607)
 
-MACRO는 다중 참조 이미지 생성의 한계를 극복하기 위해 구조화된 장문 컨텍스트 데이터와 표준화된 평가 프로토콜을 제공하는 대규모 데이터셋과 벤치마크를 소개합니다. (영문 용어: Multi-Reference, Long-Context). 기존 다중 참조 이미지 생성 모델들은 입력 참조의 수가 증가함에 따라 성능 저하를 겪는데, 이는 단일 또는 소수 참조 쌍 위주의 데이터셋과 참조 간의 밀접한 의존성을 학습하는 데 필요한 구조화된 장문 컨텍스트 감독의 부족 때문입니다. 이 문제를 해결하기 위해, 최대 10개의 참조 이미지를 포함하는 40만 개의 샘플로 구성된 대규모 데이터셋인 MacroData를 제안합니다. 또한, 생성적 일관성을 평가하기 위한 4천 개의 샘플로 구성된 표준화된 벤치마크인 MacroBench를 함께 제시합니다. MacroData로 파인튜닝한 결과 다중 참조 생성에서 상당한 개선을 보였으며, 교차 태스크 공동 훈련과 장문 컨텍스트 복잡성 처리 전략의 시너지 효과가 확인되었습니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+KITScenes LongTail 데이터셋은 자율주행의 Long-Tail 시나리오에 대한 Few-Shot 일반화 및 멀티모달 모델의 Instruction-Following 능력을 향상시키기 위해 다중 뷰 비디오, 궤적, 다국어 추론 흔적을 제공합니다. 자율주행과 같은 실제 환경에서 드문 시나리오에 대한 일반화는 여전히 근본적인 문제입니다. 이 연구는 이러한 문제를 해결하기 위해 Long-Tail 주행 이벤트를 중심으로 설계된 새로운 데이터셋인 KITScenes LongTail을 소개합니다. 이 데이터셋은 다중 뷰 비디오 데이터, 궤적, 높은 수준의 지침 및 상세한 추론 흔적을 제공하여 In-Context Learning 및 Few-Shot 일반화를 용이하게 합니다. 이를 통해 모델의 출력과 계획된 궤적 간의 의미론적 일관성을 측정하고, 안전, 편안함, 지시 따르기를 평가하는 Multi-Maneuver Score (MMS)를 제안하여 기존의 안전 및 편안함 지표를 넘어섭니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 8. [SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks](https://huggingface.co/papers/2603.24755)
+### 8. [Natural-Language Agent Harnesses](https://huggingface.co/papers/2603.25723)
 
-SlopCodeBench는 코딩 에이전트가 장기적인 반복 작업에서 코드 품질이 저하되는 방식을 측정하는 새로운 벤치마크를 제시합니다. (영문 용어: Long-Horizon). 기존 코딩 에이전트 벤치마크는 단일 솔루션 평가에 집중하여 반복적인 소프트웨어 개발의 특성을 제대로 반영하지 못했습니다. SlopCodeBench는 에이전트가 진화하는 사양에 따라 이전 솔루션을 반복적으로 확장하도록 요구하는 20가지 문제와 93가지 체크포인트로 구성된 언어 독립적인 벤치마크를 도입합니다. 이 벤치마크는 코드의 중복성을 나타내는 verbosity와 복잡도가 높은 함수에 집중된 structural erosion을 추적하여 코드 품질 저하를 측정합니다. 실험 결과, 현재 에이전트들은 반복적인 소프트웨어 개발에 필요한 설계 규율이 부족하며, 시간이 지남에 따라 코드 품질이 지속적으로 저하됨을 보여줍니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+Natural-Language Agent Harnesses(NLAHs)는 에이전트의 harness 디자인을 자연어로 명시하고 Intelligent Harness Runtime(IHR)을 통해 실행하여 이식성과 재사용성을 높이는 방법을 제안합니다. 기존 에이전트의 harness 디자인은 컨트롤러 코드에 내재되어 있어 전송, 비교 및 연구가 어려웠습니다. 이 연구는 harness의 고수준 제어 로직을 이식 가능한 실행 아티팩트로 외부화하는 것을 목표로 합니다. 이를 위해 편집 가능한 자연어로 harness 동작을 표현하는 Natural-Language Agent Harnesses(NLAHs)와 이를 실행하는 공유 런타임인 Intelligent Harness Runtime(IHR)을 도입했습니다. NLAHs와 IHR은 코딩 및 컴퓨터 사용 벤치마크에서 운영 가능성, 모듈 제거 및 코드-텍스트 harness 마이그레이션에 대한 평가를 통해 그 효과를 입증했습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 9. [AVControl: Efficient Framework for Training Audio-Visual Controls](https://huggingface.co/papers/2603.24793)
+### 9. [Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models](https://huggingface.co/papers/2603.22782)
 
-AVControl은 LTX-2 기반의 효율적인 프레임워크로, LoRA 어댑터를 활용하여 다양한 오디오-비주얼 제어 모달리티를 개별적으로 학습시켜 뛰어난 성능을 달성합니다. (영문 용어: Audio-Visual). 기존 오디오-비주얼 생성 제어 방식은 단일 모델로 고정된 제어를 수행하거나 새로운 모달리티마다 아키텍처 변경이 필요했습니다. AVControl은 LTX-2라는 오디오-비주얼 파운데이션 모델 위에 구축된 경량 프레임워크로, 각 제어 모달리티를 별도의 LoRA 어댑터로 학습시킵니다. 이 LoRA 어댑터는 병렬 캔버스에서 참조 신호를 추가 토큰으로 제공하여 아키텍처 변경 없이 다양한 제어 작업을 효율적으로 수행합니다. VACE 벤치마크에서 depth 및 pose 기반 생성, 인페인팅, 아웃페인팅 등에서 기존 베이스라인을 능가하며, 카메라 제어 및 오디오-비주얼 벤치마크에서도 경쟁력 있는 결과를 보여줍니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+Know3D는 VLM의 지식을 3D 생성 모델에 주입하여 3D 객체의 보이지 않는 뒷면을 언어로 제어하며 생성하는 새로운 프레임워크를 제안합니다. 기존 3D 생성 모델은 단일 뷰 관찰의 모호성과 제한된 3D 훈련 데이터로 인해 보이지 않는 영역의 생성이 불확실하고 제어하기 어려웠습니다. Know3D는 VLM(Vision-Language Model)의 풍부한 지식을 잠재 은닉 상태 주입(latent hidden-state injection)을 통해 3D 생성 프로세스에 통합합니다. 이를 통해 추상적인 텍스트 지시를 관찰되지 않은 영역의 기하학적 재구성과 연결하여, 기존에는 무작위적이었던 뒷면 생성을 의미론적으로 제어 가능한 프로세스로 전환합니다. 이 방법은 3D 생성 모델의 미래 방향에 유망한 가능성을 제시합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 10. [VFIG: Vectorizing Complex Figures in SVG with Vision-Language Models](https://huggingface.co/papers/2603.24575)
+### 10. [Sommelier: Scalable Open Multi-turn Audio Pre-processing for Full-duplex Speech Language Models](https://huggingface.co/papers/2603.25750)
 
-VFIG는 Vision-Language 모델을 활용하여 복잡한 래스터 이미지를 SVG 형식의 벡터 그래픽으로 변환하는 새로운 모델 패밀리입니다. 이 연구는 래스터 이미지(PNG, JPEG)를 해상도 독립적이고 편집 가능한 SVG 벡터 그래픽으로 변환하는 문제를 해결합니다. VFIG는 대규모 데이터셋인 VFIG-DATA와 계층적 훈련 접근 방식을 사용하여 이 변환을 수행합니다. 모델은 원자적 프리미티브 학습을 위한 SFT(Supervised Fine-Tuning)와 전역적 다이어그램 충실도 최적화를 위한 RL(Reinforcement Learning)을 포함하는 coarse-to-fine 훈련 커리큘럼을 따릅니다. VFIG는 독점 모델에 필적하는 성능을 달성하며, 복잡한 그림의 구조적 무결성을 측정하는 새로운 평가 도구인 VFIG-BENCH를 도입했습니다. 이 항목은 Hugging Face Papers (Top today) (2026-03-27 기준)에서 확인했습니다.
+Sommelier는 Full-duplex Speech Language Models을 위한 고품질 멀티턴 오디오 데이터 전처리 파이프라인을 제안합니다. (영문 용어: Multi-turn, Pre-processing). 기존 Speech Language Models(SLMs)은 실시간 자연스러운 인간-컴퓨터 상호작용을 위한 Full-duplex 시스템 개발에 필요한 고품질 멀티스피커 대화 데이터가 부족하다는 문제에 직면해 있습니다. Sommelier는 이러한 데이터 부족 문제를 해결하고 자연스러운 대화 역학(오버랩, 백채널링 등)을 처리하기 위해 견고하고 확장 가능한 오픈소스 데이터 전처리 파이프라인을 제시합니다. 이 파이프라인은 diarization 오류 및 ASR 환각과 같은 표준 처리 파이프라인의 한계를 극복하여 Full-duplex 모델 개발을 지원합니다. 이를 통해 사용자가 언제든지 LLM을 중단하고 LLM이 자연스럽게 대화에 참여할 수 있는 시스템 구축을 목표로 합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
