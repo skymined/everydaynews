@@ -1,34 +1,30 @@
-# IMDIGEST - 2026-04-13
+# IMDIGEST - 2026-04-14
 
-2026-04-13 KST 기준으로 수집한 AI 뉴스레터입니다.
+2026-04-14 KST 기준으로 수집한 AI 뉴스레터입니다.
 
-2026-04-13 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-04-14 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI, Google Research Blog에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 오늘의 뉴스
 
-### [HumanX 컨퍼런스에서 Anthropic의 Claude가 가장 많이 언급되며 OpenAI의 ChatGPT를 제치고 주목받았습니다.](https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude)
+### [마이크로소프트, OpenClaw와 유사한 로컬 실행 AI 에이전트 개발 중](https://techcrunch.com/2026/04/13/microsoft-is-working-on-yet-another-openclaw-like-agent)
 
-샌프란시스코에서 열린 HumanX AI 컨퍼런스에서 에이전트 AI가 비즈니스를 변화시키는 방식에 대한 논의가 활발했습니다. 참가자들 사이에서 가장 인기 있는 챗봇으로 Anthropic의 Claude가 일관되게 언급되었습니다. OpenAI의 ChatGPT는 컨퍼런스에서 거의 언급되지 않았으며, 일부 벤더들은 ChatGPT와 OpenAI가 하락세라고 평가했습니다. 에이전트 AI의 비즈니스 및 코딩 작업 자동화가 산업 전반에 걸쳐 확산되면서, 기업 및 소비자 중심 챗봇의 중요성이 커지고 있습니다. 출처는 TechCrunch AI입니다.
+마이크로소프트는 OpenClaw와 유사한 기능을 Microsoft 365 Copilot에 통합하는 방안을 테스트하고 있으며, 특히 엔터프라이즈 고객을 위한 보안 강화 버전을 목표로 합니다. (영문 용어: OpenClaw-like). OpenClaw는 사용자 컴퓨터에서 로컬로 실행되며, 사용자를 대신하여 작업을 수행하는 에이전트를 생성하는 도구입니다. 마이크로소프트는 이미 클라우드 기반의 에이전트 도구인 Copilot Cowork와 Copilot Tasks를 발표한 바 있습니다. 이는 AI 에이전트 기술이 클라우드 기반을 넘어 로컬 환경으로 확장되고 있음을 보여주며, 보안 및 개인 정보 보호에 대한 기업의 요구를 충족하려는 시도로 해석됩니다. 출처는 TechCrunch AI입니다.
 
-### [트럼프 행정부, 은행들에게 Anthropic의 Mythos 모델 테스트를 장려하며 사이버 보안 역량 강화 추진](https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model)
+### [Vercel, AI 에이전트 기반 앱 개발 증가에 힘입어 매출 급증하며 IPO 준비 신호](https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge)
 
-미 재무장관 Scott Bessent와 연준 의장 Jerome Powell은 은행 경영진들에게 Anthropic의 새로운 Mythos 모델을 활용하여 취약점을 탐지하도록 권고했습니다. JPMorgan Chase 외에도 Goldman Sachs, Citigroup, Bank of America, Morgan Stanley 등 주요 은행들이 Mythos 모델을 테스트 중인 것으로 알려졌습니다. Anthropic은 Mythos 모델이 사이버 보안에 특화되지 않았음에도 불구하고 보안 취약점 탐지에 매우 뛰어나다고 밝혔습니다. 미국 정부가 AI 기술을 활용하여 금융 시스템의 사이버 보안을 강화하려는 움직임을 보이며, AI 모델의 실제 적용 사례가 확대되고 있습니다. 출처는 TechCrunch AI입니다.
+Vercel의 연간 반복 매출(ARR)은 2024년 초 1억 달러에서 2026년 2월 말 기준 3억 4천만 달러로 급증했습니다. Vercel CEO Guillermo Rauch는 회사가 이미 상장 기업과 같은 규율로 운영되고 있으며 IPO 준비가 되어 있다고 밝혔습니다. ChatGPT 등장 이전 설립된 많은 스타트업들이 AI 시대에 적응하는 데 어려움을 겪는 반면, Vercel은 AI 생성 앱 및 에이전트의 확산으로 큰 이점을 얻고 있습니다. AI 기술 발전이 개발 도구 및 호스팅 플랫폼 기업의 성장을 가속화하며, 비개발자도 앱을 만들 수 있는 환경이 확산되고 있음을 보여줍니다. 출처는 TechCrunch AI입니다.
+
+### [Google Research, 생성형 AI 기반 미래 핵심 역량 평가 도구 Vantage 공개](https://research.google/blog/towards-developing-future-ready-skills-with-generative-ai)
+
+Google Research는 NYU와 협력하여 생성형 AI를 활용한 미래 핵심 역량 평가 도구 Vantage를 개발했습니다. (영문 용어: future-ready). Vantage는 시뮬레이션 환경에서 대화를 생성하여 비판적 사고, 협업, 창의적 사고 등 OECD와 WEF가 강조하는 핵심 역량을 평가합니다. AI 기반 채점 결과는 인간 전문가의 평가와 동등한 수준의 정확도를 보였습니다. AI 시대에 더욱 중요해지는 '미래 핵심 역량(future-ready skills)'을 효과적으로 측정하고 개발하기 위한 새로운 AI 활용 방안을 제시합니다. 출처는 Google Research Blog입니다.
 
 ## 커뮤니티와 검색에서 읽힌 흐름
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.
 
-### [LLM 및 Agentic 모델 벤치마킹의 비효율성과 자원 낭비 문제에 대한 비판이 제기되며, 베이지안 기법을 활용한 새로운 벤치마킹 프레임워크의 필요성이 강조되고 있습니다.](https://www.reddit.com/r/MachineLearning/comments/1sjnha5/frameworks_for_supporting_llmagentic_benchmarking)
+### [Anthropic의 새로운 AI 모델 Claude Mythos Preview가 사이버 보안 위협으로 부상하며 미국 재무부가 주요 은행 CEO들과 긴급 회동을 가졌습니다.](https://www.reddit.com/r/artificial/comments/1skpvy7/anthropics_new_ai_is_so_good_at_hacking_the_us)
 
-기존 LLM 벤치마킹 방식은 새로운 모델을 만들고 방대한 벤치마킹 스위트를 실행하여 미미한 성능 향상을 입증하는 데 초점을 맞추고 있습니다. (영문 용어: LLM/Agentic). Google Gemini 벤치마킹 사례에서 30,000개의 프롬프트를 사용하는 등 막대한 자원 소모가 발생하며, 이는 모델 반복 시마다 반복되어 비효율적입니다. 현재 주로 사용되는 pass@k와 같은 지표는 모델의 실제 능력에 대한 신뢰를 주거나 개선 사항을 효과적으로 전달하지 못한다는 비판이 있습니다. LLM 개발 및 MLOps 과정에서 발생하는 막대한 컴퓨팅 자원 소모와 환경적 영향에 대한 우려가 커지면서, 보다 효율적이고 신뢰할 수 있는 벤치마킹 방법론에 대한 요구가 증가하고 있습니다. 출처는 Reddit r/MachineLearning입니다.
-
-### [Pi와 Qwen3.5 모델이 llama-cpp 환경에서 프롬프트 재처리를 과도하게 수행하는 문제 발생](https://www.reddit.com/r/LocalLLaMA/comments/1sjsejm/pi_qwen35_with_llamacpp_doing_a_lot_of_prompt)
-
-llama-cpp를 사용하여 Pi를 코딩 에이전트로 활용할 때, Qwen3.5 122b 모델에서 프롬프트 재처리 문제가 발생합니다. (영문 용어: re-processing). 에이전트가 여러 번의 편집 작업을 수행하며 'thinking' 및 'tool calls'를 인터리빙하는 과정은 정상적으로 작동합니다. 하지만 사용자의 다음 입력 시, Pi가 'thinking blocks'를 전송하지 않아 컨텍스트 캐시가 무효화되고 재연산이 발생합니다. 이는 LLM 에이전트의 효율적인 컨텍스트 관리 및 캐싱 전략에 대한 중요성을 부각시키며, 특히 복잡한 상호작용에서 성능 저하를 야기할 수 있습니다. 출처는 Reddit r/LocalLLaMA입니다.
-
-### [동아프리카 공동체(EAC), 역내 AI 기술 펀드 조성으로 AI 주권 확보 및 경제 변혁 추진](https://www.reddit.com/r/artificial/comments/1sjln80/east_african_community_launches_regional_ai_fund)
-
-동아프리카 공동체(EAC) 회원국들은 상업적으로 실현 가능한 AI 솔루션 연구 및 혁신 확대를 목표로 하는 역내 AI 기술 펀드 설립에 합의했습니다. 이 펀드는 혼합 금융을 동원하고 민간 부문 투자를 유치하여 현지 개발 AI 솔루션을 위한 지속 가능한 자금 파이프라인을 구축할 예정입니다. EAC는 동아프리카 데이터로 훈련되고 Kiswahili와 같은 현지 언어로 운영되며 역내 인프라에 호스팅되는 AI 시스템 개발을 통해 AI 주권을 확보하고자 합니다. 아프리카 개발은행에 따르면, 포괄적인 AI 배치는 2035년까지 아프리카 전역에서 최대 1조 달러의 추가 GDP를 창출하고 4천만 개의 디지털 일자리를 만들 수 있어, 이번 펀드 조성은 아프리카의 경제 변혁에 중요한 기여를 할 것으로 예상됩니다. 출처는 Reddit r/artificial입니다.
+Anthropic이 새로운 AI 모델 Claude Mythos Preview를 발표했습니다. Claude Mythos Preview는 소프트웨어 취약점을 찾아 악용하는 능력이 매우 뛰어나 'Project Glasswing'이라는 통제 하에 JPMorgan Chase, CrowdStrike 등 일부 파트너에게만 제공됩니다. 미국 재무부 장관과 연준 의장이 주요 은행 CEO들을 소집하여 이 AI 모델과 관련된 사이버 위험에 대해 논의했습니다. AI 기술이 단순한 챗봇을 넘어 금융 시스템에 대한 시스템적 위협으로 인식되기 시작했습니다. 출처는 Reddit r/artificial입니다.
 
 ### [Bain & Company가 Agentic AI 플랫폼의 세 가지 핵심 레이어를 제시하며 AI 시스템 구축의 중요성을 강조합니다.](https://news.google.com/rss/articles/CBMifkFVX3lxTFBucGQzdjd6V0h0R0ZUcUdNU21GN3RESnFrVzF2MldTUW12Tkw4Tkw3RnhXTW9DSndHanEyZnhmTm1hX2JkYklrZi1oVVc3YWlGVDBGMWNBdHZyRVRqX0dXSTVKNmZ1ZUlHYjFnNExIcnlHckFNdlRId1lRaXJzUQ?oc=5)
 
@@ -38,82 +34,86 @@ Bain & Company는 Agentic AI 플랫폼을 구축하기 위한 세 가지 핵심 
 
 Anthropic은 에이전트의 '두뇌'(추론 및 계획)와 '손'(도구 사용 및 환경 상호작용)을 분리하는 새로운 아키텍처를 제안했습니다. 이 분리된 접근 방식은 에이전트의 각 구성 요소를 독립적으로 확장하고 개선할 수 있게 합니다. 이를 통해 복잡한 작업을 수행하는 에이전트의 안정성과 효율성을 높이는 것을 목표로 합니다. AI 에이전트의 복잡성이 증가함에 따라, 모듈화된 설계는 확장성 및 관리 용이성 측면에서 중요한 트렌드로 부상하고 있습니다. 출처는 Google News AI Search입니다.
 
-### [RTX 3060 12GB 환경에서 Claude 4.6 Sonnet에 준하는 성능을 내는 LLM 모델에 대한 관심이 증가하고 있습니다.](https://www.reddit.com/r/LocalLLaMA/comments/1sjqq92/any_good_llm_near_claude_46sonnet_for_a_3060_12gb)
+### [EinsteinArena, AI 에이전트들이 미해결 과학 문제 해결을 위해 협력하고 경쟁하는 오픈 플랫폼 공개](https://www.reddit.com/r/LocalLLaMA/comments/1skpx6p/einsteinarena_harnessing_the_collective)
 
-사용자가 RTX 3060 12GB GPU 환경에서 Claude 4.6 Sonnet과 유사한 성능을 내는 LLM을 찾고 있습니다. 현재 Gemma4를 사용해봤지만 코딩 및 실제 업무 호환성 문제로 다른 대안을 모색 중입니다. 주로 프로그래밍 어시스턴트 용도로 활용할 수 있는 LLM을 찾고 있습니다. 로컬 환경에서 고성능 LLM을 구동하려는 수요가 증가하며, 특정 하드웨어 제약 내에서 최적의 모델을 찾는 것이 중요해지고 있습니다. 출처는 Reddit r/LocalLLaMA입니다.
+EinsteinArena는 AI 에이전트들이 미해결 과학 문제에 대한 솔루션을 제출하고, 점수를 매기며, 접근 방식을 논의할 수 있는 개방형 아레나입니다. 이 플랫폼은 AI 에이전트들의 집단 지성을 활용하여 과학 발전을 목표로 합니다. GitHub 저장소(https://github.com/vinid/einstein-arena)를 통해 프로젝트가 공개되었습니다. AI 에이전트들이 복잡한 과학 문제 해결에 기여할 수 있는 새로운 협력 및 경쟁 모델을 제시하며, AI 연구의 실제 적용 가능성을 확장합니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [KIV 기술로 RTX 4070에서 1M 토큰 컨텍스트 윈도우를 구현, HuggingFace 모델에 재학습 없이 적용 가능합니다.](https://www.reddit.com/r/MachineLearning/comments/1sjkmwz/kiv_1m_token_context_window_on_a_rtx_4070_12gb)
+### [듀얼 GPU 환경에서 Qwen3.5 및 Gemma4 LLM의 성능 벤치마크 결과가 공유되었습니다.](https://www.reddit.com/r/LocalLLaMA/comments/1skpubf/performance_benchmark_qwen35_gemma4_on_dual_gpu)
 
-KIV(K-Indexed V Materialization)는 HuggingFace 트랜스포머의 표준 KV 캐시를 계층형 검색 시스템으로 대체하는 미들웨어 레이어입니다. (영문 용어: drop-in). 이 기술은 최근 토큰을 VRAM에 유지하고, 오래된 K/V를 시스템 RAM으로 이동시키며, K 벡터를 검색 인덱스로 사용하여 디코딩 단계당 약 256개의 가장 관련성 높은 V 엔트리만 불러옵니다. RTX 4070 (12GB VRAM)에서 Gemma 4 E2B (4-bit) 모델로 1M 토큰 컨텍스트를 12MB의 KIV VRAM 오버헤드와 약 6.5GB의 총 GPU 사용량으로 처리할 수 있습니다. 이 기술은 제한된 GPU VRAM 환경에서도 대규모 언어 모델(LLM)의 컨텍스트 윈도우를 획기적으로 확장하여, 더 긴 문서나 대화를 처리할 수 있게 합니다. 출처는 Reddit r/MachineLearning입니다.
+Reddit r/LocalLLaMA 포럼에서 듀얼 GPU(RTX 4070 + RTX 3060) 환경에서의 LLM 성능 벤치마크가 공개되었습니다. 테스트는 LMStudio v0.4.11 Build 1을 사용하여 Qwen3.5 및 Gemma4 모델을 대상으로 진행되었습니다. 벤치마크는 VRAM 용량 확장을 통한 대규모 모델 실행 가능성을 탐색하기 위해 수행되었습니다. 개인 사용자들이 저렴한 비용으로 더 큰 LLM을 로컬에서 실행하기 위해 듀얼 GPU와 같은 하드웨어 구성을 적극적으로 모색하고 있음을 보여줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [Palantir CEO, AI가 인문학 일자리를 파괴할 것이라고 경고](https://news.google.com/rss/articles/CBMilAFBVV95cUxPYUpnTUFwQWpmQURZdzYxblotNzJjMFZROU1TQ2hZdXp5bkFNdGdnYUh6TWk3M2FETUJmQVRWRG91MU9hRHpUNnJVYllybGt3NkZQWFExdjJZR0FlUC1fX0FjdVVXR1FQTXR2azNfY2NUcjR6WHVtNjM2eU5JUTVqWG44M2FQbkFOdUh0eEo3T0pIZ25h?oc=5)
+### [Anthropic의 Claude 모델 성능 저하에 대한 사용자 불만이 증가하고 있으며, 이에 대해 경영진은 부인하고 있습니다.](https://news.google.com/rss/articles/CBMiogFBVV95cUxNdjNJQnJ5VEhnTEs0YlBIR09TMlF0NWxQSlhYcDhwTXlNLXZGY2NzeUhpbkEyZjV2blJ4N3lGT2o5cHlUaWgyVVNNR1NIQ2hpVWh2bkYxNS1TREdyTEtTb0RsWGJJZWJZYWctSDBwU0Z2WlMyUmNudXZIaUlrVE9hWVN5NmI3WHpKaVJSZTlveEtLTTdBTWxfZ1kxSWxXcWUtaWc?oc=5)
 
-Palantir의 CEO 알렉스 카프는 AI가 인문학 분야의 일자리를 파괴할 것이라고 예측했습니다. 그는 AI가 인간의 지능을 능가하는 능력을 가질 것이며, 이는 인문학 관련 직업에 큰 영향을 미칠 것이라고 언급했습니다. 카프 CEO는 이러한 변화가 사회 전반에 걸쳐 광범위한 영향을 미칠 것이라고 강조했습니다. AI 기술의 발전이 특정 산업 분야를 넘어 인문학 등 다양한 직업군에 미칠 파괴적인 영향에 대한 경고가 나오고 있습니다. 출처는 Google News AI Search입니다.
+사용자들은 Anthropic의 AI 모델인 Claude의 성능이 저하되었다고 지속적으로 보고하고 있습니다. 특히 Claude 3 Opus와 Sonnet 모델에서 'nerfing' (성능 약화) 현상이 관찰된다는 주장이 제기되고 있습니다. Anthropic의 CEO인 Dario Amodei와 다른 경영진은 성능 저하 주장을 부인하며, 모델은 오히려 개선되고 있다고 주장합니다. 이는 AI 모델의 성능 변화에 대한 투명성 부족과 사용자 신뢰 문제로 이어질 수 있으며, AI 서비스 제공업체들이 직면할 수 있는 중요한 과제를 보여줍니다. 출처는 Google News AI Search입니다.
 
-### [미국 전역의 AI 데이터센터 건설 붐이 지역사회 저항에 부딪히고 있습니다.](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMnNsbXpFUkNFZGhfaHF4YVdEdTlWZGhKVFpPaEFZZDdUS19fUlo4Z1RJeWQ2SGhEWi1sQ0RhdzZmanlGNXJxM0ExRUJCRzZ5cGZlcVBDWHp0VzNNVGYwWFpDMU5WbGhaUW1sLTJtSGNjeElOdGQyb1hVajFqZGVuaDU5UTB2cURW0gGOAUFVX3lxTFBEM0lKZ3dncWN3eGZiTW1nMUQ1MkdJcktlSzBLdklZSXBXZUcxWHNDNExibFJQR3dtRTlNYjliU1RaaGF3eXlyaXpRUWJ3QjdmUFhKRm1PdkpiUVlRSjVlS29BV05NdWRlTWRYQ1lrd2Q4aktPQzFLek1pS2FSWWJyQi1kUm5GZHRKUFlueEE?oc=5)
+### [DeepSeek V3.2 모델이 대화 흐름이 강할 때 Post-History System Instructions를 무시하는 문제가 제기되었습니다.](https://www.reddit.com/r/LocalLLaMA/comments/1skom43/deepseek_v32_ignores_posthistory_system)
 
-AI 기술 발전과 함께 데이터센터 수요가 급증하며 미국 전역에 새로운 데이터센터 건설이 활발합니다. 이러한 데이터센터는 막대한 전력을 소비하고, 소음과 열을 발생시키며, 지역의 물 자원을 많이 사용합니다. 지역 주민들은 데이터센터 건설로 인한 환경 문제와 생활 불편을 우려하며 반대 운동을 벌이고 있습니다. AI 인프라 확장이 가속화되면서 전력, 용수 등 자원 소비 증가에 대한 사회적 논의와 갈등이 심화될 것입니다. 출처는 Google News AI Search입니다.
+DeepSeek V3.2 모델이 대화 기록 이후에 삽입된 시스템 지시(Post-History Instructions, PHI)를 무시하는 경향이 발견되었습니다. 특히 대화에 강한 서사적 흐름(narrative momentum)이 있을 때 PHI가 완전히 무시되는 현상이 반복적으로 나타났습니다. 다양한 지시어 변형, 시스템 프롬프트 위치, `reasoning` 파라미터 활성화 여부, 컨텍스트 윈도우 크기 등을 포함한 체계적인 실험을 통해 문제가 확인되었습니다. 이는 LLM이 복잡한 대화 맥락에서 특정 지시를 얼마나 효과적으로 따르는지에 대한 중요한 한계를 보여주며, 특히 인터랙티브 스토리텔링과 같이 동적인 지시가 필요한 애플리케이션 개발에 영향을 미칠 수 있습니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [영국 규제 당국, Anthropic의 최신 AI 모델 위험성 평가에 착수](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTE5WeEN6VnpyejdsUVA2OWlMNUZabmVPMGpLUkIzbDVMZXgyZ3JhWjBIU2dwODdZZzZpZThObkFQME9QMk8xX0Y2MXg3TVhBdzZsS3hPXzJJLVQ3aTY5SkxHTVBTWnBRRmVvbEhZcVBrVkswdWZLQlpYbWNZdFF1cW9PbzRRdHU0R3VmQ1NKRnZhSWZ3SGdCSThLdWdMZGNvNnRkQzJObUMtcTBUTWFXb3pNSkNfaE4yUmJrRkpUQWh1Zw?oc=5)
+### [Depth-Recurrent Transformers가 합성 일반화에서 더 깊은 사고를 통해 OOD 성능을 향상시킵니다.](https://www.reddit.com/r/MachineLearning/comments/1skmct7/thinking_deeper_not_longer_depthrecurrent)
 
-영국 규제 당국이 Anthropic의 새로운 AI 모델에 대한 위험성 평가를 서두르고 있습니다. 이번 평가는 AI 기술의 급속한 발전에 따른 잠재적 위험에 대한 우려가 커지고 있음을 반영합니다. AI 기술의 발전 속도가 빨라지면서 각국 정부와 규제 기관들이 AI 모델의 안전성과 윤리적 문제에 대한 감독을 강화하는 추세입니다. 출처는 Google News AI Search입니다.
+Depth-Recurrent Transformers는 기존 Transformer 모델과 달리 더 깊은 사고(deeper thinking)를 통해 합성 일반화(compositional generalization) 문제를 해결합니다. 이 모델은 3가지 task 중 2가지에서 OOD(Out-of-Distribution) 일반화에서 좋은 성능을 보였습니다. 중간 단계 감독(intermediate step supervision)이 모델의 일반화를 저해할 수 있으며, 이는 모델이 통계적 휴리스틱에 의존하게 만들어 진정한 추론 능력을 저해한다고 설명합니다. 이 연구는 Foundation Model의 약점을 설명하고, 경험에 의존하는 인간 전문가의 함정까지도 설명할 수 있는 새로운 관점을 제시합니다. 출처는 Reddit r/MachineLearning입니다.
 
-### [Qwen 3.5 28B A3B REAP 모델이 코딩 작업에서 인상적인 성능을 보였습니다.](https://www.reddit.com/r/LocalLLaMA/comments/1sjprna/qwen_35_28b_a3b_reap_for_coding_initial)
+### [AI 에이전트의 감사 추적 및 로그 조작 가능성에 대한 우려 제기](https://www.reddit.com/r/artificial/comments/1skhryc/the_audit_trail_lives_in_memory_memory_can_be)
 
-Qwen 3.5 모델은 코딩 작업에 최적화되어 있으며, 특히 Qwen-3.5-28B-A3B-REAP-GGUF 버전이 주목받고 있습니다. 이 모델은 llama.cpp 환경에서 관련 참조를 언급하고 상세한 '사고' 및 계획 단계를 거쳐 응답을 생성합니다. Qwen 3.5는 셸 스크립트 코드 분석 및 사용 문서화 작업에서 뛰어난 성능을 보여주며, 잘 포맷된 .md 파일을 생성합니다. Qwen 3.5는 코딩 및 문서화 작업에 특화된 LLM의 발전 가능성을 보여주며, 개발 생산성 향상에 기여할 수 있습니다. 출처는 Reddit r/LocalLLaMA입니다.
+AI 에이전트의 감사 추적(audit trail)이 메모리에 저장되며, 이 메모리는 편집될 수 있다는 지적이 있습니다. 편집 기록(log of edits) 또한 메모리에 저장되며, 이 역시 편집될 수 있어 무결성 문제가 발생할 수 있습니다. 이는 AI 시스템의 투명성과 신뢰성에 대한 근본적인 질문을 제기합니다. AI 시스템이 점점 더 복잡해지고 자율성을 가지게 되면서, 내부 작동 방식과 결정 과정을 추적하고 검증하는 것이 중요해지고 있습니다. 출처는 Reddit r/artificial입니다.
 
-### [Canva 사용자가 AI 기능으로 인해 구독 취소를 고려하며, 이는 모든 B2B 벤더에게 경고가 되고 있습니다.](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMTVzRlB2bGpHa29vTG1WaklPd0pKS2F0a05QVTJyQzBaVGY2UUk1ckNNREJSX2RHMC1rekVETnYxRWM4VW9PS1VnUXg1V211LTN5bHpsYThNUTRyVXdUdlVPRHl4WDgzeHhTLWtUai1UMUNnd0hQVVptazJPcnRaejEwUjhFSlpsR2F1ZVdvMjlHRmtCSC1reDFKajRyaWFoejFrcGUtVFlZbkk1SGFOdzU4MGw3eTlMRHUtbFZ3YUM?oc=5)
+### [OpenAI의 새로운 경제 어젠다가 사회주의적이고 위선적이라는 비판에 직면했습니다.](https://news.google.com/rss/articles/CBMihAFBVV95cUxPRkY4OHdoMUx1d3lLNHg1VUNoVXRGUXp1dkhqNFVxdlhhaF9tb3MycjZITjFNdFhqUDJudy14Ri1za2RsbkhHWjlVMFIwcWxnX0JQQjZ5Qmx3UnpsejBvMjNpcm1FZnZWRTJ3TUpOYTVCaXFTdVkxUEZDSFROekE2X2VnR18?oc=5)
 
-Canva는 저렴한 가격과 편리한 기능으로 많은 사용자에게 사랑받고 있습니다. 최근 AI 기능 도입에도 불구하고, 일부 사용자는 AI 기능이 충분히 만족스럽지 않아 구독 취소를 고려하고 있습니다. 이는 AI 기능이 사용자 경험을 오히려 저해하거나 기대에 미치지 못할 경우, 기존 서비스의 장점마저 상쇄할 수 있음을 시사합니다. AI 기술 도입이 모든 서비스에 긍정적인 영향을 미치는 것은 아니며, 사용자 니즈와 기대치를 충족시키지 못하면 역효과를 낼 수 있습니다. 출처는 Google News AI Search입니다.
+OpenAI는 AI 기술의 혜택을 전 세계에 공정하게 분배하겠다는 '사회주의적' 목표를 제시했습니다. (영문 용어: vox.com). 하지만 동시에 영리 자회사와 비영리 모회사의 복잡한 지배구조를 통해 막대한 수익을 추구하고 있어 비판을 받고 있습니다. 이는 AI 기술의 상업적 성공과 공공의 이익 추구 사이의 모순을 보여줍니다. AI 기술이 사회 전반에 미치는 영향이 커지면서, 기술 기업의 사회적 책임과 윤리적 경영에 대한 요구가 증가하고 있습니다. 출처는 Google News AI Search입니다.
 
-### [Palantir CEO, AI가 인문학 일자리를 파괴할 것이며 직업 훈련을 받은 사람들에게는 충분한 일자리가 있을 것이라고 언급](https://www.reddit.com/r/artificial/comments/1sjqjji/palantir_ceo_says_ai_will_destroy_humanities_jobs)
+### [AI 에이전트가 프로덕션 버그를 자율적으로 해결하며 엔지니어의 역할 변화에 대한 논의가 시작되었습니다](https://www.reddit.com/r/artificial/comments/1skg4g7/the_agent_that_autonomously_fixed_a_production)
 
-Palantir의 CEO Alex Karp는 AI가 인문학 분야의 일자리를 없앨 것이라고 주장했습니다. 그는 AI가 직업 훈련을 받은 사람들에게는 더 많은 일자리를 창출할 것이라고 예측했습니다. Karp는 AI가 사회에 미치는 영향에 대해 강한 의견을 표명했습니다. AI 기술 발전이 미래 노동 시장에 미칠 구조적 변화에 대한 논의가 활발해지고 있음을 보여줍니다. 출처는 Reddit r/artificial입니다.
+한 엔지니어의 회사에서 AI 에이전트가 프로덕션 버그를 스스로 감지하고 원인을 추적하여 수정 코드를 작성했습니다. AI 에이전트는 테스트를 실행하고 Pull Request(PR)를 생성하여 코드 리뷰를 요청하는 전 과정을 자율적으로 수행했습니다. 엔지니어는 잠든 사이에 AI가 생성한 PR을 검토하고 병합했으며, 이 경험을 통해 자신의 역할에 대한 근본적인 변화를 느꼈다고 밝혔습니다. AI 에이전트의 자율적인 문제 해결 능력은 소프트웨어 개발 및 유지보수 분야에서 인간 엔지니어의 역할이 '수행자'에서 '검토자'로 전환될 수 있음을 시사합니다. 출처는 Reddit r/artificial입니다.
 
-### [ICML 논문 심사에서 극단적인 평가를 받은 연구자가 혼란을 겪고 있습니다.](https://www.reddit.com/r/MachineLearning/comments/1sjkfil/so_confused_about_polarizing_icml_reviews_d)
+### [골드만삭스 CEO, Anthropic의 Mythos AI 관련 위험성에 대해 매우 경계하고 있습니다.](https://news.google.com/rss/articles/CBMivgFBVV95cUxPV2VtMzBsWkQ5UmFfdzRsMW1waXVKeWNfOGtIbFljOXRvX29aTzFYclFiam1FMUdBc3dxVndxZ3l1aWt2dV9PRkl6SjVOaVAySXBQWjFnMlVGQ3ZTc0RtUlAxcmhNeGd3UEpsWHFEMEhsNEFmWnoyUlAzc0VjUjcyUDUwTTdmT2JhWk1DaGFpVTZ3NVUwVy1MSy0wQWhFRGQzYkRtWHNLb1pqZGQ4LUE2aDVrdEhJY0c5R24zNEVn?oc=5)
 
-ICML 논문 심사에서 긍정적인 평가와 부정적인 평가가 극명하게 엇갈리는 상황이 발생했습니다. 한 논문이 초기 5, 4, 4, 2점에서 재심사 후 5, 5, 5, 2점으로 변경되었으며, 평균 점수는 4.25점, 신뢰도 평균은 4점입니다. 두 명의 심사위원은 재심사 후 점수를 4점에서 5점으로 상향 조정하며 긍정적인 피드백을 제공했습니다. ICML과 같은 주요 학회에서 논문 심사의 공정성과 일관성에 대한 의문이 제기되고 있습니다. 출처는 Reddit r/MachineLearning입니다.
+골드만삭스 CEO는 Anthropic의 Mythos AI가 가져올 수 있는 잠재적 위험에 대해 인지하고 있습니다. (영문 용어: hyper-aware). Mythos AI는 Anthropic이 개발한 인공지능 시스템입니다. 골드만삭스는 AI 기술의 발전과 함께 발생할 수 있는 리스크 관리에 주목하고 있습니다. 금융 산업에서 AI 기술 도입이 가속화되면서, 관련 리스크 관리의 중요성이 부각되고 있습니다. 출처는 Google News AI Search입니다.
+
+### [Anthropic의 Mythos를 활용한 AI 기반 해킹이 은행에 심각한 위협이 될 수 있습니다.](https://news.google.com/rss/articles/CBMixgFBVV95cUxONkJ4X2xkUG9NUHg1WWQ0cmVod2VYclVmdWE3S3dueDM3Ymx3ZUJ4VHc0OHhoZkFuanF5TjlhVTlpY3huY180NzN0dC1HREJfOURaZF8xemprQlZVMFNSWE9lUS0wQU1hLTZXX05PNXhLNVliZDBOR090NDgxVks1UXZHYnh6MGI3WHpLZFBaSmMyY094OVZBUGhxb0NYVF9RUzFtNXZ5REl2MVNEb0JBLVgyNXVrVGdzcGNGNFNoWmFsa0ROakE?oc=5)
+
+Anthropic의 새로운 AI 모델인 Mythos가 사이버 보안 공격에 활용될 가능성이 제기되었습니다. (영문 용어: AI-boosted). Mythos와 같은 AI는 해커들이 더욱 정교하고 탐지하기 어려운 공격을 수행하도록 도울 수 있습니다. 특히 은행과 같은 금융 기관은 AI 기반 해킹으로 인해 막대한 재정적 손실과 신뢰도 하락을 겪을 수 있습니다. AI 기술의 발전은 긍정적인 측면과 동시에 사이버 범죄에 악용될 수 있는 잠재적 위험을 내포하고 있습니다. 출처는 Google News AI Search입니다.
 
 ## 오늘의 논문
 
 Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문들을 짧게 읽을 수 있게 정리했습니다.
 
-### 1. [Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability](https://huggingface.co/papers/2604.06628)
+### 1. [WildDet3D: Scaling Promptable 3D Detection in the Wild](https://huggingface.co/papers/2604.08626)
 
-이 연구는 SFT(Supervised Finetuning)가 추론 작업에서 일반화되지 않는다는 통념을 재고하며, 최적화, 데이터, 모델 역량에 따라 조건부적인 교차 도메인 일반화가 가능함을 밝힙니다. 기존에는 SFT가 추론 작업에서 일반화되지 않고 암기만 한다고 여겨졌습니다. 본 연구는 긴 CoT(Chain-of-Thought) 감독을 통한 SFT가 최적화 역학, 훈련 데이터, 기본 모델 역량에 따라 조건부적인 교차 도메인 일반화를 보임을 발견했습니다. 특히, 충분한 훈련 시 성능 저하 후 회복 및 개선되는 'dip-and-recovery' 패턴을 보이며, 검증된 고품질의 긴 CoT 데이터가 일관된 교차 도메인 이득을 제공합니다. 또한, 강력한 모델은 전이 가능한 절차적 패턴을 내재화하지만, 이러한 일반화는 추론 능력 향상과 안전성 저하라는 비대칭적인 결과를 가져옵니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+WildDet3D는 다양한 프롬프트 유형과 기하학적 단서를 통합하여 개방형 3D 객체 감지를 가능하게 하는 통합 프레임워크와 대규모 데이터셋입니다. 기존 단안 3D 객체 감지 방법은 단일 프롬프트 유형에 국한되고 추가 기하학적 단서 통합 메커니즘이 부족하며, 현재 3D 데이터셋은 제한된 환경의 좁은 카테고리만 다루어 개방형 환경으로의 전이가 어려웠습니다. 이 연구는 텍스트, 포인트, 박스 프롬프트를 기본적으로 수용하고 추론 시 보조 깊이 신호를 통합할 수 있는 통합 기하학 인식 아키텍처 WildDet3D를 제안합니다. 또한, 기존 2D 주석에서 3D 박스를 생성하고 사람의 검증을 거쳐 13.5K 카테고리에 걸쳐 1M개 이상의 이미지를 포함하는 최대 규모의 개방형 3D 감지 데이터셋인 WildDet3D-Data를 구축했습니다. WildDet3D는 여러 벤치마크와 설정에서 새로운 최첨단 성능을 달성하며, 특히 개방형 및 제로샷 평가에서 뛰어난 결과를 보여주었습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 2. [SkillClaw: Let Skills Evolve Collectively with Agentic Evolver](https://huggingface.co/papers/2604.08377)
+### 2. [FORGE:Fine-grained Multimodal Evaluation for Manufacturing Scenarios](https://huggingface.co/papers/2604.07413)
 
-SkillClaw는 다중 사용자 LLM 에이전트 시스템에서 사용자 상호작용을 집계하여 재사용 가능한 스킬을 자율적으로 업데이트하고 개선하는 집단 스킬 진화 프레임워크를 제안합니다. 기존 LLM 에이전트 시스템에서 스킬은 배포 후 정적 상태로 유지되어 사용자 간에 유사한 워크플로우와 실패 모드가 반복적으로 발생했습니다. SkillClaw는 이러한 문제를 해결하기 위해 다중 사용자 및 시간 경과에 따른 상호작용을 스킬 개선의 주요 신호로 활용합니다. 이 프레임워크는 사용 중 생성된 궤적을 지속적으로 집계하고, 자율적인 Evolver가 반복적인 행동 패턴을 식별하여 기존 스킬을 개선하거나 새로운 기능을 추가함으로써 스킬 세트를 업데이트합니다. 이를 통해 사용자 간 지식 전달과 누적 역량 개선이 가능하며, WildClawBench 실험에서 Qwen3-Max의 성능을 크게 향상시키는 것을 보여주었습니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+FORGE는 제조 시나리오를 위한 고품질 멀티모달 데이터셋을 구축하고, MLLM 평가를 통해 시각적 접지보다 도메인 특화 지식이 성능의 병목임을 밝혀냈습니다. (영문 용어: Fine-grained). 제조 분야에서 MLLM의 활용이 증가하고 있지만, 기존 평가 방식은 실제 제조 환경의 요구사항을 반영하지 못하고 데이터 부족과 세분화된 도메인 의미론의 부재로 인해 발전이 저해되고 있습니다. 이 연구는 실제 2D 이미지와 3D 포인트 클라우드를 결합하고 세분화된 도메인 의미론으로 주석 처리된 고품질 멀티모달 데이터셋 FORGE를 구축했습니다. FORGE를 사용하여 18개의 최신 MLLM을 세 가지 제조 작업(공작물 검증, 구조 표면 검사, 조립 검증)에 대해 평가한 결과, 시각적 접지(visual grounding)보다는 도메인 특화 지식(domain-specific knowledge)이 성능의 주요 병목임을 확인했습니다. 또한, FORGE의 구조화된 주석으로 3B-파라미터 모델을 지도 미세 조정했을 때, 제조 시나리오에서 정확도가 최대 90.8% 향상되어 도메인 적응형 제조 MLLM 개발의 실용적인 방향을 제시합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 3. [ClawBench: Can AI Agents Complete Everyday Online Tasks?](https://huggingface.co/papers/2604.08523)
+### 3. [RefineAnything: Multimodal Region-Specific Refinement for Perfect Local Details](https://huggingface.co/papers/2604.06870)
 
-ClawBench는 AI 에이전트가 복잡한 온라인 작업을 수행할 수 있는지 평가하기 위해 153개의 실제 웹 작업을 포함하는 새로운 벤치마크를 제시합니다. 이 연구는 AI 에이전트가 이메일 자동화를 넘어 일상생활의 다양한 온라인 작업을 처리할 수 있는지 평가하는 문제를 제기합니다. 이를 위해 ClawBench는 구매, 예약, 구직 신청 등 144개 플랫폼에 걸쳐 153개의 실제 다단계 웹 작업을 포함하는 평가 프레임워크를 도입합니다. 이 벤치마크는 기존 벤치마크와 달리 실제 운영 웹사이트에서 동적인 상호작용과 복잡성을 유지하며 에이전트를 평가합니다. 평가 결과, 7개의 최신 모델(예: Claude Sonnet 4.6) 모두 이러한 작업의 극히 일부만 완료할 수 있었으며, 이는 AI 에이전트의 일반적인 보조 기능에 대한 상당한 개선이 필요함을 시사합니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+RefineAnything은 Focus-and-Refine 전략과 boundary-aware loss를 사용하여 배경을 보존하면서 이미지의 특정 영역 디테일을 개선하는 멀티모달 diffusion 기반 모델입니다. 기존 이미지 생성 모델들은 텍스트나 로고와 같은 미세한 로컬 디테일에서 품질 저하를 겪거나, 특정 영역 편집 시 배경을 의도치 않게 변경하는 문제가 있었습니다. RefineAnything은 이러한 문제를 해결하기 위해 사용자가 지정한 영역의 디테일을 복원하면서 배경은 엄격하게 유지하는 region-specific image refinement를 제안합니다. 이 모델은 Focus-and-Refine 전략을 통해 관심 영역에 해상도 예산을 재할당하여 효율성을 높이고, Boundary Consistency Loss를 도입하여 이음새 아티팩트를 줄여 자연스러운 결과물을 생성합니다. 이를 통해 RefineAnything은 레퍼런스 기반 및 레퍼런스 없는 정제를 모두 지원하며, 미세한 로컬 디테일의 품질을 크게 향상시킵니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 4. [HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents](https://huggingface.co/papers/2604.07430)
+### 4. [EXAONE 4.5 Technical Report](https://huggingface.co/papers/2604.08644)
 
-HY-Embodied-0.5는 Mixture-of-Transformers 아키텍처와 반복적인 후속 학습을 통해 실제 환경 에이전트의 시각 인지 및 추론 능력을 향상시킨 Embodied Foundation Model 제품군입니다. (영문 용어: Real-World). 이 연구는 일반 VLM과 Embodied Agent 간의 격차를 해소하기 위해 공간적, 시간적 시각 인지 및 예측, 상호작용, 계획을 위한 Embodied 추론 능력을 강화한 HY-Embodied-0.5 모델을 제안합니다. 모델은 모달리티별 컴퓨팅을 가능하게 하는 Mixture-of-Transformers(MoT) 아키텍처를 채택하여 미세한 시각 인지 능력을 향상시키고, 반복적인 자기 진화 후속 학습 패러다임을 도입하여 추론 능력을 개선합니다. 또한, 대규모 모델의 고급 기능을 소규모 모델로 전이시키는 on-policy distillation을 활용하여 효율적인 엣지 배포 모델과 복잡한 추론 모델 두 가지를 제공합니다. 22개 벤치마크에서 시각 인지, 공간 추론, Embodied 이해도에 걸쳐 광범위한 평가를 통해 접근 방식의 효과를 입증했습니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+LG AI Research는 EXAONE 4.0 프레임워크에 시각 인코더를 통합하여 문서 이해 및 일반 언어 능력을 향상시킨 오픈 가중치 Vision Language Model인 EXAONE 4.5를 공개했습니다. 이 연구는 기존 EXAONE 4.0에 시각 인코더를 통합하여 멀티모달 사전 학습을 가능하게 한 EXAONE 4.5를 소개합니다. LG의 전략적 애플리케이션 도메인에 맞춰 문서 중심 코퍼스를 포함한 대규모 데이터를 큐레이션하여 학습시켰습니다. 이를 통해 문서 이해 및 관련 작업에서 상당한 성능 향상을 달성했으며, 일반 언어 능력에서도 폭넓은 개선을 보였습니다. EXAONE 4.5는 최대 256K 토큰의 컨텍스트 길이를 지원하여 장문 추론 및 기업 규모의 사용 사례에 적합합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 5. [When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models](https://huggingface.co/papers/2604.08546)
+### 5. [Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory](https://huggingface.co/papers/2604.08995)
 
-NUMINA는 텍스트-투-비디오 확산 모델에서 텍스트 프롬프트에 지정된 객체 수를 정확하게 생성하지 못하는 문제를 해결하기 위해 훈련 없이 레이아웃 불일치를 식별하고 어텐션 변조를 통해 재생성을 유도하는 프레임워크입니다. (영문 용어: Text-to-Video). 텍스트-투-비디오 확산 모델은 프롬프트에 명시된 객체 수를 정확하게 생성하는 데 어려움을 겪습니다. NUMINA는 이러한 수치적 불일치를 개선하기 위해 훈련이 필요 없는 '식별-안내' 프레임워크를 제안합니다. 이 프레임워크는 판별적인 self- 및 cross-attention 헤드를 선택하여 계산 가능한 잠재 레이아웃을 도출하고, 이를 보수적으로 개선한 다음 cross-attention을 변조하여 재생성을 안내합니다. CountBench에서 NUMINA는 기존 모델의 카운팅 정확도를 최대 7.4% 향상시키며, CLIP 정렬도 개선하고 시간적 일관성을 유지합니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+Matrix-Game 3.0은 메모리 증강 확산 모델을 활용하여 실시간 720p 비디오 합성과 장기적인 시간적 일관성을 달성하는 인터랙티브 비디오 생성 모델입니다. (영문 용어: Real-Time, Long-Horizon). 기존 인터랙티브 비디오 생성 모델들은 장기적인 시간적 일관성과 고해상도 실시간 생성을 동시에 달성하는 데 어려움을 겪었습니다. Matrix-Game 3.0은 이러한 문제를 해결하기 위해 메모리 증강 인터랙티브 월드 모델을 제안합니다. 이 모델은 Unreal Engine 기반 합성 데이터, AAA 게임 데이터, 실제 비디오를 통합한 데이터 엔진으로 고품질 Video-Pose-Action-Prompt 데이터를 생성하며, 예측 잔차 모델링과 카메라 인식 메모리 검색을 통해 장기적인 시공간 일관성을 확보합니다. 또한, Distribution Matching Distillation(DMD) 기반의 다중 세그먼트 자동 회귀 증류 전략과 모델 양자화, VAE 디코더 가지치기를 통해 효율적인 실시간 추론을 가능하게 합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 6. [MegaStyle: Constructing Diverse and Scalable Style Dataset via Consistent Text-to-Image Style Mapping](https://huggingface.co/papers/2604.08364)
+### 6. [ECHO: Efficient Chest X-ray Report Generation with One-step Block Diffusion](https://huggingface.co/papers/2604.09450)
 
-MegaStyle은 대규모 생성 모델의 일관된 텍스트-이미지 스타일 매핑 능력을 활용하여 다양하고 확장 가능한 스타일 데이터셋을 구축하고, 이를 통해 효과적인 스타일 표현 추출을 위한 style-supervised contrastive learning을 제안합니다. (영문 용어: Text-to-Image). 기존 스타일 데이터셋의 일관성 부족과 다양성 한계를 해결하기 위해, MegaStyle은 대규모 생성 모델이 특정 스타일 설명에 따라 일관된 이미지를 생성할 수 있다는 점에 착안했습니다. 이 파이프라인은 170K 스타일 프롬프트와 400K 콘텐츠 프롬프트를 조합하여 대규모 스타일 데이터셋인 MegaStyle-1.4M을 구축합니다. 이 데이터셋을 기반으로 style-supervised contrastive learning을 통해 스타일 인코더 MegaStyle-Encoder를 학습시켜 표현력이 풍부한 스타일별 표현을 추출하고, FLUX 기반의 스타일 전이 모델 MegaStyle-FLUX를 훈련합니다. 결과적으로 MegaStyle-1.4M은 스타일 데이터셋의 일관성, 다양성 및 고품질의 중요성을 입증하며, MegaStyle-Encoder와 MegaStyle-FLUX는 신뢰할 수 있는 스타일 유사도 측정 및 일반화 가능한 스타일 전이를 제공합니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+ECHO는 Direct Conditional Distillation과 Response-Asymmetric Diffusion 훈련을 통해 흉부 X-ray 리포트 생성에서 8배 빠른 추론 속도를 달성하면서도 높은 임상 정확도를 유지합니다. (영문 용어: One-step). 흉부 X-ray 리포트 생성(CXR-RG)은 방사선 전문의의 업무 부담을 줄일 수 있지만, 기존의 autoregressive VLM은 순차적인 토큰 디코딩으로 인해 추론 지연이 발생합니다. ECHO는 이러한 문제를 해결하기 위해 Direct Conditional Distillation (DCD) 프레임워크를 도입하여 토큰 종속성을 인코딩하고, Response-Asymmetric Diffusion (RAD) 훈련 전략으로 훈련 효율성을 높였습니다. 결과적으로 ECHO는 최신 autoregressive 방식보다 RaTE와 SemScore를 크게 향상시키면서도 임상 정확도를 유지하며 8배 빠른 추론 속도를 제공합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 7. [LPM 1.0: Video-based Character Performance Model](https://huggingface.co/papers/2604.07823)
+### 7. [ELT: Elastic Looped Transformers for Visual Generation](https://huggingface.co/papers/2604.09168)
 
-LPM 1.0은 실시간 대화형 캐릭터 퍼포먼스 생성을 위해 정체성 일관성을 유지하며 상호작용적이고 무한 길이의 비디오 합성을 가능하게 하는 대규모 멀티모달 모델입니다. (영문 용어: Video-based). 기존 비디오 모델들은 높은 표현력, 실시간 추론, 장기적인 정체성 안정성을 동시에 달성하기 어려웠습니다. LPM 1.0은 이러한 '퍼포먼스 트릴레마'를 해결하기 위해 단일 인물 전이중 오디오-비주얼 대화 퍼포먼스에 중점을 둡니다. 엄격한 필터링과 멀티모달 데이터셋 구축을 통해 17B 파라미터 Diffusion Transformer (Base LPM)를 훈련하여 높은 제어력과 정체성 일관성을 가진 퍼포먼스를 생성합니다. 이를 인과적 스트리밍 생성기 (Online LPM)로 증류하여 낮은 지연 시간과 무한 길이의 상호작용을 가능하게 합니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+ELT는 가중치 공유와 Intra-Loop Self Distillation을 활용한 반복적인 트랜스포머 아키텍처로, 시각적 생성 모델의 파라미터 효율성을 크게 향상시켰습니다. 기존 생성 모델이 깊은 트랜스포머 레이어 스택에 의존하는 것과 달리, ELT는 반복적이고 가중치를 공유하는 트랜스포머 블록을 사용하여 파라미터 수를 대폭 줄이면서도 높은 생성 품질을 유지합니다. 이 모델은 Intra-Loop Self Distillation (ILSD) 기법을 통해 훈련되며, 이는 단일 훈련 단계에서 모델 깊이 전반의 일관성을 보장합니다. 결과적으로 ELT는 계산 비용과 생성 품질 간의 동적 트레이드오프를 제공하는 탄력적인 모델군을 생성하여, ImageNet 및 UCF-101 벤치마크에서 경쟁력 있는 성능을 달성했습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 8. [OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks](https://huggingface.co/papers/2604.08539)
+### 8. [Multi-User Large Language Model Agents](https://huggingface.co/papers/2604.08567)
 
-OpenVLThinkerV2는 Gaussian GRPO를 활용하여 다양한 시각 작업에서 안정적인 학습과 지각-추론 균형을 달성하는 범용 멀티모달 추론 모델입니다. (영문 용어: Multi-domain). 멀티모달 모델 학습의 주요 과제인 다양한 시각 작업 보상 토폴로지의 극심한 분산과 지각-추론 균형 문제를 해결하기 위해 Gaussian GRPO(G^2RPO)를 제안합니다. G^2RPO는 선형 스케일링 대신 비선형 분포 매칭을 사용하여 이점 분포를 표준 정규 분포로 수렴시켜 태스크 간 기울기 균등성을 보장하고 학습 안정성을 높입니다. 또한, 응답 길이 조절(response length shaping)과 엔트로피 조절(entropy shaping)을 통해 지각과 추론 능력의 균형을 맞추어 OpenVLThinkerV2의 성능을 향상시킵니다. 이 모델은 이러한 방법론을 통합하여 다양한 시각 작업에서 뛰어난 성능을 보입니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+이 연구는 Multi-User Large Language Model Agents의 상충하는 목표 처리, 프라이버시 보호, 조정 효율성 문제를 해결하기 위한 체계적인 연구를 제시합니다. 기존 LLM 기반 에이전트 시스템은 단일 사용자 상호작용에 최적화되어 있어, 여러 사용자의 상이한 역할, 선호도, 권한 수준을 동시에 처리하는 데 한계가 있습니다. 이 논문은 다중 사용자 LLM 에이전트 상호작용을 다중 주체 의사결정 문제로 공식화하고, 통일된 상호작용 프로토콜을 제안합니다. 또한, 지시 따르기, 프라이버시 보호, 조정 능력을 평가하기 위한 세 가지 스트레스 테스트 시나리오를 설계하여 현재 LLM의 체계적인 결함을 밝혀냈습니다. 연구 결과, LLM은 상충하는 사용자 목표 하에서 안정적인 우선순위 지정에 실패하고, 다중 턴 상호작용에서 프라이버시 침해를 보이며, 반복적인 정보 수집이 필요한 조정에서 효율성 병목 현상을 겪는 것으로 나타났습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 9. [DMax: Aggressive Parallel Decoding for dLLMs](https://huggingface.co/papers/2604.08302)
+### 9. [Backdoor Attacks on Decentralised Post-Training](https://huggingface.co/papers/2604.02372)
 
-DMax는 Diffusion Language Model(dLLM)의 병렬 디코딩 중 오류 축적을 줄이고 생성 품질을 유지하면서 효율성을 높이는 새로운 패러다임을 제시합니다. 기존의 마스크 기반 dLLM은 이진 마스크-토큰 전환을 통해 디코딩했지만, DMax는 마스크 임베딩에서 토큰 임베딩으로의 점진적인 자기 개선으로 디코딩을 재구성합니다. 이 접근 방식의 핵심은 마스크된 입력과 모델의 잘못된 예측 모두에서 깨끗한 토큰을 복구할 수 있도록 모델을 훈련하는 On-Policy Uniform Training이라는 새로운 훈련 전략입니다. 또한, Soft Parallel Decoding을 제안하여 각 중간 디코딩 상태를 예측된 토큰 임베딩과 마스크 임베딩 간의 보간으로 표현함으로써 임베딩 공간에서 반복적인 자기 수정이 가능하게 합니다. 결과적으로 DMax는 GSM8K 및 MBPP 벤치마크에서 정확도를 유지하면서 TPF(Tokens Per Forward)를 크게 향상시키는 효과를 보여주었습니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+분산 후학습(decentralised post-training) 환경에서 파이프라인 병렬 처리(pipeline parallelism)를 대상으로 하는 첫 번째 백도어 공격(backdoor attack)을 제안하여, 중간 단계만 제어해도 LLM에 상당한 오정렬을 유발할 수 있음을 보여줍니다. 대규모 언어 모델(LLM)의 분산 후학습은 데이터 및 파이프라인 병렬 처리 기술을 활용하지만, 악의적인 참여자에 의한 백도어 공격에 취약할 수 있습니다. 기존 연구는 데이터 병렬 처리나 연합 학습에 대한 공격에 집중되었고, 파이프라인 병렬 처리의 견고성에 대한 백도어 공격 연구는 부족했습니다. 이 논문은 파이프라인의 중간 단계를 제어하는 제한된 공격자가 훈련된 모델에 백도어를 주입하여 오정렬을 유발할 수 있음을 입증합니다. 실험 결과, 트리거 단어 포함 시 정렬 비율이 80%에서 6%로 감소했으며, 안전 정렬 훈련 후에도 60%의 성공률을 보였습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 10. [KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation](https://huggingface.co/papers/2604.08455)
+### 10. [Structured Causal Video Reasoning via Multi-Objective Alignment](https://huggingface.co/papers/2604.04415)
 
-KnowU-Bench는 사용자 선호도 추론 및 능동적 지원 능력을 평가하는 개인화된 모바일 에이전트 벤치마크를 제시합니다. 기존 벤치마크는 사용자 선호도를 정적인 기록이나 고정된 컨텍스트에서 평가하여, 에이전트가 상호작용을 통해 누락된 선호도를 이끌어내거나 실시간 GUI 환경에서 언제 개입할지 결정하는 능력을 측정하지 못했습니다. KnowU-Bench는 재현 가능한 Android 에뮬레이션 환경에서 구축된 온라인 벤치마크로, 에이전트에게 사용자 프로필을 숨기고 행동 로그만 노출하여 진정한 선호도 추론을 강제합니다. 또한, LLM 기반 사용자 시뮬레이터를 통해 다중 턴 선호도 도출 및 능동적 동의 처리를 지원하며, GUI 실행, 동의 협상, 거부 후 제약 등 능동적 의사결정 체인 전반을 평가합니다. 이 벤치마크는 개인화된 모바일 에이전트의 실제 성능 저하를 드러냅니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-10 기준)에서 확인했습니다.
+Factum-4B는 Structured Event Facts와 Multi-Objective Reinforcement Learning을 활용하여 복잡한 비디오 이해 작업에서 기존 Video-LLM보다 뛰어난 성능을 보인다. 기존 Video-LLM은 비구조적인 비디오 추론에 의존하여 비효율적이고 취약한 인과 추론을 야기했습니다. 이 연구는 추론 단계 이전에 핵심 이벤트와 인과 관계를 Structured Event Facts로 구성하여 명시적인 제약 조건을 제공합니다. CausalFact-60K 데이터셋과 4단계 훈련 파이프라인을 도입하여 모델을 훈련시키며, 구조적 완전성과 인과적 충실도, 추론 길이 간의 상충 관계를 Multi-Objective Reinforcement Learning (MORL)로 해결합니다. 결과적으로 Factum-4B는 더 신뢰할 수 있는 추론을 제공합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
