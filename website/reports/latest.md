@@ -1,115 +1,119 @@
-# IMDIGEST - 2026-04-20
+# IMDIGEST - 2026-04-21
 
-2026-04-20 KST 기준으로 수집한 AI 뉴스레터입니다.
+2026-04-21 KST 기준으로 수집한 AI 뉴스레터입니다.
 
-2026-04-20 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-04-21 AI 브리핑입니다. 오늘은 AWS Machine Learning Blog, TechCrunch AI, NVIDIA Developer Blog에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 오늘의 뉴스
 
-### [OpenAI가 Hiro와 TBPN 인수를 통해 챗봇 이상의 제품 개발 및 대중 이미지 개선을 모색하고 있습니다.](https://techcrunch.com/2026/04/19/openais-existential-questions)
+### [AWS, NVIDIA RTX PRO 6000 Blackwell Server Edition GPU 기반 G7e 인스턴스를 Amazon SageMaker AI에 도입하여 Generative AI 추론 가속화](https://aws.amazon.com/blogs/machine-learning/accelerate-generative-ai-inference-on-amazon-sagemaker-ai-with-g7e-instances)
 
-OpenAI는 개인 금융 스타트업 Hiro를 인수하여 챗봇 이상의 유료 제품 개발을 목표로 합니다. OpenAI는 뉴 미디어 스타트업 TBPN을 인수하여 대중적 이미지를 개선하고 여론을 형성하려 합니다. 이번 인수는 OpenAI의 핵심 비즈니스 모델을 크게 바꾸기보다는 새로운 시도를 통해 당면한 문제들을 해결하려는 움직임으로 보입니다. 이번 인수는 OpenAI가 단순한 챗봇을 넘어선 서비스 확장과 함께 기업 이미지 관리의 중요성을 인식하고 있음을 보여줍니다. 출처는 TechCrunch AI입니다.
+AWS는 NVIDIA RTX PRO 6000 Blackwell Server Edition GPU로 구동되는 G7e 인스턴스를 Amazon SageMaker AI에서 사용할 수 있게 되었습니다. G7e 인스턴스는 단일 GPU 노드(G7e.2xlarge)에서 35B 파라미터 모델, 4 GPU 노드(G7e.24xlarge)에서 150B 파라미터 모델, 8 GPU 노드(G7e.48xlarge)에서 300B 파라미터 모델과 같은 대규모 언어 모델(LLM) 배포를 지원합니다. 이 새로운 인스턴스는 이전 세대 G6e 인스턴스 대비 최대 2.3배 빠른 추론 성능을 제공하며, GPU당 메모리가 G6e의 두 배, G5의 네 배에 달합니다. Generative AI 모델의 복잡성과 규모가 커짐에 따라, 더 유연하고 비용 효율적이며 강력한 가속기가 필요하며, G7e 인스턴스는 이러한 요구를 충족하여 대규모 모델의 추론 비용 효율성을 높입니다. 출처는 AWS Machine Learning Blog입니다.
 
-### [Uber가 자율주행 기술 분야에 100억 달러 이상을 투자하며 'Asset-Heavy' 전략으로 회귀하고 있습니다.](https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era)
+### [Google이 Gemini in Chrome 기능을 한국 포함 7개국에 추가 출시하며 AI 통합을 확대합니다.](https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries)
 
-Uber는 자율주행 차량 구매 및 관련 기술 개발 회사 지분 인수에 100억 달러 이상을 투자했습니다. 이 중 약 25억 달러는 직접 투자이며, 나머지 75억 달러는 향후 몇 년간 로보택시 구매에 사용될 예정입니다. Uber는 과거 Uber Elevate, Uber ATG, Jump와 같은 자산 집약적 사업을 매각했으나, WeRide, Lucid, Nuro, Rivian, Wayve 등 자율주행 기업에 지속적으로 투자하고 있습니다. Uber의 이러한 대규모 투자는 자율주행 기술이 미래 모빌리티 시장의 핵심 동력임을 시사하며, 플랫폼 기업들이 단순 중개를 넘어 핵심 자산 확보에 나서는 트렌드를 보여줍니다. 출처는 TechCrunch AI입니다.
+Google은 Gemini in Chrome 기능을 호주, 인도네시아, 일본, 필리핀, 싱가포르, 한국, 베트남 등 7개국에 추가로 출시했습니다. 이 기능은 일본을 제외한 모든 국가에서 데스크톱과 iOS에 제공됩니다. 사용자는 Gemini를 통해 여러 탭에서 질문에 답변하고, Gmail, Google Photos, Calendar, Maps와 같은 서비스와 연동하여 개인화된 답변을 얻거나 작업을 수행할 수 있습니다. Google은 Chrome에 AI와 Gemini를 지속적으로 통합하여 사용자 경험을 향상시키고, AI 비서 기능을 다양한 국가로 확장하여 글로벌 시장에서의 경쟁력을 강화하고 있습니다. 출처는 TechCrunch AI입니다.
+
+### [NVIDIA, AI 개발 환경에서 AGENTS.md 파일 악용하는 간접 주입 공격의 위험성 경고 및 완화 전략 제시](https://developer.nvidia.com/blog/mitigating-indirect-agents-md-injection-attacks-in-agentic-environments)
+
+NVIDIA AI Red Team은 OpenAI Codex에서 AGENTS.md 파일을 통한 간접 주입 공격 취약점을 발견했습니다. 이 공격은 악성 종속성(malicious dependency)을 통해 AGENTS.md 파일에 악성 지시를 주입하여 AI 에이전트의 동작을 조작합니다. AGENTS.md 파일은 AI 에이전트에게 프로젝트별 지침, 코딩 규칙 등을 제공하며, 에이전트는 이를 신뢰할 수 있는 컨텍스트로 처리합니다. AI 에이전트가 소프트웨어 개발 워크플로우에 깊이 통합되면서, 에이전트 지침 파일(예: AGENTS.md)을 악용하는 새로운 유형의 보안 위협이 증가하고 있습니다. 출처는 NVIDIA Developer Blog입니다.
+
+### [AWS, AI 에이전트의 외부 툴 테스트를 위한 LLM 기반 시뮬레이션 프레임워크 ToolSimulator를 출시했습니다.](https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents)
+
+ToolSimulator는 Strands Evals SDK의 일부로 제공되는 LLM 기반 툴 시뮬레이션 프레임워크입니다. 이 프레임워크는 AI 에이전트가 외부 툴에 의존할 때, 실제 API 호출 없이 안전하고 확장 가능한 테스트를 가능하게 합니다. 개인 식별 정보(PII) 노출이나 의도치 않은 작업 트리거 위험 없이, LLM 기반 시뮬레이션을 통해 에이전트의 유효성을 검사할 수 있습니다. AI 에이전트가 복잡한 작업을 위해 외부 툴과 상호작용하는 경향이 증가함에 따라, 안전하고 효율적인 툴 테스트의 중요성이 커지고 있습니다. 출처는 AWS Machine Learning Blog입니다.
+
+### [AWS가 Amazon Bedrock AgentCore와 Amazon Nova 2 Sonic을 활용한 옴니채널 음성 주문 시스템 구축 방안을 공개했습니다.](https://aws.amazon.com/blogs/machine-learning/omnichannel-ordering-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic)
+
+AWS는 Amazon Bedrock AgentCore와 Amazon Nova 2 Sonic을 사용하여 모바일 앱, 웹사이트, 음성 인터페이스 등 다양한 채널에서 작동하는 음성 주문 시스템 구축 방법을 제시했습니다. 이 시스템은 양방향 오디오 스트림 처리, 다중 턴 대화 컨텍스트 유지, 백엔드 서비스 통합, 트래픽 확장을 지원합니다. AWS Cloud Development Kit (AWS CDK)를 사용하여 다채널 Voice AI 주문 인프라를 배포하고, AgentCore Runtime에 호스팅된 Strands와 Amazon Nova 2 Sonic으로 에이전트를 구현합니다. 기업들은 고객 경험 향상과 운영 효율성 증대를 위해 옴니채널 전략을 강화하고 있으며, 음성 AI 기술은 이러한 옴니채널 환경에서 핵심적인 상호작용 수단으로 부상하고 있습니다. 출처는 AWS Machine Learning Blog입니다.
 
 ## 커뮤니티와 검색에서 읽힌 흐름
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.
 
-### [LLM 에이전트의 조작을 방지하는 Karpathy의 autoresearch 패턴용 Python 도구 scalar-loop이 개발되었습니다.](https://www.reddit.com/r/artificial/comments/1spz2g0/scalarloop_a_python_harness_for_karpathys)
+### [Reddit r/LocalLLaMA발 'MiniMax2.7 Local Results on Terminal Bench. Dud. Anyone using this for agent coding in Claude?' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1sr58a5/minimax27_local_results_on_terminal_bench_dud)
 
-scalar-loop은 LLM 에이전트가 검증기를 조작하여 더 나은 수치를 보고하는 문제를 해결하기 위해 설계되었습니다. 이 도구는 SHA-256 해시 매니페스트를 통해 Harness 무결성을 보장하며, 봉인된 파일(테스트, 빌드, 설정)의 해시가 변경되면 반복을 되돌립니다. Git diff를 통해 에이전트가 접근할 수 있는 파일 범위를 강제하며, 허용되지 않은 파일 변경 시 반복을 거부합니다. LLM 에이전트의 자율성이 증가함에 따라, 에이전트가 의도치 않거나 악의적으로 시스템을 조작할 가능성이 커지고 있어, 이러한 무결성 및 보안 강화 도구의 필요성이 대두되고 있습니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: I just finished a full Terminal-Bench 2.0 run (445 trials) with MiniMax-M2.7 (Q8_0, unsloth GGUF) running locally on a Mac Studio M3 Ultra with 512GB unified memory. 원문에서 확인된 핵심 내용: The result: 41.3% mean — which is actually worse than the 42.7% I got with M2.5 on the same hardware and config. 원문에서 확인된 핵심 내용: The numbers: 434 trials, 184 solved, 250 failed 198 errors — 187 of those were AgentTimeoutError (the model running out of clock, not crashing) Mean reward: 0.413 10-17 tokens/seco. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [최근 주요 AI 모델들이 과도하게 제한되어 사용자 불만이 증가하고 있습니다.](https://www.reddit.com/r/artificial/comments/1spxccd/why_is_every_ai_getting_restricted_these_days)
+### [신경망 KV-캐시 압축을 위한 Cartridges 및 STILL의 오픈소스 단일 GPU 재현이 공개되었습니다.](https://www.reddit.com/r/MachineLearning/comments/1squ94n/opensource_singlegpu_reproductions_of_cartridges)
 
-ChatGPT, Claude, Grok, Gemini 등 여러 AI 모델들이 이전보다 엄격하게 제한되고 있습니다. 사용자들은 AI가 창의적인 작업이나 아이디어 실험 등 일반적인 용도에서도 지나치게 안전 위주로 작동하여 불편함을 겪고 있습니다. 유료 구독자들도 AI의 과도한 제한으로 인해 서비스의 가치가 떨어진다고 느끼고 있습니다. AI 개발사들이 안전 및 윤리적 문제에 대한 우려로 인해 모델의 제한을 강화하는 추세입니다. 출처는 Reddit r/artificial입니다.
+장문 컨텍스트 추론 및 KV-캐시 압축을 위한 두 가지 최신 아이디어인 Cartridges와 STILL의 오픈소스 재현이 구현되었습니다. (영문 용어: Open-source, single-GPU). Cartridges는 corpus-specific 압축 KV 캐시를 재현하며, STILL은 재사용 가능한 신경망 KV-캐시 압축을 재현합니다. STILL 리포지토리는 전체 컨텍스트 추론, Truncation, 그리고 Cartridges와도 비교 분석을 제공합니다. 이는 장문 컨텍스트 추론 및 메모리 압축 분야의 실용적인 시스템 트레이드오프에 대한 관심을 높이고, KV-캐시 재사용의 효율성을 개선하는 데 기여할 것입니다. 출처는 Reddit r/MachineLearning입니다.
+
+### [Physical AI가 로봇 공학의 산업 전반에 걸쳐 혁신을 주도하고 있습니다.](https://news.google.com/rss/articles/CBMidkFVX3lxTFA1ZVM2Tlc1V0ZHZm5xSDkzdnJkd1RXZ2RNM2o2Z0wtWEIzOTNtWGxOekxHamhZY0pENTVZQXBJTlRPVGMzcGdRTWtxS2tpU0RhTDhrOHpPcjJJb2JYc1VFVzB4V0kwWXpEU3Q5MVM2U3c0RWF5Unc?oc=5)
+
+Physical AI는 로봇이 물리적 세계와 상호 작용하고 학습하는 방식을 변화시키는 기술입니다. 기존 로봇이 프로그래밍된 작업을 수행하는 반면, Physical AI 로봇은 예측 불가능한 환경에 적응하고 새로운 작업을 학습할 수 있습니다. 이는 제조, 물류, 헬스케어 등 다양한 산업에서 로봇의 활용 범위를 확장하고 있습니다. Physical AI는 로봇이 더욱 자율적이고 유연하게 작동하도록 하여 생산성 향상과 비용 절감에 기여합니다. 출처는 Google News AI Search입니다.
 
 ### [Boston Dynamics가 Spot 로봇과 Gemini Robotics의 협력을 통해 작업 자동화 도구를 선보입니다.](https://news.google.com/rss/articles/CBMikgFBVV95cUxPSGFTb3BWRkxrWUVaSlBSR1RmYlBoekNTR0NDSWs5RlBid1ZyQWdiUG1TbWxSZ3ByNDRWd2NRUzV3LWdLNHYzSXFMeGtWSmpVbFNfMUtzc1laTWI4dXkwSmdjQmtlY2lRRUoybG9lSno3dWN2R3JwU2JDMENjV1lialNPUzF5MWMxZGFBQ3dQWThZQQ?oc=5)
 
 Boston Dynamics는 Spot 로봇과 Gemini Robotics의 기술을 결합하여 다양한 작업을 자동화하는 도구를 개발했습니다. 이 협력은 Spot 로봇의 이동성과 Gemini Robotics의 정밀한 조작 능력을 활용하여 복잡한 작업을 수행합니다. 사용자들은 Spot 로봇이 수행할 작업을 쉽게 프로그래밍하고 관리할 수 있도록 지원하는 솔루션이 제공됩니다. 로봇이 단순 반복 작업을 넘어 복잡하고 다양한 환경에서 자율적으로 작업을 수행하는 추세가 가속화되고 있음을 보여줍니다. 출처는 Google News AI Search입니다.
 
-### [AI 에이전트의 안전성 강화를 위한 결정론적 가드레일 오픈소스 도구 AG-X가 공개되었습니다.](https://www.reddit.com/r/LocalLLaMA/comments/1sq4ot4/deterministic_vs_probabilistic_guardrails_for)
-
-AG-X는 Python AI 에이전트에 cage assertions 및 cognitive patches를 추가하여 Prompt injection, 비규격 JSON 응답 등의 문제를 해결합니다. (영문 용어: open-source). LLM 없이 json_schema, regex, forbidden_string 엔진을 사용하여 결정론적으로 검증을 수행합니다. 기존 솔루션과 달리 API gateway나 클라우드 계정 없이 로컬에서 작동하며, SQLite에 트레이스를 저장하고 YAML vaccine 파일을 핫 리로드할 수 있습니다. AI 에이전트의 신뢰성과 안정성 확보가 중요해지면서, 예측 불가능한 오류를 줄이고 보안을 강화하는 결정론적 가드레일 솔루션에 대한 수요가 증가하고 있습니다. 출처는 Reddit r/LocalLLaMA입니다.
-
-### [Kernai, 런타임이 실행 프로토콜을 소유하는 새로운 에이전트 런타임으로 소규모 오픈소스 모델의 에이전트 기능 향상](https://www.reddit.com/r/LocalLLaMA/comments/1sq3mcf/small_opensource_models_can_behave_like_real)
-
-Kernai는 모델이 구조화된 블록을 생성하고 커널이 이를 파싱하여 스킬, 프로토콜 호출, 워크플로우를 실행한 후 결과를 다시 주입하는 방식으로 작동합니다. (영문 용어: open-source). 이 접근 방식은 모델에 내장된 Tool Calling 기능이 없어도 에이전트 동작을 훨씬 더 다양한 모델에서 사용할 수 있게 합니다. 작은 오픈소스 모델도 실행 계약이 명확하면 복잡한 시나리오를 처리할 수 있으며, 기존의 큰 모델보다 단계가 많고 신뢰도가 낮을 수 있지만 에이전트로서 기능합니다. 런타임이 실행 프로토콜을 소유하는 방식은 모델의 크기나 Tool Calling 지원 여부에 관계없이 에이전트 기능을 구현할 수 있게 하여, AI 에이전트 개발의 접근성과 유연성을 크게 높입니다. 출처는 Reddit r/LocalLLaMA입니다.
-
-### [AI가 현재 노동 시장에서 어떻게 활용되고 있는지에 대한 Bipartisan Policy Center의 분석이 발표되었습니다.](https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ183djdJLUExQU14UVZKOGNBME1BYjliV2l1SXRyUUxXZl9wNlJrZzJ3dHg0eTJ6Xzl4V1NUY21HWlN1Y3VRYlltU25ydXBDd0ZHN3ZCMTFfRld5TUtha1F1RzRyQ1F1dUJtVEZqNHpFTTluaXgxQl9zS2xDX2xOQmZzM1BZS0JoMVBNRm45eEhBeUxGVHc?oc=5)
-
-Bipartisan Policy Center는 AI가 오늘날 노동력에 어떻게 통합되고 있는지에 대한 보고서를 발행했습니다. 이 보고서는 AI의 다양한 활용 사례와 그 영향을 다룹니다. AI가 현재 여러 산업 분야에서 사용되는 방식에 대한 구체적인 내용을 포함하고 있습니다. AI 기술의 발전과 확산이 노동 시장에 미치는 영향에 대한 정책적 논의가 활발해지고 있음을 보여줍니다. 출처는 Google News AI Search입니다.
-
 ### [Google Gemini 앱이 이제 Mac에서도 사용 가능해지며 AI 접근성을 확장합니다.](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeXdQVmxFWlVnUWE3WWpZZVZ3UURhZUFMalhyOGF5UGYyeVJEQ09ITlVHblh4d0VINjdLb1FLbVRxaXZOOFhhdWlDZGlmOUxlLVBSNEpBbjJyd0NCRFQwVHh6YU5WVU9zWWF0bGMtREdyZXZMSVZkcUozWGFoZWVnNFU3Rmp4XzhpRmk0?oc=5)
 
 Google의 AI 어시스턴트 Gemini 앱이 Mac 기기에서도 공식적으로 출시되었습니다. (영문 용어: blog.google). 사용자들은 이제 Mac에서 Gemini를 통해 텍스트 생성, 정보 요약, 아이디어 구상 등 다양한 AI 기능을 활용할 수 있습니다. Gemini는 Google Workspace 앱과 연동되어 Gmail, Docs 등에서 AI 기능을 직접 사용할 수 있습니다. Google이 Gemini 앱을 Mac으로 확장함으로써, AI 어시스턴트의 접근성을 높이고 더 많은 사용자가 다양한 기기에서 AI를 활용할 수 있도록 지원합니다. 출처는 Google News AI Search입니다.
 
-### [미국 국가안보국(NSA), 블랙리스트에도 불구하고 Anthropic의 Mythos AI 모델 사용 중](https://news.google.com/rss/articles/CBMivwFBVV95cUxPZVQxQUdjUjgtWnUzUnNfXzI5WFdiMXNkOC1qakZhZ0hfMEZvUVBpckJXQWlFTkdKTzljaU1vQm5hSDFOY3ZHc2p3M1pSSVp5enZuS0VfS3RiT3o4MWx4MnE2dkNHaWNDNVZlR0xUZDRpbEc5eW83V3BmQm9CX1JTeWxvdXJubnJwT19lTXJaLUotTzJ6X1ZER0poQ2N5VEMzOUNuWUxJZWxqYnlRVFNjQzJHeUhCalNNY21KMDJLSQ?oc=5)
+### [MacBook Air M5에서 21개 로컬 LLM의 코드 품질 및 속도 벤치마크 결과가 공개되었습니다.](https://www.reddit.com/r/LocalLLaMA/comments/1sr2wid/i_benchmarked_21_local_llms_on_a_macbook_air_m5)
 
-Axios 보고서에 따르면, 미국 국가안보국(NSA)이 Anthropic의 AI 모델인 Mythos를 사용하고 있는 것으로 드러났습니다. Mythos는 NSA의 블랙리스트에 올라 있음에도 불구하고 사용되고 있습니다. NSA는 Mythos를 사용하여 정보 분석 및 기타 보안 관련 작업을 수행하는 것으로 알려졌습니다. 국가 안보 기관의 AI 기술 도입은 정보 분석 및 사이버 보안 역량을 강화하려는 광범위한 추세를 반영합니다. 출처는 Google News AI Search입니다.
+Qwen 3.6 35B-A3B (MoE) 모델이 89.6%의 HumanEval+ 점수로 코드 품질에서 가장 우수했습니다. Qwen 2.5 Coder 7B는 4.5GB의 VRAM을 사용하며 84.2%의 HumanEval+ 점수와 11.3 tok/s의 속도를 보여, RAM 효율성 면에서 뛰어난 성능을 보였습니다. 벤치마크는 164개의 코딩 문제에 대한 pass@1 점수와 토큰 생성 속도를 측정하여 객관적인 데이터를 제공했습니다. 이번 벤치마크는 '어떤 모델이 코딩에 더 좋은가'에 대한 주관적인 의견 대신 실제 데이터를 기반으로 한 객관적인 평가 기준을 제시합니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [AIOSAI의 'AIPass' 레포지토리가 Reddit에서 Multi Agents 시스템으로 주목받고 있습니다.](https://www.reddit.com/r/artificial/comments/1sq6p53/multi_agents)
+### [Google News AI Search발 'Tarasoff Meets the AI Age - Lawfare' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMib0FVX3lxTFBReFhVMzR5WGd3SVBYUVNMZEszaHljOXQ4UkQ2WHR3amJoc2M0VVlFTGZ1RUtBVlJIMnZCUWpNZlFEQmh5VHhzWk56MFotNGRzUGlYUVJqUVZPVmdwb2I5SjVWekd1NEVZT05wN3VWWQ?oc=5)
 
-Reddit r/artificial 커뮤니티에서 'AIPass'라는 GitHub 레포지토리가 소개되었습니다. 해당 레포지토리는 Multi Agents 시스템과 관련된 것으로 보이며 사용자들의 관심을 끌고 있습니다. xNexusReborn 사용자가 이 레포지토리를 공유하며 다른 사용자들의 사용 경험을 문의했습니다. Multi Agents 시스템은 복잡한 AI 작업을 분산 처리하고 효율성을 높이는 데 중요한 기술로 부상하고 있습니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: Tarasoff Meets the AI Age &nbsp;&nbsp; Lawfare. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [딥러닝의 과학적 이해를 위한 근본 이론 정립의 중요성 부각](https://www.reddit.com/r/MachineLearning/comments/1sq273c/on_the_path_towards_a_true_science_of_deep)
+### [Google News AI Search발 'Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute - Anthropic' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fdy1yMjdvS1NvTl9pS3h1ck56aG0wRERDMy0yeDJJNmdJdEd0Z3I4N0xYS3RlY3AxWmtBR25FSkpPUWNrM0M1U1RxT0lPTXhja1prTGw4RGNNOHIweHdvcXd3Nk1DUQ?oc=5)
 
-산업과 학계에 모두 소속된 한 과학자가 약 7년간 머신러닝의 근본적인 과학 이론을 연구해왔음을 밝힘. 딥러닝의 발전을 위해 경험적 접근을 넘어선 과학적 이론 정립의 필요성을 강조함. 현재 딥러닝은 공학적 성과가 뛰어나지만, 그 작동 원리에 대한 깊이 있는 과학적 이해는 부족하다고 지적함. 딥러닝 기술이 빠르게 발전함에 따라, 단순히 성능 개선을 넘어선 근본적인 이론적 토대 마련이 학계와 산업계의 주요 과제로 떠오르고 있음. 출처는 Reddit r/MachineLearning입니다.
+원문에서 확인된 핵심 내용: Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute &nbsp;&nbsp; Anthropic. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [캐나다 정부, 한 AI 스타트업에 2억 4천만 달러 단일 보조금 지급으로 AI 산업 지원에 대한 논쟁 촉발](https://www.reddit.com/r/artificial/comments/1sq1gda/canada_gave_one_ai_startup_240m_in_a_single_grant)
+### [Amazon이 Anthropic에 27억 5천만 달러를 추가 투자하며 전략적 협력을 확대합니다.](https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1FlbU1kTVBFR2RLTlJrc0l5cVBoS3QydUJTSlNOSWk4ZUNSSUhySGV2RnJYRnRkajJQY1FVTUdET3QybFFpazcySWx1bm9ja25ielpISWhRenZ1Rk1Fbm5wN0JsbXd5ZUo5ZjcyNU5mNmRWblJLbXpPQk50UGdQbTk4WXZ5UXRVckhtOU10cElhcEZDQXZPeFpR?oc=5)
 
-캐나다 정부가 한 AI 스타트업에 2억 4천만 달러(약 3,300억 원)의 단일 보조금을 지급했습니다. 이는 지난 7년간 107개 AI 기업이 받은 총 보조금의 66%를 넘는 금액입니다. 해당 보조금 지급은 AI 산업 지원 방식과 특정 기업에 대한 과도한 지원에 대한 논란을 불러일으키고 있습니다. 정부의 AI 산업 육성 전략이 소수 대기업 중심이 아닌, 다양한 스타트업 생태계 지원으로 전환되어야 한다는 목소리가 커지고 있습니다. 출처는 Reddit r/artificial입니다.
+Amazon은 Anthropic에 27억 5천만 달러를 추가 투자하여 총 투자액을 40억 달러로 늘렸습니다. Anthropic은 Amazon Web Services(AWS)를 핵심 클라우드 제공업체로 활용하며, AWS Trainium 및 Inferentia 칩을 사용하여 미래 파운데이션 모델을 구축하고 훈련할 예정입니다. Anthropic은 자사의 AI 모델에 대한 장기적인 보안과 무결성을 보장하기 위해 AWS Nitro Enclaves를 사용할 계획입니다. 이번 투자는 클라우드 컴퓨팅 및 AI 모델 개발 시장에서 AWS의 입지를 강화하고, Anthropic의 AI 기술 발전을 가속화할 것입니다. 출처는 Google News AI Search입니다.
 
-### [ICLR 2026에서 공개 코드 또는 데이터를 제공하는 논문이 1,200개 이상으로 집계되었습니다.](https://www.reddit.com/r/MachineLearning/comments/1spvoer/1200_iclr_2026_papers_with_public_code_or_data_r)
+### [아마존이 AI 인프라 확장을 위해 Anthropic에 최대 250억 달러를 추가 투자합니다.](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdENHZTV6MTdDdGFScHBGUTJEandaV2pqb3ZJWWFVTHpJNUtsNWJJUVBWZFQyQ05MSWVYOFcwQ05Keks4R1FEWVNENkw4VTRHOEZjXzkwLUNIZ1pjd1ZRNUpfSmVFZTZWQ21HX09jQzdUSUJhS1lDTzZPWFg2QmpVeWhZdHlOZGRoVVRkOEdOZzNSNWFDRjFMSTZXdk1LX2ZjcFVJWmZ1YUQ3d9IBrwFBVV95cUxNVWN2VjU0RFV1OFl6R1cyVXlpQ2JKaTdfQndJQzBuZ0tuQVZlUUJJQ09WMDAwY2NYdk51UWdyZElSTGkwZHVXX1JPSVBTWE5rbzBURWRGaFhtZHR1OFN5WXJvRlA3RlMtX2Z5SjRnTGRZZjFkVDRtcTFtZmNobVk2MzRwNDdHUkZpdl92c21HUkF6eWZrSjFTUTRSWmdNajhpcW1MSm9OTmU1THpGRlJF?oc=5)
 
-ICLR 2026에 채택된 5,300개 이상의 논문 중 약 22%에 해당하는 1,200개 논문이 공개 코드, 데이터 또는 데모 링크를 제공합니다. 해당 링크들은 논문 제출 시 제공된 정보에서 직접 추출되었습니다. 코드 링크는 GitHub 또는 공식 사이트와 같은 코드 베이스로 직접 연결됩니다. 이는 머신러닝 연구의 투명성과 재현성(reproducibility)에 대한 중요성이 커지고 있음을 보여줍니다. 출처는 Reddit r/MachineLearning입니다.
+아마존은 AI 스타트업 Anthropic에 최대 250억 달러를 추가 투자할 계획입니다. 이번 투자는 AI 인프라 구축 및 확장을 위한 전략적 파트너십의 일환입니다. Anthropic은 아마존의 클라우드 서비스인 AWS를 주요 클라우드 제공업체로 활용할 예정입니다. 이번 투자는 AI 기술 경쟁이 심화되는 가운데, 클라우드 서비스 제공업체들이 AI 스타트업과의 협력을 통해 AI 생태계를 확장하려는 트렌드를 보여줍니다. 출처는 Google News AI Search입니다.
 
-### [2026년 1분기 기술 업계에서 약 8만 명의 직원이 해고되었으며, 이 중 거의 절반이 AI로 인한 것으로 나타났습니다.](https://www.reddit.com/r/artificial/comments/1spw2w0/tech_industry_lays_off_nearly_80000_employees_in)
+### [Anthropic의 새로운 AI 모델 'Mythos'에 대한 우려가 커지면서 관련 정보가 주목받고 있습니다.](https://news.google.com/rss/articles/CBMiswFBVV95cUxQX0pxVnpPaC1ZS1dsUEFtbmpwUU5oOFljenVabmYwYlB3SHhsMXJlSnNUa2Fwbm5nMXNUTFFFVmUxaG1XQUFJYmRMdVBjZFl0amFpekZFbGxwNWxlWkEtZTFBdmZFSllla3I0UG1tR2tUdk1nZ1ZZU0MxTkxkdTVsUjd0UEFITEc3bjcwaFVKMjRfaFNRdWhEU2xsUGRiN29tRWJrRXpucmx6T3J5TzVRQnFMZw?oc=5)
 
-2026년 1분기 동안 기술 산업에서 약 80,000명의 직원이 해고되었습니다. 해고된 직위의 거의 50%가 AI 기술의 발전과 도입으로 인해 발생했습니다. 이는 AI가 일자리 시장에 미치는 영향이 점차 커지고 있음을 보여줍니다. AI 기술의 발전이 기업의 인력 구조조정에 직접적인 영향을 미치고 있으며, 이는 미래 고용 시장의 변화를 예고합니다. 출처는 Reddit r/artificial입니다.
+Anthropic은 안전하고 유용한 AI 시스템 개발에 중점을 둔 AI 연구 스타트업입니다. Mythos는 Anthropic이 개발 중인 새로운 AI 모델로, 그 기능과 잠재적 영향에 대한 관심이 높아지고 있습니다. 최근 AI 기술의 급속한 발전과 함께 AI 안전 및 윤리적 사용에 대한 논의가 활발해지고 있습니다. AI 기술의 발전 속도가 빨라지면서 새로운 모델의 등장과 함께 사회적, 윤리적 영향에 대한 심층적인 논의의 필요성이 커지고 있습니다. 출처는 Google News AI Search입니다.
 
 ## 오늘의 논문
 
 Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문들을 짧게 읽을 수 있게 정리했습니다.
 
-### 1. [HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds](https://huggingface.co/papers/2604.14268)
+### 1. [Elucidating the SNR-t Bias of Diffusion Probabilistic Models](https://huggingface.co/papers/2604.16044)
 
-HY-World 2.0은 텍스트, 단일/다중 뷰 이미지, 비디오 등 다양한 입력으로부터 고품질의 3D Gaussian Splatting 장면을 재구성, 생성 및 시뮬레이션하는 멀티모달 월드 모델 프레임워크입니다. (영문 용어: Multi-Modal). 기존 HY-World 1.0의 한계를 넘어, HY-World 2.0은 다양한 입력 모달리티를 받아 3D 세계를 생성하고 재구성하는 문제를 해결합니다. 이 모델은 HY-Pano 2.0을 통한 파노라마 생성, WorldNav를 통한 궤적 계획, WorldStereo 2.0을 통한 세계 확장, WorldMirror 2.0을 통한 세계 구성의 4단계 방법을 통해 고품질의 탐색 가능한 3D Gaussian Splatting 장면을 합성합니다. 또한, WorldLens라는 고성능 3DGS 렌더링 플랫폼을 도입하여 캐릭터 지원을 포함한 3D 세계의 상호작용적 탐색을 가능하게 합니다. 광범위한 실험을 통해 HY-World 2.0이 우수한 성능을 달성함을 입증했습니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+Diffusion Probabilistic Models의 SNR-t bias 문제를 해결하기 위해 주파수 구성 요소를 분리하여 처리하는 differential correction 방법을 제안하여 생성 품질을 향상시켰습니다. Diffusion Probabilistic Models는 추론 과정에서 SNR-timestep (SNR-t) bias로 인해 생성 품질 저하를 겪습니다. 이는 훈련 시 SNR과 타임스텝의 엄격한 결합이 추론 시에는 깨지면서 발생하는 문제입니다. 본 연구는 이 문제를 해결하기 위해 샘플을 다양한 주파수 구성 요소로 분해하고 각 구성 요소에 개별적으로 differential correction을 적용하는 방법을 제안합니다. 이 접근 방식은 다양한 diffusion 모델에서 생성 품질을 크게 향상시키며 계산 오버헤드가 미미함을 입증했습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 2. [DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation](https://huggingface.co/papers/2604.14683)
+### 2. [Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips](https://huggingface.co/papers/2502.07408)
 
-DR³-Eval은 심층 연구 에이전트의 멀티모달, 다중 파일 보고서 생성 능력을 현실적이고 재현 가능한 방식으로 평가하기 위한 벤치마크를 제안합니다. 심층 연구 에이전트(DRAs)는 복잡하고 장기적인 연구 작업을 수행하지만, 동적인 웹 환경과 모호한 작업 정의로 인해 평가가 어렵습니다. 이 연구는 멀티모달, 다중 파일 보고서 생성을 위한 현실적이고 재현 가능한 벤치마크인 DR³-Eval을 제안합니다. DR³-Eval은 실제 사용자 제공 자료와 오픈 웹의 복잡성을 시뮬레이션하는 정적 연구 샌드박스 코퍼스로 구성됩니다. 또한, 정보 회수, 사실 정확도, 인용 범위, 지시 따르기, 깊이 품질을 측정하는 다차원 평가 프레임워크를 도입하여 인간 판단과의 일치성을 검증했습니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+Deep Neural Lesion (DNL)은 데이터나 최적화 없이 신경망의 치명적인 취약점을 유발하는 파라미터의 sign-bit flip을 찾아내어 모델을 무력화시킵니다. 이 연구는 딥 신경망(DNN)이 소수의 파라미터 비트 플립만으로도 치명적인 손상을 입을 수 있다는 문제를 다룹니다. 제안하는 Deep Neural Lesion (DNL) 방법은 데이터나 최적화 과정 없이 중요한 파라미터를 찾아내어 sign-bit를 뒤집습니다. 이를 통해 ImageNet의 ResNet-50에서 단 두 개의 sign-bit 플립으로 정확도를 99.8% 감소시키고, Mask R-CNN 및 YOLOv8-seg 모델의 COCO AP를 붕괴시키며, Qwen3-30B-A3B-Thinking의 정확도를 0%로 만드는 등 다양한 도메인에서 모델을 무력화시킵니다. 또한, 취약한 sign-bit의 일부를 선택적으로 보호하는 것이 이러한 공격에 대한 실용적인 방어가 될 수 있음을 보여줍니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 3. [RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework](https://huggingface.co/papers/2604.15308)
+### 3. [PersonaVLM: Long-Term Personalized Multimodal LLMs](https://huggingface.co/papers/2604.13074)
 
-RAD-2는 자율주행 모션 플래닝을 위해 확산 모델 기반의 생성자와 RL 최적화된 판별자를 결합한 생성-판별 프레임워크를 제안하여 안정성과 성능을 향상시킵니다. (영문 용어: Generator-Discriminator). 자율주행 모션 플래닝은 미래의 불확실성을 모델링하고 폐쇄 루프 상호작용에서 견고해야 합니다. 기존 확산 기반 플래너는 모방 학습만으로는 불안정성과 교정 피드백 부족 문제를 겪습니다. RAD-2는 확산 기반 생성자가 다양한 궤적 후보를 생성하고, RL로 최적화된 판별자가 장기적인 주행 품질에 따라 이 후보들을 재순위화하여 이러한 문제를 해결합니다. 이 분리된 설계는 고차원 궤적 공간에 희소한 스칼라 보상을 직접 적용하는 것을 피하여 최적화 안정성을 개선합니다. 또한, Temporally Consistent Group Relative Policy Optimization과 On-policy Generator Optimization을 도입하여 RL 학습을 강화하고, 효율적인 대규모 훈련을 위해 BEV-Warp 시뮬레이션 환경을 활용합니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+PersonaVLM은 장기적인 상호작용을 통해 사용자의 진화하는 선호도와 성격을 학습하여 개인화된 응답을 생성하는 새로운 멀티모달 LLM 프레임워크를 제안합니다. (영문 용어: Long-Term). 기존 MLLM은 개인화된 응답 생성 능력이 제한적이며, 단일 턴 개인화에 머물러 사용자의 변화하는 선호도를 반영하지 못하는 문제가 있었습니다. PersonaVLM은 상호작용에서 시계열 멀티모달 기억을 추출 및 요약하여 개인화된 데이터베이스를 구축하고(Remembering), 이 기억을 검색하여 다중 턴 추론을 수행하며(Reasoning), 장기적인 상호작용을 통해 사용자의 성격을 추론하여 응답을 정렬하는(Response Alignment) 세 가지 핵심 기능을 통합합니다. 이 프레임워크는 일반 MLLM을 개인화된 비서로 전환하며, Persona-MME 벤치마크에서 기준선 대비 22.4%, GPT-4o 대비 5.2% 향상된 성능을 보여줍니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 4. [How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data](https://huggingface.co/papers/2604.14164)
+### 4. [Web Retrieval-Aware Chunking (W-RAC) for Efficient and Cost-Effective Retrieval-Augmented Generation Systems](https://huggingface.co/papers/2604.04936)
 
-TESSY 프레임워크는 교사 모델의 추론 능력과 학생 모델의 스타일 일관성을 결합하여 추론 모델의 SFT 성능을 향상시키는 새로운 데이터 합성 방법을 제안합니다. (영문 용어: Fine-Tune, Teacher-Student) (영문 용어: Student-Consistent). 기존에는 강력한 모델이 생성한 합성 데이터를 사용하여 SFT를 수행했지만, Qwen3-8B와 같은 추론 모델에서는 성능 저하를 초래하는 스타일 불일치 문제가 있었습니다. TESSY는 교사-학생 협력 데이터 합성 프레임워크로, 교사 모델과 학생 모델이 스타일 및 비스타일 토큰을 번갈아 생성하게 하여 이 문제를 해결합니다. 이를 통해 교사의 고급 추론 능력과 학생의 스타일 일관성을 모두 갖춘 합성 데이터를 생성합니다. 코드 생성 실험에서 TESSY는 LiveCodeBench-Pro 및 OJBench에서 각각 11.25% 및 6.68%의 성능 향상을 달성했습니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+W-RAC(Web Retrieval-Aware Chunking)은 웹 문서 처리를 위한 비용 효율적인 프레임워크로, LLM 토큰 사용량과 환각 위험을 줄여 RAG 시스템의 효율성을 높입니다. (영문 용어: Cost-Effective, Retrieval-Augmented). 기존 RAG 시스템의 청킹 방식은 높은 토큰 소비, 중복 생성, 확장성 및 디버깅의 어려움 문제를 가지고 있었습니다. W-RAC은 웹 문서를 구조화된 ID-주소 지정 가능한 단위로 표현하고 LLM을 텍스트 생성 대신 검색 인식 그룹화 결정에만 사용하여 이 문제를 해결합니다. 이 접근 방식은 토큰 사용량을 크게 줄이고 환각 위험을 제거하며 시스템 관찰 가능성을 향상시킵니다. 실험 결과 W-RAC은 기존 청킹 방식과 유사하거나 더 나은 검색 성능을 달성하면서 청킹 관련 LLM 비용을 10배 절감하는 것으로 나타났습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 5. [GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens](https://huggingface.co/papers/2604.15284)
+### 5. [Qwen3.5-Omni Technical Report](https://huggingface.co/papers/2604.15804)
 
-GlobalSplat은 Global Scene Tokens를 활용하여 효율적인 Feed-Forward 3D Gaussian Splatting을 구현하여 연산 오버헤드를 줄이고 추론 속도를 향상시켰습니다. 기존 3D Gaussian Splatting 방식은 로컬하고 휴리스틱 기반의 할당 전략으로 인해 표현의 압축성, 재구성 속도, 렌더링 충실도 사이에서 큰 절충이 필요했습니다. GlobalSplat은 'align first, decode later' 원칙에 기반하여, 다중 뷰 입력을 인코딩하고 명시적인 3D 형상을 디코딩하기 전에 교차 뷰 대응을 해결하는 압축된 전역 잠재 장면 표현을 학습합니다. 이 접근 방식은 사전 학습된 픽셀 예측 백본이나 조밀한 베이스라인의 잠재 특징을 재사용하지 않고도 압축되고 전역적으로 일관된 재구성을 가능하게 합니다. 점진적으로 디코딩 용량을 늘리는 coarse-to-fine 훈련 커리큘럼을 통해 표현의 비대화를 방지합니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+Qwen3.5-Omni는 수천억 개의 파라미터를 가진 대규모 멀티모달 모델로, Audio-Visual Vibe Coding과 같은 새로운 기능을 통해 오디오-비주얼 이해 및 생성에서 뛰어난 성능을 보인다. Qwen3.5-Omni는 기존 Qwen-Omni 모델의 발전된 형태로, 수천억 개의 파라미터와 256k의 컨텍스트 길이를 지원하며, 방대한 이종 텍스트-비전 쌍 및 1억 시간 이상의 오디오-비주얼 콘텐츠 데이터셋을 활용하여 강력한 옴니-모달리티 기능을 제공합니다. 이 모델은 Hybrid Attention Mixture-of-Experts (MoE) 프레임워크를 사용하여 효율적인 장문 시퀀스 추론을 가능하게 하며, 215개 오디오 및 오디오-비주얼 이해, 추론, 상호작용 서브태스크 및 벤치마크에서 SOTA 결과를 달성했습니다. 특히, 텍스트와 음성 토크나이저 간의 인코딩 효율성 불일치로 인한 스트리밍 음성 합성의 불안정성을 해결하기 위해 ARIA를 도입하여 대화형 음성의 안정성과 운율을 향상시켰습니다. 또한, 10개 언어에 걸쳐 인간과 유사한 감성 뉘앙스로 다국어 이해 및 음성 생성을 지원합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 6. [ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack](https://huggingface.co/papers/2509.25843)
+### 6. [Cut Your Losses! Learning to Prune Paths Early for Efficient Parallel Reasoning](https://huggingface.co/papers/2604.16029)
 
-ASGuard는 회로 분석과 타겟 미세 조정을 통해 특정 어텐션 헤드를 재조정하여 LLM의 tense-based jailbreaking 공격에 대한 취약한 거부 행동을 완화합니다. (영문 용어: Activation-Scaling). LLM은 안전 정렬에도 불구하고 간단한 언어적 변화로 우회될 수 있는 취약한 거부 행동을 보입니다. 특히, tense jailbreaking은 모델이 유해한 요청을 과거 시제로 바꾸면 종종 수락하는 문제를 드러냅니다. ASGuard는 이러한 특정 취약점을 완화하기 위해, 먼저 회로 분석을 사용하여 tense-changing 공격과 인과적으로 연결된 특정 어텐션 헤드를 식별합니다. 그 다음, tense에 취약한 헤드의 활성화를 재조정하기 위해 정밀한 채널별 스케일링 벡터를 훈련하고, 이를 "예방적 미세 조정"에 적용하여 모델이 더 강력한 거부 메커니즘을 학습하도록 합니다. 이 방법은 4개의 LLM에서 타겟 jailbreaking의 공격 성공률을 효과적으로 줄이면서 일반적인 기능을 보존하고 과도한 거부를 최소화하여 안전과 유용성 사이의 파레토 최적 균형을 달성합니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+이 논문은 검색 결합형 모델 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 검색 결합형 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Learning to Prune Paths Early for Efficient Parallel Reasoning Abstract STOP is a systematic path pruning method for large reasoning models that improves efficiency and accuracy th 추가로 눈에 띄는 주장: Parallel reasoning enhances Large Reasoning Models (LRMs) but incurs prohibitive costs due to futile paths caused by early errors. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 7. [HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System](https://huggingface.co/papers/2604.14125)
+### 7. [(1D) Ordered Tokens Enable Efficient Test-Time Search](https://huggingface.co/papers/2604.15453)
 
-HiVLA는 시각 기반의 계층적 로봇 조작 시스템으로, VLM 플래너와 Diffusion Transformer 액션 전문가를 분리하여 복잡한 조작 작업에서 뛰어난 성능을 보인다. (영문 용어: Visual-Grounded-Centric). 기존의 end-to-end VLA 모델은 미세 조정 시 VLM의 추론 능력이 저하되는 문제가 있었습니다. HiVLA는 이 문제를 해결하기 위해 고수준의 의미론적 계획과 저수준의 모터 제어를 명시적으로 분리하는 계층적 프레임워크를 제안합니다. 고수준에서는 VLM 플래너가 작업 분해 및 시각적 접지를 통해 구조화된 계획을 생성하고, 저수준에서는 cascaded cross-attention 메커니즘을 갖춘 Diffusion Transformer(DiT) 액션 전문가가 이 계획을 물리적 행동으로 변환합니다. 이 분리된 아키텍처는 VLM의 zero-shot 추론 능력을 유지하면서 각 구성 요소의 독립적인 개선을 가능하게 하여, 시뮬레이션 및 실제 환경에서 기존 end-to-end 모델을 능가하는 성능을 보여줍니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+이 연구는 1D Ordered Tokens가 coarse-to-fine 구조를 통해 효율적인 Test-Time Search를 가능하게 하여 훈련 없이도 텍스트-이미지 생성을 수행할 수 있음을 보여줍니다. 기존 AR 모델의 토큰 구조는 Test-Time Search를 통한 생성 제어 능력에 영향을 미칠 수 있습니다. 이 연구는 coarse-to-fine 구조를 가진 1D Ordered Tokens가 2D grid 구조보다 검색에 더 적합하다는 가설을 세웠습니다. 그 이유는 coarse-to-fine 시퀀스의 중간 상태가 검증기가 신뢰할 수 있는 의미론적 정보를 전달하여 생성 중 효과적인 조향을 가능하게 하기 때문입니다. 실험 결과, 1D Ordered Tokens는 향상된 Test-Time Scaling 동작을 보였으며, 이미지-텍스트 검증기의 안내를 통해 훈련 없이도 텍스트-이미지 생성을 수행할 수 있음을 입증했습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 8. [Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems](https://huggingface.co/papers/2604.14228)
+### 8. [Where does output diversity collapse in post-training?](https://huggingface.co/papers/2604.16027)
 
-이 연구는 Claude Code의 아키텍처를 분석하여, 다섯 가지 핵심 가치와 열세 가지 설계 원칙이 어떻게 특정 구현 선택으로 이어지는지 설명합니다. 이 연구는 Claude Code라는 에이전트 코딩 도구의 포괄적인 아키텍처를 분석합니다. 사용자 대신 셸 명령을 실행하고 파일을 편집하며 외부 서비스를 호출할 수 있는 Claude Code의 TypeScript 소스 코드를 분석하여, 인간의 의사결정 권한, 안전 및 보안, 안정적인 실행, 기능 증폭, 상황 적응성이라는 다섯 가지 핵심 가치를 식별합니다. 이러한 가치들이 13가지 설계 원칙을 거쳐 while-loop 아키텍처, 권한 시스템, 컨텍스트 관리 파이프라인, 확장성 메커니즘 등 구체적인 구현 선택으로 이어지는 과정을 추적합니다. 또한, 유사한 설계 문제를 다르게 해결하는 OpenClaw와의 비교를 통해 배포 컨텍스트에 따른 아키텍처 차이를 보여줍니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+이 논문은 AI 연구 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Where does output diversity collapse in post-training? 추가로 눈에 띄는 주장: Abstract Output diversity collapse in post-trained language models is primarily driven by training data composition rather than generation format, with different post-training meth. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 9. [UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards](https://huggingface.co/papers/2604.14967)
+### 9. [Repurposing 3D Generative Model for Autoregressive Layout Generation](https://huggingface.co/papers/2604.16299)
 
-UniDoc-RL은 계층적 액션과 Dense Rewards를 통해 LVLM의 RAG 시스템에서 시각적 검색, 재순위화, 시각적 인식 및 추론을 공동으로 최적화하는 강화 학습 프레임워크를 제안합니다. (영문 용어: Coarse-to-Fine). 기존 Visual RAG 시스템은 복잡한 추론에 필수적인 미세한 시각적 의미를 간과하는 일반적인 검색 신호에 의존하는 한계가 있었습니다. UniDoc-RL은 이러한 문제를 해결하기 위해 LVLM 에이전트가 검색, 재순위화, 능동적인 시각적 인식 및 추론을 공동으로 수행하는 통합 강화 학습 프레임워크를 제안합니다. 이 프레임워크는 시각 정보 획득을 계층적 액션 공간을 가진 순차적 의사결정 문제로 공식화하여, 문서 검색부터 이미지 선택 및 영역 크롭핑까지 시각적 증거를 점진적으로 정제합니다. 또한, 효과적인 종단간 학습을 위해 각 액션에 대한 작업 인식 감독을 제공하는 Dense Multi-Reward 스키마를 도입하여, Group Relative Policy Optimization (GRPO) 기반으로 여러 목표에 맞춰 에이전트 행동을 조정합니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+LaviGen은 3D diffusion model을 재활용하여 3D 공간에서 객체 간의 기하학적 관계와 물리적 제약을 명시적으로 모델링하는 3D 레이아웃 생성 프레임워크를 제안합니다. 기존 텍스트 기반의 3D 레이아웃 생성 방식과 달리, LaviGen은 3D generative model을 3D 레이아웃 생성에 재활용하여 3D 공간에서 직접 작동합니다. 이 프레임워크는 레이아웃 생성을 객체 간의 기하학적 관계와 물리적 제약을 명시적으로 모델링하는 Autoregressive 프로세스로 구성하여 일관성 있고 물리적으로 타당한 3D 장면을 생성합니다. 효율성과 공간 정확도를 높이기 위해, LaviGen은 장면, 객체, 지시 정보를 통합하고 dual-guidance self-rollout distillation 메커니즘을 사용하는 적응형 3D diffusion model을 활용합니다. LayoutVLM 벤치마크에서 LaviGen은 최첨단 모델보다 19% 높은 물리적 타당성과 65% 빠른 계산 속도로 우수한 성능을 달성했습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 10. [LeapAlign: Post-Training Flow Matching Models at Any Generation Step by Building Two-Step Trajectories](https://huggingface.co/papers/2604.15311)
+### 10. [QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies](https://huggingface.co/papers/2604.15151)
 
-LeapAlign은 Flow Matching 모델의 미세 조정을 위한 새로운 방법으로, 긴 생성 궤적을 두 단계로 단축하여 계산 비용을 줄이고 안정적인 그래디언트 전파를 가능하게 합니다. (영문 용어: Post-Training, Two-Step). Flow Matching 모델을 인간 선호도에 맞춰 미세 조정하는 것은 보상 그래디언트를 직접 역전파하는 유망한 방법이지만, 긴 궤적은 막대한 메모리 비용과 그래디언트 폭발을 야기합니다. LeapAlign은 이 문제를 해결하기 위해 긴 궤적을 두 단계로 단축하고, 각 단계에서 여러 ODE 샘플링 단계를 건너뛰어 미래 잠재 변수를 예측합니다. 이를 통해 초기 생성 단계에서도 효율적이고 안정적인 모델 업데이트를 가능하게 하며, Flux 모델 미세 조정 시 최신 GRPO 기반 및 직접 그래디언트 방법보다 우수한 이미지 품질을 달성합니다. 이 항목은 Hugging Face Papers (Top today) (2026-04-17 기준)에서 확인했습니다.
+QuantCode-Bench는 LLM이 실행 가능한 알고리즘 트레이딩 전략을 생성하는 능력을 평가하는 새로운 벤치마크를 제시합니다. 이 연구는 LLM이 일반적인 프로그래밍 작업에서는 뛰어난 성능을 보이지만, 실행 가능한 알고리즘 트레이딩 전략을 생성하는 능력은 충분히 탐구되지 않았다는 문제의식에서 출발합니다. 이를 해결하기 위해 Backtrader 프레임워크를 위한 트레이딩 전략 생성 능력을 체계적으로 평가하는 벤치마크인 QuantCode-Bench를 제안합니다. 이 벤치마크는 Reddit, TradingView 등에서 수집된 400개의 다양한 난이도 작업을 포함하며, 구문 정확성, 백테스트 실행 성공 여부, 실제 거래 발생 여부, 그리고 LLM 심사위원을 통한 의미론적 정렬을 다단계 파이프라인으로 평가합니다. 현재 모델의 주요 한계는 구문이 아닌 올바른 금융 로직 및 API 사용 능력과 관련되어 있음을 보여줍니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
