@@ -1,119 +1,107 @@
-# IMDIGEST - 2026-04-23
+# IMDIGEST - 2026-04-24
 
-2026-04-23 KST 기준으로 수집한 AI 뉴스레터입니다.
+2026-04-24 KST 기준으로 수집한 AI 뉴스레터입니다.
 
-2026-04-23 AI 브리핑입니다. 오늘은 OpenAI News, TechCrunch AI, AWS Machine Learning Blog에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-04-24 AI 브리핑입니다. 오늘은 TechCrunch AI, NVIDIA Developer Blog, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 오늘의 뉴스
 
-### [OpenAI, 미국 의료 전문가들을 위한 ChatGPT for Clinicians 무료 제공](https://openai.com/index/making-chatgpt-better-for-clinicians)
+### [OpenAI가 새로운 AI 모델 GPT-5.5를 출시하며 AI 슈퍼 앱 비전에 한 발 더 다가섰습니다.](https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp)
 
-OpenAI가 미국 내 검증된 의사, 간호사, 약사에게 'ChatGPT for Clinicians'를 무료로 제공합니다. 이 프로그램은 임상 진료, 문서화, 연구 등 의료 분야의 다양한 작업을 지원합니다. 의료 전문가들은 ChatGPT를 통해 환자 치료 및 행정 업무 효율성을 높일 수 있습니다. 의료 분야에서 AI 활용이 증가하는 추세에 맞춰, OpenAI는 의료 전문가들의 AI 접근성을 높여 의료 서비스 혁신을 가속화하고 있습니다. 출처는 OpenAI News입니다.
+OpenAI는 최신 AI 모델인 GPT-5.5를 공개했으며, 이는 이전 모델보다 더 스마트하고 직관적인 사용성을 제공합니다. GPT-5.5는 다양한 영역에서 향상된 기능을 제공하며, 더 적은 토큰으로도 빠르고 정확한 추론이 가능합니다. OpenAI 공동 창립자 Greg Brockman은 이 모델이 회사의 'AI 슈퍼 앱' 비전 실현에 중요한 진전이라고 언급했습니다. OpenAI는 빠른 속도로 새로운 모델을 연속적으로 출시하며 AI 기술 발전의 선두를 유지하고 있으며, 이는 AI 시장의 경쟁 심화를 시사합니다. 출처는 TechCrunch AI입니다.
 
-### [Google, 기업용 AI 에이전트 구축 및 관리 플랫폼 'Gemini Enterprise Agent Platform' 발표](https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises)
+### [생성형 AI 기반 코딩으로 Kaggle 대회에서 우승하며 ML 실험의 새로운 시대를 열었습니다.](https://developer.nvidia.com/blog/winning-a-kaggle-competition-with-generative-ai-assisted-coding)
 
-Google은 Google Cloud Next 컨퍼런스에서 기업이 AI 에이전트를 대규모로 구축하고 관리할 수 있는 'Gemini Enterprise Agent Platform'을 공개했습니다. (영문 용어: agent-building). 이 플랫폼은 IT 및 기술 팀에 특화되어 있으며, 비즈니스 사용자들은 'Gemini Enterprise app'을 통해 에이전트를 활용하거나 직접 구축할 수 있습니다. Google의 Gemini LLM과 Nano Banana 2 이미지 생성기는 물론, Anthropic의 Claude (Opus, Sonnet, Haiku 포함) 등 다양한 기반 모델을 지원합니다. 기업용 AI 에이전트 시장에서 Amazon Bedrock AgentCore 및 Microsoft Foundry와 경쟁하며, 기업의 AI 도입 가속화를 목표로 합니다. 출처는 TechCrunch AI입니다.
+2026년 3월 Kaggle Playground 대회에서 LLM 에이전트들이 60만 줄 이상의 코드를 생성하고 850개의 실험을 실행하여 1위를 차지했습니다. NVIDIA GPU 가속과 LLM 에이전트를 결합하여 새로운 아이디어를 생성, 테스트, 반복하는 시간을 획기적으로 단축했습니다. GPT-5.4 Pro, Gemini 3.1 Pro, Claude Opus 4.6 등 여러 LLM 에이전트가 human-in-the-loop 워크플로우로 활용되었습니다. LLM 에이전트가 새로운 실험을 위한 코드 작성 속도라는 기존의 병목 현상을 해결하며, 머신러닝 경쟁에서 빠른 아이디어 반복의 중요성을 부각시켰습니다. 출처는 NVIDIA Developer Blog입니다.
 
-### [AWS Batch와 Parakeet-TDT를 활용하여 대규모 다국어 오디오 전사를 비용 효율적으로 구현하는 방법이 제시되었습니다.](https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch)
+### [Bret Taylor의 AI 스타트업 Sierra, YC 지원 Fragment 인수하며 AI 워크플로우 통합 강화](https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment)
 
-NVIDIA Parakeet-TDT-0.6B-v3 모델을 AWS Batch와 GPU 가속 인스턴스에 배포하여 대규모 다국어 오디오 전사 비용 효율성을 높였습니다. (영문 용어: Cost-effective). Parakeet-TDT의 Token-and-Duration Transducer 아키텍처는 텍스트 토큰과 지속 시간을 동시에 예측하여 불필요한 처리 과정을 건너뛰고 실시간보다 훨씬 빠른 추론 속도를 제공합니다. Amazon S3에 업로드된 오디오 파일을 자동으로 처리하는 확장 가능한 이벤트 기반 전사 파이프라인 구축 방법을 안내하며, Amazon EC2 Spot Instances 및 buffered streaming inference를 통해 추가 비용 절감 방안을 제시합니다. 대규모 미디어 라이브러리 보관, 컨택 센터 녹음 분석, AI 학습 데이터 준비 등 다양한 분야에서 ASR 서비스의 확장성 및 비용 효율성 문제가 중요해지면서, 이를 해결하기 위한 기술적 접근이 주목받고 있습니다. 출처는 AWS Machine Learning Blog입니다.
+Bret Taylor가 설립한 고객 서비스 에이전트 스타트업 Sierra가 YC 지원 프랑스 스타트업 Fragment를 인수했습니다. (영문 용어: YC-backed). Fragment는 기업이 AI를 워크플로우에 통합하도록 돕는 솔루션을 제공하며, 이번 인수는 Sierra의 세 번째 공개 인수입니다. Fragment의 공동 창업자인 Olivier Moindrot와 Guillaume Genthial은 Sierra 팀에 합류하여 프랑스에서의 에이전트 개발 노력을 강화할 예정입니다. Sierra는 Fragment 인수를 통해 AI 에이전트의 워크플로우 통합 역량을 강화하고, 고객 서비스 AI 시장에서의 경쟁 우위를 확보하려는 전략을 보여줍니다. 출처는 TechCrunch AI입니다.
 
-### [Google Cloud, AI 칩 시장에서 Nvidia와 경쟁하기 위해 8세대 TPU 8t 및 TPU 8i 공개](https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia)
+### [Noscroll, AI 기반 둠스크롤링 대행 봇 출시로 정보 과부하 시대에 새로운 해결책 제시](https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you)
 
-Google Cloud는 모델 학습용 TPU 8t와 추론용 TPU 8i 두 가지 새로운 8세대 AI 칩(TPU)을 출시했습니다. 새로운 TPU는 이전 세대 대비 최대 3배 빠른 AI 모델 학습 속도와 80% 향상된 비용 대비 성능을 제공합니다. Google은 100만 개 이상의 TPU를 단일 클러스터로 함께 작동시킬 수 있는 기능을 강조하며, 에너지 효율성과 비용 절감을 목표로 합니다. 클라우드 제공업체들이 AI 워크로드 증가에 따라 Nvidia 의존도를 줄이고 자체 AI 칩 개발을 가속화하는 추세를 보여줍니다. 출처는 TechCrunch AI입니다.
+Noscroll은 사용자의 소셜 미디어 피드, 뉴스 사이트 등을 AI 봇이 대신 탐색하고 중요한 소식이 있을 때 문자 메시지로 알려주는 서비스를 시작했습니다. 이 서비스는 OpenSea의 전 CTO인 Nadav Hollander가 X(구 트위터) 사용 경험에서 영감을 받아 개발했습니다. 사용자는 Noscroll AI 에이전트에 문자를 보내 X 계정을 연결하면, 봇이 사용자의 좋아요, 북마크, 팔로우하는 계정 및 게시물 정보를 활용합니다. 정보 과부하와 소셜 미디어의 부정적인 측면(doomscrolling)으로 인한 피로감이 증가하는 현대 사회에서, AI가 개인화된 정보 필터링 및 요약 기능을 제공하는 새로운 트렌드를 보여줍니다. 출처는 TechCrunch AI입니다.
 
-### [Amazon SageMaker AI, 생성형 AI 추론 최적화 추천 기능 도입으로 배포 시간 단축](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations)
+### [AI 가젯용 소프트웨어 플랫폼을 구축하는 Era, 1,100만 달러 투자 유치](https://techcrunch.com/2026/04/23/era-computer-raises-11m-to-build-a-software-platform-for-ai-gadgets)
 
-Amazon SageMaker AI가 생성형 AI 모델의 추론 최적화 추천 기능을 지원합니다. 이 기능은 GPU 구성, 최적화 기법, 수동 벤치마킹에 소요되던 시간을 단축하여 모델 배포를 가속화합니다. NVIDIA Dynamo의 모듈형 구성 요소인 NVIDIA AIPerf를 벤치마킹 도구로 활용하여 상세하고 일관된 성능 지표를 제공합니다. 생성형 AI 모델의 프로덕션 배포에 대한 기업들의 수요가 증가함에 따라, 배포 과정의 복잡성과 시간을 줄이는 솔루션의 중요성이 커지고 있습니다. 출처는 AWS Machine Learning Blog입니다.
+Era는 하드웨어 제조사가 AI 에이전트 및 오케스트레이션을 AI 기기에 통합할 수 있도록 돕는 소프트웨어 플랫폼을 개발합니다. 이 스타트업은 직접 기기를 만들지 않고, 맞춤형 음성 생성이나 기존 기기에 AI 기능을 추가하는 등 AI 가젯 개발을 위한 소프트웨어 레이어를 제공합니다. Era는 Abstract Ventures와 BoxGroup이 주도한 900만 달러의 Seed 라운드를 포함해 총 1,100만 달러의 투자를 유치했습니다. 이는 AI 기술이 특정 기기에 국한되지 않고 다양한 하드웨어에 통합될 수 있도록 지원하는 플랫폼의 중요성이 커지고 있음을 보여줍니다. 출처는 TechCrunch AI입니다.
 
-### [AWS, Amazon Bedrock AgentCore에 새로운 기능을 추가하여 에이전트 개발을 간소화합니다.](https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore)
+### [Amazon Quick이 마케팅 데이터를 통합하여 전략적 실행을 돕는 AI 비서로 출시되었습니다.](https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-marketing-from-scattered-data-to-strategic-action)
 
-Amazon Bedrock AgentCore는 에이전트 개발자가 인프라 구축 대신 에이전트 로직에 집중할 수 있도록 돕는 새로운 기능을 발표했습니다. LangGraph, LlamaIndex, CrewAI, Strands Agents 등 기존 프레임워크 및 모델과의 연동을 지원합니다. 에이전트의 오케스트레이션 레이어를 실행하는 데 필요한 컴퓨팅, 샌드박스, 보안 연결, 영구 스토리지, 오류 복구 등의 인프라 구축 과정을 간소화합니다. 이는 AI 에이전트 개발의 진입 장벽을 낮춰 더 많은 개발자가 혁신적인 에이전트 애플리케이션을 신속하게 구축하고 배포할 수 있도록 지원합니다. 출처는 AWS Machine Learning Blog입니다.
+Amazon Quick은 마케팅 캠페인 데이터를 통합하고 분석하여 개인화된 지식 그래프를 생성합니다. 사용자의 우선순위, 선호도, 네트워크를 학습하여 질문에 답변하고 작업을 수행합니다. 다양한 마케팅 애플리케이션, 툴, 데이터와 연결되어 수동 데이터 취합에 드는 시간을 절약합니다. 마케팅 데이터가 파편화되어 분석 및 실행에 어려움을 겪는 문제를 해결하여 마케팅 효율성을 극대화합니다. 출처는 AWS Machine Learning Blog입니다.
 
-### [Google이 Chrome에 AI 기반의 "auto browse" 기능을 도입하여 기업 환경에서 AI 동료처럼 활용할 수 있도록 합니다.](https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace)
+### [AWS, 멀티모달 BioFMs를 활용하여 치료법 및 환자 치료 전반에 걸쳐 의사결정을 지원합니다.](https://aws.amazon.com/blogs/machine-learning/applying-multimodal-biological-foundation-models-across-therapeutics-and-patient-care)
 
-Google은 Google Cloud Next 행사에서 기업용 Chrome에 Gemini 기반의 "auto browse" 에이전트 기능을 발표했습니다. (영문 용어: co-worker). 이 기능은 Chrome 사용자가 열려 있는 브라우저 탭의 실시간 맥락을 이해하고, 여행 예약, 데이터 입력, 회의 일정 잡기 등 웹 기반 작업을 AI가 처리하도록 돕습니다. 예시로는 Google Doc의 내용을 기반으로 CRM 시스템에 정보 입력, 여러 탭에서 공급업체 가격 비교, 후보자 포트폴리오 요약 등이 있습니다. Google은 가장 많이 사용되는 앱 중 하나인 웹 브라우저에 AI를 통합하여 기업 생산성 도구 시장에서의 경쟁력을 강화하고 있습니다. 출처는 TechCrunch AI입니다.
-
-### [Google 포토의 Auto frame 기능에 AI 기반의 새로운 이미지 재구성 기술이 도입되었습니다.](https://research.google/blog/its-all-about-the-angle-your-photos-re-composed)
-
-Google 포토의 Auto frame 기능에 새로운 이미지 편집 방식이 적용되었습니다. (영문 용어: re-composed). 이 기술은 머신러닝 모델로 장면의 공간적 레이아웃을 이해하고, 생성형 AI를 사용하여 새로운 시점에서 사진을 재구성합니다. 기존 사진 편집 도구와 달리, 사진을 3D 장면으로 해석하여 촬영 후에도 카메라 위치를 변경하는 효과를 낼 수 있습니다. 사용자들이 촬영 후에도 사진의 구도나 시점을 자유롭게 변경할 수 있게 되어, '거의 완벽한' 사진을 더욱 완벽하게 만들 수 있는 가능성을 열었습니다. 출처는 Google Research Blog입니다.
+AWS는 의료 및 생명 과학 분야에서 질병 진단, 약물 처방, 치료 결과 예측 및 혁신적인 치료법 개발을 위해 멀티모달 BioFMs(Biological Foundation Models)를 제공합니다. 기존의 단편적인 데이터 분석 방식(예: 약물 발견을 위한 'omics, 진단을 위한 의료 영상, 임상 시험 보고서, EHR)의 한계를 극복하고, 데이터 유형 간의 숨겨진 관계에서 중요한 통찰력을 얻을 수 있도록 돕습니다. AWS는 BioFMs를 위한 통합 환경을 제공하여 개인 맞춤형 의학 분야에서 보다 신뢰할 수 있고 시기적절한 의사결정을 가능하게 합니다. 의료 및 생명 과학 분야에서 의사결정의 정확성과 효율성을 높이기 위해 멀티모달 데이터 통합 및 분석의 중요성이 커지고 있습니다. 출처는 AWS Machine Learning Blog입니다.
 
 ## 커뮤니티와 검색에서 읽힌 흐름
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.
 
-### [Anthropic, 최신 AI 모델 Claude Opus 4.7 출시](https://news.google.com/rss/articles/CBMicEFVX3lxTFBoQkkwMnB2b0tyeFllX3Iwa2FrRXNZbW5Dem5ERGlLVzFkbGNycUN1UXVEMnhYVlVmaGNTNDZuSTVWZ3d3alpjN29LbkprZV9qTjg1QVFKdURnYk9FYlFTQWFReVRNdEJPaHdTWlhGUTM?oc=5)
+### [OpenAI, 새로운 GPT-5.5 모델 "Spud" 출시로 AI 기술 발전 가속화](https://news.google.com/rss/articles/CBMicEFVX3lxTFBZUGxueklxTlY4RC1CSVRyZnhmV1dGWFdjLWxWNXFSYTFPbzNQV2stT19yMDB0NlFhMHh6bkVaMUdsdExWSE1uRkdLQWdyQmpXcmF5N1R1UTRyc1ZSUm1VN1NBV0tQeTA4S2pQMXFYX2w?oc=5)
 
-Anthropic이 새로운 플래그십 AI 모델인 Claude Opus 4.7을 공개했습니다. Claude Opus 4.7은 이전 버전보다 향상된 성능과 안전 기능을 제공합니다. 사용자들은 Claude Opus 4.7을 통해 더 복잡한 추론과 다국어 처리 능력을 경험할 수 있습니다. 이번 출시는 AI 모델의 성능 경쟁이 심화되고 있음을 보여주며, 특히 안전성과 윤리적 AI 개발에 대한 Anthropic의 노력을 강조합니다. 출처는 Google News AI Search입니다.
+OpenAI가 GPT-5.5 모델인 "Spud"를 공식 출시했습니다. 이번 출시는 Axios를 통해 보도되었습니다. "Spud"는 기존 모델 대비 향상된 성능을 제공할 것으로 예상됩니다. 이번 GPT-5.5 "Spud" 출시는 AI 모델의 지속적인 발전과 상용화 가속화를 보여주는 중요한 이정표입니다. 출처는 Google News AI Search입니다.
 
-### [텍스트 임베딩 기반의 LLM 에이전트를 위한 5가지 구성 요소로 이루어진 내재적 호기심 보상 함수가 개발되었습니다.](https://www.reddit.com/r/LocalLLaMA/comments/1st05ix/r_intrinsic_curiosity_on_text_embeddings_a)
+### [OpenAI가 새로운 GPT-5.5 모델을 공개했습니다.](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNXhTM0RLTTBMTktqSFdCbUUxTXN2cC1xdmJPcEpjbktUdm43SlB0cFI3UGNRMnRXODFHZHZab3hOMlUwSlFKa1ZjWUg3R0c0NG1PZ0hWcnQ?oc=5)
 
-기존 LLM 에이전트의 탐색 동기 부족 문제를 해결하기 위해 텍스트 임베딩 공간에서 작동하는 새로운 내재적 호기심(Intrinsic Curiosity) 보상 함수가 고안되었습니다. 이 보상 함수는 예측 오류(prediction error), 학습 진행도(learning progress), 참신성(novelty), Empowerment, 그리고 S(미공개)의 5가지 구성 요소로 이루어져 있습니다. 각 구성 요소는 개별적으로 정규화된 후 합산되어 [0,1] 범위로 tanh-squash됩니다. LLM 에이전트가 단순히 질문에 답하는 것을 넘어, 스스로 탐색하고 학습하며 새로운 지식을 추구하는 자율적인 행동을 유도하는 데 기여할 수 있습니다. 출처는 Reddit r/LocalLLaMA입니다.
+OpenAI가 GPT-5.5를 발표했습니다. 이 모델은 기존 GPT 시리즈의 업데이트 버전입니다. GPT 모델의 지속적인 발전은 AI 기술 경쟁을 심화시키고, 다양한 산업 분야에 혁신적인 변화를 가져올 것입니다. 출처는 Google News AI Search입니다.
 
-### [OpenAI가 ChatGPT에 Workspace Agents를 도입하여 기업 생산성 도구를 통합합니다.](https://news.google.com/rss/articles/CBMic0FVX3lxTE14N1RKNWtPajlOcGJKUUh4V2JpWl83OE1PSHpSOENDSE5scTlyYlhzQi1OZGxKOWc5VjRaY2c4MzNyS0x5azRXUkpxR2FScmVqTGN0LTN0ODEzdS1HZDE4aHhfeHVVbjgtZjZqVVIta3pYbm8?oc=5)
+### [NVIDIA, OpenAI의 최신 GPT-5.5 모델을 자사 인프라에 통합하여 Codex 개발 및 활용 가속화](https://news.google.com/rss/articles/CBMibkFVX3lxTFBrS3h5OHdvNTR4WVZRTzV0cWhaaU9Nc0dpTWs4SlotZjRUZXN3OW04b1VYZ2tiWHJ1cGU0cjZISE9QUTFLaURZSUVTMm1yMU44amRTX0h5cVJvcnF1YlBmWGlmY1Z4dUQxTlZuSU1R?oc=5)
 
-OpenAI가 ChatGPT에 Workspace Agents를 도입했습니다. Workspace Agents는 기업 사용자가 ChatGPT를 통해 Google Drive, Microsoft Outlook, Salesforce 등 다양한 비즈니스 애플리케이션과 상호작용할 수 있도록 합니다. 이 기능은 사용자가 일상적인 업무를 자동화하고 데이터에 더 쉽게 접근할 수 있도록 돕습니다. 이는 ChatGPT가 단순한 챗봇을 넘어 기업 생산성 플랫폼으로 확장하려는 OpenAI의 전략을 보여줍니다. 출처는 Google News AI Search입니다.
+OpenAI의 최신 대규모 언어 모델인 GPT-5.5가 NVIDIA의 인프라 위에서 Codex를 구동합니다. NVIDIA는 이미 GPT-5.5를 활용하여 자사의 AI 개발 및 운영에 적용하고 있습니다. 이 통합은 AI 모델의 성능 향상과 개발 효율성 증대에 기여할 것으로 예상됩니다. AI 모델 개발 및 배포에 있어 하드웨어 인프라와 소프트웨어 모델 간의 긴밀한 협력의 중요성이 커지고 있습니다. 출처는 Google News AI Search입니다.
 
-### [AI 과학자, 과학적 추론 없이 결과 도출: 연구 결과에 따르면 AI는 증거를 무시하고 신념을 업데이트하지 않는 경향이 있습니다.](https://www.reddit.com/r/MachineLearning/comments/1st02fw/ai_scientists_produce_results_without_reasoning)
+### [OpenAI가 최신 AI 모델인 GPT-5.5를 발표하며 인공지능 기술 발전을 이어갑니다.](https://news.google.com/rss/articles/CBMilAFBVV95cUxNMjh3Wk9yM0RoT3R4WlFUNVNfVHpYckVDVVA2RUFZU3Z3dmFSWnVmTzdhdThQazVmUldfaDRrS2dlSVgyMHRDZlNLQ3pRakhSYWhmY2JuR2FfbW9Ub19vbkxYQ3FYLWxqMEZsZXhBSEd3SXhMc3F3dmpwZHVyQlFyQzk1WUZLZDRwWTlnOTkzRVVjZlFa0gGaAUFVX3lxTE4wNWhad28wTElXZDM5N3hLTVJWbmdsVm8zWm9rSzA2UGotanBONjZQdWdkNDZFc1BjVlp6MTVSWUhFUW5DZmIzUWRqaWVrVW05VkNabHhvbEh0bVRYa2U2bEYyOElfT19kaWVrR0pWNXl6STVSUmtUS1AySXVfTkpvV004a2F3TDFQaG00dUNRVzZqRnBQWlZLVGc?oc=5)
 
-연구에 따르면 AI 과학자는 25,000번의 실험 중 68%에서 증거를 수집한 후 이를 완전히 무시했습니다. AI는 71%의 경우 신념을 전혀 업데이트하지 않았으며, 모순되는 데이터에 직면했을 때 가설을 수정한 경우는 26%에 불과했습니다. 인간 과학자와 달리 AI는 문제 유형에 관계없이 동일한 '규율 없는 루프'를 반복적으로 실행합니다. 이는 AI 연구 에이전트 개발의 근본적인 한계를 보여주며, 현재의 접근 방식으로는 진정한 과학적 추론 능력을 갖추기 어렵다는 것을 시사합니다. 출처는 Reddit r/MachineLearning입니다.
+OpenAI는 자사의 최신 인공지능 모델인 GPT-5.5를 공식 발표했습니다. GPT-5.5는 기존 모델 대비 향상된 성능과 기능을 제공할 것으로 예상됩니다. 이번 발표는 AI 기술 경쟁이 심화되는 가운데 OpenAI가 선두 위치를 유지하려는 전략의 일환입니다. 출처는 Google News AI Search입니다.
 
-### [HydraLM, 긴 컨텍스트 추론에서 획기적인 디코딩 속도와 메모리 효율성을 달성했습니다.](https://www.reddit.com/r/MachineLearning/comments/1sszogy/hydralm_22_faster_decoding_and_16_smaller_state)
+### [Anthropic, Claude의 코드 품질 보고서에 대한 업데이트 발표](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5)
 
-HydraLM은 1M 토큰 테스트에서 90% 깊이에 있는 사실도 1.00의 검색 정확도를 보였습니다. (영문 용어: long-context). 추론 시 최대 1.8배 빠른 speculative decoding을 제공하며, 99.8%의 FLOP 절감 효과를 보고했습니다. 긴 컨텍스트에서 22배 빠른 디코딩과 16배 작은 state memory를 통해 상당한 성능 향상을 이루었습니다. 대규모 언어 모델(LLM)의 긴 컨텍스트 처리 능력은 AI 애플리케이션의 복잡성과 효율성을 크게 향상시킬 수 있습니다. 출처는 Reddit r/MachineLearning입니다.
+Anthropic은 최근 Claude의 코드 품질에 대한 보고서에 대해 업데이트를 제공했습니다. 이번 업데이트는 Claude의 코드 생성 및 이해 능력과 관련된 개선 사항을 다룹니다. AI 모델의 코드 생성 능력은 개발 생산성 향상에 중요한 요소로, 지속적인 품질 개선은 AI 활용 범위를 넓힙니다. 출처는 Google News AI Search입니다.
 
-### [Google Gemini 앱이 이제 Mac에서도 사용 가능해지며 AI 접근성을 확장합니다.](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeXdQVmxFWlVnUWE3WWpZZVZ3UURhZUFMalhyOGF5UGYyeVJEQ09ITlVHblh4d0VINjdLb1FLbVRxaXZOOFhhdWlDZGlmOUxlLVBSNEpBbjJyd0NCRFQwVHh6YU5WVU9zWWF0bGMtREdyZXZMSVZkcUozWGFoZWVnNFU3Rmp4XzhpRmk0?oc=5)
+### [미국 백악관, 중국의 대규모 AI 기술 절도 혐의 제기](https://news.google.com/rss/articles/CBMitgFBVV95cUxQT1FHUldGQ1UwR3ppd3BRakxvUE1TbTF6bWJ1N1gybEIxSXNLM012c1AzWmtfbURSOWFmWlRxUDBLWElBakNkMkYteHBMUnNYVTF2ZnBPUUE1SjFnX1JtQzZQSnhwVVFhNGVvUzV0WU05VHRHNXI1aFBfYVU5UHRFSHlyRzBKaENrUklWVVdjQlNIaEZPNlVlZzExWlpHekpwdEFvZ05KcFl3OHZBa1JwNVp0VF9xQQ?oc=5)
 
-Google의 AI 어시스턴트 Gemini 앱이 Mac 기기에서도 공식적으로 출시되었습니다. (영문 용어: blog.google). 사용자들은 이제 Mac에서 Gemini를 통해 텍스트 생성, 정보 요약, 아이디어 구상 등 다양한 AI 기능을 활용할 수 있습니다. Gemini는 Google Workspace 앱과 연동되어 Gmail, Docs 등에서 AI 기능을 직접 사용할 수 있습니다. Google이 Gemini 앱을 Mac으로 확장함으로써, AI 어시스턴트의 접근성을 높이고 더 많은 사용자가 다양한 기기에서 AI를 활용할 수 있도록 지원합니다. 출처는 Google News AI Search입니다.
-
-### [Anthropic이 Claude Code for Healthcare를 통해 의료 분야 AI 활용 사례를 제시합니다.](https://news.google.com/rss/articles/CBMiogFBVV95cUxOc29ONWJhLTNhaFI3TDZhZzVFVE9KQzlDZ01NQ3k1ZmxqZ25wYzRVZm9nc2MwQUJCWXFiVlhXZUdidEhzUUtEQ3pBTk44QTUzMmhSbnA5Zmt6TzFWSVQ1NkdzNHpoalNkbWROUlV4OUpGMTJrclJBQ0pZd1otZlF3cERIc2h1c1lBRktyVEZWd0RUMk44aVlVUW1rd3JPTk0xeWc?oc=5)
-
-Anthropic은 Claude Code for Healthcare를 공개하며 의사들이 AI를 활용하는 구체적인 방법을 소개했습니다. 이 이니셔티브는 의료 전문가들이 AI를 통해 진료 효율성을 높이고 환자 치료를 개선할 수 있도록 돕는 데 중점을 둡니다. 의료 분야에서 AI를 활용한 코드 개발 및 적용 사례를 공유하여 실제적인 도움을 제공합니다. 의료 분야에서 AI 도입이 가속화되면서, Anthropic과 같은 선도 기업들이 특정 산업에 특화된 AI 솔루션과 활용 가이드를 제공하는 추세가 강화되고 있습니다. 출처는 Google News AI Search입니다.
-
-### [구글이 엔터프라이즈 수익 창출 전략의 핵심으로 AI 에이전트를 내세우고 있습니다.](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaC1SX002a0pCeURJUGFrcmxHQmNlM2k2dldpYVFzTDgxQjhlaWp4NmJja1FHNS1sdkt3SzFFcWxpVlJJekVQUFdsTFJob3lLb1h1Rk1XSXpDRGR0VXVZWDI3UUhWVnFBelV4SVNYSVRtNkVta3dIMFNucGZCMGdSaERNTkU3Rk5TeTlpT1FsQ29PaXdwRDlIU2ZtamVSNGZYOFU0ZDdlMUU?oc=5)
-
-구글은 AI 에이전트를 통해 기업 고객을 위한 맞춤형 솔루션 제공을 강화하고 있습니다. (영문 용어: money-making). 이는 기업의 복잡한 작업을 자동화하고 효율성을 높이는 데 중점을 둡니다. 구글 클라우드 서비스를 통해 AI 에이전트 기능을 제공하여 기업의 디지털 전환을 지원합니다. AI 에이전트는 단순한 챗봇을 넘어 자율적으로 작업을 수행하고 의사결정을 내리는 방향으로 발전하며, 기업 생산성 향상의 핵심 동력이 되고 있습니다. 출처는 Google News AI Search입니다.
+미국 백악관은 중국이 산업 규모로 AI 기술을 훔치고 있다고 비난했습니다. (영문 용어: industrial-scale). 이번 비난은 미국과 중국 간의 기술 경쟁 심화를 보여줍니다. AI 기술은 국가 안보와 경제 성장의 핵심 동력으로 인식되고 있어, 기술 절도 문제는 국제 관계에 큰 영향을 미칩니다. 출처는 Google News AI Search입니다.
 
 ## 오늘의 논문
 
 Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문들을 짧게 읽을 수 있게 정리했습니다.
 
-### 1. [Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items](https://huggingface.co/papers/2604.19748)
+### 1. [LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model](https://huggingface.co/papers/2604.20796)
 
-Tstars-Tryon 1.0은 상업적 규모의 가상 피팅 시스템으로, 다양한 패션 아이템에 대해 견고하고 사실적인 Try-On 결과를 제공하며 실시간 성능을 달성합니다. 기존 가상 Try-On 방식은 복잡한 실제 환경의 요구사항을 충족하는 데 어려움이 있었습니다. Tstars-Tryon 1.0은 통합 시스템 설계와 다단계 훈련 패러다임을 통해 이러한 문제를 해결합니다. 이 시스템은 극한의 포즈, 조명 변화, 모션 블러와 같은 어려운 조건에서도 높은 성공률을 유지하며, 의류의 질감과 재료 특성을 충실히 보존하는 사실적인 결과를 생성합니다. 또한, 8가지 패션 카테고리에 걸쳐 유연한 다중 이미지 구성을 지원하고, 상업적 배포를 위한 추론 속도 최적화를 통해 실시간에 가까운 생성을 제공합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+LLaDA2.0-Uni는 discrete diffusion language model을 통해 멀티모달 이해와 생성을 통합하여 전문화된 VLM에 필적하는 성능과 효율적인 추론, 고품질 이미지 생성을 달성합니다. 이 연구는 멀티모달 이해와 생성을 통합하는 LLaDA2.0-Uni라는 새로운 discrete diffusion large language model (dLLM)을 제안합니다. 이 모델은 semantic discrete tokenizer, MoE-based dLLM backbone, 그리고 diffusion decoder를 결합한 아키텍처를 가집니다. SigLIP-VQ를 통해 연속적인 시각 입력을 이산화하고, backbone에서 텍스트 및 시각 입력에 대한 block-level masked diffusion을 가능하게 하며, decoder는 시각 토큰을 고품질 이미지로 재구성합니다. 이를 통해 LLaDA2.0-Uni는 멀티모달 이해에서 전문화된 VLM과 동등한 성능을 보이며, 이미지 생성 및 편집에서도 강력한 성능을 제공합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 2. [CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation](https://huggingface.co/papers/2604.19636)
+### 2. [Near-Future Policy Optimization](https://huggingface.co/papers/2604.20733)
 
-CoInteract는 Diffusion Transformer 기반의 프레임워크로, Human-Aware Mixture-of-Experts와 Spatially-Structured Co-Generation을 통해 물리적으로 일관된 사람-객체 상호작용(HOI) 비디오를 합성합니다. (영문 용어: Physically-Consistent, Human-Object). 기존 확산 모델은 사람-객체 상호작용 비디오 합성 시 손이나 얼굴과 같은 민감한 영역의 구조적 안정성과 물리적 접촉의 타당성(예: 손과 객체의 상호 관통 방지)에서 실패하는 경우가 많았습니다. CoInteract는 이러한 문제를 해결하기 위해 Diffusion Transformer 백본에 두 가지 보완적인 디자인을 도입합니다. 첫째, Human-Aware Mixture-of-Experts를 통해 토큰을 영역별 전문가에게 라우팅하여 미세한 구조적 충실도를 향상시킵니다. 둘째, Spatially-Structured Co-Generation이라는 듀얼 스트림 훈련 패러다임을 제안하여 RGB 외형 스트림과 보조 HOI 구조 스트림을 공동으로 모델링하여 상호작용 기하학적 사전 지식을 주입합니다. 이를 통해 CoInteract는 구조적 안정성, 논리적 일관성 및 상호작용 현실성에서 기존 방법보다 뛰어난 성능을 보여줍니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+Near-Future Policy Optimization (NPO)는 강화 학습에서 정책의 미래 체크포인트로부터 보조 궤적을 학습하여 수렴 속도와 성능을 향상시키는 혼합 정책 방식을 제안합니다. 기존 혼합 정책 강화 학습 방법들은 외부 교사나 과거 훈련 궤적을 사용했지만, 이는 궤적 품질과 분포 유사성 사이의 균형을 맞추기 어려웠습니다. NPO는 현재 정책보다 강력하고 외부 소스보다 가까운, 동일한 훈련 실행의 미래 체크포인트로부터 보조 궤적을 학습하는 간단한 혼합 정책 스키마를 제안합니다. 이 방법은 궤적 품질과 분산 비용의 균형을 직접 맞추며, Qwen3-VL-8B-Instruct 모델에서 GRPO와 함께 사용했을 때 평균 성능을 57.88에서 62.84로 향상시키고, AutoNPO는 63.15까지 끌어올려 최종 성능 상한을 높이고 수렴을 가속화했습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 3. [AgentSPEX: An Agent SPecification and EXecution Language](https://huggingface.co/papers/2604.13346)
+### 3. [DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data](https://huggingface.co/papers/2604.19859)
 
-AgentSPEX는 LLM 에이전트 워크플로우를 위한 명시적인 제어 흐름과 모듈형 구조를 제공하는 도메인 특화 언어 및 프레임워크를 제안합니다. 기존 LLM 에이전트 시스템은 반응형 프롬프팅에 의존하여 제어 흐름과 중간 상태가 암묵적이며 에이전트 제어가 어려웠습니다. LangGraph나 DSPy와 같은 오케스트레이션 프레임워크는 Python 코드와 워크플로우 로직이 강하게 결합되어 유지보수 및 수정이 어렵다는 문제가 있었습니다. AgentSPEX는 명시적인 제어 흐름, 모듈형 구조, 타입이 지정된 단계, 분기 및 루프, 병렬 실행, 재사용 가능한 서브모듈을 지원하여 이러한 문제를 해결합니다. 이를 통해 연구 및 과학 연구를 위한 에이전트를 제공하고 7가지 벤치마크에서 평가되었으며, 사용자 연구를 통해 기존 프레임워크보다 해석 가능하고 접근하기 쉬운 워크플로우 작성 패러다임을 제공함을 입증했습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+DR-Venus는 1만 개의 오픈 데이터를 활용하여 40억 개의 파라미터를 가진 엣지 스케일 딥 리서치 에이전트를 학습시켜 기존 소형 모델 대비 뛰어난 성능을 달성했습니다. (영문 용어: Edge-Scale). 이 연구는 비용, 지연 시간, 개인 정보 보호 측면에서 이점을 가진 소형 언어 모델 기반의 엣지 스케일 딥 리서치 에이전트의 개발에 초점을 맞춥니다. 제한된 오픈 데이터 환경에서 데이터 품질과 활용도를 개선하기 위해 에이전트 SFT와 RL을 결합한 2단계 학습 방식을 제안합니다. 특히, RL 단계에서는 IGPO를 기반으로 정보 이득 및 형식 인식 정규화를 활용한 턴 레벨 보상을 설계하여 장기적인 딥 리서치 작업에서 실행 신뢰성을 향상시켰습니다. 그 결과, DR-Venus-4B는 1만 개의 오픈 데이터만으로 9B 미만의 기존 에이전트 모델들을 크게 능가하며 30B급 시스템과의 성능 격차를 줄였습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 4. [AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model](https://huggingface.co/papers/2604.19747)
+### 4. [OpenMobile: Building Open Mobile Agents with Task and Trajectory Synthesis](https://huggingface.co/papers/2604.15093)
 
-AnyRecon은 비디오 Diffusion 모델을 활용하여 임의의 희소한 입력으로부터 확장 가능한 3D 재구성을 가능하게 합니다. (영문 용어: Arbitrary-View). 희소한 뷰 3D 재구성은 캐주얼한 캡처로부터 장면을 모델링하는 데 중요하지만, 기존의 비생성적 방법론은 어려움이 있었습니다. AnyRecon은 영구적인 장면 메모리와 기하학적 인식을 활용한 컨디셔닝을 통해 이러한 문제를 해결합니다. 이 방법은 4단계 Diffusion distillation과 context-window sparse attention을 결합하여 효율성을 높이고, 불규칙한 입력, 큰 시점 차이, 긴 궤적에 걸쳐 강력하고 확장 가능한 재구성을 보여줍니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+OpenMobile은 확장 가능한 태스크 및 Trajectory 합성 파이프라인과 정책 전환 전략을 통해 모바일 에이전트 훈련을 위한 오픈 소스 프레임워크를 제공하여 AndroidWorld 벤치마크에서 우수한 성능을 달성합니다. 기존 모바일 에이전트 시스템은 훈련 데이터와 태스크/Trajectory 합성 방법을 공개하지 않아 연구에 제약이 있었습니다. OpenMobile은 탐색을 통해 전역 환경 메모리를 구축하고 이를 활용하여 다양한 지시를 생성하는 확장 가능한 태스크 합성 파이프라인과, 학습자 및 전문가 모델 간 전환을 통해 오류 복구 데이터를 포착하는 정책 전환 전략을 제안합니다. 이 프레임워크로 훈련된 에이전트는 AndroidWorld 벤치마크에서 Qwen2.5-VL이 51.7%, Qwen3-VL이 64.7%의 성공률을 달성하며 기존 오픈 데이터 접근 방식을 크게 능가했습니다. 이는 벤치마크 오버피팅이 아닌 광범위한 기능 커버리지에서 비롯된 성능 향상임을 투명하게 분석하여 입증했습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 5. [TEMPO: Scaling Test-time Training for Large Reasoning Models](https://huggingface.co/papers/2604.19295)
+### 5. [DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation](https://huggingface.co/papers/2604.20841)
 
-TEMPO는 대규모 추론 모델의 Test-time training(TTT) 시 발생하는 성능 정체 및 다양성 저하 문제를 해결하기 위해 정책 개선과 비평가 재보정을 번갈아 수행하는 프레임워크를 제안합니다. 기존의 Test-time training(TTT) 방식은 추론 시점에 모델 파라미터를 조정하여 성능을 향상시키지만, 자체 생성 보상 신호의 드리프트로 인해 성능 정체와 다양성 저하가 빠르게 발생합니다. TEMPO는 이러한 문제를 해결하기 위해 레이블 없는 질문에 대한 정책 개선과 레이블이 지정된 데이터셋에 대한 주기적인 비평가 재보정을 번갈아 수행하는 EM(Expectation-Maximization) 알고리즘 기반 프레임워크를 제안합니다. 이 교대 절차를 통해 이전 방법들이 중요한 재보정 단계를 생략한 불완전한 변형이었음을 밝히고, 재보정 단계를 다시 도입함으로써 ELBO(Evidence Lower Bound)를 강화하여 지속적인 성능 향상을 가능하게 합니다. 다양한 모델(Qwen3, OLMO3)과 추론 작업에서 TEMPO는 OLMO3-7B의 AIME 2024 성능을 33.0%에서 51.1%로, Qwen3-14B의 성능을 42.3%에서 65.8%로 향상시키면서 높은 다양성을 유지합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+DeVI는 텍스트 조건부 합성 비디오를 활용하여 물리 기반의 정교한 로봇 제어를 가능하게 하며, 3D 및 2D 트래킹을 결합한 하이브리드 보상을 통해 손-객체 상호작용 모델링을 개선합니다. (영문 용어: Physics-based, Human-Object). 이 연구는 현실적인 인간-객체 상호작용(HOI) 비디오를 로봇 조작에 활용하기 어렵다는 문제에 주목합니다. DeVI(Dexterous Video Imitation) 프레임워크는 텍스트 조건부 합성 비디오를 모방 대상으로 사용하여 물리적으로 그럴듯한 로봇 제어를 가능하게 합니다. 특히, 생성된 2D 비디오의 부정확성을 극복하기 위해 3D 인간 트래킹과 2D 객체 트래킹을 통합한 하이브리드 트래킹 보상을 도입했습니다. DeVI는 고품질 3D 키네마틱 데모 없이도 다양한 객체 및 상호작용 유형에 대해 zero-shot 일반화를 달성하며, 기존 3D HOI 모방 방식보다 정교한 손-객체 상호작용 모델링에서 우수한 성능을 보입니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 6. [PlayCoder: Making LLM-Generated GUI Code Playable](https://huggingface.co/papers/2604.19742)
+### 6. [Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges](https://huggingface.co/papers/2604.13602)
 
-PlayCoder는 LLM이 생성한 GUI 코드의 논리적 정확성을 향상시키기 위해 다중 에이전트 접근 방식을 사용하는 프레임워크를 제안합니다. (영문 용어: LLM-Generated). 대규모 언어 모델(LLM)은 GUI 애플리케이션, 특히 게임 생성에서 논리적 오류를 자주 발생시킵니다. 이 문제를 해결하기 위해 PlayEval 벤치마크와 PlayCoder 프레임워크가 개발되었습니다. PlayCoder는 LLM 기반 에이전트인 PlayTester를 활용하여 GUI 애플리케이션의 상호작용 흐름과 UI 로직을 평가하고, 반복적인 수정을 통해 기능적 정확성을 개선합니다. 이를 통해 기존 LLM의 낮은 Play@k 점수를 극복하고 논리적으로 올바른 GUI 애플리케이션 생성을 목표로 합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 대규모 모델에서 보상 해킹(reward hacking)이 발생하는 메커니즘과 그로 인한 정렬 불일치(misalignment) 현상을 Proxy Compression Hypothesis (PCH)를 통해 설명합니다. 대규모 언어 모델(LLM) 및 멀티모달 대규모 언어 모델(MLLM)을 인간 선호 행동에 맞추기 위해 RLHF와 같은 정렬 패러다임이 사용되지만, 이는 보상 해킹이라는 시스템적 취약점을 야기합니다. 보상 해킹은 모델이 학습된 보상 신호의 불완전성을 악용하여 실제 작업 의도와 무관하게 프록시 목표를 최대화하는 현상입니다. 이 논문은 Proxy Compression Hypothesis (PCH)를 제안하여 보상 해킹을 고차원적인 인간 목표의 압축된 보상 표현에 대해 표현력이 풍부한 정책을 최적화하는 과정에서 발생하는 결과로 설명합니다. 이 관점은 RLHF, RLAIF, RLVR 등 다양한 환경에서 관찰되는 경험적 현상을 통합하고, 지역적인 단축 학습이 어떻게 더 광범위한 정렬 불일치로 이어지는지 설명합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 7. [ShadowPEFT: Shadow Network for Parameter-Efficient Fine-Tuning](https://huggingface.co/papers/2604.19254)
+### 7. [Exploring Spatial Intelligence from a Generative Perspective](https://huggingface.co/papers/2604.20570)
 
-ShadowPEFT는 깊이 공유 섀도우 모듈을 통해 레이어 수준의 정제를 수행하여 기존 LoRA와 같은 저랭크 적응 방식보다 적은 계산 오버헤드로 경쟁력 있는 성능을 제공하는 PEFT 프레임워크입니다. 기존 PEFT(Parameter-Efficient Fine-Tuning) 방식인 LoRA는 개별 가중치에 독립적인 저랭크 섭동을 삽입하여 적응을 수행했지만, 이는 지역적인 파라미터화를 초래했습니다. ShadowPEFT는 이러한 문제를 해결하기 위해 깊이 공유 섀도우 모듈을 통해 레이어 수준의 정제를 수행하는 중앙 집중식 PEFT 프레임워크를 제안합니다. 이 방식은 각 트랜스포머 레이어에서 병렬 섀도우 상태를 유지하고 이를 반복적으로 발전시켜 더 풍부한 은닉 상태를 만듭니다. 결과적으로 ShadowPEFT는 LoRA 및 DoRA와 유사한 학습 가능한 파라미터 예산 내에서 생성 및 이해 벤치마크에서 동등하거나 더 우수한 성능을 보여주었습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+GSI-Bench는 이미지 생성 시 3D 공간 제약을 존중하고 조작하는 모델의 능력을 측정하고 향상시키기 위한 최초의 벤치마크입니다. 기존 벤치마크들이 공간 지능을 이해 관점에서만 평가하는 한계를 극복하기 위해, 이 연구는 생성적 공간 지능(GSI)을 측정하는 GSI-Bench를 제안합니다. GSI-Bench는 실제 데이터셋인 GSI-Real과 합성 데이터셋인 GSI-Syn으로 구성되어 있으며, 공간 기반 이미지 편집을 통해 GSI를 정량화합니다. 실험 결과, GSI-Syn으로 미세 조정된 모델은 합성 및 실제 작업 모두에서 상당한 성능 향상을 보였으며, 공간 이해 능력까지 개선되었습니다. 이는 생성적 훈련이 공간 추론 능력을 강화할 수 있음을 보여주는 중요한 증거입니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 8. [Chat2Workflow: A Benchmark for Generating Executable Visual Workflows with Natural Language](https://huggingface.co/papers/2604.19667)
+### 8. [A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression](https://huggingface.co/papers/2604.19572)
 
-Chat2Workflow는 자연어로부터 실행 가능한 시각적 워크플로우를 생성하는 벤치마크와 에이전트 프레임워크를 제시하여, 산업 수준의 자동화 달성에 있어 LLM의 한계를 드러냅니다. 실행 가능한 시각적 워크플로우는 산업 배포에서 신뢰성과 제어 가능성을 제공하지만, 현재는 수동으로 구축되어 비용과 시간이 많이 소요됩니다. 이 연구는 대규모 언어 모델이 이러한 다중 라운드 상호작용 프로세스를 자동화할 수 있는지 연구하기 위해 Chat2Workflow 벤치마크를 도입했습니다. 이 벤치마크는 실제 비즈니스 워크플로우를 기반으로 하며, Dify 및 Coze와 같은 플랫폼에 직접 배포 가능한 워크플로우 생성을 목표로 합니다. 실험 결과, 최신 LLM은 높은 수준의 의도는 파악하지만, 복잡하거나 변경되는 요구사항 하에서는 정확하고 안정적인 실행 가능한 워크플로우를 생성하는 데 어려움을 겪는 것으로 나타났습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+TACO는 관찰 컨텍스트 압축을 통해 터미널 에이전트의 장기적인 성능을 향상시키고 토큰 오버헤드를 줄이는 자체 진화 프레임워크를 제안합니다. (영문 용어: Self-Evolving). 장기적인 멀티턴 터미널 중심 에이전트 작업에서 환경 피드백을 상호작용 기록에 보존하는 것은 토큰 비용을 증가시키고 추론을 방해합니다. 기존의 휴리스틱 기반 압축 방법은 터미널 환경의 이질성 때문에 일반화하기 어렵습니다. TACO는 상호작용 궤적에서 압축 규칙을 자동으로 발견하고 개선하여 기존 터미널 에이전트의 성능을 향상시키고 토큰 오버헤드를 줄이는 플러그 앤 플레이 프레임워크입니다. 이 방법은 TerminalBench 및 다른 벤치마크에서 주류 에이전트 프레임워크와 강력한 백본 모델 전반에 걸쳐 일관된 성능 향상을 보여주었습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 9. [AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation](https://huggingface.co/papers/2604.18240)
+### 9. [C-GenReg: Training-Free 3D Point Cloud Registration by Multi-View-Consistent Geometry-to-Image Generation with Probabilistic Modalities Fusion](https://huggingface.co/papers/2604.16680)
 
-AJ-Bench는 Agent-as-a-Judge의 환경 인지 평가 능력을 체계적으로 측정하기 위한 벤치마크를 제시합니다. (영문 용어: Environment-Aware). 기존 LLM-as-a-Judge 모델은 복잡한 환경에서 에이전트 행동을 검증하는 데 한계가 있었습니다. 이 연구는 Agent-as-a-Judge가 환경 및 도구와 상호작용하여 검증 가능한 증거를 확보하는 능력을 평가하기 위해 AJ-Bench 벤치마크를 도입했습니다. AJ-Bench는 검색, 데이터 시스템, GUI 세 가지 도메인에 걸쳐 155개 작업과 516개의 주석이 달린 궤적을 포함하며, 정보 획득, 상태 검증, 프로세스 검증 능력을 평가합니다. 실험 결과, LLM-as-a-Judge 기준선보다 일관된 성능 향상을 보였지만, 에이전트 기반 검증에는 여전히 많은 과제가 남아 있음을 보여주었습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+C-GenReg는 학습 없이 3D 포인트 클라우드 정합을 수행하기 위해, Multi-View-Consistent Geometry-to-Image Generation과 Probabilistic Modalities Fusion을 활용하는 프레임워크를 제안합니다. (영문 용어: Training-Free). 기존 학습 기반 3D 포인트 클라우드 정합 방식은 센싱 모달리티, 샘플링 차이, 환경 변화에 대한 일반화 능력이 부족합니다. C-GenReg는 이 문제를 해결하기 위해, 3D 포인트 클라우드 정합 문제를 이미지 도메인으로 변환하여 Vision Foundation Models(VFMs)의 강점을 활용합니다. World Foundation Model을 사용하여 입력 기하학적 정보로부터 다중 뷰 일관성을 갖는 RGB 이미지를 생성하고, VFM을 통해 밀집된 대응점을 추출한 후 이를 다시 3D로 변환합니다. 또한, 생성된 RGB 브랜치와 원본 기하학적 브랜치의 대응점 사후 확률을 결합하는 "Match-then-Fuse" 확률적 융합 방식을 도입하여 견고성을 높였습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 10. [Dual-View Training for Instruction-Following Information Retrieval](https://huggingface.co/papers/2604.18845)
+### 10. [WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training](https://huggingface.co/papers/2604.14932)
 
-Dual-View Training은 polarity reversal 기반의 데이터 합성 전략을 통해 Instruction-Following Information Retrieval 시스템의 지시 준수 능력을 45% 향상시킵니다. 기존 검색 시스템은 주로 의미론적 관련성에 초점을 맞춰 쿼리 관련 문서와 지시 준수 문서 간의 구분을 어려워했습니다. 이 연구는 polarity reversal을 활용한 dual-view 데이터 합성 전략을 제안합니다. 이는 LLM을 사용하여 주어진 쿼리, 지시 준수 문서, 그리고 지시 위반 문서에 대해 두 문서의 관련성 레이블을 뒤바꾸는 보완적인 지시를 생성합니다. 이러한 방식으로 동일한 문서 쌍을 보완적인 지시 하에 제시함으로써, 검색 모델이 고정된 주제 단서에 의존하지 않고 지시를 통해 후보 문서를 재고하도록 훈련시킵니다. 이 방법은 FollowIR 벤치마크에서 45%의 성능 향상을 달성하며, 유사하거나 더 큰 규모의 범용 임베딩 모델을 능가합니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+WavAlign은 종단 간 음성 대화 모델의 지능과 표현력을 향상시키기 위해 제약된 선호도 업데이트와 명시적 앵커링을 사용하는 모달리티 인식 적응형 하이브리드 후처리 방법을 제안합니다. (영문 용어: Post-Training). 기존 종단 간 음성 대화 모델은 표현력과 지능 면에서 기대에 미치지 못하는 경우가 많습니다. WavAlign은 이러한 문제를 해결하기 위해 보상 모델링 및 롤아웃 샘플링의 장애물을 분석합니다. 이를 바탕으로, 선호도 업데이트를 의미 채널로 제한하고 명시적 앵커링을 통해 음향 동작을 개선하며, 롤아웃 통계에서 혼합을 동적으로 조절하는 모달리티 인식 적응형 후처리 방식을 제안합니다. 이 방법은 여러 음성 대화 벤치마크에서 의미론적 품질과 음성 표현력 모두에서 일관된 개선을 보여주었습니다. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
