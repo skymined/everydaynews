@@ -1,78 +1,80 @@
-# IMDIGEST - 2026-04-26
+# IMDIGEST - 2026-04-27
 
-2026-04-26 KST 기준으로 수집한 AI 뉴스레터입니다.
+2026-04-27 KST 기준으로 수집한 AI 뉴스레터입니다.
 
-2026-04-26 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-04-27 AI 브리핑입니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 오늘의 뉴스
 
-### [TechCrunch AI발 'Anthropic created a test marketplace for agent-on-agent commerce' 관련 AI 업데이트](https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce)
-
-원문에서 확인된 핵심 내용: In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money. 원문에서 확인된 핵심 내용: The company admitted this test — which it called Project Deal — was only “a pilot experiment with a self-selected participant pool” of 69 Anthropic employees who were given a budge. 원문에서 확인된 핵심 내용: Nonetheless, Anthropic said it was “struck by how well Project Deal worked,” with 186 deals made, totaling more than $4,000 in value. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 TechCrunch AI입니다.
-
-### [TechCrunch AI발 'Maine’s governor vetoes data center moratorium' 관련 AI 업데이트](https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium)
-
-원문에서 확인된 핵심 내용: Maine Governor Janet Mills has vetoed a bill that would have temporarily brought permits for new data centers to a halt. 원문에서 확인된 핵심 내용: If it had become law, L.D. 원문에서 확인된 핵심 내용: 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
+오늘은 이 섹션에 담을 공식 발표형 뉴스가 많지 않았습니다.
 
 ## 커뮤니티와 검색에서 읽힌 흐름
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.
 
-### [Reddit r/artificial발 ''Too Dangerous to Release' Is Becoming AI's New Normal' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1svjxhl/too_dangerous_to_release_is_becoming_ais_new)
+### [Reddit r/artificial발 'We have zero forensic infrastructure for AI decisions' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1swk8x2/we_have_zero_forensic_infrastructure_for_ai)
 
-원문에서 확인된 핵심 내용: &#32; submitted by &#32; /u/simrobwest [link] &#32; [comments]. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: I work in AI security and compliance. 원문에서 확인된 핵심 내용: This just bothers me a little bit, putting AI systems in front of decisions that change people’s lives via insurance claims, hiring, credit, defense applications and when someone a. 원문에서 확인된 핵심 내용: we basically have nothing that would hold up in a courtroom. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/artificial발 'Built cross-model persistent memory - told GPT-5 Nano I live in Bahrain, asked Sonnet 4.6 where I live, it knew instantly' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1svixo0/built_crossmodel_persistent_memory_told_gpt5_nano)
+### [Reddit r/MachineLearning발 'Why do only big ML labs dominate widely-used models despite many open-source pretrained models smaller labs could do RL on? [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1swa26o/why_do_only_big_ml_labs_dominate_widelyused)
 
-원문에서 확인된 핵심 내용: https://reddit.com/link/1svixo0/video/hgwrueuekdxg1/player No tricks, no copy-paste. 원문에서 확인된 핵심 내용: Two completely different AI models, separate conversations - one remembers what the other was told. 원문에서 확인된 핵심 내용: The way it works: every message gets embedded and stored. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: I’m trying to understand why models from major labs (GPT, Claude, etc.) dominate real-world usage? 원문에서 확인된 핵심 내용: You might say it's due to the expensive pretraining compute budge, but there already exists many pretrained open-source models at the same scale (e.g., Kimi). 원문에서 확인된 핵심 내용: Of course Kimi isn't as good as Claude, but it's the RL on top of the pretraining that makes Claude what it is right? 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
 
-### [Physical AI가 로봇 공학의 산업 전반에 걸쳐 혁신을 주도하고 있습니다.](https://news.google.com/rss/articles/CBMidkFVX3lxTFA1ZVM2Tlc1V0ZHZm5xSDkzdnJkd1RXZ2RNM2o2Z0wtWEIzOTNtWGxOekxHamhZY0pENTVZQXBJTlRPVGMzcGdRTWtxS2tpU0RhTDhrOHpPcjJJb2JYc1VFVzB4V0kwWXpEU3Q5MVM2U3c0RWF5Unc?oc=5)
+### [Reddit r/LocalLLaMA발 'What is the best coding agent (CLI) like Claude Code for Local Development' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1swhw84/what_is_the_best_coding_agent_cli_like_claude)
 
-Physical AI는 로봇이 물리적 세계와 상호 작용하고 학습하는 방식을 변화시키는 기술입니다. 기존 로봇이 프로그래밍된 작업을 수행하는 반면, Physical AI 로봇은 예측 불가능한 환경에 적응하고 새로운 작업을 학습할 수 있습니다. 이는 제조, 물류, 헬스케어 등 다양한 산업에서 로봇의 활용 범위를 확장하고 있습니다. Physical AI는 로봇이 더욱 자율적이고 유연하게 작동하도록 하여 생산성 향상과 비용 절감에 기여합니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: Hey all: I am trying to set up claude code to work with llama.cpp, I am using the Qwen3.6-35B-A3B. 원문에서 확인된 핵심 내용: I usually use claude code + ZLM subscription i got lucky with $30 yearly - the set up is very simple with their automated script, but for the life of me I cannot figure out how to. 원문에서 확인된 핵심 내용: Am i hyper focusing on Claude Code or should I try things like pi.dev? 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [Reddit r/MachineLearning발 'Interview Request for Academic Research Project on AI [P]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1svpt6e/interview_request_for_academic_research_project)
+### [Reddit r/MachineLearning발 'Speculative Decoding Implementations: EAGLE-3, Medusa-1, PARD, Draft Models, N-gram and Suffix Decoding from scratch [P]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1swfftl/speculative_decoding_implementations_eagle3)
 
-원문에서 확인된 핵심 내용: Dear Sir/Madam, I am a Lebanese student currently reaching out to kindly request your support for an academic research project I am conducting this year. 원문에서 확인된 핵심 내용: My project explores the following research question: &quot;How will artificial intelligence reshape global inequality, and what are the realistic pathways through which humans coul. 원문에서 확인된 핵심 내용: They need to be either located there or has some kind of a link to there (like for exactly you work in an American university in another country) The interview would include the fo. 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 Reddit r/MachineLearning입니다.
+원문에서 확인된 핵심 내용: I’ve been working on an educational implementation repo for speculative decoding: https://github.com/shreyansh26/Speculative-Decoding The goal is not to wrap existing libraries, bu. 원문에서 확인된 핵심 내용: Implemented methods so far: EAGLE-3 Medusa-1 standard draft model speculation PARD / parallel draft models n-gram prompt lookup suffix decoding The repo has both training and infer. 원문에서 확인된 핵심 내용: For learned proposers, I use Qwen/Qwen2.5-7B-Instruct as the target model and small learned/speculative heads or draft models, depe. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
 
-### [Reddit r/LocalLLaMA발 'Qwen 3.6 35b a3b Q4 vs qwen 3.6 27b q6, on m5 pro 64gb' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1svm4ga/qwen_36_35b_a3b_q4_vs_qwen_36_27b_q6_on_m5_pro)
+### [Reddit r/LocalLLaMA발 'Intel B70: LLama.ccp SYCL vs LLama.cpp OpenVino vs LLM-Scaler' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1swk3wh/intel_b70_llamaccp_sycl_vs_llamacpp_openvino_vs)
 
-원문에서 확인된 핵심 내용: Tried to test the two versions of models in my own m5 pro 64, curated the results on claude, not an expert so settings/config might not be the best. 원문에서 확인된 핵심 내용: do share what results or improvements that can be attempted. 원문에서 확인된 핵심 내용: test prompts were generated in claude for testing purposes. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: In case anyone is interested, I decided to test out LLama.cpp's new OpenVino backend to see how it compares on Intel GPUs. 원문에서 확인된 핵심 내용: At first glance, it stomps all over the previous best-case, SYCL, but lags behind LLM-Scaler (Intel's VLLM fork), likely just due to the hardware optimizations against GPTQ/Int4. 원문에서 확인된 핵심 내용: Interestingly tg512 was fastest on SYCL, but in real world, the prompt processing always seems the be the indicator on this card. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [Reddit r/LocalLLaMA발 'RTX 3090 + 27B model performance issues (llama.cpp) what am I doing wrong' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1svlnyk/rtx_3090_27b_model_performance_issues_llamacpp)
+### [Reddit r/artificial발 'Is the era of all-you-can-eat AI ending? (i will not promote)' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1swl2uw/is_the_era_of_allyoucaneat_ai_ending_i_will_not)
 
-원문에서 확인된 핵심 내용: Hey folks — looking for some advice on improving my local LLM setup (and also exploring agentic coding workflows). 원문에서 확인된 핵심 내용: Current setup: GPU: RTX 3090 (24GB VRAM) RAM: 64GB Using llama.cpp with a Qwen3.6 27B Q6 model (GGUF) Running through OpenCode Issue: Responses are really slow, and sometimes it ju. 원문에서 확인된 핵심 내용: Feels like something’s not tuned right or I’m pushing the hardware too far. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: I am a GitHub Copilot Pro+ user. 원문에서 확인된 핵심 내용: I have been enjoying 39 dollars plan that actually is worth 60 dollars compute with 1500 premium prompts to models count based. 원문에서 확인된 핵심 내용: Given the availability of free tier models and model switching option, It has felt like never ending. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/artificial발 'If I work on something in codex, and future models are trained on my interactions, does that mean the next model release will be able to code my project for other users?' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1svov68/if_i_work_on_something_in_codex_and_future_models)
+### [Reddit r/artificial발 'An amateur just solved a 60-year-old math problem—by asking AI' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1swi8f9/an_amateur_just_solved_a_60yearold_math_problemby)
 
-원문에서 확인된 핵심 내용: If this is true, using codex feels like it’s as good as posting to GitHub. 원문에서 확인된 핵심 내용: Taken to an extreme, if you write a calendar called MySecretSauceCalendar using codex, and the next point release, everyone can prompt gpt with “ write me a calendar app that does. 원문에서 확인된 핵심 내용: Why write anything you’d otherwise sell? 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: &#32; submitted by &#32; /u/simulated-souls [link] &#32; [comments]. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/artificial발 'Gemini AI is doing free marketing for my private discord community 💀' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1svna3s/gemini_ai_is_doing_free_marketing_for_my_private)
+### [Google News AI Search발 'Half of investors now turning to AI for financial decisions as autonomy accelerates, study finds - InvestmentNews' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVDVPdjE4eGMwZnk3Mjh0U1dudHNqbzRIOGF4bmplLW84c2hSWi1UbEt3NmVYT0htekVwbWtvdzN2Mng2b0JDYnpRMkJqRXJBanpMZm9qNkVjLWdkU3MyNmdnMWFVM0Nhc01XZE5PeUp4czRYVmRzUkVpRDNwZkZ1aC05VDBiV2lXOWNvRjlkUVBWSlN0aUZMWlZBc1pTN2VKdmgtYUxDa00xSjFfQ0Y4aHBtZDJ5Zjgyb09uZ3B1QzZBcVZyaERuR2hSYVBTejdFQ3RKYS03VXhwck5iOHNZTzJ3?oc=5)
 
-원문에서 확인된 핵심 내용: But in the wrong way Crazy encounter 🤣 Another reason to use claude daily &#32; submitted by &#32; /u/Odd-Pension-5078 [link] &#32; [comments]. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: Half of investors now turning to AI for financial decisions as autonomy accelerates, study finds &nbsp;&nbsp; InvestmentNews. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Reddit r/artificial발 'I got tired of watching my ideas go nowhere, so I built an AI that builds and manages a business for me, opening beta this week' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1svm96o/i_got_tired_of_watching_my_ideas_go_nowhere_so_i)
+### [Google News AI Search발 'Tech: What’s next for Democrats on AI - Punchbowl News' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yTjI5TkEtaXRBWTJKeDRseS16dFpvREZYZkw2b0VyT3FuUFRmNEh0UmZCREgwa0RVRncxdUFYMzdvcjl4ZUV6Zkl0cXdjOGgyejJtN3NCOEYwWUFYTVNtUVRxcEE?oc=5)
 
-원문에서 확인된 핵심 내용: The thing that kept bothering me: the gap between &quot;I have an idea&quot; and &quot;I have a business&quot; isn't talent or intelligence. 원문에서 확인된 핵심 내용: It's just execution. 원문에서 확인된 핵심 내용: Setting up the store, writing the copy, figuring out payments, running ads. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: Tech: What’s next for Democrats on AI &nbsp;&nbsp; Punchbowl News. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Google News AI Search발 'Anthropic created a test marketplace for agent-on-agent commerce - TechCrunch' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMioAFBVV95cUxNaXhKb1NNUVpwMTAtRDBORFVvaWdnaDhyNi1Yby1nNEwtNUc2V0pyYjRGeTQzQld4VW5TUThJVjZSREU1bnlQUVI0cHo3UjhZZmdHRjFlNV90aU51ZlJrdFRhZkFXM1hxN0JMNm10NW1naUVNWlJYSThPTVdpRThnN2pkUXpkQXRGMDV5T0tERjBWX2d4U3lhNDFoNnRPRS03?oc=5)
+### [Amazon이 Anthropic에 27억 5천만 달러를 추가 투자하며 전략적 협력을 확대합니다.](https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1FlbU1kTVBFR2RLTlJrc0l5cVBoS3QydUJTSlNOSWk4ZUNSSUhySGV2RnJYRnRkajJQY1FVTUdET3QybFFpazcySWx1bm9ja25ielpISWhRenZ1Rk1Fbm5wN0JsbXd5ZUo5ZjcyNU5mNmRWblJLbXpPQk50UGdQbTk4WXZ5UXRVckhtOU10cElhcEZDQXZPeFpR?oc=5)
 
-원문에서 확인된 핵심 내용: Anthropic created a test marketplace for agent-on-agent commerce &nbsp;&nbsp; TechCrunch. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Google News AI Search입니다.
+Amazon은 Anthropic에 27억 5천만 달러를 추가 투자하여 총 투자액을 40억 달러로 늘렸습니다. Anthropic은 Amazon Web Services(AWS)를 핵심 클라우드 제공업체로 활용하며, AWS Trainium 및 Inferentia 칩을 사용하여 미래 파운데이션 모델을 구축하고 훈련할 예정입니다. Anthropic은 자사의 AI 모델에 대한 장기적인 보안과 무결성을 보장하기 위해 AWS Nitro Enclaves를 사용할 계획입니다. 이번 투자는 클라우드 컴퓨팅 및 AI 모델 개발 시장에서 AWS의 입지를 강화하고, Anthropic의 AI 기술 발전을 가속화할 것입니다. 출처는 Google News AI Search입니다.
 
-### [Reddit r/LocalLLaMA발 'Quant Qwen3.6-27B on 16GB VRAM with 100k context length' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1svnmgo/quant_qwen3627b_on_16gb_vram_with_100k_context)
+### [Reddit r/artificial발 'Someone used AI to explain a Dune passage warning against using AI to do your thinking. That's the whole debate' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1sw9w50/someone_used_ai_to_explain_a_dune_passage_warning)
 
-원문에서 확인된 핵심 내용: https://preview.redd.it/tblmrwxkbexg1.png?width=1193&amp;format=png&amp;auto=webp&amp;s=6dea1e6684e75e22852d57c0c72e9171deb56ae2 I have experimented how to run Qwen3.6-27B on my la. 원문에서 확인된 핵심 내용: I have created an own IQ4_XS GGUF &quot;qwen3.6-27b-IQ4_XS-pure.gguf&quot; with the Unsloth imatrix and compared the mean KLD of it with other quants. 원문에서 확인된 핵심 내용: You can see that I also have tested different turboquant versions. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: The Globe and Mail's editorial board ran a piece in March titled &quot;AI can be a crutch, or a springboard.&quot; To illustrate the crutch half, they offered this: someone asked A. 원문에서 확인된 핵심 내용: Instead of reading the book. 원문에서 확인된 핵심 내용: That anecdote is doing more work than the studies the editorial cites. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/LocalLLaMA발 'Embracing the noise: How to build an agent that is both neuro-symbolic and probabilistic.' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1svnkke/embracing_the_noise_how_to_build_an_agent_that_is)
+### [Google News AI Search발 'Q&A: Ai Jiang, Author of ‘A River from the Sky’ - The Nerd Daily' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMifEFVX3lxTFBQTzZyT0tVb19Wd1JjVXY0akdSWk83b29xZjNGczlwWDZpR2pwUmw4YUdEWFJsSUM5UFBDSS1CXzhld19XWFNKMEZmU1BfaU04SUw5REpqNGlEUHpWbGhtUmRfWDZBZkJIblpRSkRiZTNpdWFvcFNNX3E3ZXk?oc=5)
 
-원문에서 확인된 핵심 내용: Is this actually possible or am I nuts? 원문에서 확인된 핵심 내용: Every SWE tells me agents need rigid, deterministic state machines (DAGs, heavy if/else flows bla bla bla) to be reliable. 원문에서 확인된 핵심 내용: My thought is that biological brains are just noisy probability matrices bound by structure and persistent memory. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: Q&amp;A: Ai Jiang, Author of ‘A River from the Sky’ &nbsp;&nbsp; The Nerd Daily. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Reddit r/MachineLearning발 'How Visual-Language-Action (VLA) Models Work [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1svhwtz/how_visuallanguageaction_vla_models_work_d)
+### [Google News AI Search발 'San Francisco, AI capital of the world, is an economic laggard - The Economist' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU3dXZ0lNLWZZakFyaXNMUHpxSzk4V0FGS09vbklyQVVIQU5VeUUza3dESm9KTDFHREpzR0ZsOXQzREg5T0gtS3FpOXl3bEhESXViN0d0MGZKeG81TmFwZ2gxenA2RUFZamtPbk9zdU5FMHBlcUVZZk1HaTF5YVE0TFNVNUEzSy15TkRsNFFPV2V1NTJiSWRqYlRWX0tfTENWRzMyU2VvSUpnb05Vd3ZwVzJnSVBIczRCUWp3?oc=5)
 
-원문에서 확인된 핵심 내용: VLA models are quickly becoming the dominant paradigm for embodied AI, but a lot of discussion around them stays at the buzzword level. 원문에서 확인된 핵심 내용: This article gives a solid technical breakdown of how modern VLA systems like OpenVLA, RT-2, π0, and GR00T actually map vision/language inputs into robot actions. 원문에서 확인된 핵심 내용: It covers the main action-decoding approaches currently used in the literature: • Tokenized autoregressive actions • Diffusion-based action heads • Flow-matching policies Useful re. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
+원문에서 확인된 핵심 내용: San Francisco, AI capital of the world, is an economic laggard &nbsp;&nbsp; The Economist. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Google News AI Search입니다.
 
-### [Reddit r/artificial발 'Palantir employees are talking about company's "descent into fascism". Slack messages, interviews with current and former works paint picture of company in turmoil.' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1svitaf/palantir_employees_are_talking_about_companys)
+### [Reddit r/MachineLearning발 'Can Geometric Deep Learning lead eliminate the need of "Brute Force" pre-training [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1swkxx1/can_geometric_deep_learning_lead_eliminate_the)
 
-원문에서 확인된 핵심 내용: &#32; submitted by &#32; /u/esporx [link] &#32; [comments]. 정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: I’ve been reading about Geometric Deep Learning lately (the whole grids, graphs, groups, manifolds idea), and something clicked that i wanted to get a clarity on, i don't think i'm. 원문에서 확인된 핵심 내용: But doesn't GDL kind of flips that? 원문에서 확인된 핵심 내용: Instead of learning invariances (like rotation, permutation, etc.), you can build them directly into the architecture using symmetry and geometry. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
+
+### [Reddit r/LocalLLaMA발 'Switched from Qwen3.6 35b-a3b to Qwen3.6 27b mid coding and it's noticeably better!' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1swifke/switched_from_qwen36_35ba3b_to_qwen36_27b_mid)
+
+원문에서 확인된 핵심 내용: I was coding up a little html tower defense game where you can alter the path by placing additional waypoints. 원문에서 확인된 핵심 내용: My setup: 32gb ram with 16gb vram 5070 ti. 원문에서 확인된 핵심 내용: Using AesSedai/Qwen3.6-35B-A3B-GGUF IQ4_XS on LM Studio with OpenCode. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+
+### [Google News AI Search발 'Atlassian and HubSpot Join Shift From AI Flat Fees - The Information' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbk9DVXdBc0Jja0F3VUZhUTNBU2RqMDNZYnF2Wm11bVFidXJwT05zVWtjOWVmMHdQeG9zX05IU0JpOWhURWxFdjFib2w5eUJDRnBsN3lrRVdRRG9vaEFlOExKZjZIM3YzOGg5bUFOendhSk4yTi1NWTNVTjcxUVB3ZWw0aWh4QjEw?oc=5)
+
+원문에서 확인된 핵심 내용: Atlassian and HubSpot Join Shift From AI Flat Fees &nbsp;&nbsp; The Information. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
 ## 오늘의 논문
 
