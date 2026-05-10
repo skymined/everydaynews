@@ -1,62 +1,78 @@
-# IMDIGEST - 2026-05-10
+# IMDIGEST - 2026-05-11
 
-2026-05-10 KST 기준으로 수집한 AI 뉴스레터입니다.
+2026-05-11 KST 기준으로 수집한 AI 뉴스레터입니다.
 
-2026-05-10 AI 브리핑입니다. 오늘은 Hugging Face Blog, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-05-11 AI 브리핑입니다. 오늘은 Hugging Face Blog, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 오늘의 뉴스
 
-### [Hugging Face Blog발 '"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support"' 관련 AI 업데이트](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper)
+### [Hugging Face Blog발 'MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X' 관련 AI 업데이트](https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck)
 
-원문에서 확인된 핵심 내용: "OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support" thumbnail: https://huggingface.co/datasets/huggingface/documentation-images. 원문에서 확인된 핵심 내용: OncoAgent combines a dual-tier fine-tuned LLM architecture with a state-of. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Hugging Face Blog입니다.
+원문에서 확인된 핵심 내용: Walk into any small CNC machine shop and ask the manager how they decide whether to accept a customer job. 원문에서 확인된 핵심 내용: The answer is almost always the same: they print the drawing, read every dimension by hand, walk around the shop checking which tools are available, estimate whether their machines. 원문에서 확인된 핵심 내용: The whole process takes 30 to 60 minutes per drawing. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Hugging Face Blog입니다.
 
-### [TechCrunch AI발 'So you’ve heard these AI terms and nodded along; let’s fix that' 관련 AI 업데이트](https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms)
+### [TechCrunch AI발 'Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts' 관련 AI 업데이트](https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts)
 
-원문에서 확인된 핵심 내용: Artificial intelligence is changing the world, and simultaneously inventing a whole new language to describe how it’s doing it. 원문에서 확인된 핵심 내용: Spend five minutes reading about AI and you’ll run into LLMs, RAG, RLHF, and a dozen other terms that can make even very smart people in the tech world feel insecure. 원문에서 확인된 핵심 내용: This glossary is our attempt to fix that. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
+원문에서 확인된 핵심 내용: Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic. 원문에서 확인된 핵심 내용: Last year, the company said that during pre-release tests involving a fictional company, Claude Opus 4 would often try to blackmail engineers to avoid being replaced by another sys. 원문에서 확인된 핵심 내용: Anthropic later published research suggesting that models from other companies had similar issues with “agentic misalignment.” Apparently Anthropic has done more work around that b. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 TechCrunch AI입니다.
 
 ## 커뮤니티와 검색에서 읽힌 흐름
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.
 
-### [Reddit r/LocalLLaMA발 'model: add sarvam_moe architecture support by sumitchatterjee13 · Pull Request #20275 · ggml-org/llama.cpp' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1t8db1j/model_add_sarvam_moe_architecture_support_by)
+### [Reddit r/LocalLLaMA발 'MTP benchmark results: the nature of the generative task dictates whether you will benefit (coding) or get slower inference (creative) from speculative inference. No other factor comes close.' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1t9gcar/mtp_benchmark_results_the_nature_of_the)
 
-원문에서 확인된 핵심 내용: Sarvam-30B is an advanced Mixture-of-Experts (MoE) model with 2.4B non-embedding active parameters, designed primarily for practical deployment. 원문에서 확인된 핵심 내용: It combines strong reasoning, reliable coding ability, and best-in-class conversational quality across Indian languages. 원문에서 확인된 핵심 내용: Sarvam-30B is built to run reliably in resource-constrained environments and can handle multilingual voice calls while performing tool calls. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: I recently published MTP quants of Qwen 3.6 27B and I was suprised by the reports here on reddit, and on HF, of users who were experiencing worst speed with speculative inference t. 원문에서 확인된 핵심 내용: This did not match what I was seeing, but when I tried to reproduce their exact usage, it confirmed what they were experiencing. 원문에서 확인된 핵심 내용: I tried to analyse the problem, made a few conjectures which later turned out to be false, and started a full blown systematical analysis, running 300+ tests and benchmarks, collec. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [Reddit r/artificial발 'Is agentic AI governance even a computationally bounded process?' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1t8ncct/is_agentic_ai_governance_even_a_computationally)
+### [Reddit r/LocalLLaMA발 'OSS UI with Skills support similar to Claude?' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1t9hngc/oss_ui_with_skills_support_similar_to_claude)
 
-원문에서 확인된 핵심 내용: Wrt to context drifting, goal misalignment, etc. 원문에서 확인된 핵심 내용: Is it possible that a Turing machine could, in theory, handle all of the known issues wrt governance? 원문에서 확인된 핵심 내용: Or is it a case where (say) 90% of the issues could be handled by a strict governance process, but this last 10% of issues are basically impossible to predict and govern? 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
-
-### [Reddit r/MachineLearning발 'LLM rankings are not a ladder: experimental results from a transitive benchmark graph [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1t8f61o/llm_rankings_are_not_a_ladder_experimental)
-
-원문에서 확인된 핵심 내용: I built a small website called LLM Win : https://llm-win.com It turns LLM benchmark results into a directed graph: text If model A beats model B on benchmark X, add an edge A -&gt;. 원문에서 확인된 핵심 내용: Then it searches for the shortest transitive chain between two models. 원문에서 확인된 핵심 내용: The meme version is: text Can LLaMA 2 7B beat Claude Opus 4.7? 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
+원문에서 확인된 핵심 내용: I just want to copy-paste my claude skills to be able to use with local models, is there is anything that can dynamically detect my skills similar to claude? 원문에서 확인된 핵심 내용: so far I have found nothing... 원문에서 확인된 핵심 내용: openwebui is too complicated, still no correct skills support.. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
 ### [Google News AI Search발 'Embodied AI: China’s ambitious path to transform its robotics industry - Mercator Institute for China Studies (MERICS)' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMimgFBVV95cUxQV3k0WTE5WXhMYTF4SmVTQV9xbXR4SGo1c0w4WkEyV2FiMDJnQTFpNENGYWtUT0pqV09EYWFVU09fbnQ0S0x6WHlaMWtnSkZFdFpxQ1BzOExCSHp4SUZJOFJDLVNIa1MxRk45d2kzUnEtUVJKUlZ5dW1zbGlDR1pZMjdIVEtGamYxNUNSNUE0REplZGVUelBmUjJ3?oc=5)
 
 원문에서 확인된 핵심 내용: Embodied AI: China’s ambitious path to transform its robotics industry &nbsp;&nbsp; Mercator Institute for China Studies (MERICS). 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
+### [Reddit r/MachineLearning발 'Looking for arXiv endorsement (cs.CV) to post my ViT positional embeddings paper [R]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1t9jh49/looking_for_arxiv_endorsement_cscv_to_post_my_vit)
+
+원문에서 확인된 핵심 내용: Hi everyone, I'm looking for someone to endorse me for arXiv submission in cs.CV (computer vision) or cs.LG. 원문에서 확인된 핵심 내용: I have a completed paper and want to upload it as a preprint. 원문에서 확인된 핵심 내용: About the paper: Title: Positional Encodings in Vision Transformers: A Geometric Account of Spatial Organization and Robustness Summary: This paper investigates how different posit. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
+
+### [Reddit r/LocalLLaMA발 'How does llama-server pick which MoE experts go on the GPU and which stay on the CPU?' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1t9fy74/how_does_llamaserver_pick_which_moe_experts_go_on)
+
+원문에서 확인된 핵심 내용: If you are using a MoE model that does not fully fit in your GPU, some of the experts must stay on the CPU. 원문에서 확인된 핵심 내용: Putting the experts that you will actually need on the GPU will give you GPU inference speeds. 원문에서 확인된 핵심 내용: But guessing entirely incorrectly will only give you CPU inference speeds. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+
+### [Reddit r/artificial발 'Old-style AI used rules and was deterministic, but was too human-intensive to deploy. What is the barrier now?' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1t9gfk2/oldstyle_ai_used_rules_and_was_deterministic_but)
+
+원문에서 확인된 핵심 내용: Before neural-network simulation was commonly available, there were expert systems that were deterministic and rule-bound, as well as able to explain their 'reasoning.' They were s. 원문에서 확인된 핵심 내용: Now we have AI that truly is at expert-level, but unreliable for a number of reasons. 원문에서 확인된 핵심 내용: Why is no one pursuing either using the new AI to create expert systems, or at least using a much more hybrid approach? 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Reddit r/artificial입니다.
+
+### [Reddit r/artificial발 'Meta's own AI safety director lost 200 emails to a rogue agent and she couldn't stop it from her phone' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1t9fnwv/metas_own_ai_safety_director_lost_200_emails_to_a)
+
+원문에서 확인된 핵심 내용: The person Meta hired specifically to keep AI aligned with human values just had her inbox wiped by an AI agent that ignored every stop command she sent. 원문에서 확인된 핵심 내용: She typed &quot;Do not do that.&quot; Then &quot;Stop don't do anything.&quot; Then &quot;STOP OPENCLAW.&quot; The agent kept going. 원문에서 확인된 핵심 내용: She had to physically run to her computer to kill it. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+
+### [Reddit r/MachineLearning발 'Signals: finding the most informative agent traces without LLM judges [R]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1t9d3et/signals_finding_the_most_informative_agent_traces)
+
+원문에서 확인된 핵심 내용: Hello Peeps Salman, Shuguang and Adil here from Katanemo Labs (a DigitalOcean company). 원문에서 확인된 핵심 내용: Wanted to introduce our latest research on agentic systems called Signals. 원문에서 확인된 핵심 내용: If you've been building agents, you've probably noticed that there are far too many agent traces/trajectories to review one by one, and using humans or extra LLM calls to inspect a. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
+
+### [Google News AI Search발 '‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates - NVIDIA Blog' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMitAFBVV95cUxNWEFyR2FNOG5QNl9TS1NqUFNaNXVyXzF2alRBMExQSUZLVWNudGRYbHdNci1EMXhzU2hCdG03eU9jaEQtM21tbFVVbXRfdGV2dU85OWRCVE1iTDZzQW9TZlVKN19qQmJvZmtIR0VzY19VVGpoN1hTTHRZWXZHbkF6SThKZC1WYjhDU0M4bDY4LUg3VVVCOV85TENLOXhYeDNyUXd6WFJnaFpIMU5uZFJwR1g1SXc?oc=5)
+
+원문에서 확인된 핵심 내용: ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates &nbsp;&nbsp; NVIDIA Blog. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+
+### [Google News AI Search발 'Nvidia co-founder Jensen Huang delivers commencement keynote at Carnegie Mellon University - Pittsburgh Post-Gazette' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMisgFBVV95cUxOejd1bnJwTGFDVU5IdVlaNFhXTzRQNTdDRW03S2dlbWhhX0VITDNBUTBmZElCUE15SU1XN1BxLThyb1hIS2kyanZLVDJpVkhtUG5pSVE2SU9DZDVUa3BhcWl2U2llVkd2a2VndlNCWDBaQ01TMF9pdUZxQTFwN0wtRlZ0T3pmTWlHLXc5ai1DcFdITEcydWZzTXJiSUo2bldkVDBRNHZ3MHNGU0hodlpfVWtn?oc=5)
+
+원문에서 확인된 핵심 내용: Nvidia co-founder Jensen Huang delivers commencement keynote at Carnegie Mellon University &nbsp;&nbsp; Pittsburgh Post-Gazette. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+
+### [Google News AI Search발 'What’s Happened So Far at the Musk v. OpenAI Trial - The New York Times' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMigAFBVV95cUxPNzc4Zy1nN0h0eXoyQjVqU3Uyb0tlYlhtYVFlUlJfSFJNN3JhLURwTFR6TEx2UTRpeWlBUEl4dTFtSTg2UVpFN0NDdmIwR0YweWd3dUhBQkQyLWstTWx4QkZyaXloVUxjRUlkNkU3M1BETEJ1UlRUYmNseTRpYzRpUQ?oc=5)
+
+원문에서 확인된 핵심 내용: What’s Happened So Far at the Musk v. 원문에서 확인된 핵심 내용: OpenAI Trial &nbsp;&nbsp; The New York Times. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+
 ### [Google News AI Search발 'OpenAI adds AI pets to its Codex coding tool - Mashable' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMiggFBVV95cUxPNjkyaU5iZHNPekpUVXVsOXRuNmdpekhhbU1zVWhXQThMQXhzbWxscE9xdnA1WGJ1OXRPN2RKdUxVdGlOMVVDNDN1MXBReEhmaDFkVDdkeEJRNS13LV9nTFpCWmg4eVNzQkFjaXpWWHg1WHVDem56V3VoN2JuVjROa2lB?oc=5)
 
 원문에서 확인된 핵심 내용: OpenAI adds AI pets to its Codex coding tool &nbsp;&nbsp; Mashable. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Google News AI Search발 'Grok, Kling, Runway: AI Video’s Future Has Hollywood on the Outside Looking In - The Ankler' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMidEFVX3lxTE1wcjRKQm9kZ2ctdUlqcnZBWEJNWHEzYUJyWFN1MFJaejhpN0E4SDRKOTBLek1zNkJwRGJ3UDVGdkNlWHE4Tk1Oc1NOdDNCWXhFOTIxR3hNN3F1RlhNUzZxczNueEVKeEpnel9maEg4d20zR3RZ?oc=5)
+### [Google News AI Search발 'DoorDash Introduces New AI-Powered Tools to Help Merchants Get Started Faster and Grow Across Channels - DoorDash' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMicEFVX3lxTE5yV29mUnpSZDNURFI1Y0ZYaU1YYTA1a1RHd3RfT29wUWh5YVVGVGxhYjR5eWFic2xmb01jdDNadllDa0kzQUMxeFViRUpPOTdPenFLdVhYd0xLbVVRc1VvUTRWRXk4QlB6T3MyNzVsdkQ?oc=5)
 
-원문에서 확인된 핵심 내용: Grok, Kling, Runway: AI Video’s Future Has Hollywood on the Outside Looking In &nbsp;&nbsp; The Ankler. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: DoorDash Introduces New AI-Powered Tools to Help Merchants Get Started Faster and Grow Across Channels &nbsp;&nbsp; DoorDash. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Google News AI Search발 'Is Nvidia Still the Best AI Stock to Buy in 2026, or Is This Challenger? - The Motley Fool' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMilgFBVV95cUxPd0Y3XzYxWml4RkhKNXBkV1NEWTdJcUVER0RjZUxFWWNQSl9BeDVveTV4ckdxbTQxTG5lamlUSjVfRTRRNlFtcXZMODlpOG83TjhBRlJUSllYd3FRcVhXdUQzR21qODZjNVFEUDBEdDVOZC1fV1VOc0NxblNTaTV0SUlpaXZjSzJfM1o5M2ZVelhBS1ZsSVE?oc=5)
+### [Google News AI Search발 'Apple agrees to $250M settlement over claims it overhyped iPhone AI features - Class Action Lawsuits' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYUxuamk4Vm9YNV9ob29Db0dwU19xcjhRUzNzam05a0szcHd2YlV0Y2tNM2NxUjZLZDlzQXloWnJHMFpINE1qOGFFVmMxMm4xOFQxOVFkZG9ZeDU4UWdfV29TZDFhOWk2VHctclBlaTMzVFFVMmMweVVjcVJuaWc0N3Zad0w2VWE5dG1NbU9hUXoxTXZUclBrSWVnQThRZVZZUVZVY3pNWVBROEt3ZWlVUEFMODdUbzNFSzJvNHRmS0xzbm5WNXk1WHNCSVo0b1FnUW5Z?oc=5)
 
-원문에서 확인된 핵심 내용: Is Nvidia Still the Best AI Stock to Buy in 2026, or Is This Challenger? 원문에서 확인된 핵심 내용: &nbsp;&nbsp; The Motley Fool. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
-
-### [Reddit r/MachineLearning발 'Citations in ECCV Rebuttal [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1t8cv76/citations_in_eccv_rebuttal_d)
-
-원문에서 확인된 핵심 내용: This is my first time submitting to ECCV, and I am obviously struggling with the 1 page limit of the rebuttal. 원문에서 확인된 핵심 내용: I currently refer to 3 previous works in the rebuttal, all of which are often mentioned in the main paper. 원문에서 확인된 핵심 내용: In this case, must I cite these papers again in the rebuttal, or it is assumed the reviewers can refer to the original paper? 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 Reddit r/MachineLearning입니다.
-
-### [Reddit r/artificial발 '23 years ago this Matrix scene took $40M and almost a year to make. Today some kid with AI could try it over a weekend.' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1t8fytl/23_years_ago_this_matrix_scene_took_40m_and)
-
-원문에서 확인된 핵심 내용: We are living through some wild times. 원문에서 확인된 핵심 내용: &#32; submitted by &#32; /u/bekircagricelik [link] &#32; [comments]. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Reddit r/artificial입니다.
-
-### [Reddit r/MachineLearning발 'What is an average publication outcome for an ML PhD? [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1t8bnmp/what_is_an_average_publication_outcome_for_an_ml)
-
-원문에서 확인된 핵심 내용: I know publication count is not everything, and quality, contribution, advisor/lab culture, subfield, and luck all matter a lot. 원문에서 확인된 핵심 내용: But to make the comparison easier, I’m curious about the publication-count side specifically. 원문에서 확인된 핵심 내용: For an ML PhD, what would you consider an average publication outcome by graduation? 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 Reddit r/MachineLearning입니다.
+원문에서 확인된 핵심 내용: Apple agrees to $250M settlement over claims it overhyped iPhone AI features &nbsp;&nbsp; Class Action Lawsuits. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
 ## 오늘의 논문
 
