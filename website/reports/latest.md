@@ -1,119 +1,119 @@
-# IMDIGEST - 2026-05-15
+# IMDIGEST - 2026-05-16
 
-2026-05-15 KST 기준으로 수집한 AI 뉴스레터입니다.
+2026-05-16 KST 기준으로 수집한 AI 뉴스레터입니다.
 
-2026-05-15 AI 브리핑입니다. 오늘은 NVIDIA Developer Blog, AWS Machine Learning Blog, AWS Machine Learning Blog에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-05-16 AI 브리핑입니다. 오늘은 TechCrunch AI, Microsoft Research Blog, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 오늘의 뉴스
 
-### [NVIDIA Developer Blog발 'How the NVIDIA Vera Rubin Platform is Solving Agentic AI’s Scale-Up Problem' 관련 AI 업데이트](https://developer.nvidia.com/blog/how-the-nvidia-vera-rubin-platform-is-solving-agentic-ais-scale-up-problem)
+### [TechCrunch AI발 'OpenAI launches ChatGPT for personal finance, will let you connect bank accounts' 관련 AI 업데이트](https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts)
 
-원문에서 확인된 핵심 내용: Agentic inference has fundamentally changed the runtime dynamics of inference workloads by introducing non-deterministic trajectories—actions, observations, and decisions that an A. 원문에서 확인된 핵심 내용: These trajectories compound end-to-end latency across hundreds of inference requests per session. 원문에서 확인된 핵심 내용: NVIDIA Vera Rubin NVL72 handles the bulk of that inference load as the core compute engine of the NVIDIA Vera Rubin platform. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 NVIDIA Developer Blog입니다.
+원문에서 확인된 핵심 내용: On Friday, OpenAI launched a new set of personal finance tools in preview for ChatGPT Pro subscribers in the U.S., letting them connect their accounts and ask questions ranging fro. 원문에서 확인된 핵심 내용: OpenAI has partnered with the financial connection service Plaid to manage the account connections. 원문에서 확인된 핵심 내용: Users can connect to over 12,000 financial institutions, including Schwab, Fidelity, Chase, Robinhood, American Express, and Capital One. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 TechCrunch AI입니다.
 
-### [AWS Machine Learning Blog발 'Real-time voice agents with Stream Vision Agents and Amazon Nova 2 Sonic' 관련 AI 업데이트](https://aws.amazon.com/blogs/machine-learning/real-time-voice-agents-with-stream-vision-agents-and-amazon-nova-2-sonic)
+### [Microsoft Research Blog발 'Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability' 관련 AI 업데이트](https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability)
 
-원문에서 확인된 핵심 내용: Real-time voice agents with Stream Vision Agents and Amazon Nova 2 Sonic This post was co-authored with Neevash Ramdial, Technical Marketing leader at Stream Building production-gr. 원문에서 확인된 핵심 내용: You must orchestrate speech-to-speech models, manage low-latency audio streaming, and handle connection lifecycle. 원문에서 확인된 핵심 내용: You also need to deliver consistent experiences across web, mobile, and desktop applications. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 AWS Machine Learning Blog입니다.
+원문에서 확인된 핵심 내용: Our recent paper, “LLMs Corrupt Your Documents When You Delegate”, has generated discussion about the reliability of AI systems in delegated workflows. 원문에서 확인된 핵심 내용: We appreciate the interest in this work and want to clarify several important points about what the paper does—and does not—claim. 원문에서 확인된 핵심 내용: The research aims to develop robust evaluation methods for long-horizon delegated and collaborative tasks. 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 Microsoft Research Blog입니다.
 
-### [AWS Machine Learning Blog발 'Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore' 관련 AI 업데이트](https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore)
+### [TechCrunch AI발 'The OpenAI trial wraps up, and the Musk founder machine keeps spinning' 관련 AI 업데이트](https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning)
 
-원문에서 확인된 핵심 내용: Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore AI agents with unrestricted web access pose significant security risks. 원문에서 확인된 핵심 내용: Without Chrome enterprise policies to control browser behavior, an agent might navigate to unauthorized domains, store credentials in the browser’s password manager, or download fi. 원문에서 확인된 핵심 내용: Organizations with internal services that use a private certificate authority (CA) face an additional barrier. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 AWS Machine Learning Blog입니다.
+원문에서 확인된 핵심 내용: Altman trial came to a close this week, and the final arguments kept circling back to one question: can we trust the people in charge of AI? 원문에서 확인된 핵심 내용: All of this is playing out as SpaceX charges toward what could be one of the largest IPOs in American history, with a whole generation of founders already spinning out of the Musk. 원문에서 확인된 핵심 내용: On this episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Sean O’Kane break down the trial’s closing stretch and what the growing Elon Musk founder ecosystem. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
 
-### [TechCrunch AI발 'OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned' 관련 AI 업데이트](https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned)
+### [TechCrunch AI발 'Silicon Valley’s vacationland needs a new energy provider just as AI is driving prices up' 관련 AI 업데이트](https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up)
 
-원문에서 확인된 핵심 내용: OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal act. 원문에서 확인된 핵심 내용: According to Bloomberg, OpenAI has enlisted an outside law firm to work through its options, which could include sending Apple a formal breach-of-contract notice without necessaril. 원문에서 확인된 핵심 내용: Any legal move would likely wait until after the conclusion of OpenAI’s ongoing trial with Elon Musk. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 TechCrunch AI입니다.
-
-### [TechCrunch AI발 'Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard' 관련 AI 업데이트](https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard)
-
-원문에서 확인된 핵심 내용: Silicon Valley’s tokenmaxxing era now has its own hardware. 원문에서 확인된 핵심 내용: A new open source project brings your Claude Code utilization stats into a tiny desktop dashboard, allowing AI power users to keep an eye on their usage. 원문에서 확인된 핵심 내용: Sure, you can track Claude Code usage directly in the terminal using commands or other external tools and apps, but that’s not as fun as seeing a pixel-art version of the Clawd spr. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 TechCrunch AI입니다.
-
-### [TechCrunch AI발 'Elon Musk’s SpaceXAI has been bleeding staff since its merger' 관련 AI 업데이트](https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger)
-
-원문에서 확인된 핵심 내용: Elon Musk’s newly rebranded SpaceXAI is reportedly losing top talent, with more than 50 researchers and engineers departing since February, according to The Information. 원문에서 확인된 핵심 내용: The exits include key leaders across coding, world models, and Grok voice. 원문에서 확인된 핵심 내용: Rivals like Meta and Thinking Machine Labs are reportedly scooping up former staff, with the company’s core pre-training team dwindling to just a handful of people. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
-
-### [TechCrunch AI발 'OpenAI says Codex is coming to your phone' 관련 AI 업데이트](https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone)
-
-원문에서 확인된 핵심 내용: Codex is going mobile. 원문에서 확인된 핵심 내용: The coding tool — which OpenAI launched approximately a year ago — has now been integrated into the ChatGPT app, allowing users to monitor and manage their development workflows re. 원문에서 확인된 핵심 내용: The new function allows users to see their Codex live environments in any devices where it is running. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
+원문에서 확인된 핵심 내용: It’s no secret that AI data centers have been straining the grid. 원문에서 확인된 핵심 내용: But Silicon Valley has been relatively insulated from it all, thanks to high land and power prices that have pushed hyperscaler projects elsewhere. 원문에서 확인된 핵심 내용: The tech elite might soon get a taste of the power crunch, though. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
 
 ## 커뮤니티와 검색에서 읽힌 흐름
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.
 
-### [Reddit r/artificial발 'I think “human-in-the-loop” may become one of the biggest governance illusions in enterprise AI' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1td300k/i_think_humanintheloop_may_become_one_of_the)
+### [Reddit r/artificial발 'The Trust–Oversight Paradox: As AI Gets Better, Humans May Stop Really Overseeing It' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1te26qi/the_trustoversight_paradox_as_ai_gets_better)
 
-원문에서 확인된 핵심 내용: Most enterprises currently believe they have a governance strategy for AI: “If something risky happens, a human will review it.” Sounds reasonable. 원문에서 확인된 핵심 내용: But I think there’s a deeper structural problem emerging as AI systems move from recommendation → execution. 원문에서 확인된 핵심 내용: Because modern AI systems don’t just generate answers anymore. 정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: I think one of the biggest AI risks may be starting to flip. 원문에서 확인된 핵심 내용: Earlier, the fear was: “What if AI is wrong too often?” But now I think the deeper risk may become: “What happens when AI becomes right often enough that humans stop meaningfully q. 원문에서 확인된 핵심 내용: At first: humans review everything carefully. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/LocalLLaMA발 'Is there any standard benchmark that compares local harnesses ?' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1td7rn0/is_there_any_standard_benchmark_that_compares)
+### [Reddit r/artificial발 'Stanford studied 51 real AI deployments and found a 71% vs 40% productivity gap - here's what separates the two groups' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1tebiq4/stanford_studied_51_real_ai_deployments_and_found)
 
-원문에서 확인된 핵심 내용: After running multiple tests, I have noticed the same model performs noticeably worse in OpenCode Desktop compared to Codex, Claude Desktop, or Pi — Especially for medium sized mod. 원문에서 확인된 핵심 내용: Is there an open standard benchmark tracking this? 원문에서 확인된 핵심 내용: Has anyone else experienced similar issues with OpenCode Desktop? 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: I came across a Stanford research paper that actually went inside companies running AI in production - not pilots, not surveys, real deployments. 원문에서 확인된 핵심 내용: They found something that stuck with me. 원문에서 확인된 핵심 내용: Companies using what they call &quot;agentic AI&quot; - where the AI owns the task start to finish with no human approval loop - are seeing 71% median productivity gains. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/artificial발 'Anthropic just published a pretty alarming 2028 AI scenario paper and it's not about AGI safety in the usual sense' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1td99uw/anthropic_just_published_a_pretty_alarming_2028)
+### [Google News AI Search발 'Meet Alexa for Shopping, your personalized, agentic AI assistant on Amazon - About Amazon' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMie0FVX3lxTE5wY2lodzJobTkxeTI2TW81bEU2UXZWZEhEdGhJV2c1NXZ5QzJJVzcxc3RoQVNYckt0RkJHTVdLN2d5OHlPa0NSbG5YODVzb3AtTTRSUkZldnJQaUF4M0xZWWt6SG9ZRWdPd210TFJPQTdIYml0SXJFS1kzaw?oc=5)
 
-원문에서 확인된 핵심 내용: Anthropic dropped a new research paper today outlining two possible futures for global AI leadership by 2028, and it reads more like a geopolitical briefing than a typical AI safet. 원문에서 확인된 핵심 내용: The core argument: The US currently has a meaningful lead over China in frontier AI, primarily because of compute (chips). 원문에서 확인된 핵심 내용: American and allied companies (NVIDIA, TSMC, ASML, etc.) built technology China simply can't replicate yet. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: Meet Alexa for Shopping, your personalized, agentic AI assistant on Amazon &nbsp;&nbsp; About Amazon. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Google News AI Search입니다.
 
-### [Google News AI Search발 'PwC and Anthropic expand alliance for enterprise agentic AI - PwC' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMisgFBVV95cUxQeldRcDk3WWpRMHo1a0Qwb3djcGNxOXVVbHAtYVNnT1dtbnZkdGsyc0FlZUNxNDZoaFlaZUhLWGRnMVRaemdvblp1MjVFQjFiajBFM3hZOThxS25zTG9HZFVCdGdRX1JnSVphWUpaTkdjTjFFdVh0eXdhYk1lLTVjb1hacm00OHFjRDhlOGwtRWFjUUFRaHJsRjlXM0d3d1RJVTJMUEZjOGtqYndhRlktRVV3?oc=5)
+### [Reddit r/MachineLearning발 'Orthrus: Memory-Efficient Parallel Token Generation via Dual-View Diffusion [R]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1te2x04/orthrus_memoryefficient_parallel_token_generation)
 
-원문에서 확인된 핵심 내용: PwC and Anthropic expand alliance for enterprise agentic AI &nbsp;&nbsp; PwC. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: Paper: https://arxiv.org/abs/2605.12825 Code: https://github.com/chiennv2000/orthrus Disclosure: co-author. 원문에서 확인된 핵심 내용: Idea: Inject a trainable diffusion attention module into each layer of a frozen AR Transformer. 원문에서 확인된 핵심 내용: Both heads share one KV cache. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
 
-### [Reddit r/LocalLLaMA발 'llama.cpp constantly reprocessing huge prompts with opencode/pi.dev' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1td9stc/llamacpp_constantly_reprocessing_huge_prompts)
+### [Google News AI Search발 'Nvidia Stock Investors Just Got Fantastic News from Wall Street - The Motley Fool' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMimAFBVV95cUxOam14NXBIYThMeXFaTzN3QVlOcHU0QWxPcV91VEkzWl95TEh2ZEFfX3pGZUp2V1V5YVMyRFBOeUxfb2RmbWlVUk93c1YwUzhDb0cyYUl2UXY5ZDV4cUVBQ2lZOS1UeHhOYUllMUNGdE9ZN2F2WTVMQ2FTY3Y2VDI3RUx1YkcxT1RGcGpDN01haVNrU3A4ZVphSg?oc=5)
 
-원문에서 확인된 핵심 내용: I’m using llama-swap with llama.cpp. 원문에서 확인된 핵심 내용: I mainly use opencode + pi.dev and I’m seeing frequent massive prompt reprocessing / prefills even tho the prompts are very similar between requests. 원문에서 확인된 핵심 내용: Example behavior: context grows to +50k tokens LCP similarity often shows 0.99+ but sometimes n_past suddenly falls back to ~4-5k then llama.cpp reprocesses 40k+ tokens again TTFT. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: Nvidia Stock Investors Just Got Fantastic News from Wall Street &nbsp;&nbsp; The Motley Fool. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Reddit r/LocalLLaMA발 'Small OpenCode plugin that helped me with broken tool calls from a local Qwen model' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1td8evb/small_opencode_plugin_that_helped_me_with_broken)
+### [Reddit r/artificial발 'AI Community "buckets"' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1te12a7/ai_community_buckets)
 
-원문에서 확인된 핵심 내용: I’m using OpenCode with a local Qwen3.6-27B Q6_K GGUF model on an RTX 5090 with KV cache in Q8. 원문에서 확인된 핵심 내용: For reference my llama.cpp build is compiled with CUDA 12.9. 원문에서 확인된 핵심 내용: I sometimes run into a small but annoying issue, the model understands that it should use a tool, but instead of actually triggering it, it occasionally writes the tool call as pla. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: I'm introducing a relative to the usefulness of LLMs like Claude and CPT and I thought about what the buckets of users/non-users might be. 원문에서 확인된 핵심 내용: Help me expand or clarify this. 원문에서 확인된 핵심 내용: I realize that this taxonomy is not perfect. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Google News AI Search발 'Musk accused of 'selective amnesia,' Altman of lying as OpenAI trial nears end - Reuters' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSHpHRUktaVF5Qko2dWZqVUhNaDIxQ01SRUZta1J3VmhyTEtsSWEwRjVoX1pQbFdNQm1LVnl4MXhmdThpcy1ycWEtNWo3UTJnTUZYWW9tLXdRcGwyZVBqeWNWUm10V01WdE1VdkdRdFlsMWUySFhiUlR1amNCaDJnQXhtMFZLV0tGQlZNUzBZRjk5Xy1qTFA0NWM4LUVNc0VpNFdFT3NDeGRTR3VYc3AzNExVdmFRSUg1U3JueDlSVm8?oc=5)
+### [Reddit r/artificial발 'Has anyone come across this AI civilisation experiment? Curious what people think' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1te0p1f/has_anyone_come_across_this_ai_civilisation)
 
-원문에서 확인된 핵심 내용: Musk accused of 'selective amnesia,' Altman of lying as OpenAI trial nears end &nbsp;&nbsp; Reuters. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: So I was scrolling through X earlier and came across something that stopped me in my tracks. 원문에서 확인된 핵심 내용: Some AI company has been running an experiment called &quot;Emergence World&quot; where they built five parallel worlds each powered by a different foundation model. 원문에서 확인된 핵심 내용: 15 days, no scripts, no interference. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Google News AI Search발 'Nvidia Stock Extends Winning Streak On China News - Investor's Business Daily' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMijwFBVV95cUxNTXhwRFpuVTlXcUpZdGlMZ0stQlVkaVJuZkh3MW9NNnFlTXVFRXpWcHJSVUJjVnJZWFdYdXZ2LU15a2FsMEhXbjlWRV9wc0RLcW84Y1RrYVFWbHFvOXRTdGJkSExTMlpubnVpT2ZfcFhRSkhUQ0lHUWN3Sk5rRG90ZVZDY0FJRi16RTh2YTZ3NA?oc=5)
+### [Google News AI Search발 'Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shake-Up - WIRED' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMicEFVX3lxTE5OX1BRenk3Q2ZSS1FDclA4aDh4Wmd0RzJINW5najZ0RHo2NUVDbFZsMUV3U0djcV9NLVdoR25XalB6WE5zVGxsemdId1hMOVN3X0ZzVXkwLTJuM2NleHBWNGNWUjhVOHJDUDlxUEhrQXo?oc=5)
 
-원문에서 확인된 핵심 내용: Nvidia Stock Extends Winning Streak On China News &nbsp;&nbsp; Investor's Business Daily. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: Greg Brockman Officially Takes Control of OpenAI’s Products in Latest Shake-Up &nbsp;&nbsp; WIRED. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Google News AI Search발 'OpenAI is reportedly preparing legal action against Apple; it wouldn't be the first partner to feel burned - TechCrunch' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd203TjJOelZBR1lpSDV1UEl2VEhxS2dPbGItOTlCaFVmWVlEbXRFSUpVY21oMzNjWENwZkFFX0RiTVRyaE9LQk1uV1lLeDFEaGxpLUJwSVZ4VkpqUVRtVWc5SGxuaGU3d1FFbFQwUHg4MGIwWVQ4MUxfWHNjaF9tano0RHZZZVhSVTdXNUJDNmtmOEVXR1pGckdOMkQzZHFIZkIyZWxCbHBvWm9XSUdnTWNfQkFQbzBfbUhYX29INlBSYTA3SzlEUTBaRzlPUjNMMHFhUUV3?oc=5)
+### [Google News AI Search발 ''Biggest bottleneck in the AI buildup' fuels DRAM ETF to record - CNBC' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMinwFBVV95cUxNLXg4SkJ4MlB3YWU5X29HSXJ1N1Y5MndJeS1NVUItVjNlaThHYzV1Z29aNlUwQjlrVV9MekpkNzJLajhvWDJKR0FxbFRPZkJia0pneXFQVXpDMHprZjl2SVhTZ3ZkQlNnbkFVekhFX3djd2NvcFgtdEtzXy1SRWRKaUM2ZHB5cjlTZ1JCTUc0ZXRTWUJQcmhHQTV4LW1lc0HSAaQBQVVfeXFMTTJlaDhSOTh4Z3ZYSTg3dFN5X2pOdGtvMjltRmlFbDU3N2V3MU52QzljSmF6OF9TNnBPb0I0SHlmektTSlliN0RhUHdXemh6QVRaXzJsLURicmd0c1VVMVliU0o0OWduSFRUVFF4dE9yYUh3aTFFcTRQa0ZxeFk3aVB4bmxlaER3SGk1d0JiRDh3RXREbl9XZy1JRzdVSjNiRWdKOVk?oc=5)
 
-원문에서 확인된 핵심 내용: OpenAI is reportedly preparing legal action against Apple; it wouldn't be the first partner to feel burned &nbsp;&nbsp; TechCrunch. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: 'Biggest bottleneck in the AI buildup' fuels DRAM ETF to record &nbsp;&nbsp; CNBC. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+
+### [Reddit r/LocalLLaMA발 'I built a 24h TPS + Intelligence Index table for Ollama Cloud models' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1te8927/i_built_a_24h_tps_intelligence_index_table_for)
+
+원문에서 확인된 핵심 내용: I recently made ollamatps.com for my own model-selection workflow and thought it might be useful here too. 원문에서 확인된 핵심 내용: It shows 39 Ollama cloud models sorted by average TPS over the last 24 hours, and I added the Artificial Analysis Intelligence Index so speed and capability are visible in one plac. 원문에서 확인된 핵심 내용: My current takeaway is that GLM-4.7 looks like the best speed/intelligence balance with average 93 TPS . 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+
+### [Google News AI Search발 'Anthropic Raising $30 Billion More as AI Labs Absorb Majority of VC Funding - WSJ' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlNqSXdPREVBelBpb29OVjZyaE5UZWNrYURNRnY0b1ZjOWc5Uk11ZGxvUUZnMW1lbXBFUEVBRlRfa0NBVTBfcFFSY3o0X3JPV2tMdGw0VU9ZN0FOSERoLTFWZnh4cmtPMUNqdHRRem1sS25WZ09oWkpHekFJeDMyQWdYcUVRMEM1Y2JGbTVZR05SeGQ1SXF4THpZN3lWaE1jamVEc19jUkpuM3lCNHd6dg?oc=5)
+
+원문에서 확인된 핵심 내용: Anthropic Raising $30 Billion More as AI Labs Absorb Majority of VC Funding &nbsp;&nbsp; WSJ. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+
+### [Reddit r/artificial발 'The new trick exposing AI job applicants: ‘Write a poem about a frog’' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1teaw1q/the_new_trick_exposing_ai_job_applicants_write_a)
+
+원문에서 확인된 핵심 내용: &#32; submitted by &#32; /u/UberDrive [link] &#32; [comments]. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Reddit r/artificial입니다.
 
 ## 오늘의 논문
 
 Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문들을 짧게 읽을 수 있게 정리했습니다.
 
-### 1. [MinT: Managed Infrastructure for Training and Serving Millions of LLMs](https://huggingface.co/papers/2605.13779)
+### 1. [Achieving Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling](https://huggingface.co/papers/2605.13301)
 
-이 논문은 검색 결합형 모델 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 검색 결합형 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: MinT: Managed Infrastructure for Training and Serving Millions of LLMs Abstract MinT is a managed infrastructure system that enables efficient low-rank adaptation training and serv 추가로 눈에 띄는 주장: We present MindLab Toolkit (MinT), a managed infrastructure system for Low-Rank Adaptation (LoRA) post-training and online serving. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 AI 연구 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Achieving Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling Abstract A systematic approach transforms post-trained reasoning models into rigorous olympiad-level so 추가로 눈에 띄는 주장: Recent progress in reasoning models has substantially advanced long-horizon mathematical and scientific problem solving, with several systems now reaching gold-medal-level performa. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 2. [MulTaBench: Benchmarking Multimodal Tabular Learning with Text and Image](https://huggingface.co/papers/2605.10616)
+### 2. [Causal Forcing++: Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation](https://huggingface.co/papers/2605.15141)
 
-이 논문은 멀티모달 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 멀티모달 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: MulTaBench: Benchmarking Multimodal Tabular Learning with Text and Image Abstract Multimodal tabular learning benchmarks reveal that task-specific embedding tuning improves perform 추가로 눈에 띄는 주장: Tabular Foundation Models have recently established the state of the art in supervised tabular learning, by leveraging pretraining to learn generalizable representations of numeric. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 생성 모델 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Causal Forcing++: Scalable Few-Step Autoregressive Diffusion Distillation for Real-Time Interactive Video Generation Abstract A novel causal consistency distillation method enables 추가로 눈에 띄는 주장: Real-time interactive video generation requires low-latency, streaming, and controllable rollout. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 3. [AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation](https://huggingface.co/papers/2605.13724)
+### 3. [Self-Distilled Agentic Reinforcement Learning](https://huggingface.co/papers/2605.15155)
 
-이 논문은 생성 모델 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation Abstract AnyFlow introduces a novel any-step video diffusion distillation framework that improves upon 추가로 눈에 띄는 주장: Few-step video generation has been significantly advanced by consistency distillation. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Self-Distilled Agentic Reinforcement Learning Abstract SDAR enhances reinforcement learning for multi-turn agent training by integrating self-distillation through a sigmoid gate th 추가로 눈에 띄는 주장: Reinforcement learning (RL) has emerged as a central paradigm for post-training LLM agents, yet its trajectory-level reward signal provides only coarse supervision for long-horizon. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 4. [Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context](https://huggingface.co/papers/2605.13831)
+### 4. [MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models](https://huggingface.co/papers/2605.14906)
 
-이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context Abstract Long-context continued pre-training enhances vision-language models' abili 추가로 눈에 띄는 주장: Long-context modeling is becoming a core capability of modern large vision-language models (LVLMs), enabling sustained context management across long-document understanding, video. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models Abstract A new benchmark evaluates memory capabilities in vision-language models through multi-ses 추가로 눈에 띄는 주장: Memory is essential for large vision-language models (LVLMs) to handle long, multimodal interactions, with two method directions providing this capability: long-context LVLMs and m. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 5. [EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents](https://huggingface.co/papers/2605.13841)
+### 5. [SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer](https://huggingface.co/papers/2605.15178)
 
-이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents Abstract EVA-Bench presents a comprehensive evaluation framework for voice agents that simulates realistic convers 추가로 눈에 띄는 주장: Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 생성 모델 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer Abstract SANA-WM is an efficient 2.6B-parameter world model that generates high-fidelity 720 추가로 눈에 띄는 주장: We introduce SANA-WM, an efficient 2.6B-parameter open-source world model natively trained for one-minute generation, synthesizing high-fidelity, 720p, minute-scale videos with pre. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 6. [Predicting Decisions of AI Agents from Limited Interaction through Text-Tabular Modeling](https://huggingface.co/papers/2605.12411)
+### 6. [MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory](https://huggingface.co/papers/2605.15128)
 
-이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Predicting Decisions of AI Agents from Limited Interaction through Text-Tabular Modeling Abstract AI agents can predict counterpart decisions in negotiation games by combining tabu 추가로 눈에 띄는 주장: AI agents negotiate and transact in natural language with unfamiliar counterparts: a buyer bot facing an unknown seller, or a procurement assistant negotiating with a supplier. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory Abstract MemEye framework evaluates multimodal agent memory by measuring visual evidence granularity and r 추가로 눈에 띄는 주장: Long-term agent memory is increasingly multimodal, yet existing evaluations rarely test whether agents preserve the visual evidence needed for later reasoning. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 7. [Qwen-Image-VAE-2.0 Technical Report](https://huggingface.co/papers/2605.13565)
+### 7. [Darwin Family: MRI-Trust-Weighted Evolutionary Merging for Training-Free Scaling of Language-Model Reasoning](https://huggingface.co/papers/2605.14386)
 
-이 논문은 안전성과 신뢰성 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. 문제의식은 안전성과 신뢰성 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Qwen-Image-VAE-2.0 Technical Report Abstract Qwen-Image-VAE-2.0 is a high-compression Variational Autoencoder suite that improves reconstruction fidelity and diffusability through 추가로 눈에 띄는 주장: We present Qwen-Image-VAE-2.0, a suite of high-compression Variational Autoencoders (VAEs) that achieve significant advances in both reconstruction fidelity and diffusability. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 AI 연구 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Darwin Family: MRI-Trust-Weighted Evolutionary Merging for Training-Free Scaling of Language-Model Reasoning Abstract The Darwin Family framework enables training-free evolutionary 추가로 눈에 띄는 주장: We present Darwin Family, a framework for training-free evolutionary merging of large language models via gradient-free weight-space recombination. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 8. [Edit-Compass & EditReward-Compass: A Unified Benchmark for Image Editing and Reward Modeling](https://huggingface.co/papers/2605.13062)
+### 8. [Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems](https://huggingface.co/papers/2605.14892)
 
-이 논문은 멀티모달 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 멀티모달 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Edit-Compass & EditReward-Compass: A Unified Benchmark for Image Editing and Reward Modeling Abstract Recent image editing models have achieved remarkable progress in instruction f 추가로 눈에 띄는 주장: However, existing benchmarks often fail to faithfully reflect human judgment, especially for strong frontier models, due to limited task difficulty and coarse-grained evaluation pr. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems Abstract Multi-agent systems face challenges in su 추가로 눈에 띄는 주장: LLM-based autonomous agents have demonstrated strong capabilities in reasoning, planning, and tool use, yet remain limited when tasks require sustained coordination across roles, t. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 9. [TrackCraft3R: Repurposing Video Diffusion Transformers for Dense 3D Tracking](https://huggingface.co/papers/2605.12587)
+### 9. [STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?](https://huggingface.co/papers/2605.06527)
 
-이 논문은 생성 모델 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: TrackCraft3R: Repurposing Video Diffusion Transformers for Dense 3D Tracking Abstract TrackCraft3R enables efficient dense 3D tracking from monocular video by adapting video diffus 추가로 눈에 띄는 주장: Dense 3D tracking from monocular video is fundamental to dynamic scene understanding. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: STALE: Can LLM Agents Know When Their Memories Are No Longer Valid? 추가로 눈에 띄는 주장: Abstract Large language models struggle to update personalized memories when new evidence emerges, requiring contextual inference and commonsense reasoning to detect implicit confl. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 10. [Many-Shot CoT-ICL: Making In-Context Learning Truly Learn](https://huggingface.co/papers/2605.13511)
+### 10. [WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation](https://huggingface.co/papers/2605.10912)
 
-이 논문은 AI 연구 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Many-Shot CoT-ICL: Making In-Context Learning Truly Learn Abstract Many-shot in-context learning for reasoning tasks exhibits different scaling behaviors than non-reasoning tasks, 추가로 눈에 띄는 주장: In-context learning (ICL) adapts large language models (LLMs) to new tasks by conditioning on demonstrations in the prompt without parameter updates. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation Abstract WildClawBench evaluates language and vision-language models on realistic long-horizon tasks using 추가로 눈에 띄는 주장: Large language and vision-language models increasingly power agents that act on a user's behalf through command-line interface (CLI) harnesses. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
