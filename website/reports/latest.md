@@ -1,74 +1,78 @@
-# IMDIGEST - 2026-05-17
+# IMDIGEST - 2026-05-18
 
-2026-05-17 KST 기준으로 수집한 AI 뉴스레터입니다.
+2026-05-18 KST 기준으로 수집한 AI 뉴스레터입니다.
 
-2026-05-17 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-05-18 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 오늘의 뉴스
 
-### [TechCrunch AI발 'OpenAI co-founder Greg Brockman takes charge of product strategy' 관련 AI 업데이트](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy)
+### [TechCrunch AI발 'Why trust is a big question at the Elon Musk-OpenAI trial' 관련 AI 업데이트](https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial)
 
-원문에서 확인된 핵심 내용: OpenAI co-founder and president Greg Brockman is officially taking the reins of the company’s product strategy, according to Wired. 원문에서 확인된 핵심 내용: This seems to solidify an already-existing change, with Brockman overseeing OpenAI’s products on an interim basis while the company’s CEO of AGI deployment Fidji Simo is out on med. 원문에서 확인된 핵심 내용: Wired also reports that in a staff memo, Brockman described plans to combine ChatGPT and its programming product Codex into a single unified experience. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 TechCrunch AI입니다.
+원문에서 확인된 핵심 내용: Lawyers for Elon Musk and OpenAI made their closing arguments this week, and now it’s up to jurors to decide whether OpenAI did anything wrong as it’s transformed into a slightly-m. 원문에서 확인된 핵심 내용: But as Kirsten Korosec, Sean O’Kane, and I noted on the latest episode of TechCrunch’s Equity podcast, a big theme in the trial’s final days was whether OpenAI CEO Sam Altman is tr. 원문에서 확인된 핵심 내용: Kirsten noted that Musk has made plenty of misleading statements of his own, and that trust isn’t just an issue for Altman. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
 
-### [TechCrunch AI발 'The haves and have nots of the AI gold rush' 관련 AI 업데이트](https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush)
+### [TechCrunch AI발 'If you’re giving a commencement speech in 2026, maybe don’t mention AI' 관련 AI 업데이트](https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai)
 
-원문에서 확인된 핵심 내용: The vibes around the current AI boom aren’t great, even in the tech industry, according to a lengthy social media post from Menlo Ventures partner Deedy Das. 원문에서 확인된 핵심 내용: Das described San Francisco as “pretty frenetic right now,” as “the divide in outcomes is the worst I’ve ever seen.” Using a “back of the envelope AI calculation,” he projected tha. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
+원문에서 확인된 핵심 내용: Commencement season has come around again — and this year, a couple speakers have discovered that it’s tough to get graduating students excited about a future shaped by artificial. 원문에서 확인된 핵심 내용: Last week, Gloria Caulfield, an executive at real estate firm Tavistock Development Company, gave a speech at the University of Central Florida acknowledging that we’re living in a. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
 
-### [TechCrunch AI발 'Research repository ArXiv will ban authors for a year if they let AI do all the work' 관련 AI 업데이트](https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work)
+### [TechCrunch AI발 'TechCrunch Mobility: The AI skills arms race is coming for automotive' 관련 AI 업데이트](https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive)
 
-원문에서 확인된 핵심 내용: ArXiv, a widely used open repository for preprint research, is doing more to crack down on the careless use of large language models in scientific papers. 원문에서 확인된 핵심 내용: Although papers are posted to the site before they are peer-reviewed, arXiv (pronounced “archive”) has become one of the main ways that research circulates in fields like computer. 원문에서 확인된 핵심 내용: ArXiv has already taken steps to combat a growing number of low-quality, AI-generated papers, for example by requiring first-time posters to get an endorsement from an established. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 TechCrunch AI입니다.
+원문에서 확인된 핵심 내용: Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation. 원문에서 확인된 핵심 내용: To get this in your inbox, sign up here for free — just click TechCrunch Mobility! 원문에서 확인된 핵심 내용: There is a bit of a theme emerging in transportation — and really every industry: AI is creating jobs for some at the loss of others. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
 
 ## 커뮤니티와 검색에서 읽힌 흐름
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.
 
-### [Reddit r/LocalLLaMA발 'Best llama.cpp launch config for Qwen3.6 27B on RX 7800 XT (16 GB VRAM) for OpenClaw?' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1tf4xwe/best_llamacpp_launch_config_for_qwen36_27b_on_rx)
+### [Reddit r/MachineLearning발 '#1 on memory benchmark LongMemEval with Gemini Flash, not Pro [R]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tfwd69/1_on_memory_benchmark_longmemeval_with_gemini)
 
-원문에서 확인된 핵심 내용: I’m trying to find the best llama-server launch command / runtime config for running Qwen3.6 27B GGUF with full GPU offload on ROCm. 원문에서 확인된 핵심 내용: I’m currently using the IQ4_XS quant, but I’m not sure if that’s the best option for my setup. 원문에서 확인된 핵심 내용: This is on Ubuntu, with the display connected to my iGPU, so the RX 7800 XT should have no display overhead. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: Disclosure: first author. 원문에서 확인된 핵심 내용: Evaluation of an experimental memory retrieval system against LongMemEval (Wang et al., 2024). 원문에서 확인된 핵심 내용: Figured the results might be of interest here, particularly the deliberate use of a smaller answering model to isolate retrieval quality from model capability. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
+
+### [Google News AI Search발 'Who’s Winning Enterprise AI Now: Claude Up 128%, Gemini Up 48%, OpenAI Down 8%, Grok Still A Rounding Error - SaaStr' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZU9JVFJRUkppVVhJMWdIZ050ZTFCWnVsTXNnY1BWY2ZZZWNrSzVhWEZ6c1NLS25Rd2gyYTdoVllPRGhSWnRrY0JvekNmdUprSTNIdThmZGJzWF9hTmVoTjJzckhxVjhQR1BsV1dYcnQ0ZXpvRk85UXJMM2hmSEl0bUFLQm82Y0U2Z3BQOV9kUWJGaGlSSm5xeGM4dEkteVY3VXk3YTljaDBia0UxQUJIQ0RUSUo4TnFWeV9MMms0ckY?oc=5)
+
+원문에서 확인된 핵심 내용: Who’s Winning Enterprise AI Now: Claude Up 128%, Gemini Up 48%, OpenAI Down 8%, Grok Still A Rounding Error &nbsp;&nbsp; SaaStr. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Google News AI Search입니다.
+
+### [Reddit r/artificial발 'For the first time in years, ChatGPT falls to second place in the generative AI market, slumping behind Anthropic’s Claude. ChatGPT now lags in second place in various key metrics, including net new ARR, mobile app downloads, business adoption, daily active users, annualized revenue, etc.' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1tg1at4/for_the_first_time_in_years_chatgpt_falls_to)
+
+원문에서 확인된 핵심 내용: Per Tech Times: “More U.S. 원문에서 확인된 핵심 내용: businesses paid for Anthropic's Claude than for OpenAI's ChatGPT in April 2026 — the first time in the AI industry's short history […] Anthropic's annualised revenue run rate cross. 원문에서 확인된 핵심 내용: More than 1,000 enterprise customers now spend over $1 million annually on Anthropic products — a number that doubled in under two months after the company's $30 billion Series G r. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
 ### [Google News AI Search발 'Empowering Defenders: AI for Cybersecurity - KPMG' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMingFBVV95cUxNVnhXVVNWZTFWV3duV2JtU2dYRklldEtiZzdWaWo0SFZWUTRTeWJmWF84MDY4S3c1N0p5b2xoRXk0bEI2REFtdGhqekdQN2JfN2plc29RZWpFWmhfM0ZfbXFjZmRXVVZ5OUdoQTRDQnlDeWFPS1F4MnVrZG9qTGV3MFpQSW5QN1hYRFAxSEtLaFJINGRIMHlOYVBkaXVQQQ?oc=5)
 
 원문에서 확인된 핵심 내용: Empowering Defenders: AI for Cybersecurity &nbsp;&nbsp; KPMG. 정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다. 출처는 Google News AI Search입니다.
 
-### [Reddit r/artificial발 'Your AI agent is one poisoned webpage away from doing something catastrophic' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1tf7841/your_ai_agent_is_one_poisoned_webpage_away_from)
+### [Google News AI Search발 'Gemini app rolling out ‘Extended’ thinking level, new 3rd-party app integrations - 9to5Google' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMibEFVX3lxTFA2aWx4ZVEtRXk0YXBkVXlRVFBDdENFd08tTVpidWh4bmx0UDZFai1vNGZEZGExdFlRak1TcFIxVERuejdKUHRQUEt1OFFrUFl5ZVRIZUx3X1pwcW1jY3U5bHFkUjhqR0FsUGZVcg?oc=5)
 
-원문에서 확인된 핵심 내용: If your agent browses the web, reads emails, or pulls from a database — any of that content can contain hidden instructions that hijack it. 원문에서 확인된 핵심 내용: This isn’t theoretical. 원문에서 확인된 핵심 내용: It’s happening in production right now. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: Gemini app rolling out ‘Extended’ thinking level, new 3rd-party app integrations &nbsp;&nbsp; 9to5Google. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Google News AI Search입니다.
 
-### [Google News AI Search발 'Sen. David McCormick tours AI-powered biotech labs at Penn to promote AI and federal funding admit NSF turmoil - WHYY' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMinwFBVV95cUxNTW9xc2FCN1BXLXFNcExoQ211RUlUQWszN1VJd1M5NmpvZklrekYxZEtOcVczTzZxZVpsNi0tSkRqUU90aTg1YmpWN0JNSWs1NE5BT2lRLUwzUXBoV2FNNm94dFQ4TmRBTzZ3bU8wV0J5RENqZkUySmIzYjZKc2h0a1RZT1ZNMnBLWTdhcDYtaU1BYmJCdkNCaHAxS1BkTUU?oc=5)
+### [Reddit r/LocalLLaMA발 'Build Own Docker Image with llama.cpp and MTP' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1tg2afj/build_own_docker_image_with_llamacpp_and_mtp)
 
-원문에서 확인된 핵심 내용: David McCormick tours AI-powered biotech labs at Penn to promote AI and federal funding admit NSF turmoil &nbsp;&nbsp; WHYY. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: Saw some folks waiting for the Docker images with llama.cpp and MTP when it released. 원문에서 확인된 핵심 내용: Here's a quick guide to build your own image, for future reference. 원문에서 확인된 핵심 내용: I, too, follow their versions page for cuda releases, https://github.com/ggml-org/llama.cpp/pkgs/container/llama.cpp/versions . 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [Google News AI Search발 'Hut 8 signs $9.8 billion lease for AI data center campus in Nueces County - KRIS 6 News Corpus Christi' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcFpad0UyVTBIYjBMVnkxMHdMeGdORV9uaG8xSGEtUFNMYUhqa25FeUdsX0dBZkcySkh4R2pqRFZMcTZ5dmZWMGFKZEpxMWlCRGxDdmluRm96cjdlaUZuWVB1dzAxNVV1bVZlR2kzbjNTVWZoN1JYMDJYUHRVTmFkaU94MHBrcXNzU2UzeWdRUlRmUGFYblp6ZjlMMGJYdHFOa1Nsa1NDRHRNT21WWTFoc3oxUlFFOHVvZDVaV2F2Yk9jMXJnbEFRYUliQmdiSmk0NmFhQjR1S1lwY3Z0eUpj?oc=5)
+### [Google News AI Search발 'Nvidia vs. Cerebras: Better AI Stock to Buy Now - The Motley Fool' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMikgFBVV95cUxQY3F5bkFObXF2ellsYUg0NWRqamJYNVJkU1dBeFM1ZWwyeWQ3TmdENHdYRjNHcEZEaHpTdHF3UlpzM2FfeUJYbkpSbEkzWEVMSEZtSDhGODZyTWxuSXhZVmxadWUwYklTM1NUSUowR1VEdTZjWWJlOU5va2ZxNDBGWnVHNGxHcmNMSmRLek1YZUNUZw?oc=5)
 
-원문에서 확인된 핵심 내용: Hut 8 signs $9.8 billion lease for AI data center campus in Nueces County &nbsp;&nbsp; KRIS 6 News Corpus Christi. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: Cerebras: Better AI Stock to Buy Now &nbsp;&nbsp; The Motley Fool. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Google News AI Search발 'Can AI-Powered Consumer Health Break Medicine’s Destructive Spiral? - Timmerman Report' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMipAFBVV95cUxNa3NBbkozM1ZYa3BHUzBnRVZzZ1ZQREpENlFoQmNSWlZSR04tR0RNLXJwV0lXM3drdW4yVXNTTHgyYWQzWHZWcVBpWTZnLUFTMm0tX1VJLTBPb3NyVkpVTTU0clNmNlJ5Q2VzZkNOeXBjNkRQX3E4Rk5TcEFGTkN0dDliNWQtYTZNR0dPaDU5VnNJejRzZFEwa0pCaFM3MEU4MnZZVw?oc=5)
+### [Google News AI Search발 'Former Google CEO Eric Schmidt booed during graduation speech about AI - NBC News' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ3hRUGhwZXkzdHVYSWhIbW1jNmhHQ1I5UlVDVjB6ZFBHZ25lZDJDcC0xeVJUQ1o4M3liZ1gtbTNQTWlFaW9MRkJILWYyV3VuVWxQSXJJanctUDViVmRvblRQdDF2NWNWWkJKQm5ZcUwtQ1JPeDRqS0ZQTzhCZlNaUUNxM0djR2lXWXpsalpJLXZYdERpNUxTS0Nn?oc=5)
 
-원문에서 확인된 핵심 내용: Can AI-Powered Consumer Health Break Medicine’s Destructive Spiral? 원문에서 확인된 핵심 내용: &nbsp;&nbsp; Timmerman Report. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: Former Google CEO Eric Schmidt booed during graduation speech about AI &nbsp;&nbsp; NBC News. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Google News AI Search발 'Best AI Girlfriends: AI Girlfriend Apps and Sites of 2026 - St. Louis Riverfront Times' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9lbXJoZmpoam9tMklpU2YwV2NYaF9GU2ZMMVpLb2duaWlsNnY1LW45MVkxNjRrVzIzMGlrMU8zWjFiSTdNLTE3NkpUNE1nOHJLWnB4UjdqMTcyc29ULWFJVnVR?oc=5)
+### [Reddit r/artificial발 'Publicis buys LiveRamp for $2.5 billion in agentic AI data play' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1tfvvn3/publicis_buys_liveramp_for_25_billion_in_agentic)
 
-원문에서 확인된 핵심 내용: Best AI Girlfriends: AI Girlfriend Apps and Sites of 2026 &nbsp;&nbsp; St. 원문에서 확인된 핵심 내용: Louis Riverfront Times. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: &#32; submitted by &#32; /u/danie-l [link] &#32; [comments]. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/artificial발 'We keep saying AI "understands" things. Does it? Or are we just pattern-matching our own anthropomorphism?' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1tew6gr/we_keep_saying_ai_understands_things_does_it_or)
+### [Google News AI Search발 'Advancing Patient Care with AI: Madigan Army Medical Center’s Pulmonary Nodule Registry - army.mil' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMivgFBVV95cUxNY0RlNV9WSzNLVVlwemVMT19ISTRzX0l1c08yVVNwRERCX09Ja2tCUUc2OGhzNS1RYWpFTDN3dTJrbG8yTXVHMENIRFlSZjVCcFJJQzloVUFOcXl3dEZsNHhrMU44TkZQSzc0V0p1SjlhbTVIZnEtRVNFLTFjVlpTbFRRaDVpdnVyaW9Gc2dINFBYRWpleEdGLV9IeE96YUstUFlSWEdTeDd0WjJINDdnQUQ1WFNTQU1Zd1dzc0xR0gHDAUFVX3lxTFBuaUpfc25wekNXV01ob1pVQkVmTnRTTWppTFM2X1FEeUlnMTRKWFhXWWpSMkI1Q1NuVnhzcGZsRUt0SUh5WlN6MlpVMm1TM2RlWlJhV0V4Vkxfd2FTZTFDajhJam9JczVKbzhuUVh2OTBabkhHaXpqMTJFTEJKdFpsVnZFdFJZbXVwdnNkVmpFX0VSTXhSTHRRaUVuSjJyc0tCTHl2OXFLOF9JdkQ0aEpuc3dYbHNuaHVLeElyTV9UZlFvbw?oc=5)
 
-원문에서 확인된 핵심 내용: Every week there's a new paper or tweet claiming some model &quot;understands&quot; context, &quot;reasons&quot; about math, or &quot;knows&quot; what it doesn't know. 원문에서 확인된 핵심 내용: But when you look closely, there's almost no consensus on what &quot;understanding&quot; even means — philosophically or empirically. 원문에서 확인된 핵심 내용: Searle's Chinese Room argument is 40 years old and still hasn't been cleanly resolved. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: Advancing Patient Care with AI: Madigan Army Medical Center’s Pulmonary Nodule Registry &nbsp;&nbsp; army.mil. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Reddit r/LocalLLaMA발 'Qwen3.5-122B-Q5-MTP - Qwen3.5-122B-Q6-MTP' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1tf6qeb/qwen35122bq5mtp_qwen35122bq6mtp)
+### [Google News AI Search발 'Opinion | AI won’t replace lawyers. It will create more of them. - The Washington Post' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMilgFBVV95cUxQNjJheGRaSFdoWDhCSmMyV1lQOGxiTEJuNllaWFpMbDZ4TlpwRmMxdURFeFB0S3lpblVTR2tZVkp4ZzJWT3ZMQWZmNFJ5bnphSUF3aU9INGJIU2Z4QXdyVFlha1l0bkRVZXIybHBWZWhNQkZJajMtSnU1NF95a3dWb21USWttdFRNekJLSkpnemo2WUtveXc?oc=5)
 
-원문에서 확인된 핵심 내용: for anyone who cares... 원문에서 확인된 핵심 내용: 😄 prompt = spen a 1000 tokens unsloth MTP models strix halo llama.cpp:server-rocm-mtp \ --spec-type draft-mtp \ --spec-draft-n-max 3 Qwen3.5-122B-Q5-MTP-General n_decoded = 100 tg. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: Opinion | AI won’t replace lawyers. 원문에서 확인된 핵심 내용: It will create more of them. 원문에서 확인된 핵심 내용: &nbsp;&nbsp; The Washington Post. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
 
-### [Reddit r/LocalLLaMA발 'Local Qwen 3.6 vs frontier models on a coding primitive: single-file HTML canvas driving animation - results and GIFs' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1tf3p6c/local_qwen_36_vs_frontier_models_on_a_coding)
+### [Reddit r/MachineLearning발 'How are you handling training data when public datasets don't match your use case? [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tg45fz/how_are_you_handling_training_data_when_public)
 
-원문에서 확인된 핵심 내용: Saw this post comparing Qwen 3.6 variants on coding primitives, so I wanted to see how local quants stack up against frontier models on a similar dense, single-file coding task. 원문에서 확인된 핵심 내용: I ran the exact same prompt across local and web-based models accessed through my Perplexity subscription. 원문에서 확인된 핵심 내용: The prompt &quot;Write a single HTML file with a full-page canvas and no libraries. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: Public datasets on HF or Kaggle can sometimes be too generic, wrong domain, wrong schema, outdated, or just not enough volume to generalize properly. 원문에서 확인된 핵심 내용: Collecting real-world proprietary data takes months. 원문에서 확인된 핵심 내용: What do people actually do? 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
 
-### [Reddit r/MachineLearning발 'Made and Published a Paper Comparing Analysis of CNN and Vision Transformer Architectures for Brain Tumor Detection [R]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1texa4d/made_and_published_a_paper_comparing_analysis_of)
+### [Reddit r/MachineLearning발 'Slop is making me feel disconnected from AI Research [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tfv0vh/slop_is_making_me_feel_disconnected_from_ai)
 
-원문에서 확인된 핵심 내용: Hi everyone 😄 A while ago I worked on a project where I compared computer vision architectures on detecting and classifying brain tumors in brain MRI scans. 원문에서 확인된 핵심 내용: I was looking for some feedback on the methodology and really anything else--just simple research stuff. 원문에서 확인된 핵심 내용: This isn't meant to be some big paper but a small research project that I did as a high schooler. 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 Reddit r/MachineLearning입니다.
-
-### [Reddit r/artificial발 'Making an AI companion that degrades over time' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1texbv6/making_an_ai_companion_that_degrades_over_time)
-
-원문에서 확인된 핵심 내용: I am a student at Umeå University in Sweden, currently writing my Master's thesis with a focus on AI companions. 원문에서 확인된 핵심 내용: My study aims to suggest new ways of helping people who want to stop using AI companions but, for whatever reason, to do it cant bring themselves to do it. 원문에서 확인된 핵심 내용: The goal is to inform the design of future AI technologies. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: This is just a small rant on my part. 원문에서 확인된 핵심 내용: I’m relatively young, a final year undergrad, and I’ve been interested in AI researcher since I was in high school. 원문에서 확인된 핵심 내용: Over that period of time I feel there has been a significant shift in the landscape regarding the culture surrounding the research. 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 Reddit r/MachineLearning입니다.
 
 ## 오늘의 논문
 
