@@ -1,119 +1,119 @@
-# IMDIGEST - 2026-05-26
+# IMDIGEST - 2026-05-27
 
-2026-05-26 KST 기준으로 수집한 AI 뉴스레터입니다.
+2026-05-27 KST 기준으로 수집한 AI 뉴스레터입니다.
 
-2026-05-26 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-05-27 AI 브리핑입니다. 오늘은 AWS Machine Learning Blog, NVIDIA Developer Blog, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 오늘의 뉴스
 
-### [TechCrunch AI발 'What ClickUp’s mass layoff tells us about the future of work' 관련 AI 업데이트](https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work)
+### [AWS Machine Learning Blog발 'Build high-performance generative AI systems with Strands Agents, NVIDIA NIM, and Amazon Bedrock AgentCore' 관련 AI 업데이트](https://aws.amazon.com/blogs/machine-learning/build-high-performance-generative-ai-systems-with-strands-agents-nvidia-nim-and-amazon-bedrock-agentcore)
 
-원문에서 확인된 핵심 내용: AI’s biggest champions have argued for some time that the technology will usher in an era of unprecedented productivity gains, richly rewarding workers who harness it while displac. 원문에서 확인된 핵심 내용: Zeb Evans, CEO of the collaboration software startup ClickUp, claims that this shift is imminent. 원문에서 확인된 핵심 내용: Last Thursday, Evans announced on X that the company, which was last valued in 2021 at $4 billion, had laid off 22% of its workforce yet characterized that reduction as not a cost-. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 TechCrunch AI입니다.
+원문에서 확인된 핵심 내용: Build high-performance generative AI systems with Strands Agents, NVIDIA NIM, and Amazon Bedrock AgentCore Building high-performance generative AI agents requires architecture that. 원문에서 확인된 핵심 내용: If you are building generative AI agents to automate reviews, power digital assistants, and support complex decision-making workflows, you need these agents to perform well. 원문에서 확인된 핵심 내용: They must reduce manual effort, respond in near real time, and scale to thousands of interactions without additional infrastructure management. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 AWS Machine Learning Blog입니다.
 
-### [TechCrunch AI발 'The pope’s AI encyclical isn’t really about AI' 관련 AI 업데이트](https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai)
+### [NVIDIA Developer Blog발 'NVIDIA CUDA 13.3 Enhances GPU Development with Tile Programming in C++, Compiler Autotuning, and Python Updates' 관련 AI 업데이트](https://developer.nvidia.com/blog/nvidia-cuda-13-3-enhances-gpu-development-with-tile-programming-in-c-compiler-autotuning-and-python-updates)
 
-원문에서 확인된 핵심 내용: Pope Leo XIV published his first encyclical on Monday. 원문에서 확인된 핵심 내용: Titled Magnifica Humanitas, it addresses “safeguarding the human person in the time of artificial intelligence.” And while AI is the hook, the problems Leo focuses on are older and. 원문에서 확인된 핵심 내용: Throughout the 200-page document, which the pope presented alongside Chris Olah, co-founder of AI company Anthropic, Leo argues that technology built and governed by a small elite. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 TechCrunch AI입니다.
+원문에서 확인된 핵심 내용: NVIDIA CUDA 13.3 brings new capabilities and performance optimizations to developers across the CUDA ecosystem. 원문에서 확인된 핵심 내용: The launch of NVIDIA CUDA Tile programming in C++, enables high-level, tile-based kernel development that automatically manages complex low-level GPU details for optimal performanc. 원문에서 확인된 핵심 내용: Additionally, CUDA Tile programming is now supported on Compute Capability 9.0 (NVIDIA Hopper) GPUs in addition to all other supported GPU architectures. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 NVIDIA Developer Blog입니다.
+
+### [TechCrunch AI발 'DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search' 관련 AI 업데이트](https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search)
+
+원문에서 확인된 핵심 내용: Last week, after Google announced its huge overhaul to Search, I overheard a woman on the phone saying she was switching to DuckDuckGo because you can “opt out of using AI.” “Googl. 원문에서 확인된 핵심 내용: It seems that others had the same idea. 원문에서 확인된 핵심 내용: At I/O, Google’s annual developer conference, the company said its traditional list of blue links is being replaced by an AI agent that answers queries, executes tasks, and runs ba. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 TechCrunch AI입니다.
+
+### [AWS Machine Learning Blog발 'Technical deep dive: AgentCore payments and innovation in agentic commerce' 관련 AI 업데이트](https://aws.amazon.com/blogs/machine-learning/technical-deep-dive-agentcore-payments-and-innovation-in-agentic-commerce)
+
+원문에서 확인된 핵심 내용: Technical deep dive: AgentCore payments and innovation in agentic commerce The industry is entering a world where billions of generative AI agents operate autonomously, acting on b. 원문에서 확인된 핵심 내용: To support this shift, Amazon Bedrock AgentCore provides a modular, fully managed platform that helps developers build, deploy, and operate generative AI agents at scale. 원문에서 확인된 핵심 내용: By abstracting the complexities of server management, security, and integrations, AgentCore acts as the foundational infrastructure layer, relieving developers to focus on what mat. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 AWS Machine Learning Blog입니다.
+
+### [AWS Machine Learning Blog발 'Build highly scalable serverless LangGraph multi-agent systems in AWS with Amazon Bedrock AgentCore' 관련 AI 업데이트](https://aws.amazon.com/blogs/machine-learning/build-highly-scalable-serverless-langgraph-multi-agent-systems-in-aws-with-amazon-bedrock-agentcore)
+
+원문에서 확인된 핵심 내용: Build highly scalable serverless LangGraph multi-agent systems in AWS with Amazon Bedrock AgentCore Generative AI has rapidly evolved from experimental prototypes into systems that. 원문에서 확인된 핵심 내용: As organizations move beyond demos and proofs of concept, they increasingly encounter challenges related to inference latency, scalability, state management, and operational visibi. 원문에서 확인된 핵심 내용: Building high-performance AI agents today requires more than powerful models and demands an implementation that can deliver consistent performance, preserve context across interact. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 AWS Machine Learning Blog입니다.
+
+### [TechCrunch AI발 'This startup is betting India’s gig economy can train the world’s robots' 관련 AI 업데이트](https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai)
+
+원문에서 확인된 핵심 내용: In the last few years, India’s online food delivery market has grown significantly, with both Zomato and Swiggy going public and the number of cloud kitchens increasing. 원문에서 확인된 핵심 내용: Meanwhile, startups working on home services, such as on-demand household staffing platforms like Urban Company, Snabbit, and Pronto, have gained popularity. 원문에서 확인된 핵심 내용: Silicon Valley-based startup Human Archive is tapping into this trend, partnering with these companies to have workers wear special caps with cameras to collect egocentric (first-p. 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 TechCrunch AI입니다.
+
+### [AWS Machine Learning Blog발 'AgentWatch: Proactive AWS monitoring with ambient agents' 관련 AI 업데이트](https://aws.amazon.com/blogs/machine-learning/agentwatch-proactive-aws-monitoring-with-ambient-agents)
+
+원문에서 확인된 핵심 내용: AgentWatch: Proactive AWS monitoring with ambient agents AgentWatch delivers ambient AWS resource monitoring for your DevOps team, moving beyond the reactive cycle of managing Amaz. 원문에서 확인된 핵심 내용: CloudWatch alarms trigger too late, AWS Lambda errors accumulate unnoticed, and Amazon Elastic Compute Cloud (Amazon EC2) performance degradation goes undetected until customers re. 원문에서 확인된 핵심 내용: This leaves your team constantly firefighting rather than preventing issues. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 AWS Machine Learning Blog입니다.
+
+### [AWS Machine Learning Blog발 'From idea to AI app: Creating intelligent research assistants with Strands' 관련 AI 업데이트](https://aws.amazon.com/blogs/machine-learning/from-idea-to-ai-app-creating-intelligent-research-assistants-with-strands)
+
+원문에서 확인된 핵심 내용: From idea to AI app: Creating intelligent research assistants with Strands Building an AI app shouldn’t require a PhD in machine learning (ML) or months of wrestling with complex a. 원문에서 확인된 핵심 내용: Yet that’s exactly what happens when you try to orchestrate multiple API calls, manage conversation state, and create agents that can reason on their own. 원문에서 확인된 핵심 내용: I’ve seen straightforward AI ideas balloon into sprawling projects that demand specialized knowledge in natural language processing and distributed systems. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 AWS Machine Learning Blog입니다.
 
 ## 커뮤니티와 검색에서 읽힌 흐름
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.
 
-### [Reddit r/MachineLearning발 'Reconstructing the agent methodology: Decoupling decision-making and execution - open source [P]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tnfxsc/reconstructing_the_agent_methodology_decoupling)
+### [Reddit r/artificial발 'Anthropic just published how they contain Claude agents, including two security incidents they got wrong' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1tomozc/anthropic_just_published_how_they_contain_claude)
 
-원문에서 확인된 핵심 내용: I’ve been thinking about a problem in current agent systems: Most agents are becoming very good at execution, but the decision layer before execution is still unclear. 원문에서 확인된 핵심 내용: Coding agents, research agents, tool loops, sandboxes, workflows, and harnesses are all improving quickly. 원문에서 확인된 핵심 내용: Once a human gives an intent, agents can often do a lot of useful work. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
+원문에서 확인된 핵심 내용: Anthropic dropped a solid engineering post this week about containment across claude.ai, Claude Code, and Cowork. 원문에서 확인된 핵심 내용: One of the more transparent writeups from a major AI lab about what actually broke. 원문에서 확인된 핵심 내용: The core insight: model-layer defenses are probabilistic and will always have a non-zero miss rate. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/MachineLearning발 'Call for Papers - Workshop on Efficient Reasoning at COLM 2026 [R]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tncfx9/call_for_papers_workshop_on_efficient_reasoning)
+### [Reddit r/artificial발 'Built an AI companion architecture with real internal needs — looking for first investor after publishing research paper' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1tokn46/built_an_ai_companion_architecture_with_real)
 
-원문에서 확인된 핵심 내용: 🌟 Announcing the 2nd Workshop on Efficient Reasoning (ER) at @colm2026 — Oct 9! 원문에서 확인된 핵심 내용: 📣 We welcome submissions! 원문에서 확인된 핵심 내용: Submit your work here: https://openreview.net/group?id=colmweb.org/COLM/2026/Workshop/Efficient_Reasoning 🗓️ Deadline: July 12, 2026 (AoE) 🔗 Website: https://wdlctc.github.io/effic. 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 Reddit r/MachineLearning입니다.
+원문에서 확인된 핵심 내용: The problem with every AI product right now is that they're all wrappers. 원문에서 확인된 핵심 내용: Same stateless LLM, different UI. 원문에서 확인된 핵심 내용: The moment the context window closes, the AI forgets you existed. 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/artificial발 'Top 10 Fastest Growing AI repos this week' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1tnjhts/top_10_fastest_growing_ai_repos_this_week)
+### [Reddit r/LocalLLaMA발 'Turning local agents into self-optimizing agents' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1toejzp/turning_local_agents_into_selfoptimizing_agents)
 
-원문에서 확인된 핵심 내용: Curated this list of fastest growing AI repos. 원문에서 확인된 핵심 내용: They are mostly AI coding agents, personal AI, memory, browser automation, Claude Skills and local-first dev tooling: colbymchenry/codegraph (+14.1K stars) Pre-indexed local code k. 원문에서 확인된 핵심 내용: tinyhumansai/openhuman (+17.1K stars) Personal AI / private AI superintelligence. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
+원문에서 확인된 핵심 내용: I was experimenting with a self-optimizing agentic pipeline to climb the benchmark leaderboard (TerminalBench). 원문에서 확인된 핵심 내용: On a 10-task subset, I got the performance to rise from ~30% → ~90%. 원문에서 확인된 핵심 내용: That loop worked, so I asked: can the same reflect-and-rewrite step run continuously against everyday chats instead of a benchmark? 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [Reddit r/MachineLearning발 '𝐃𝐞𝐥𝐭𝐚 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧 𝐑𝐞𝐬𝐢𝐝𝐮𝐚𝐥𝐬 [R]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tndn5b/𝐃𝐞𝐥𝐭𝐚_𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧_𝐑𝐞𝐬𝐢𝐝𝐮𝐚𝐥𝐬_r)
+### [Reddit r/artificial발 'Memory Curator Agent a governance layer for memory in multi-agent systems' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1to9p3u/memory_curator_agent_a_governance_layer_for)
 
-원문에서 확인된 핵심 내용: We're excited to release 𝐃𝐞𝐥𝐭𝐚 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧 𝐑𝐞𝐬𝐢𝐝𝐮𝐚𝐥𝐬, a drop-in upgrade to residual connections that learns which past layers to route from — without the routing collapse that breaks. 원문에서 확인된 핵심 내용: 🚀 Attention Residuals route over cumulative hidden states, but those are highly redundant, so routing collapses to near-uniform (max weight ~0.2) in deep layers. 원문에서 확인된 핵심 내용: Delta Attention Residuals route over 𝐝𝐞𝐥𝐭𝐚𝐬 (vᵢ = hᵢ₊₁ − hᵢ) — what each sublayer actually contributed — and natively enable: ⚡ 𝟏.𝟖× 𝐬𝐡𝐚𝐫𝐩𝐞𝐫 𝐜𝐫𝐨𝐬𝐬-𝐥𝐚𝐲𝐞𝐫 𝐫𝐨𝐮𝐭𝐢𝐧𝐠 Deltas are structur. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
+원문에서 확인된 핵심 내용: I keep seeing the same failure in every multi-agent setup I touch. 원문에서 확인된 핵심 내용: Memory looks fine on day one. 원문에서 확인된 핵심 내용: By week three it is half stale facts, half private context that should not have been written publicly, and half decisions that were superseded but never overwritten. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Google News AI Search발 'I Paid for Google's Gemini AI Plan. These 5 Features Justify the Price - PCMag' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMikgFBVV95cUxOQnFKNjViTU54dkFVU2RyU1VXdU42cGxjazNaRWV5QU1nSlEtNGs2Ulkxc185ZEtjTW1sRmN3Z1NzOTUxTU1vUFNsb1RQdURCSkdNMy0wYTAtd3B0U1ZWdmxPbTAxSk15NTNrTFI3QjAwYzR1T1VJc3AzeVA4VHY2VU5kbk90MTY2MmdqRjNlLXAxUQ?oc=5)
+### [Reddit r/LocalLLaMA발 'Cactus Hybrid Router: Gemma4-2B can match Gemini-3.1-Flash-Lite by routing 15-55% of tasks to Gemini And Running The Rest Locally.' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1tom98y/cactus_hybrid_router_gemma42b_can_match)
 
-원문에서 확인된 핵심 내용: I Paid for Google's Gemini AI Plan. 원문에서 확인된 핵심 내용: These 5 Features Justify the Price &nbsp;&nbsp; PCMag. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: Last week, we announced the “Simple Attention Network” and trained Needle, a 26m function call model that beats models 10-25x its size. 원문에서 확인된 핵심 내용: Some LocalLlama Redditors asked if we could use make a router model. 원문에서 확인된 핵심 내용: We now built “Cactus Hybrid Router”, a 65k parameter model that decodes on the fly when to complete a task with the edge model or route to frontier cloud. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [Reddit r/LocalLLaMA발 'AI content detector based on Qwen 0.8b fine-tuned on Pangram dataset' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1tngkav/ai_content_detector_based_on_qwen_08b_finetuned)
+### [Reddit r/LocalLLaMA발 'A rare look inside Qwen 3.7’s open source model release approval process:' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1toi50p/a_rare_look_inside_qwen_37s_open_source_model)
 
-원문에서 확인된 핵심 내용: I've fine-tuned Qwen 3.5 0.8B on the dataset provided by Pangram with their EditLens paper. 원문에서 확인된 핵심 내용: It's available via a Chrome extension ; you can just click selected text and it's going to give you the probability distribution of how likely it is AI-generated. 원문에서 확인된 핵심 내용: It takes under 1s on my M1 MacBook Pro. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
+원문에서 확인된 핵심 내용: For real tho, 9b, 27b, 122b, I don’t really care at this point, just show us that you still love us. 원문에서 확인된 핵심 내용: EDIT: I guess I gotta use /s on my posts from now on. 원문에서 확인된 핵심 내용: Nobody appreciates a good sarcatic shitpost anymore clearly. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
-### [Reddit r/MachineLearning발 'The famous METR AI time horizons graph contains numerous severe errors [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tnhnh5/the_famous_metr_ai_time_horizons_graph_contains)
+### [Reddit r/artificial발 'Introducing the Ontology Anchor: A Mechanism that Gives AI a Map of What Matters to You' 관련 AI 업데이트](https://www.reddit.com/r/artificial/comments/1tom195/introducing_the_ontology_anchor_a_mechanism_that)
 
-원문에서 확인된 핵심 내용: Nathan Witkin, a research writer at NYU Stern’s Tech and Society Lab, writes damningly about the famous METR AI time horizons graph in the Substack publication Transformer: It is i. 원문에서 확인된 핵심 내용: The appropriate response to a study of this kind is not to assume it can be saved via back-of-the-envelope adjustments, or to comfort oneself that other anecdotal evidence implies. 원문에서 확인된 핵심 내용: It is to cut one’s losses and move on in search of higher-quality information. 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다. 출처는 Reddit r/MachineLearning입니다.
+원문에서 확인된 핵심 내용: Abstract: Natively, no flagship LLM exists that has the ability to know who you are and what cognitive patterns are important to you. 원문에서 확인된 핵심 내용: Thus, AI doesn't have a map of your goals, preferences, or tendencies. 원문에서 확인된 핵심 내용: Without this a model generically drifts and defaults to what you discussed most recently and forgets important details earlier in the thread. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/artificial입니다.
 
-### [Reddit r/MachineLearning발 'DCGAN inference on a microcontroller: 12.6M parameters, 512KB SRAM, 26-second generation, pure C [P]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tnhfxp/dcgan_inference_on_a_microcontroller_126m)
+### [Reddit r/LocalLLaMA발 'I made a Windows app for managing llama.cpp in WSL/Ubuntu' 관련 AI 업데이트](https://www.reddit.com/r/LocalLLaMA/comments/1tofv8o/i_made_a_windows_app_for_managing_llamacpp_in)
 
-원문에서 확인된 핵심 내용: Just thought I'd share, I ran a DCGAN on a dual core RISC-V microcontroller, the CH32H417 generating 64x64 cat faces. 원문에서 확인된 핵심 내용: This is a new RISC-V MCU, so no TFLite, no CMSIS NN and no external memory. 원문에서 확인된 핵심 내용: It's a pure C inference engine, bit-identical to PyTorch reference outputs. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
-
-### [Google News AI Search발 'Anthropic's Olah says AI must be guided from outside Big Tech - Reuters' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMipwFBVV95cUxPUjdKY25UdUNKeUJ2dU96T2Jrc0xHNTJ3bkwtMFpkS0s3SjYtU0NDNUxXTVZGM2xoOXM3eWNVSVFXUVJOdk9vT3ZXNlVpcXZVSXd3MU1JQXZaanc4RXNGRUQ0blFUejc4a2Nzak85dzQ5a3A5WlRuSHNNa3drSVd1QTdGRnl0d0VEVWFiTm1FQVZHaWw2bmQ1c2cwWkRYYWl1Vi13YTVqUQ?oc=5)
-
-원문에서 확인된 핵심 내용: Anthropic's Olah says AI must be guided from outside Big Tech &nbsp;&nbsp; Reuters. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
-
-### [Reddit r/MachineLearning발 'Best architecture for seamless Bilingual TTS? (Azure / English + Korean) [D]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tncdcz/best_architecture_for_seamless_bilingual_tts)
-
-원문에서 확인된 핵심 내용: Hi guys, when building a language learning app (React Native/Expo frontend, Python backend) and I’ve hit a frustrating wall with Text-to-Speech. 원문에서 확인된 핵심 내용: I need the app to read sentences that mix English instructions and Korean examples (e.g., &quot;To say hello, we use the phrase 안녕하세요.&quot;). 원문에서 확인된 핵심 내용: Since native pronunciation is critical for a learning app, I'm struggling to find a solution that sounds natural. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/MachineLearning입니다.
-
-### [Google News AI Search발 'Pope elevates AI ethics to a religious imperative with first encyclical - The Washington Post' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMitgFBVV95cUxNNTg1V0ZQZnVRdlJIRGVaLWxfTnhGZWczQW9udGRtLURiaDNqM0VkWjg0UGxtbjUwaHo0VG1nR3Nna2wxd0NoUFNVSFZDVzd1N2RLMU5KZEFlNVo3YUVLemVCMU9GQWJVSnFQRVFLelYwTkNiTU16VHJpN1N0T29rcEVESnRSWG9palR1aWQyYjFOQmxWT05KOWk5MldZRVMtejZYZWItcy14bENmUUl1SXM4ZDk4UQ?oc=5)
-
-원문에서 확인된 핵심 내용: Pope elevates AI ethics to a religious imperative with first encyclical &nbsp;&nbsp; The Washington Post. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
-
-### [Google News AI Search발 '5 ways Pope Leo says AI could warp humanity - Axios' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMif0FVX3lxTE5MX3czOXhZY1MzZjB5MS1fYzZXTi1IMkhyeEVac2VoeEtxVEIwOVJKQjNXR0FNZ0RxRV9LZHlBcDFOd0k3dzFjUFE2V1dIcDhORmEteHpLc01Ha0o1VERYaEMzQUthOFg0M1JaWTdXMVpnbG9mLUZDZFRidTVCQkU?oc=5)
-
-원문에서 확인된 핵심 내용: 5 ways Pope Leo says AI could warp humanity &nbsp;&nbsp; Axios. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
-
-### [Reddit r/MachineLearning발 'Aiki my local Wikipedia Retrieval-Augmented Generation system [R]' 관련 AI 업데이트](https://www.reddit.com/r/MachineLearning/comments/1tnn89v/aiki_my_local_wikipedia_retrievalaugmented)
-
-원문에서 확인된 핵심 내용: Hey i built Aiki a lightweight tool that let's you chat with Wikipedia locally. 원문에서 확인된 핵심 내용: what it does: - Downloads and chunks wikipedia articles (u can choose those articles by their name or articles and also the option of downloading the similar topics) - Uses a custo. 원문에서 확인된 핵심 내용: Repo: https://github.com/yacine204/Aiki Would really appreciate your feedback. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Reddit r/MachineLearning입니다.
-
-### [Google News AI Search발 'Anthropic Billionaire Olah To Vatican: Don’t Trust Us - Forbes' 관련 AI 업데이트](https://news.google.com/rss/articles/CBMi_wFBVV95cUxQcEQ3dTBkMm5ZcmNOdW9JT19lTTJXcVlFVDU3dGtubGpDbk1lY0ZUOG1XM0d3cW9sai1IZGZudnMtSmpSQ1FlcGFTek02Rm15cTU2aTFWS211b3BmWmliYmpLY2NGNTdIcElvZzR4bmlMTTFydFZTaGw2Qkw0eW1Vb1pESThFQm9ZWjBNWkZfY0paZGRwemVTLUwySWxpR1NjWjFoeXJPVWdqWloxaWF0NDRfeWJnZmFXLXF2VGNKZldlRWZZbUlDeGJkZ1pSc2NJR2JvMTFUOE5HMFRVbDNxUUExRlJUbS1DVzVWNlRyVVZDa25vM2FoTGpFWUtldU0?oc=5)
-
-원문에서 확인된 핵심 내용: Anthropic Billionaire Olah To Vatican: Don’t Trust Us &nbsp;&nbsp; Forbes. 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다. 출처는 Google News AI Search입니다.
+원문에서 확인된 핵심 내용: I’m a Windows user, and I have fairly Windows-y expectations for software: I prefer not having to live in a terminal just to install, build, configure, and run things. 원문에서 확인된 핵심 내용: I couldn’t find an app that managed the full llama.cpp-on-WSL workflow the way I wanted, so I made one. 원문에서 확인된 핵심 내용: llama.cpp Console is an unofficial Windows desktop app for setting up and running llama.cpp models through Ubuntu/WSL. 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다. 출처는 Reddit r/LocalLLaMA입니다.
 
 ## 오늘의 논문
 
 Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문들을 짧게 읽을 수 있게 정리했습니다.
 
-### 1. [SkillOpt: Executive Strategy for Self-Evolving Agent Skills](https://huggingface.co/papers/2605.23904)
+### 1. [DVAO: Dynamic Variance-adaptive Advantage Optimization for Multi-reward Reinforcement Learning](https://huggingface.co/papers/2605.25604)
 
-이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: SkillOpt: Executive Strategy for Self-Evolving Agent Skills Abstract SkillOpt introduces a systematic text-space optimizer for agent skills that trains skills as external agent sta 추가로 눈에 띄는 주장: Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, an. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 AI 연구 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: DVAO: Dynamic Variance-adaptive Advantage Optimization for Multi-reward Reinforcement Learning Abstract Dynamic Variance-adaptive Advantage Optimization (DVAO) addresses training i 추가로 눈에 띄는 주장: Reinforcement Learning has become a standard paradigm for aligning Large Language Models with human intent and task requirements. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 2. [Rethinking Cross-Layer Information Routing in Diffusion Transformers](https://huggingface.co/papers/2605.20708)
+### 2. [WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation](https://huggingface.co/papers/2605.25874)
 
-이 논문은 생성 모델 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Rethinking Cross-Layer Information Routing in Diffusion Transformers Abstract Diffusion Transformers suffer from inefficient cross-layer information flow that traditional residual 추가로 눈에 띄는 주장: Diffusion Transformers (DiTs) have become a de facto backbone of modern visual generation, and nearly every major axis of their design -- tokenization, attention, conditioning, obj. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 생성 모델 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation Abstract WBench presents a comprehensive multi-turn benchmark for evaluating interactive w 추가로 눈에 띄는 주장: Interactive world models are advancing rapidly, yet existing benchmarks cover only part of the required competencies, leaving no unified standard for systematic evaluation. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 3. [Lens: Rethinking Training Efficiency for Foundational Text-to-Image Models](https://huggingface.co/papers/2605.21573)
+### 3. [Macaron-A2UI: A Model for Generative UI in Personal Agents](https://huggingface.co/papers/2605.24830)
 
-이 논문은 평가 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 평가 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Lens: Rethinking Training Efficiency for Foundational Text-to-Image Models Abstract Lens is a compact 3.8B-parameter text-to-image model achieving superior performance with reduced 추가로 눈에 띄는 주장: We introduce Lens, a 3.8B-parameter T2I model that achieves performance competitive with, and in several cases surpassing, state-of-the-art models with more than 6B parameters acro. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 데이터셋 또는 데이터 생성 방식을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 데이터셋 또는 데이터 생성 방식을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Macaron-A2UI: A Model for Generative UI in Personal Agents Abstract Generative UI models enable personal agents to synthesize dynamic interfaces with lightweight executable actions 추가로 눈에 띄는 주장: As personal agents evolve to handle complex, user-centric tasks, static plain-text chat is rapidly becoming a bottleneck. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 4. [SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research](https://huggingface.co/papers/2605.22878)
+### 4. [Foundation Protocol: A Coordination Layer for Agentic Society](https://huggingface.co/papers/2605.23218)
 
-이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research Abstract SciAtlas presents a large-scale, multi-disciplinary knowledge graph that enables structured topol 추가로 눈에 띄는 주장: The exponential growth of global academic output has confronted researchers and AI agents with an unprecedented ``information explosion,'' where fragmented and unstructured knowled. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Foundation Protocol: A Coordination Layer for Agentic Society Abstract Autonomous agents are moving from tools into a layer of social infrastructure: they browse, purchase, deploy 추가로 눈에 띄는 주장: As these systems scale, the bottleneck shifts away from raw model capability toward coordination. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 5. [StepAudio 2.5 Technical Report](https://huggingface.co/papers/2605.23463)
+### 5. [TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction](https://huggingface.co/papers/2605.26115)
 
-이 논문은 AI 연구 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: StepAudio 2.5 Technical Report Abstract StepAudio 2.5 is a unified audio-language model that matches specialized systems in ASR, TTS, and real-time spoken interaction by using task 추가로 눈에 띄는 주장: Unified audio-language modeling has emerged as a prominent trend in modern speech systems, promising to bring the reasoning capabilities of large language models to auditory tasks. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 로보틱스 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. 문제의식은 로보틱스 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction Abstract TriSplat is a feed-forward 3D reconstruction network that uses oriented triangle primitives to directly gen 추가로 눈에 띄는 주장: Sparse-view 3D reconstruction is increasingly addressed with feed-forward splatting networks that predict explicit primitives directly from images. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 6. [See What I Mean: Aligning Vision and Language Representations for Video Fine-grained Object Understanding](https://huggingface.co/papers/2605.18018)
+### 6. [Toward Native Multimodal Modeling: A Roadmap](https://huggingface.co/papers/2605.25343)
 
-이 논문은 생성 모델 영역에서 새 데이터셋 또는 데이터 생성 방식을 제안하거나 검증하려는 연구입니다. 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 데이터셋 또는 데이터 생성 방식을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: See What I Mean: Aligning Vision and Language Representations for Video Fine-grained Object Understanding Abstract SWIM is a training approach that aligns vision and language repre 추가로 눈에 띄는 주장: We present SWIM (See What I Mean), a novel training strategy that aligns vision and language representations to enable fine-grained object understanding solely from textual prompts. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 멀티모달 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 멀티모달 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: Toward Native Multimodal Modeling: A Roadmap Abstract Native multimodal modeling advances beyond traditional fusion approaches by integrating modalities inherently within a unified 추가로 눈에 띄는 주장: Multimodal modeling represents a vital step from modality-agnostic reasoning toward world modeling. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 7. [From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills](https://huggingface.co/papers/2605.23899)
+### 7. [ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning](https://huggingface.co/papers/2605.20342)
 
-이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills Abstract Language agents benefit from reusable skills that encode domain-specific proce 추가로 눈에 띄는 주장: Language agents increasingly improve by reusing skills -- structured procedural artifacts distilled from past experience. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning Abstract ParaVT enables parallel video tool calling through multi-agent reinforc 추가로 눈에 띄는 주장: Training large multimodal models (LMMs) via reinforcement learning (RL) to natively invoke video-processing tools (e.g., cropping) has become a promising route to long-video unders. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 8. [PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion](https://huggingface.co/papers/2605.23902)
+### 8. [QUEST: Training Frontier Deep Research Agents with Fully Synthetic Tasks](https://huggingface.co/papers/2605.24218)
 
-이 논문은 생성 모델 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion Abstract PiD introduces a pixel diffusion decoder that reformulates latent decoding as conditional pixel diffusio 추가로 눈에 띄는 주장: Most practical high-resolution text-to-image systems, including latent diffusion and autoregressive models, perform generation in a compact latent space, and a decoder maps the gen. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: QUEST: Training Frontier Deep Research Agents with Fully Synthetic Tasks Abstract QUEST is an open-family of deep research agents trained with synthesized data and reinforcement le 추가로 눈에 띄는 주장: Deep research agents extend the role of search engines from retrieving keyword-matched pages to synthesizing knowledge, fundamentally changing how humans interact with information. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 9. [PhotoFlow: Agentic 3D Virtual Photography Missions](https://huggingface.co/papers/2605.23771)
+### 9. [ThriftAttention: Selective Mixed Precision for Long-Context FP4 Attention](https://huggingface.co/papers/2605.23081)
 
-이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: PhotoFlow: Agentic 3D Virtual Photography Missions Abstract A Director-Reviewer-Reflector agent named PhotoFlow enables language-conditioned virtual photography by combining 3D spa 추가로 눈에 띄는 주장: Virtual photography asks an agent to enter a prepared 3D scene with no preselected camera pose or reference image, infer a suitable shot from scene information and a language inten. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 AI 연구 영역에서 새 연구 접근을 제안하거나 검증하려는 연구입니다. 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 연구 접근을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: ThriftAttention: Selective Mixed Precision for Long-Context FP4 Attention Abstract ThriftAttention reduces long-context attention computation by selectively applying higher precisi 추가로 눈에 띄는 주장: Efficient attention algorithms are critical to mitigate the quadratic cost of attention in long-context workloads. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
 
-### 10. [VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis](https://huggingface.co/papers/2605.22570)
+### 10. [AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery](https://huggingface.co/papers/2605.23204)
 
-이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis Abstract VGenST-Bench presents a video benchmark using generative models for active synthesis of 추가로 눈에 띄는 주장: Spatio-temporal reasoning is a core capability for Multimodal Large Language Models (MLLMs) operating in the real world. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
+이 논문은 검색 결합형 모델 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. 문제의식은 검색 결합형 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 원문 초록 기준 핵심 설명: AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery Abstract AI systems are evolving from task-specific assistants to workflow-level research automator 추가로 눈에 띄는 주장: Scientific research is being reshaped by AI systems that move beyond isolated assistance toward longer-horizon workflows spanning literature grounding, hypothesis generation, exper. 이 항목은 Hugging Face Papers (Top today)에서 확인했습니다.
