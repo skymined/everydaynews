@@ -11,9 +11,23 @@ from .store import DigestStore
 logger = logging.getLogger(__name__)
 
 HANGUL_RE = re.compile(r"[\uac00-\ud7a3]")
-FORBIDDEN_SCRIPT_RE = re.compile(r"[\u3040-\u30ff\u31f0-\u31ff\u0400-\u04ff]")
+FORBIDDEN_SCRIPT_RE = re.compile(r"[\u3040-\u30ff\u31f0-\u31ff\u3400-\u4dbf\u4e00-\u9fff\u0400-\u04ff]")
+KOREAN_PREFIXED_ENGLISH_RE = re.compile(r"[\uac00-\ud7a3][A-Za-z]{4,}(?:[\uac00-\ud7a3]+)?")
 TECH_TERM_RE = re.compile(r"\b[A-Za-z][A-Za-z0-9]*(?:[._/-][A-Za-z0-9]+)+\b")
 TECH_TERM_STOPWORDS = {"ai", "llm", "ml", "nlp"}
+FALLBACK_ARTIFACT_PHRASES = (
+    "원문에서 확인된 핵심 내용",
+    "원문 초록 기준 핵심 설명",
+    "추가로 눈에 띄는 주장",
+    "LLM 요약을 만들지 못해",
+)
+MODEL_ARTIFACT_PHRASES = (
+    "찰스키",
+    "데스트릴레이션",
+    "라탄 베터",
+    "비디오KR",
+    "인더루프",
+)
 
 
 def score_item(item: Item, scoring: ScoringConfig, now: datetime | None = None) -> float:
@@ -46,12 +60,30 @@ def _clean_text(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def _hangul_ratio(text: str) -> float:
+    letters = re.findall(r"[A-Za-z가-힣]", text or "")
+    if not letters:
+        return 0.0
+    hangul = sum(1 for char in letters if HANGUL_RE.match(char))
+    return hangul / len(letters)
+
+
+def _ensure_korean_dominant(text: str, field_name: str, min_ratio: float = 0.25) -> None:
+    normalized = _clean_text(text)
+    if _hangul_ratio(normalized) < min_ratio:
+        raise ValueError(f"{field_name} is not primarily Korean")
+
+
 def _require_korean_text(text: str, field_name: str) -> str:
     normalized = _clean_text(text)
     if not normalized:
         raise ValueError(f"{field_name} is empty")
     if FORBIDDEN_SCRIPT_RE.search(normalized):
         raise ValueError(f"{field_name} contains unsupported script")
+    if KOREAN_PREFIXED_ENGLISH_RE.search(normalized):
+        raise ValueError(f"{field_name} contains mixed-script artifact")
+    if any(phrase in normalized for phrase in MODEL_ARTIFACT_PHRASES):
+        raise ValueError(f"{field_name} contains model artifact phrase")
     if not HANGUL_RE.search(normalized):
         raise ValueError(f"{field_name} must include Korean text")
     return normalized
@@ -153,14 +185,22 @@ def _fallback_classify_news(item: Item) -> NewsClassification:
     return NewsClassification(include=include, reason_kr=reason)
 
 
-def _build_news_points(item: Item, excerpt: str) -> list[str]:
-    sentences = _excerpt_sentences(excerpt)
-    if sentences:
-        return [f"원문에서 확인된 핵심 내용: {sentence}" for sentence in sentences[:3]]
+def _guard_against_false_negative(item: Item, classification: NewsClassification) -> NewsClassification:
+    if classification.include:
+        return classification
+    heuristic = _fallback_classify_news(item)
+    if not heuristic.include:
+        return classification
+    return NewsClassification(
+        include=True,
+        reason_kr="LLM 분류는 제외였지만 제목과 원문에 AI 관련 핵심 신호가 있어 포함했습니다.",
+    )
 
+
+def _build_news_points(item: Item, excerpt: str) -> list[str]:
     return [
-        f"{item.source_name}에서 '{item.title}' 관련 업데이트를 다뤘습니다.",
-        "세부 내용은 원문 링크를 통해 추가 확인이 필요합니다.",
+        f"{item.source_name}가 '{item.title}' 이슈를 보도했습니다.",
+        "세부 내용은 원문 확인이 필요합니다.",
     ]
 
 
@@ -204,9 +244,41 @@ def _build_keywords(text: str, fallback: list[str]) -> list[str]:
     return fallback[:6]
 
 
+def _fallback_subject(title: str) -> str:
+    candidates = re.findall(r"\b(?:[A-Z][A-Za-z0-9]+|[A-Z]{2,}|[A-Za-z]+AI)\b", title or "")
+    stopwords = {
+        "AI",
+        "API",
+        "CEO",
+        "The",
+        "This",
+        "That",
+        "These",
+        "Those",
+        "What",
+        "Why",
+        "How",
+    }
+    picked: list[str] = []
+    for candidate in candidates:
+        if candidate in stopwords:
+            continue
+        if candidate.lower() in {item.lower() for item in picked}:
+            continue
+        picked.append(candidate)
+        if len(picked) >= 2:
+            break
+    return " ".join(picked)
+
+
 def _fallback_news_summary(item: Item) -> NewsSummary:
     excerpt = _excerpt(item, max_chars=700)
-    headline = f"{item.source_name}발 '{item.title}' 관련 AI 업데이트"
+    subject = _fallback_subject(item.title)
+    headline = (
+        f"{item.source_name}가 {subject} 관련 AI 이슈를 보도했습니다"
+        if subject
+        else f"{item.source_name}가 AI 관련 이슈를 보도했습니다"
+    )
     points = _build_news_points(item, excerpt)
     why = _build_news_why(item)
     keywords = _build_keywords(
@@ -259,18 +331,13 @@ def _fallback_paper_summary(item: Item) -> PaperSummary:
     text = f"{item.title} {excerpt}"
     domain = _infer_paper_domain(text)
     contribution = _infer_paper_contribution(text)
-    sentences = _excerpt_sentences(excerpt)
-
     one_liner = f"이 논문은 {domain} 영역에서 {contribution}을 제안하거나 검증하려는 연구입니다."
 
     details: list[str] = [
         f"문제의식은 {domain} 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다.",
         f"핵심 접근은 {contribution}을 통해 기존 한계를 줄이려는 것입니다.",
+        "세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.",
     ]
-    if sentences:
-        details.append(f"원문 초록 기준 핵심 설명: {sentences[0]}")
-    if len(sentences) > 1:
-        details.append(f"추가로 눈에 띄는 주장: {sentences[1]}")
 
     core_idea = " ".join(details[:4])
     keywords = _build_keywords(text, fallback=["ai", "paper", "research"])
@@ -285,7 +352,22 @@ def _fallback_paper_summary(item: Item) -> PaperSummary:
 
 
 def _validate_news_classification(raw: dict) -> NewsClassification:
-    return NewsClassification.model_validate(raw)
+    classification = NewsClassification.model_validate(raw)
+    classification.reason_kr = _require_korean_text(classification.reason_kr, "reason_kr")
+    return classification
+
+
+def _retry_validated_llm_call(label: str, item: Item, call, validate, attempts: int = 2):
+    last_exc: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            return validate(call())
+        except Exception as exc:
+            last_exc = exc
+            if attempt < attempts - 1:
+                logger.warning("%s failed validation, retrying (%s): %s", label, item.url, exc)
+    assert last_exc is not None
+    raise last_exc
 
 
 def _validate_news_summary(raw: dict, title: str = "") -> NewsSummary:
@@ -309,6 +391,10 @@ def _validate_news_summary(raw: dict, title: str = "") -> NewsSummary:
                 summary.what[0] = _ensure_english_terms(summary.what[0], missing)
             else:
                 summary.what = [f"원문 핵심 용어: {', '.join(missing[:2])}"]
+    combined = f"{summary.headline_kr} {' '.join(summary.what)} {' '.join(summary.why_trend)}"
+    if any(phrase in combined for phrase in FALLBACK_ARTIFACT_PHRASES):
+        raise ValueError("summary contains fallback artifact phrase")
+    _ensure_korean_dominant(combined, "news summary")
     return summary
 
 
@@ -329,6 +415,10 @@ def _validate_paper_summary(raw: dict, title: str = "") -> PaperSummary:
         missing = [term for term in required_terms if term.lower() not in combined]
         if missing:
             summary.one_liner_kr = _ensure_english_terms(summary.one_liner_kr, missing)
+    combined = f"{summary.one_liner_kr} {summary.core_idea_kr}"
+    if any(phrase in combined for phrase in FALLBACK_ARTIFACT_PHRASES):
+        raise ValueError("paper summary contains fallback artifact phrase")
+    _ensure_korean_dominant(combined, "paper summary")
     return summary
 
 
@@ -349,22 +439,34 @@ def summarize_with_llm(
         cached = None if refresh else store.get_cached_summary(item.source_id, item.url)
         classification: NewsClassification | None = None
         summary: NewsSummary | None = None
+        summary_source = ""
 
         if cached and cached.get("kind") == "news":
             try:
                 classification = _validate_news_classification(cached.get("classification", {}))
                 if classification.include:
                     summary = _validate_news_summary(cached.get("summary", {}), title=item.title)
+                    summary_source = str(cached.get("summary_source") or "unknown")
+                    if summary_source == "fallback" and backend is not None:
+                        summary = None
+                        summary_source = ""
             except Exception:
                 classification = None
                 summary = None
+                summary_source = ""
 
         if classification is None:
             if backend is None:
                 classification = _fallback_classify_news(item)
             else:
                 try:
-                    classification = _validate_news_classification(backend.classify_news(_payload(item)))
+                    classification = _retry_validated_llm_call(
+                        "classify_news",
+                        item,
+                        lambda: backend.classify_news(_payload(item)),
+                        _validate_news_classification,
+                    )
+                    classification = _guard_against_false_negative(item, classification)
                 except Exception as exc:
                     logger.warning("classify_news failed (%s): %s", item.url, exc)
                     classification = _fallback_classify_news(item)
@@ -372,12 +474,20 @@ def summarize_with_llm(
         if classification.include and summary is None:
             if backend is None:
                 summary = _fallback_news_summary(item)
+                summary_source = "fallback"
             else:
                 try:
-                    summary = _validate_news_summary(backend.summarize_news(_payload(item)), title=item.title)
+                    summary = _retry_validated_llm_call(
+                        "summarize_news",
+                        item,
+                        lambda: backend.summarize_news(_payload(item)),
+                        lambda raw: _validate_news_summary(raw, title=item.title),
+                    )
+                    summary_source = "llm"
                 except Exception as exc:
                     logger.warning("summarize_news failed (%s): %s", item.url, exc)
                     summary = _fallback_news_summary(item)
+                    summary_source = "fallback"
 
         payload: dict = {
             "kind": "news",
@@ -385,6 +495,7 @@ def summarize_with_llm(
         }
         if summary is not None:
             payload["summary"] = summary.model_dump()
+            payload["summary_source"] = summary_source or "unknown"
         cache_payloads[item.url] = payload
 
         if classification.include and summary is not None:
@@ -394,26 +505,41 @@ def summarize_with_llm(
     for item in paper_items:
         cached = None if refresh else store.get_cached_summary(item.source_id, item.url)
         summary: PaperSummary | None = None
+        summary_source = ""
         if cached and cached.get("kind") == "paper":
             try:
                 summary = _validate_paper_summary(cached.get("summary", {}), title=item.title)
+                summary_source = str(cached.get("summary_source") or "unknown")
+                if summary_source == "fallback" and backend is not None:
+                    summary = None
+                    summary_source = ""
             except Exception:
                 summary = None
+                summary_source = ""
 
         if summary is None:
             if backend is None:
                 summary = _fallback_paper_summary(item)
+                summary_source = "fallback"
             else:
                 try:
-                    summary = _validate_paper_summary(backend.summarize_paper(_payload(item)), title=item.title)
+                    summary = _retry_validated_llm_call(
+                        "summarize_paper",
+                        item,
+                        lambda: backend.summarize_paper(_payload(item)),
+                        lambda raw: _validate_paper_summary(raw, title=item.title),
+                    )
+                    summary_source = "llm"
                 except Exception as exc:
                     logger.warning("summarize_paper failed (%s): %s", item.url, exc)
                     summary = _fallback_paper_summary(item)
+                    summary_source = "fallback"
 
         paper_summaries[item.url] = summary
         cache_payloads[item.url] = {
             "kind": "paper",
             "summary": summary.model_dump(),
+            "summary_source": summary_source or "unknown",
         }
 
     return included_news, news_summaries, paper_summaries, cache_payloads

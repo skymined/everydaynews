@@ -51,31 +51,71 @@ def _lead_paragraph(
     return " ".join(pieces)
 
 
+def _format_keywords(keywords: list[str]) -> str:
+    cleaned: list[str] = []
+    seen: set[str] = set()
+    for keyword in keywords:
+        value = " ".join((keyword or "").split()).strip()
+        if not value:
+            continue
+        lowered = value.lower()
+        if lowered in seen:
+            continue
+        seen.add(lowered)
+        cleaned.append(value)
+        if len(cleaned) >= 4:
+            break
+    return " · ".join(f"`{keyword}`" for keyword in cleaned)
+
+
+def _briefing_notes(
+    target_date: date,
+    official_news: list[Item],
+    signal_news: list[Item],
+    paper_items: list[Item],
+) -> list[str]:
+    notes: list[str] = []
+    if official_news:
+        top_sources = ", ".join(item.source_name for item in official_news[:3])
+        notes.append(f"**핵심 흐름:** {top_sources}에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.")
+    if signal_news:
+        notes.append(f"**현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 {len(signal_news)}개를 별도 섹션으로 묶었습니다.")
+    if paper_items:
+        notes.append(f"**논문 큐:** Hugging Face 인기 논문 {len(paper_items)}편을 방법과 의미 중심으로 압축했습니다.")
+    if not notes:
+        notes.append(f"**발행 기준:** {target_date.isoformat()}에 수집된 항목을 짧은 브리핑 형식으로 정리했습니다.")
+    return notes
+
+
 def _render_news_item(lines: list[str], item: Item, summary: NewsSummary) -> None:
-    body = _join_sentences(summary.what, limit=3)
+    what = _join_sentences(summary.what, limit=3) or "원문을 기반으로 핵심 내용을 정리 중입니다."
     why = _join_sentences(summary.why_trend, limit=1)
-    if why:
-        body = f"{body} {why}".strip()
-    body = body or "원문을 기반으로 핵심 내용을 정리 중입니다."
+    keywords = _format_keywords(summary.keywords)
 
     lines.append(f"### [{summary.headline_kr}]({item.url})")
     lines.append("")
-    lines.append(f"{body} 출처는 {item.source_name}입니다.")
+    lines.append(f"- **핵심:** {what}")
+    if why:
+        lines.append(f"- **맥락:** {why}")
+    lines.append(f"- **출처:** {item.source_name}")
+    if keywords:
+        lines.append(f"- **키워드:** {keywords}")
     lines.append("")
 
 
 def _render_paper_item(lines: list[str], index: int, item: Item, summary: PaperSummary) -> None:
-    paragraph = " ".join(
-        part
-        for part in (
-            _normalize_sentence(summary.one_liner_kr),
-            _normalize_sentence(summary.core_idea_kr),
-        )
-        if part
-    )
+    one_liner = _normalize_sentence(summary.one_liner_kr)
+    core_idea = _normalize_sentence(summary.core_idea_kr)
+    keywords = _format_keywords(summary.keywords)
     lines.append(f"### {index}. [{item.title}]({item.url})")
     lines.append("")
-    lines.append(f"{paragraph} 이 항목은 {item.source_name}에서 확인했습니다.")
+    if one_liner:
+        lines.append(f"- **한 줄:** {one_liner}")
+    if core_idea:
+        lines.append(f"- **아이디어:** {core_idea}")
+    lines.append(f"- **출처:** {item.source_name}")
+    if keywords:
+        lines.append(f"- **키워드:** {keywords}")
     lines.append("")
 
 
@@ -91,7 +131,7 @@ def render_digest_markdown(
     lines: list[str] = []
     lines.append(f"# IMDIGEST - {target_date.isoformat()}")
     lines.append("")
-    lines.append(f"{kst_date.isoformat()} KST 기준으로 수집한 AI 뉴스레터입니다.")
+    lines.append(f"> {kst_date.isoformat()} KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.")
     lines.append("")
 
     official_news = [item for item in news_items if not _is_signal_item(item)]
@@ -100,7 +140,13 @@ def render_digest_markdown(
     lines.append(_lead_paragraph(target_date, official_news, signal_news, paper_items))
     lines.append("")
 
-    lines.append("## 오늘의 뉴스")
+    lines.append("## 브리핑 노트")
+    lines.append("")
+    for note in _briefing_notes(target_date, official_news, signal_news, paper_items):
+        lines.append(f"- {note}")
+    lines.append("")
+
+    lines.append("## 주요 뉴스")
     lines.append("")
     if not official_news:
         lines.append("오늘은 이 섹션에 담을 공식 발표형 뉴스가 많지 않았습니다.")
@@ -113,9 +159,9 @@ def render_digest_markdown(
             _render_news_item(lines, item, summary)
 
     if signal_news:
-        lines.append("## 커뮤니티와 검색에서 읽힌 흐름")
+        lines.append("## 커뮤니티 시그널")
         lines.append("")
-        lines.append("공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목들만 따로 모았습니다.")
+        lines.append("공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목만 따로 모았습니다.")
         lines.append("")
         for item in signal_news:
             summary = news_summaries.get(item.url)

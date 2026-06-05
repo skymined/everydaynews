@@ -60,6 +60,7 @@ class LlamaBackend:
                         "role": "user",
                         "content": (
                             "아래 JSON 입력을 바탕으로 응답하세요.\n"
+                            "반드시 JSON 객체 하나만 출력하세요. 설명, markdown, <think> 태그는 출력하지 마세요.\n"
                             f"{prompt}\n"
                             f"{retry_instruction}"
                         ),
@@ -67,6 +68,7 @@ class LlamaBackend:
                 ],
                 temperature=temperature,
                 max_tokens=max_tokens,
+                response_format={"type": "json_object"},
             )
             return (resp.choices[0].message.content or "").strip()
 

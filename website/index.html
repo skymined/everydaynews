@@ -25,27 +25,39 @@
   </header>
 
   <main class="page">
-    <section class="hero card">
-      <p class="eyebrow">DAILY IMDIGEST</p>
-      <h1>매일 아침, 핵심 AI 이슈를 말차빛 카드로 정리해 전달합니다</h1>
-      <p class="subtext">
-        최신 뉴스와 논문 요약을 가독성 좋게 확인하고, 바로 상세 리포트로 이동할 수 있습니다.
-      </p>
-      <div class="actions">
-        <a id="today-post-link" class="btn-primary" href="./posts/">오늘의 post 보기</a>
-        <a class="btn-secondary" href="./posts/">전체 목록 열기</a>
-      </div>
-    </section>
+    <div class="home-grid">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">DAILY AI BRIEF</p>
+          <h1>AI 뉴스와 논문을 한 번에 읽히는 편집형 브리핑으로</h1>
+          <p class="subtext">
+            공식 발표, 커뮤니티 신호, 오늘의 논문을 짧은 핵심과 맥락으로 나눠 정리합니다.
+          </p>
+          <div class="actions">
+            <a id="today-post-link" class="btn-primary" href="./posts/">오늘 리포트 보기</a>
+            <a class="btn-secondary" href="./posts/">아카이브 열기</a>
+          </div>
+        </div>
+        <div class="hero-meta" aria-label="리포트 구성">
+          <div class="metric"><strong>Daily</strong><span>매일 갱신</span></div>
+          <div class="metric"><strong>Signals</strong><span>뉴스와 반응</span></div>
+          <div class="metric"><strong>Papers</strong><span>연구 흐름</span></div>
+        </div>
+      </section>
 
-    <section class="preview card">
-      <div class="card-head">
-        <h2>최신 리포트 미리보기</h2>
-        <a class="small-link" href="./posts/">전체 목록</a>
-      </div>
-      <div id="latest-preview">
-        <p class="muted">최신 리포트를 불러오는 중...</p>
-      </div>
-    </section>
+      <section class="surface">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Latest Issue</p>
+            <h2>최신 리포트</h2>
+          </div>
+          <a class="small-link" href="./posts/">전체 목록</a>
+        </div>
+        <div id="latest-preview">
+          <p class="muted">최신 리포트를 불러오는 중...</p>
+        </div>
+      </section>
+    </div>
   </main>
 
   <script src="./assets/common.js"></script>

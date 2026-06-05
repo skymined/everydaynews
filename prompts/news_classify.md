@@ -25,7 +25,10 @@ Exclude if mostly:
 Output rules:
 - Output exactly one JSON object.
 - No markdown.
-- Write reason_kr in Korean.
+- Write reason_kr in concise Korean newsletter editor style.
+- Do not use Chinese, Japanese, or Cyrillic scripts in reason_kr.
+- Do not attach Korean prefixes directly to English words. For example, write "Unsupervised" or "비지도" instead of "언SUPERVISED".
+- Do not translate proper names unless a standard Korean spelling is obvious.
 
 JSON schema:
 {

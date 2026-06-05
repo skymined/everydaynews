@@ -87,6 +87,12 @@
         continue;
       }
 
+      if (trimmed.startsWith("> ")) {
+        closeLists();
+        out.push(`<blockquote>${formatInline(trimmed.slice(2))}</blockquote>`);
+        continue;
+      }
+
       if (trimmed.startsWith("### ")) {
         closeLists();
         out.push(`<h3>${formatInline(trimmed.slice(4))}</h3>`);
@@ -144,6 +150,7 @@
       .replace(/```[\s\S]*?```/g, " ")
       .replace(/\[(.*?)\]\((.*?)\)/g, "$1")
       .replace(/^#{1,6}\s+/gm, "")
+      .replace(/^>\s+/gm, "")
       .replace(/^[-*]\s+/gm, "")
       .replace(/^\d+\.\s+/gm, "")
       .replace(/`([^`]+)`/g, "$1")

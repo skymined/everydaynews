@@ -60,16 +60,19 @@ class RenderFormatTest(unittest.TestCase):
                 )
             },
         )
-        self.assertIn("## 오늘의 뉴스", md)
-        self.assertIn("## 커뮤니티와 검색에서 읽힌 흐름", md)
+        self.assertIn("## 브리핑 노트", md)
+        self.assertIn("## 주요 뉴스", md)
+        self.assertIn("## 커뮤니티 시그널", md)
         self.assertIn("## 오늘의 논문", md)
-        self.assertIn("2026-02-19 KST 기준으로 수집한 AI 뉴스레터입니다.", md)
+        self.assertIn("> 2026-02-19 KST 기준 수집.", md)
         self.assertIn("### [OpenAI가 새 agent stack을 공개했다](https://example.com/news)", md)
-        self.assertIn("출처는 OpenAI입니다.", md)
+        self.assertIn("- **핵심:** API와 도구 연결 방식이 확장됐다.", md)
+        self.assertIn("- **맥락:** 에이전트 제품 경쟁이 더 빨라질 수 있다.", md)
+        self.assertIn("- **출처:** OpenAI", md)
+        self.assertIn("- **키워드:** `openai` · `agent` · `api`", md)
         self.assertIn("### 1. [A useful paper](https://example.com/paper)", md)
-        self.assertNotIn("- 핵심:", md)
-        self.assertNotIn("- 왜 중요한가:", md)
-        self.assertNotIn("- 태그:", md)
+        self.assertIn("- **한 줄:** 이 논문은 멀티모달 모델의 핵심 성능을 높이려는 접근을 제안한다.", md)
+        self.assertIn("- **아이디어:** 문제는 복잡한 입력을 안정적으로 처리하는 것이다.", md)
 
 
 if __name__ == "__main__":

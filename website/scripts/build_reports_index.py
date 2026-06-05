@@ -42,21 +42,23 @@ DETAIL_TEMPLATE = """<!doctype html>
   </header>
 
   <main class=\"page\">
-    <section class=\"card\">
-      <div class=\"article-meta\">
-        <div>
-          <div class=\"meta\" id=\"report-date\">{date}</div>
-          <h1 id=\"report-title\" class=\"article-title\">{title}</h1>
+    <section class=\"article-shell\">
+      <div class=\"article-main\">
+        <div class=\"article-meta\">
+          <div>
+            <div class=\"meta\" id=\"report-date\">{date}</div>
+            <h1 id=\"report-title\" class=\"article-title\">{title}</h1>
+          </div>
+          <a id=\"raw-download-link\" class=\"btn-secondary\" href=\"../../reports/{file}\" download=\"{file}\">Markdown 다운로드</a>
         </div>
-        <a id=\"raw-download-link\" class=\"btn-secondary\" href=\"../../reports/{file}\" download=\"{file}\">Markdown 다운로드</a>
+        <article id=\"report-article\" class=\"article\">
+          <p class=\"muted\">리포트를 불러오는 중...</p>
+        </article>
       </div>
       <nav id=\"report-toc\" class=\"toc\" aria-label=\"문서 목차\" hidden>
         <p class=\"toc-title\">목차</p>
         <div id=\"toc-list\"></div>
       </nav>
-      <article id=\"report-article\" class=\"article\">
-        <p class=\"muted\">리포트를 불러오는 중...</p>
-      </article>
     </section>
   </main>
 
@@ -96,6 +98,7 @@ def _extract_excerpt(path: Path, max_len: int = 220) -> str:
             continue
         if s.startswith("- 기준일"):
             continue
+        s = re.sub(r"^>\s*", "", s)
         s = re.sub(r"^[-*]\s+", "", s)
         s = re.sub(r"^\d+\.\s+", "", s)
         s = re.sub(r"\*\*(.*?)\*\*", r"\1", s)

@@ -14,7 +14,7 @@ llm:
   max_items_to_summarize: 40
   local_backend: "llama"
   local_base_url: "http://127.0.0.1:11434/v1"
-  local_model: "qwen2.5:7b"
+  local_model: "qwen2.5:14b"
 
 report:
   timezone: "Asia/Seoul"

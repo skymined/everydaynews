@@ -82,6 +82,43 @@
     toc.hidden = false;
   }
 
+  function sectionKind(sectionTitle) {
+    if (sectionTitle.includes("커뮤니티")) {
+      return "signal";
+    }
+    if (sectionTitle.includes("논문")) {
+      return "paper";
+    }
+    return "news";
+  }
+
+  function enhanceArticleLayout() {
+    const nodes = Array.from(article.children);
+    let currentSectionTitle = "";
+    let currentCard = null;
+
+    for (const node of nodes) {
+      if (node.tagName === "H2") {
+        currentSectionTitle = node.textContent || "";
+        currentCard = null;
+        continue;
+      }
+
+      if (node.tagName === "H3") {
+        currentCard = document.createElement("section");
+        currentCard.className = "story-card";
+        currentCard.dataset.section = sectionKind(currentSectionTitle);
+        article.insertBefore(currentCard, node);
+        currentCard.appendChild(node);
+        continue;
+      }
+
+      if (currentCard && node.tagName !== "H1") {
+        currentCard.appendChild(node);
+      }
+    }
+  }
+
   async function run() {
     const fileName = window.REPORT_FILE || "";
     const dateSlug = window.REPORT_DATE || fileName.replace(/\.md$/, "");
@@ -110,6 +147,7 @@
 
       titleNode.textContent = heading;
       article.innerHTML = window.SiteCommon.markdownToHtml(stripped.markdown);
+      enhanceArticleLayout();
       renderToc();
     } catch (error) {
       article.innerHTML = `<p class="muted">리포트를 불러오지 못했습니다: ${error.message}</p>`;
