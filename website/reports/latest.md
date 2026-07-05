@@ -1,69 +1,28 @@
-# IMDIGEST - 2026-07-05
+# IMDIGEST - 2026-07-06
 
-> 2026-07-05 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
+> 2026-07-06 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
 
-2026-07-05 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-07-06 AI 브리핑입니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 브리핑 노트
 
-- **핵심 흐름:** TechCrunch AI, TechCrunch AI, TechCrunch AI에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
-- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 10개를 별도 섹션으로 묶었습니다.
+- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 8개를 별도 섹션으로 묶었습니다.
 - **논문 큐:** Hugging Face 인기 논문 10편을 방법과 의미 중심으로 압축했습니다.
 
 ## 주요 뉴스
 
-### [TechCrunch AI가 New Google 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai)
-
-- **핵심:** TechCrunch AI가 'New Google commercial imagines a Declaration of Independence written with help from AI' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** TechCrunch AI
-- **키워드:** `new` · `google` · `commercial` · `imagines`
-
-### [TechCrunch AI가 Midjourney Hollywood 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage)
-
-- **핵심:** TechCrunch AI가 'Midjourney wants Hollywood studios to reveal the details of their AI usage' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** TechCrunch AI
-- **키워드:** `midjourney` · `wants` · `hollywood` · `studios`
-
-### [TechCrunch AI가 Mistral Everything 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor)
-
-- **핵심:** TechCrunch AI가 'What is Mistral AI? Everything to know about the OpenAI competitor' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** TechCrunch AI
-- **키워드:** `what` · `mistral` · `everything` · `know`
+오늘은 이 섹션에 담을 공식 발표형 뉴스가 많지 않았습니다.
 
 ## 커뮤니티 시그널
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목만 따로 모았습니다.
 
-### [Reddit r/MachineLearning가 We Open 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1ungvxu/well_benchmark_an_open_weights_llm_on_any_gpu_you)
+### [Reddit r/MachineLearning가 Best Also 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1uoejrl/best_models_for_generating_redteam_attacks_also)
 
-- **핵심:** Reddit r/MachineLearning가 'We'll benchmark an Open weights LLM on any GPU you choose — drop your model + hardware and we'll run it. [D]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Reddit r/MachineLearning가 'Best models for generating red-team attacks? Also looking for public datasets [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Reddit r/MachineLearning
-- **키워드:** `benchmark` · `open` · `weights` · `llm`
-
-### [Google News AI Search가 ChatGPT Maker 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMimgFBVV95cUxPVDdyNUI2amtyZ1U1OEk1QUVYcTg5V3FjRlZZdTlXQ2dNMVJnVGNMNjdJcHRaUms4blo2WkRDZ29qdnVUUFVHejlSSk1pVHBRSHR4LWxJeUhuN2ptdVlac21oQXFCVWtMenRlVU52SHVqMGdFejFkMHphTXJHQ0FxOURJVlItN0lBVXVudmZEZEdYTkl1NU4yb0pR?oc=5)
-
-- **핵심:** Google News AI Search가 'ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock. - Yahoo Finance' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** Google News AI Search
-- **키워드:** `chatgpt-maker` · `openai` · `headed` · `for`
-
-### [Google News AI Search가 NATO Politico 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMifkFVX3lxTE9HUDRUeTFWZUxRRk96eWdGQVJsZjI5bC14YmFMRldxYlRSVHQyYllzX1VCczhyeGFqYV80M3RYZ0duV0l3dHlsY0dhbkJ0N1lPajk4NWdJZ3VEZm56Z25qa1ZJaUJGWVdTMXdoZkoxNkJPaUZMVmo3UVNrWmNmUQ?oc=5)
-
-- **핵심:** Google News AI Search가 'AI security questions loom over NATO summit - Politico' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다.
-- **출처:** Google News AI Search
-- **키워드:** `security` · `questions` · `loom` · `over`
-
-### [Google News AI Search가 My US 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMieEFVX3lxTFBqT0NSQkNPWG55OE1lOXBZbmFXRk9hVEdobG1Bb2dwV1F4eFk2bFFQNjBSRDNLMnZYamJlWUd2d2lIYnJhX2tPenYwd2FwYkVybVI3WWhEaTRscGpHQ1lPS0NzS2hIblR0U1pRT213dUJ2Y0g0RXVGTg?oc=5)
-
-- **핵심:** Google News AI Search가 'My family moved from the US to Spain. Claude has helped us navigate a new language and systems. - Business Insider' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** Google News AI Search
-- **키워드:** `family` · `moved` · `the` · `spain.`
+- **키워드:** `best` · `models` · `for` · `generating`
 
 ### [Google News AI Search가 Shaping Capgemini 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3VXcVczQ2VPNXJqc2hPZlZzbjVjWmsxZWxVSEhPSm1ETEZRaWJCQ2dIeVd0cjNuMHJLVkRIai1tWGM0bUF5VEdXVWlrQTdSc0RqZWUwR3lKb3ZrX092SzlVTTJxaEd2WmpHb1JFZURVdzhXNEhGeGVaU2RUclpaMjc0M1BlMUk3ZjRJazlOWVI3Zw?oc=5)
 
@@ -72,40 +31,47 @@
 - **출처:** Google News AI Search
 - **키워드:** `meets` · `the` · `grid` · `shaping`
 
-### [Reddit r/MachineLearning가 If GPU 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able)
+### [Google News AI Search가 Taylor Swift 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiygFBVV95cUxNR0YxblpPQktYcmMwZmg5elo2SGVNSzRmdWZ4czFZd1o0N2ptXzQ3Y0p1VGZsNkZnbi1IQjk2RFZ3ZXY2WDJzZnRmckJMS3pmblFnTmV1VDVDNFhVSGlWVVp1UkhUd0xOSXpTVVV0dmVmMjBfb25ZbnNpenRfY29jOTBLV09SM0IwSTljUjA3WUg3RWdEbmxJYXpaM1lZZE5jcS1OaFhCdzdBZUYtZmdseWZja1AxUzN1aWxmSDloc3hFOTNodFZZUTNn?oc=5)
 
-- **핵심:** Reddit r/MachineLearning가 'If your GPU can run inference, it should be able to fine-tune too. [P]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'Taylor Swift and Travis Kelce wedding guest calls out ‘fake’ AI photos of MSG ceremony - Page Six' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `taylor` · `swift` · `and` · `travis`
+
+### [Google News AI Search가 Trump Hill 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMikwFBVV95cUxNM3R4SjNhdDktdk9mME91S1JDcnFHWXo5NkVwd3BqNlU3eEdLcFRKQTh0d3phRkJsQnRiZzBSQzJSbmNZMjdkdVV4TWlLLW1ZWkptNVl2M0I1empwajd1THFMRjI2ZEMtVUFjaXdaai10bnhGejBmOUZGN0NvVEJFa1Rzd1gtR1RxLXVfeEItMFhsd2PSAZgBQVVfeXFMTlU3Mk9MSVZGUmdETnR3dm9YWEY2NE5idHBKWHJXbTdiUjRGRnpTV1FYcGNHaDZTRFg1X2xXQUlZSWVvbVg1LS1zM1FYQnBNNmp4NDlHUnhLVmwwREJnVkZicTJCSjNNQmNaUW5nM2UxZmhuVWF2aUhMMEk1anRqek5Uem5QTEcyN0pEWXhuUjM3WEZDVXRXYks?oc=5)
+
+- **핵심:** Google News AI Search가 'Trump restrictions on private AI models turns attention to open source - The Hill' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Google News AI Search
+- **키워드:** `trump` · `restrictions` · `private` · `models`
+
+### [Google News AI Search가 Tech Washington 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiekFVX3lxTE9LVzh3U295OTFpbTVpNUwyR2hXSGg1Y19wN2tDRnZvRTI4dkVJNTRvbHgxWE1nS05pX0U2SzVjczdVd3RvUExLTG9yQ2pVSWNuX3daVGhoc3g1X19HYV9oVVI3RUE0RUJjNWJ6d1lKdjd0a2s4Sk1KSmtR?oc=5)
+
+- **핵심:** Google News AI Search가 'Tech: AI companies are getting the Washington treatment - Punchbowl News' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `tech` · `companies` · `are` · `getting`
+
+### [Reddit r/MachineLearning가 Is Intrinsic 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1uo5kg6/is_intrinsic_motivation_a_viable_phd_topic_in)
+
+- **핵심:** Reddit r/MachineLearning가 'Is Intrinsic Motivation a Viable PhD Topic in 2026? [D]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `intrinsic` · `motivation` · `viable` · `phd`
+
+### [Google News AI Search가 Hiroshima Cooper 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMirwFBVV95cUxPUGQyd3dNbWNWTEU3c3lHTTdVU0VqdkI4YWFaUjNWLWxlek8xb1dhaGt4ajBValFLUW81TVJOaXdOSWt5U0I2ajRPNjg1VDQ5dkVSWWVHNWhPejFWN2xWQ2JxQ2tyM3BoYkRmeFU1bi1uNFhUMTF1dlRyVEVrSEN5OWdROEpfejdmV0xWNWtObk9OcS1Vbzg0UVNBbUNkb3lUM1ctZFpBZHEwNl9FR0RZ?oc=5)
+
+- **핵심:** Google News AI Search가 'AI poses ‘Hiroshima’-style threat to humanity without global rules, says Cooper - The Guardian' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `poses` · `hiroshima` · `style` · `threat`
+
+### [Reddit r/MachineLearning가 MT Tunisian 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1uo92vz/i_built_an_open_fromscratch_mt_pipeline_parallel)
+
+- **핵심:** Reddit r/MachineLearning가 'I built an open, from-scratch MT pipeline + parallel corpus for Tunisian Darija (Arabizi) early baseline, and I'm growing it into a curated community corpus [P]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Reddit r/MachineLearning
-- **키워드:** `your` · `gpu` · `can` · `run`
-
-### [Google News AI Search가 Guardian 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMitwFBVV95cUxQaURKR0J3RXFEWDBDZFota2NxdkMtRGNpYnlKUUkzQ2NCb21rbnU5N2ZEQ3NKSjgwLTMyMl9kVTFvLU1ZLUJxMUNTY0dFRFB2WlhWRC1VTVduT3ZnYWpDa193WXVkdHJidmtrbjIxT1FmeVllcmZkd2hPQ0NiNTV5RjQ3Rk5heUNHMDRYcWVnSUM3TF9aZ1hCa0lralhjZ2lJYmE4TUFrQlFaQ3lsSEZqVldObWpQUDQ?oc=5)
-
-- **핵심:** Google News AI Search가 'How AI is changing language - The Guardian' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `how` · `changing` · `language` · `the`
-
-### [Google News AI Search가 Replace SFGATE 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMifkFVX3lxTE9mQ2dvUHhDb3FXeFptRTRIcGZjOXA1cW5ZMTBOa2tqUlUtTkZOaC01MmE0V0wzd0dQYTlPakFaOXBONG5obzB3al91a1JfbV9qdlVvLVN1ZmlBSVlrZmdhZGo0ZjJROWo5MmMxRFJyb3BfTHRGZTFwRHpvdW9JZw?oc=5)
-
-- **핵심:** Google News AI Search가 'Replace multiple AI subscriptions with one lifetime purchase - SFGATE' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `replace` · `multiple` · `subscriptions` · `one`
-
-### [Google News AI Search가 Companies 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiekFVX3lxTE5NLWhnb2hpNjVjUE9IYVNfdndlQjJxaUR4Z3YxbGV3SHNZaktfdmZRZk16MHRYMHRTUjNxaWxkZGNORGZUZzE5b3NnY0VSVlVVbzNaUHowSEtpZFlTMGIxRkNaOXVkeE9lQlR6OHdtSmd0bEVFMkNlV0NR?oc=5)
-
-- **핵심:** Google News AI Search가 'Companies rehire workers laid off for AI as automation falls short - qz.com' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `companies` · `rehire` · `workers` · `laid`
-
-### [Google News AI Search가 Stocks Buy 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMikgFBVV95cUxNOFlTXzBYd2k1aHNwbXRMSlA3MGZyU2VLamZxWkdTM1dLVS04VmxERWRJLV9ocUhJb3RLRFVybTM4WDZMRWFqWHhSLWp6enlMVnYza052RFVWUXY2dmlXc0R1cWphbGgtWWw1ajZ2ME1tdHEtQkljb29LTDIycTlCUjVvOUprNmtMeGFLWV9tMFJIdw?oc=5)
-
-- **핵심:** Google News AI Search가 '3 Stocks to Buy on the AI Infrastructure Sell-Off - The Motley Fool' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `stocks` · `buy` · `the` · `infrastructure`
+- **키워드:** `built` · `open` · `from-scratch` · `pipeline`
 
 ## 오늘의 논문
 
