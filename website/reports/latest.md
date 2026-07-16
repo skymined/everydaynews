@@ -1,203 +1,203 @@
-# IMDIGEST - 2026-07-16
+# IMDIGEST - 2026-07-17
 
-> 2026-07-16 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
+> 2026-07-17 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
 
-2026-07-16 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI, NVIDIA Developer Blog에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-07-17 AI 브리핑입니다. 오늘은 NVIDIA Developer Blog, OpenAI News, AWS Machine Learning Blog에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 브리핑 노트
 
-- **핵심 흐름:** TechCrunch AI, TechCrunch AI, NVIDIA Developer Blog에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
-- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 7개를 별도 섹션으로 묶었습니다.
+- **핵심 흐름:** NVIDIA Developer Blog, OpenAI News, AWS Machine Learning Blog에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
+- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 6개를 별도 섹션으로 묶었습니다.
 - **논문 큐:** Hugging Face 인기 논문 10편을 방법과 의미 중심으로 압축했습니다.
 
 ## 주요 뉴스
 
-### [TechCrunch AI가 Amid OpenAI 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex)
+### [NVIDIA Developer Blog가 Scaling Agentic 관련 AI 이슈를 보도했습니다](https://developer.nvidia.com/blog/scaling-agentic-ai-factories-through-extreme-co-design-with-nvidia-bluefield)
 
-- **핵심:** TechCrunch AI가 'Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** TechCrunch AI
-- **키워드:** `amid` · `hardware` · `legal` · `battle`
-
-### [TechCrunch AI가 Microsoft 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai)
-
-- **핵심:** TechCrunch AI가 'Microsoft patches record number of security vulnerabilities, citing its use of AI' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** TechCrunch AI
-- **키워드:** `microsoft` · `patches` · `record` · `number`
-
-### [NVIDIA Developer Blog가 Develop Lightweight 관련 AI 이슈를 보도했습니다](https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents)
-
-- **핵심:** NVIDIA Developer Blog가 'Develop Lightweight USD Runtimes Faster with AI Agents' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** NVIDIA Developer Blog가 'Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** NVIDIA Developer Blog
-- **키워드:** `develop` · `lightweight` · `usd` · `runtimes`
+- **키워드:** `scaling` · `agentic` · `factories` · `through`
 
-### [Hugging Face Blog가 Shippy 관련 AI 이슈를 보도했습니다](https://huggingface.co/blog/allenai/shippy-tech-blog)
+### [OpenAI News가 AI 관련 이슈를 보도했습니다](https://openai.com/index/why-teens-deserve-access-safe-ai)
 
-- **핵심:** Hugging Face Blog가 'What building Shippy taught us about building agents' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** OpenAI News가 'Why teens deserve access to safe AI' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** Hugging Face Blog
-- **키워드:** `what` · `building` · `shippy` · `taught`
+- **출처:** OpenAI News
+- **키워드:** `why` · `teens` · `deserve` · `access`
 
-### [AWS Machine Learning Blog가 Built Technologies 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/built-technologies-builds-an-ai-powered-document-intelligence-solution-on-aws-to-power-agents-across-real-estate-finance)
+### [AWS Machine Learning Blog가 Introducing Grok 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock)
 
-- **핵심:** AWS Machine Learning Blog가 'Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** AWS Machine Learning Blog
-- **키워드:** `built` · `technologies` · `builds` · `ai-powered`
-
-### [AWS Machine Learning Blog가 Agentic Building 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers)
-
-- **핵심:** AWS Machine Learning Blog가 'Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** AWS Machine Learning Blog가 'Introducing Grok on Amazon Bedrock' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** AWS Machine Learning Blog
-- **키워드:** `agentic` · `vision` · `building` · `visual`
+- **키워드:** `introducing` · `grok` · `amazon` · `bedrock`
 
-### [Google Research Blog가 Towards 관련 AI 이슈를 보도했습니다](https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models)
+### [TechCrunch AI가 OpenAI ChatGPT 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball)
 
-- **핵심:** Google Research Blog가 'Towards demystifying the creativity of diffusion models' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** Google Research Blog
-- **키워드:** `towards` · `demystifying` · `the` · `creativity`
-
-### [TechCrunch AI가 Apple Intelligence 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai)
-
-- **핵심:** TechCrunch AI가 'Apple Intelligence approved for launch in China with Alibaba’s Qwen AI' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** TechCrunch AI가 'Why is OpenAI selling a ChatGPT basketball?' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** TechCrunch AI
-- **키워드:** `apple` · `intelligence` · `approved` · `for`
+- **키워드:** `why` · `openai` · `selling` · `chatgpt`
 
-### [Hugging Face Blog가 Model Routing 관련 AI 이슈를 보도했습니다](https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt)
+### [TechCrunch AI가 DeepMind 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product)
 
-- **핵심:** Hugging Face Blog가 'Model Routing Is Simple. Until It Isn’t.' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** TechCrunch AI가 'How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** TechCrunch AI
+- **키워드:** `how` · `former` · `deepmind` · `researcher`
+
+### [Hugging Face Blog가 NVIDIA Nemotron 관련 AI 이슈를 보도했습니다](https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb)
+
+- **핵심:** Hugging Face Blog가 'NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Hugging Face Blog
-- **키워드:** `model` · `routing` · `simple.` · `until`
+- **키워드:** `nvidia` · `nemotron` · `embed` · `ranks`
+
+### [AWS Machine Learning Blog가 Build Amazon 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base)
+
+- **핵심:** AWS Machine Learning Blog가 'Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** AWS Machine Learning Blog
+- **키워드:** `build` · `enterprise` · `search` · `for`
+
+### [TechCrunch AI가 Google Vids 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos)
+
+- **핵심:** TechCrunch AI가 'Google Vids now lets you star in your own AI videos' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** TechCrunch AI
+- **키워드:** `google` · `vids` · `now` · `lets`
+
+### [TechCrunch AI가 Roblox 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app)
+
+- **핵심:** TechCrunch AI가 'Roblox launches an AI-powered game-creation feature in its mobile app' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** TechCrunch AI
+- **키워드:** `roblox` · `launches` · `ai-powered` · `game-creation`
+
+### [NVIDIA Developer Blog가 Integrating Context 관련 AI 이슈를 보도했습니다](https://developer.nvidia.com/blog/integrating-context-aware-video-ai-agents-into-enterprise-workflows)
+
+- **핵심:** NVIDIA Developer Blog가 'Integrating Context-Aware Video AI Agents Into Enterprise Workflows' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** NVIDIA Developer Blog
+- **키워드:** `integrating` · `context-aware` · `video` · `agents`
 
 ## 커뮤니티 시그널
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목만 따로 모았습니다.
 
-### [Google News AI Search가 Mira Murati 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiswFBVV95cUxQbzVTTWJDdUFUdUdTSTJzS2F0REZadUxWeV81S2s1Vlp3UEdOTWQzQ1F3RmphNmRxNFpJbmNUNFV0eVBCMHJ2djJuYzNSRThqbTdBaUdvdWdsMGIyME5nZG5VNlhUTHRsMHczNy1SWHdyaF9ySGNGNnhuNnlINWdQRXVGa095UmJxb2g5a1BJMVJJY3d2RGtJejJWM3IySk54VE1EamlVMTkwQWx1Y0Eyd1BVNA?oc=5)
+### [Reddit r/MachineLearning가 Seeking 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1uycffg/seeking_collaborators_for_scaling_and_independent)
 
-- **핵심:** Google News AI Search가 'Mira Murati’s AI Startup Releases First Model in Bid to Loosen AI Giants’ Grip - WSJ' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** Google News AI Search
-- **키워드:** `mira` · `murati` · `startup` · `releases`
-
-### [Google News AI Search가 Founder Of 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiuwFBVV95cUxORGZkc21TSzhncUYtWEVGZzd1ZDgxeFViS3YxMWRYcDc1a29OczRFTWNFbjVyaUJlYklXdGVkYWhFWWo2YjBFYmc3UmdDeVNPdmZrbEQ2UHpCcXg0V3NCckZFWG1nVks2Ymo1MkctVF9EOTBoQ1VsUnpGeEtTMEM4SzNUSUJuYTU4ZUFhM1lkbGRWeml6b0ttdWJ4N09aSFFaR2ZQMDV4TmNZTVNhWVEyTUVpa2VFNlU3WFh3?oc=5)
-
-- **핵심:** Google News AI Search가 'The Founder Of Hinge Released A New AI Dating App That Doesn't Let You Swipe Or View Profiles, But Get Automatically Matched When The AI Decides Who You're Compatible With - Barstool Sports' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** Google News AI Search
-- **키워드:** `the` · `founder` · `hinge` · `released`
-
-### [Reddit r/MachineLearning가 Looking JEPA 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r)
-
-- **핵심:** Reddit r/MachineLearning가 'Looking for JEPA devil advocates [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Reddit r/MachineLearning가 'Seeking collaborators for scaling and independent evaluation of a new recurrent language model architecture (preprint + code) [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Reddit r/MachineLearning
-- **키워드:** `looking` · `for` · `jepa` · `devil`
+- **키워드:** `seeking` · `collaborators` · `for` · `scaling`
 
-### [Google News AI Search가 Guest Editorial 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMitgFBVV95cUxOWFl5c3BaZU9aWHFIbkRiSmMtZ2hQRlZnQ0hqdHhOV0dQSjVMQW9oZG02RmpqMlpDZGZYZHdxTXlrNlZTdEVQSGNDTkR1dElmXy14Y1FScHNFTkZ1SUw2bVZQYzVQZWhsYmxxNHFPV0xONFVYUm45aC1Ed29UVWxUeC16Q0FWQnBlM0sxc0lMeXRhQ2pTcUhUdnNjbS1ZRmFCWVRWYVRjeGFHSDhDQ0NUTmdOVDM2QQ?oc=5)
+### [Reddit r/MachineLearning가 New Fable5 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1uyf8oo/new_fable5opus48_harness_called_schema_claims_99)
 
-- **핵심:** Google News AI Search가 'Guest Editorial: What working with AI has taught me about the church - Baptist Standard' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **핵심:** Reddit r/MachineLearning가 'New Fable5/Opus4.8 harness called "Schema" claims 99% on ARC-3 [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `new` · `fable5` · `opus4.8` · `harness`
+
+### [Reddit r/MachineLearning가 CfP RTCA 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1uy8e0v/cfp_rtca_neurips_2026_r)
+
+- **핵심:** Reddit r/MachineLearning가 'CfP | RTCA @ NeurIPS 2026 [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `cfp` · `rtca` · `neurips` · `2026`
+
+### [Google News AI Search가 Georgia Tech 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdER2Y1daSXhaNkpvUTZab0lMYmZQZmNqU3k1eWdzeVJIcmd5NVJlc3ZMdmJIYXJZaXQwRHZIc29QcUM0VzdxbkgxN3JnblU3V3lVY216VThtUXl5Mm1WVUxqVHBOVXRBRExVMmlHUWhRS0tJMGZWYndUdnlqSGxPem5CbG8yTlcyaklCenJaV0piLThWY1N3eTZuQjYtYXFCYVB0bTVZamlOVHhqOEJzclVpX1oxbW5w?oc=5)
+
+- **핵심:** Google News AI Search가 'Georgia Tech Receives Commitment to Launch New AI-Driven Health Innovation Center - Georgia Institute of Technology' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Google News AI Search
-- **키워드:** `guest` · `editorial` · `what` · `working`
+- **키워드:** `georgia` · `tech` · `receives` · `commitment`
 
-### [Google News AI Search가 Nvidia Stock 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMimwFBVV95cUxQckZIX181NTRrdE1LYlM1MmpmcVM0bEtPaWdOeDdYcUxuQjlHb3VyWEdoYUtqa09nN0JuUlN6alNwb3VORzFhNzlwNDdRWTc4VTFKTUNpSTlMWHZoNE01amJNSGNac3VBY01GNnpQWmJ6cmxmdzRZdV8zbE9oODhvOE9Rd096S3F5ZWdzUEQ4b3pXR2ZrZHY5UkdMSQ?oc=5)
+### [Google News AI Search가 Alphabet Gemini 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMieEFVX3lxTE1KcVo4dnRDMVczTlBUZWh5ZUhnaEZDUC1pQXZYbHlsRl9oMXZSa0dMZzB0SlMwaTNqdGZ2RnhmQ0FuYVFpQ0g2by1acFJqVVR3MlNhM21ZcEtfS0IxaU5vNDZnRXAtdmg4bnBlVG5aTDhhM0FUZFFmU9IBfkFVX3lxTE1SNmF1cjBfZGMxaC00STBqeGJjMFVEWFpnQzNab2Z2d0VtMHkxcXRnZkZyVEN2ZXY0RWNOMXA1ZlljTTdoR3RENWRZRWlROVlkenFiQkJMZ0dnQS1QeUt4Qm5ET1h6SXZOd3o1NG5GYkUwbnlvY3hremJEVEx6Zw?oc=5)
 
-- **핵심:** Google News AI Search가 'Nvidia Stock Nears Buy Point On These Positive Signs - Investor's Business Daily' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **핵심:** Google News AI Search가 'Alphabet shares fall on report its most powerful AI model Gemini 3.5 Pro is delayed - CNBC' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Google News AI Search
-- **키워드:** `nvidia` · `stock` · `nears` · `buy`
+- **키워드:** `alphabet` · `shares` · `fall` · `report`
 
-### [Google News AI Search가 Questions Neural 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMijwFBVV95cUxPSmlMMExtV2R6M0dRLUlGemZYRTlvSXhWZHpzS1dWT3dfSzBLNDRJLTllS1VJWllqS3ZtSXk1M0drUXVNVmVjV0owSHBqc3NVZGpVNjhvT2J1bkVPTHRRU2d6NmpyMER5TUtoWFNMS19oOWUyeTdINUFmRGlsRzBWaDlTS211UWFIRWVxcFRScw?oc=5)
+### [Google News AI Search가 Claude Lemieux 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMikgFBVV95cUxQc0ZNbzNEdVJfd0dJUjZjbkNIM2pyMXk3ajFNRWN6N21ndlExLTBFVHJmOWtGanFlWUxJVm1LN1R0Rm9MMVlidFlRaG56aEt5M1lncmd4RkxTQmNFYW91d2tIMkhnZXlvYmpwSjRKQXF6LXR1T1pUQW5Ic0REVEw5bXVUcXA5NGxJOTVybXQ3cTc2QQ?oc=5)
 
-- **핵심:** Google News AI Search가 '3 Questions: Neural transparency and the future of AI design - MIT News' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **핵심:** Google News AI Search가 'Claude Lemieux’s Final Days Take A Heartbreaking Turn As New Details Surface - Yahoo Sports' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Google News AI Search
-- **키워드:** `questions` · `neural` · `transparency` · `and`
-
-### [Google News AI Search가 Best Accounting 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiigFBVV95cUxQMHpGRjhPZkoyMzRSYk9NRF9KMVRhQzNQcjJhYjZ3Ukh1aWFjY1R2UFNpN3FUWnRIYlNKUHpjRUN0bEh2SmJIX3d1WVVLTlJ3cXY0U0Y2TzBMSllvT0diTnVXUmRzdklEanp0TmpiNEFMcElXOGc0VjQwU2Q2VDhVWWxLWWlnTndLaFE?oc=5)
-
-- **핵심:** Google News AI Search가 'The 12 Best AI Accounting Software and Tools for 2026 - Intuit' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `the` · `best` · `accounting` · `software`
+- **키워드:** `claude` · `lemieux` · `final` · `days`
 
 ## 오늘의 논문
 
 Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문들을 짧게 읽을 수 있게 정리했습니다.
 
-### 1. [SynthDocBench: Controlled Benchmark for Long-Context Visual Document Understanding](https://huggingface.co/papers/2607.10400)
+### 1. [Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable](https://huggingface.co/papers/2607.13285)
 
-- **한 줄:** 이 논문은 멀티모달 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: Long-Context).
-- **아이디어:** 문제의식은 멀티모달 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
-- **출처:** Hugging Face Papers (Top today)
-- **키워드:** `synthdocbench` · `controlled` · `benchmark` · `for`
-
-### 2. [Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation](https://huggingface.co/papers/2607.11886)
-
-- **한 줄:** 이 논문은 멀티모달 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: Zero-Shot, Text-to-Image).
-- **아이디어:** 문제의식은 멀티모달 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
-- **출처:** Hugging Face Papers (Top today)
-- **키워드:** `read` · `back` · `pretrained` · `mllms`
-
-### 3. [Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation](https://huggingface.co/papers/2607.05382)
-
-- **한 줄:** 이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다.
-- **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
-- **출처:** Hugging Face Papers (Top today)
-- **키워드:** `search` · `beyond` · `what` · `can`
-
-### 4. [Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models](https://huggingface.co/papers/2607.08317)
-
-- **한 줄:** 이 논문은 멀티모달 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: Blind-Spots-Bench).
-- **아이디어:** 문제의식은 멀티모달 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
-- **출처:** Hugging Face Papers (Top today)
-- **키워드:** `blind-spots-bench` · `evaluating` · `blind` · `spots`
-
-### 5. [Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models](https://huggingface.co/papers/2607.12463)
-
-- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Function-Aware, Fill-in-the-Middle).
+- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다.
 - **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `function-aware` · `fill-in-the-middle` · `mid-training` · `for`
+- **키워드:** `harness` · `handbook` · `making` · `evolving`
 
-### 6. [Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution](https://huggingface.co/papers/2607.11111)
+### 2. [Boogu-Image-0.1: Boosting Open-Source Unified Multimodal Understanding and Generation](https://huggingface.co/papers/2607.13125)
 
-- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: QA-Driven).
+- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Boogu-Image-0.1, Open-Source).
 - **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `know` · `before` · `fix` · `qa-driven`
+- **키워드:** `boogu-image-0.1` · `boosting` · `open-source` · `unified`
 
-### 7. [MuScriptor: An Open Model for Multi-Instrument Music Transcription](https://huggingface.co/papers/2607.08168)
+### 3. [Ring-Zero: Scaling Zero RL to a Trillion Parameters for Emergent Reasoning](https://huggingface.co/papers/2607.12395)
 
-- **한 줄:** 이 논문은 AI 연구 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: Multi-Instrument).
-- **아이디어:** 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **한 줄:** 이 논문은 AI 연구 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Ring-Zero).
+- **아이디어:** 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `muscriptor` · `open` · `model` · `for`
+- **키워드:** `ring-zero` · `scaling` · `zero` · `trillion`
 
-### 8. [MonkeyOCRv2: A Visual-Text Foundation Model for Document AI](https://huggingface.co/papers/2607.11562)
+### 4. [KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill](https://huggingface.co/papers/2607.12625)
 
-- **한 줄:** 이 논문은 AI 연구 영역에서 새 데이터셋 또는 데이터 생성 방식을 제안하거나 검증하려는 연구입니다. (영문 용어: Visual-Text).
-- **아이디어:** 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 데이터셋 또는 데이터 생성 방식을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: KnowAct-GUIClaw, Self-Evolving).
+- **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `monkeyocrv2` · `visual-text` · `foundation` · `model`
+- **키워드:** `knowact-guiclaw` · `know` · `deeply` · `act`
 
-### 9. [Principled Analysis of Deep Reinforcement Learning Evaluation and Design Paradigms](https://huggingface.co/papers/2607.07769)
+### 5. [OvisOCR2 Technical Report](https://huggingface.co/papers/2607.13639)
 
 - **한 줄:** 이 논문은 평가 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다.
 - **아이디어:** 문제의식은 평가 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `principled` · `analysis` · `deep` · `reinforcement`
+- **키워드:** `ovisocr2` · `technical` · `report` · `abstract`
 
-### 10. [Let RGB Be the Language of Vision](https://huggingface.co/papers/2607.12450)
+### 6. [PolicyShiftGuard: Benchmarking and Improving Policy-Adaptive Image Guardrails](https://huggingface.co/papers/2607.05910)
 
-- **한 줄:** 이 논문은 AI 연구 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다.
-- **아이디어:** 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **한 줄:** 이 논문은 검색 결합형 모델 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: Policy-Adaptive).
+- **아이디어:** 문제의식은 검색 결합형 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `let` · `rgb` · `the` · `language`
+- **키워드:** `policyshiftguard` · `benchmarking` · `and` · `improving`
+
+### 7. [MetaView: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors](https://huggingface.co/papers/2607.12000)
+
+- **한 줄:** 이 논문은 생성 모델 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Scale-Aware).
+- **아이디어:** 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today)
+- **키워드:** `metaview` · `monocular` · `novel` · `view`
+
+### 8. [GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch](https://huggingface.co/papers/2607.13960)
+
+- **한 줄:** 이 논문은 로보틱스 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: GigaWorld-Policy-0.5).
+- **아이디어:** 문제의식은 로보틱스 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today)
+- **키워드:** `gigaworld-policy-0.5` · `faster` · `and` · `stronger`
+
+### 9. [Registers Matter for Pixel-Space Diffusion Transformers](https://huggingface.co/papers/2605.16147)
+
+- **한 줄:** 이 논문은 생성 모델 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: Pixel-Space).
+- **아이디어:** 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today)
+- **키워드:** `registers` · `matter` · `for` · `pixel-space`
+
+### 10. [Self-Improvements in Modern Agentic Systems: A Survey](https://huggingface.co/papers/2607.13104)
+
+- **한 줄:** 이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: Self-Improvements).
+- **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today)
+- **키워드:** `self-improvements` · `modern` · `agentic` · `systems`
