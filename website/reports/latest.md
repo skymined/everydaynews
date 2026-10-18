@@ -1,90 +1,125 @@
-# IMDIGEST - 2026-10-18
+# IMDIGEST - 2026-10-19
 
-> 2026-10-18 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
+> 2026-10-19 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
 
-2026-10-18 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-10-19 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 브리핑 노트
 
 - **핵심 흐름:** TechCrunch AI, TechCrunch AI에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
-- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 8개를 별도 섹션으로 묶었습니다.
+- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 13개를 별도 섹션으로 묶었습니다.
 - **논문 큐:** Hugging Face 인기 논문 10편을 방법과 의미 중심으로 압축했습니다.
 
 ## 주요 뉴스
 
-### [TechCrunch AI가 Replit OpenAI 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says)
+### [TechCrunch AI가 Anthropic 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund)
 
-- **핵심:** TechCrunch AI가 'Replit makes OpenAI its default over Anthropic, CEO says' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **핵심:** TechCrunch AI가 'Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** TechCrunch AI
-- **키워드:** `replit` · `makes` · `openai` · `its`
+- **키워드:** `anthropic` · `says` · `committing` · `its`
 
-### [TechCrunch AI가 Meta 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns)
+### [TechCrunch AI가 Disney Character 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce)
 
-- **핵심:** TechCrunch AI가 'Meta removes language that raised scraping and AI training concerns' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **핵심:** TechCrunch AI가 'Disney agrees to hire the majority of Character.AI’s workforce' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** TechCrunch AI
-- **키워드:** `meta` · `removes` · `language` · `raised`
+- **키워드:** `disney` · `agrees` · `hire` · `the`
 
 ## 커뮤니티 시그널
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목만 따로 모았습니다.
 
-### [Google News AI Search가 Our Agent 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcU5WenFFUEtZa3ptdmpTbDBncHp3OVhDM3lEVGQ4dWJWcFJ2M1ltN2d5LU1LdHlrSzVSc2tYSG1KZkUydW11bDd0YWhVUHlNZmpxaEZqRlp3Rl9SYjVtX3N1UGlPYnA0RVhJWkFJQ3pvSWY1TzFfc2h5cDhmTi14QmMzdVl3YnlOd1Y0enJNb1JyWnVqSExQTnpNN2Rxc3E5MFNHZDJ2TnB5OFE1Y3pWY2Nva1hyWXRRS2RtQWc4aUQzU0NWX2wwVC1xWkN3bklzdnc?oc=5)
+### [Google News AI Search가 Meta Muse 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMidkFVX3lxTE9jQWhkclNlSmV2TEZzY19JYW8wQ3pkZVhFNzFLaElxdHh2bFprTGwyYWxIVmtMd2tEMEw3bjVaMFJfQU9xU0lVQ2Q1S2owb185YXFpdElfZzVxTnJ6b1FMSWdZaFJSTFFWb1dTRzBqbjJjcngyb0E?oc=5)
 
-- **핵심:** Google News AI Search가 'Our AI Agent Picked Render Over Railway and Vercel. I’d Barely Heard of It. That’s How You Get Leads in The Agent Age. - saastr.com' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results - Mashable' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Google News AI Search
-- **키워드:** `our` · `agent` · `picked` · `render`
+- **키워드:** `meta` · `launches` · `muse` · `wonder`
 
-### [Google News AI Search가 Shoppers Los 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiwgFBVV95cUxORmo2azNzZ0R1ZWpCNFJocWQzMEZsTGdEbElaak5tMEU1dHh2Y21mMWtEMXQyaTRKdWxmQk02aGMycTExdlgyeW9FS05mUExlQUROZndvLXZ1VjI4cDlXQXZvN3pCVTZnSjhDek9LM3JrcExCaC1LMnpleVpWWlFTbERqZGNscWU4dUt0T3RsR1RXdzA3SjMxN0dkeUtXTXhaYlZvc2JWREp1dXhqODd6aEJzbDVBcHEtT3A2R045dnlndw?oc=5)
+### [Reddit r/MachineLearning가 Proof Before 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1x975ea/proof_before_reuse_showing_agents_only_what_later)
 
-- **핵심:** Google News AI Search가 'AI robots are roaming L.A. grocery aisles. Shoppers and workers are worried - Los Angeles Times' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Reddit r/MachineLearning가 'Proof Before Reuse: showing agents only what later sessions reproduced keeps a poisoned skill out of procedural memory [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `proof` · `before` · `reuse` · `showing`
+
+### [Google News AI Search가 Religious Church 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMirwFBVV95cUxOR1NEcUdCTVJ1dTlBeW1GNlJoX1dOWkY0QWRKUjJYWGZFd2k0eUI5VHhrWHJnOE91WmNDdU9pdTZJWmtxeVJDaWl5b0pKY1VRSnF1Q2pKUndLYVlQVUlnWUpyeFFPbHRVb2dnaTN3LUdQNkM2OURqWTBiM2E1QkI2TFRBalJWNmdiekdMUC00RjVCTEN5cDktcHpLOGdGNWZNTVdobmRub1RZNnMxRTNF?oc=5)
+
+- **핵심:** Google News AI Search가 'Religious leader calls for moral evaluation of AI: “The gap between AI reasoning and AI moral compass is widening” - Church News' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `religious` · `leader` · `calls` · `for`
+
+### [Google News AI Search가 Anthropic CNBC 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMieEFVX3lxTE9YejV2dXEyYXpFUWJkMzZlMmVTczlHREhYdW5yT2dhbEplTFpBRnlvamlEaEFqWVJzdXhMOEdsVWx3OHhVU0d5dVVLckVtRl9FOHBzSzhKOE1oeGc4bVlsaDYzVzE1UUFHYlI2SHNEYzVXWUllSjV1MtIBfkFVX3lxTE5YWlRXWDhCbm01QjlQVHZKb21HV1FlZGNyQzlRVVV5MUFEal9jLXlwbFVJYU5CajJVcGwzQ0NxeWVXMl8yX0pqbENNQ3RmbU92VWpSTl9KeDFKNHdTa3VaX3BEVl92WTdiczlURW9WWmZZbm81ZDFlWnRoZXdoQQ?oc=5)
+
+- **핵심:** Google News AI Search가 'Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption - CNBC' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** Google News AI Search
-- **키워드:** `robots` · `are` · `roaming` · `l.a.`
+- **키워드:** `anthropic` · `commits` · `shares` · `new`
 
-### [Google News AI Search가 Pentagon Anthropic 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmk1c3RRZUVnenpEV3lQRUtudTdTV05mVXo4MWxRVW91UkJCVTB0dmo1dDRfQy13Z2hRSkJ5UXN4NlRscjhaTk5uOEhLcElBckVjd0F4Z0hkUHFYejYwWi1tUjM0Vm9DeE9JdjYxWldSbGVOWjhzcEFTNzMxUDNKNG1ic2VhM2ZDVDVsZE15M0JzNzByUTUzZU1yMEppbWvSAaQBQVVfeXFMUFp0N0lQZWF3MHlhZUlzQXl0Wnp1VWxkMnlHZnh1dUM2RENlSll1QU5MVE9keFNUbzJoczlLT1Z3Z09tdHRyT044MVNwTF90YlNXYkNlVGFsWHdNMmdjSkMxOVNpQ3ZZSTBIWU5KUk5YOXBmcElYdmVHWUhqQXlSX0RWaWdrUV82NmRDN1pYU19GckhjOERTb1FHWkJJalk3ODRDM08?oc=5)
+### [Google News AI Search가 Economist 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQjBPZ04tUnFocVdZQlM2dkF6N3hkVk9wTDB3SWVfbHo2ZFNvcnQtanBIX2JIVVg5UXpEZGVlRDIycFFmZmlUMHdjaFlwUzNOclNlUEdzaUtQMHNPY3FkdFZQUFIyclZCQURIN09YZHlWUUdmYkhYY3B6WDlEQ2ZqbEdaai1BNUQzX3VwNC02a01abVRPWmZwdWQyMUdjbzZiaHNDVmFuMWJhZw?oc=5)
 
-- **핵심:** Google News AI Search가 'Pentagon gives Anthropic ultimatum on AI technology: Sources - ABC News - Breaking News, Latest News and Videos' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'The AI industry’s gigantic debts are making investors nervous - The Economist' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** Google News AI Search
-- **키워드:** `pentagon` · `gives` · `anthropic` · `ultimatum`
+- **키워드:** `the` · `industry` · `gigantic` · `debts`
 
-### [Google News AI Search가 Anthropic Safety 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNk85UDhheTRLWlR3YUtHQ2FjUnU2dVg5Q3dIa1Y4b1p5bS1XajV1REJSMWotUUN4XzZLZGNIajBmRm45M0p5aTdBb0p3R082SHJFNVVXcFRKXzZBZGJsRURfWXhBNmRNdEJYYnJsaGVGM3ZNSXV5UE1NSkZTS0hSU2FsSS1nUVBnSGtBdGk2Sm11S0xqUkZNT3dRTDNTNVpwel9lS0pycU9jZHkxZUFRb1FCemdJdDdKUkhr?oc=5)
+### [Google News AI Search가 Character Maker 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMikAFBVV95cUxNY0pTV29WbzVtUk5PMk9LMGVKRmh2N3NDT3ZMcmxUdGRKVDFEbVFIeTJHczVkUUs2RnBaWi1vNDI1WHNvQjZUcTlRUU5zUXozZGtmWWJsMnBuck9CZHNmYl95VTFHQUloOTk5VGJyZ2UzTEhtckRUZXJKWjRpYVo5UC1HWEZvTkd6TTFOTmdBZDM?oc=5)
 
-- **핵심:** Google News AI Search가 'Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다.
-- **출처:** Google News AI Search
-- **키워드:** `anthropic` · `safety` · `bill` · `has`
-
-### [Google News AI Search가 Replit OpenAI 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMijwFBVV95cUxOUFoxYWFYWWFqQTRraXdReXZYYmo5S0ZabG04MmlMbnp5R1VoMUsyLWpIMVg0bUhnOUNqMmxZV05BWm1DRVg4QlhONW9qbUo5UktELXhFMmc4VXhKMzhPbGxuZ2l0cjhGdE1MaEtPU0hBNzdqbTZPaEFHRENkVU9hcG9ieFhDalBPSUNZSEJGRQ?oc=5)
-
-- **핵심:** Google News AI Search가 'Replit makes OpenAI its default over Anthropic, CEO says - TechCrunch' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'Character.ai Maker Files for Chapter 11 Bankruptcy - WSJ' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** Google News AI Search
-- **키워드:** `replit` · `makes` · `openai` · `its`
+- **키워드:** `character.ai` · `maker` · `files` · `for`
 
-### [Google News AI Search가 New Microsoft 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiugFBVV95cUxOVENVYkFuNV9XZWh5dTRjZG5EaXM3WktvMGg5dEItdkNaRjhFUmhvSXhtWVdsWGJ2VXhVbTlha0dsWkRwbGxjWUhoOFdDakR5Z094X0tnVEU0bHNYcVpuRnJxa3phaWZvVDdpZzRORk9vTUt2ZjF2eDdWLWI0b3lqNEZNUHBINXg1WFBPeHMzcTBYbkQ2LWFjZGE1Sk4xRG1zUGJQb1ZUVUhORnpYclJvMlMycjNJTHgwRHc?oc=5)
+### [Google News AI Search가 Investing Anthropic 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMUFBangwVDdnUXBLeEFmOEtSVFYzN3NSU1lVdVduQl9iNFVTN0hfdEVkNS1yakJCLWFtdkVqTXlLM1VhblU5empsdmVKTVNDVy1PZ1JoUW1HYUlLb0FV?oc=5)
 
-- **핵심:** Google News AI Search가 'New AI framework bridges a critical gap in mid-range weather forecasts - Microsoft' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'Investing in the public benefit - Anthropic' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** Google News AI Search
-- **키워드:** `new` · `framework` · `bridges` · `critical`
+- **키워드:** `investing` · `the` · `public` · `benefit`
 
-### [Reddit r/MachineLearning가 AIs Jev 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1x8j8kg/17_ais_7700_hands_of_poker_frontier_vs_cheap_vs)
+### [Google News AI Search가 Disney Character 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMinAFBVV95cUxQbFVlYnNFYUpDbjZZWnM4aE1uTWdsWVVZa1BpX1VGano5MkhpOTlVSDF2ZkJrY29CRmNGdzlRRGMwcFJpa3VyVmFrOGZTYkRac3BncmFQb1AtSkdyMktwMzZobmFYNGd6bm5IbDEzbG9HN2RUN0RLenRQTkNLemlUeXJOVnNBN3kxWUJJNzN3dEVFVWFaN2xFRHp2NzE?oc=5)
 
-- **핵심:** Reddit r/MachineLearning가 '17 AIs, 7,700 hands of poker: frontier vs cheap vs local vs Jev [P]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'Disney agrees to hire the majority of Character.AI’s workforce - TechCrunch' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `disney` · `agrees` · `hire` · `the`
+
+### [Reddit r/MachineLearning가 Conference 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1x9fyhd/conference_papers_are_cooked_d)
+
+- **핵심:** Reddit r/MachineLearning가 'Conference papers are cooked! [D]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `conference` · `papers` · `are` · `cooked`
+
+### [Google News AI Search가 Just Wall 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMi1AFBVV95cUxONkF2UGc0SmgxTzdidVlLNWRHU3JjZFdrOHpKRGt2ODFqSUJFQWpnYVRXLUJ0aDJ6c3pmNDB3OVB0VGpsNlJJRkkzZjNXODNzaEJnUFdOemZZVTBKc3pWbUJ6MnBaeFdIRjB1VDl0UlVzMnNneDJGN0NJTGNaWmUyVnRqT2QxOERjZ2ZJYVltT0tLZzE0T2pSYjRqZW1tbE00TVJzbzJTQjRTemRILTV5cGFQZU9EeHg0TlVDdE95bE5VVHh0Z0w5eGdGa1FmWGdtVzY4Wg?oc=5)
+
+- **핵심:** Google News AI Search가 ''Just another scare': Wall Street sees the AI trade strong despite tech's latest rout - Yahoo Finance' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `just` · `another` · `scare` · `wall`
+
+### [Reddit r/MachineLearning가 Anyone 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1x9e2fw/anyone_else_get_brain_lag_from_overlycondensed)
+
+- **핵심:** Reddit r/MachineLearning가 'Anyone else get brain lag from overly-condensed AI-speak? [D]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `anyone` · `else` · `get` · `brain`
+
+### [Reddit r/MachineLearning가 Beating Warcraft 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1x9c5ty/beating_warcraft_iiis_insane_ai_with_selfplay)
+
+- **핵심:** Reddit r/MachineLearning가 'Beating Warcraft III’s insane AI with self-play reinforcement learning on one desktop [P]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** Reddit r/MachineLearning
-- **키워드:** `ais` · `700` · `hands` · `poker`
+- **키워드:** `beating` · `warcraft` · `iii` · `insane`
 
-### [Reddit r/MachineLearning가 EMNLP 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1x8ey1m/emnlp_main_presentationd)
+### [Reddit r/MachineLearning가 TempoPFN Synthetic 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1x97v19/tempopfn_synthetic_pretraining_of_linear_rnns_for)
 
-- **핵심:** Reddit r/MachineLearning가 'EMNLP main presentation[D]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **핵심:** Reddit r/MachineLearning가 'TempoPFN: Synthetic Pre-training of Linear RNNs for Zero-shot Time Series Forecasting [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Reddit r/MachineLearning
-- **키워드:** `emnlp` · `main` · `presentation` · `hello`
+- **키워드:** `tempopfn` · `synthetic` · `pre-training` · `linear`
 
 ## 오늘의 논문
 
