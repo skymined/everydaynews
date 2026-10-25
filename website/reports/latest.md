@@ -1,90 +1,104 @@
-# IMDIGEST - 2026-10-25
+# IMDIGEST - 2026-10-26
 
-> 2026-10-25 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
+> 2026-10-26 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
 
-2026-10-25 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-10-26 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 브리핑 노트
 
-- **핵심 흐름:** TechCrunch AI, TechCrunch AI, TechCrunch AI에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
-- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 7개를 별도 섹션으로 묶었습니다.
+- **핵심 흐름:** TechCrunch AI, TechCrunch AI에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
+- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 10개를 별도 섹션으로 묶었습니다.
 - **논문 큐:** Hugging Face 인기 논문 10편을 방법과 의미 중심으로 압축했습니다.
 
 ## 주요 뉴스
 
-### [TechCrunch AI가 AI 관련 이슈를 보도했습니다](https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it)
+### [TechCrunch AI가 Grok Odyssey 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey)
 
-- **핵심:** TechCrunch AI가 'The AI graveyard: a running list of projects and startups that didn’t make it' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** TechCrunch AI가 'Grok releases the first seven minutes of its AI-generated ‘Odyssey’' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** TechCrunch AI
-- **키워드:** `the` · `graveyard` · `running` · `list`
+- **키워드:** `grok` · `releases` · `the` · `first`
 
-### [TechCrunch AI가 Forced Grok 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats)
+### [TechCrunch AI가 Apollo 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist)
 
-- **핵심:** TechCrunch AI가 'Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **핵심:** TechCrunch AI가 'AI delivers ‘zero financial payoff’ to most companies, Apollo economist says' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** TechCrunch AI
-- **키워드:** `forced` · `pick` · `grok` · `model`
-
-### [TechCrunch AI가 Block 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human)
-
-- **핵심:** TechCrunch AI가 'Block’s new voice model sounds eerily human' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** TechCrunch AI
-- **키워드:** `block` · `new` · `voice` · `model`
+- **키워드:** `delivers` · `zero` · `financial` · `payoff`
 
 ## 커뮤니티 시그널
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목만 따로 모았습니다.
 
-### [Google News AI Search가 Exclusive Meta 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMib0FVX3lxTE1yaUIwQVJsYmpVanBJTkF0M1g4RWZDeGh3X1NYbzVINFY4M2wxTUtTWmRZdkYtY0tlU2dBcXNXY1JxU1JNeUJsZTc5c2czQzFwX0ZOcndNekd0WE5XQXc0QzVjWHdWek9nbXZkZUZXNA?oc=5)
+### [Reddit r/MachineLearning가 Nanbeige Nanbeige4 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20)
 
-- **핵심:** Google News AI Search가 'Exclusive: Meta acquires AI data platform Sundial - Axios' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `exclusive` · `meta` · `acquires` · `data`
+- **핵심:** Reddit r/MachineLearning가 'Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agents [N]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `nanbeige` · `releases` · `nanbeige4.3-33b` · `apache`
 
-### [Google News AI Search가 Will Generative 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiekFVX3lxTE4yRGVGVExPVGgzY0x1Q19KUmxtcTdnRUhkWEt2cm9QQXd1QVRJNzNXeGRkOWdaZ3l2VDE2MWRsUlU4aTFzcl9IYXlsSFJ3N182eDdZaW1GT09kRDRkZDVuOVlFSGVMMWVTaS1HMzVOMEdOTF9CQm03cW5R?oc=5)
+### [Google News AI Search가 Elvis Presley 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ2xhUk9UN09Xa21neEc2TVN2RjVMREhVekVyVmVuQlZZYVhHa3RwSUpncFFFUWNBNzg5bU11YjdyZk1odFItM213Y2dwX3NtQzBvVWF1Y3JkTVVHRnF4a3ZyRVczU1RzLXZPNjNVRlZRcm0wNjR1cTgwNEN6bWItWWw5RXI2dm9DMHRVX0M2ZDNleER3MVNUblRnSm5aUUt6elh4WVI5Z0cwOGxEcDVtMDltRC1vZmpGamZwbGg3MzFKQQ?oc=5)
 
-- **핵심:** Google News AI Search가 'Will Generative AI do more harm than good? - Marcus on AI | Substack' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `generative` · `harm` · `than` · `good`
-
-### [Google News AI Search가 TechCrunch 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMirwFBVV95cUxPZmMyVGFaQTZkQWdEM2x5SjJTSXRLaVQ5VjNBcGhhU2w3WU9nb3FkZExxLXJ6d2JhY1drM0kwRkRRcHlFcEE5T1YwMkpWSjRzdjN0Znl5M203S2kzTHd4LS1yM2JCVEhpc1FBSm0zMmtYOFhyOFFpZkp6YnoxdjREZnhsRGthM21PeVAtS1Y3TWFfbHFhZnR1ZUVlMVBWSkkwOWF6emE1VDA5QmNXd2dr?oc=5)
-
-- **핵심:** Google News AI Search가 'The AI graveyard: a running list of projects and startups that didn’t make it - TechCrunch' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `the` · `graveyard` · `running` · `list`
-
-### [Google News AI Search가 Anthropic Congress 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMid0FVX3lxTE15NjVPYUtCV2RwQTJVZ0MtcDFJdV9INE9mOUpFdmUxQXg0bXI3WkJhVHNyN2ExOGFJRXAyZmpwWjY5SnMxYW05R2UtVVJzRHJGdldDcEdaU3RlcE1DdGFqT19CXzgwZnNUdk4zNEY1cUJXSWpsVVFn?oc=5)
-
-- **핵심:** Google News AI Search가 'Anthropic is pitching Congress its own AI safety bill, report says - Mashable' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다.
-- **출처:** Google News AI Search
-- **키워드:** `anthropic` · `pitching` · `congress` · `its`
-
-### [Google News AI Search가 Pentagon Oregon 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiugFBVV95cUxPb1p6M2VvcDU0N0R5WUxxSWlkQWpkSjc0akpsMnh0SkV1azJEblAyd2ttWWRydElkd3luM1o0aC1tVlVrRnU1VlJBLWtoV0RQNnFySUh1eTdqR243WjV2TTlBUUlZcVpXaXhrQWU4dlpuNm42WDFlS2tJOGFmMzZHZ3VDaUxQdkV0cXZsS19iQ3NSbnJhRXNpSHZON1p4c3hiRmhaLS1acDBJeGpzWUE3MF8yaDBEOV85N1E?oc=5)
-
-- **핵심:** Google News AI Search가 'The Pentagon's guidelines for "responsible AI" aren't always followed, report shows - Oregon Public Broadcasting - OPB' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `the` · `pentagon` · `guidelines` · `for`
-
-### [Google News AI Search가 Talarico Bible 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEdXYU54dF9vbGFGaXpEdnhkNzN0V2xKRy1xN3FJdm1fTG1kazluUmdNQVRIVE00S2I0RFhIVHg2eWNlMEpHUm85V1BNLTdUeWFKZVQ5dHRkOVY2SU5KN21pMjEtUmktTTZsZy1mZzdVNzRGTllUR0lpU2hTZHNmLVlRWjZOR3JwUTJGc0NFOWZqb3pqM20w?oc=5)
-
-- **핵심:** Google News AI Search가 'AI ad mocks Talarico as Bible-defacing radical. Democrats bet it will backfire. - The Washington Post' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `mocks` · `talarico` · `bible-defacing` · `radical.`
-
-### [Google News AI Search가 Economist 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiogFBVV95cUxNdlhJcEk5aFhZV2lNYXd6YWJBOGZ3XzJBVjlNQ2dBUGhIWGZybEpERndHR2kyLWVpbVNYVDltNUNBc0FVYlVkNE85MDlsVHBxbmJXZjdGd2xVUGZKVTh3ZUtEbVo5QXo1dnNTbXAwQzVYc0VzN2FaRXkwVkdoVTRWRjh2M0lDODY0ckRyUUFnRVQ3eTJQT0twWVdfak5IaE80U3c?oc=5)
-
-- **핵심:** Google News AI Search가 'AI models may not be so opaque after all - The Economist' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'Elvis Presley rights holder sues Anthropic, says Claude trained on unauthorized songs - Los Angeles Times' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Google News AI Search
-- **키워드:** `models` · `may` · `not` · `opaque`
+- **키워드:** `elvis` · `presley` · `rights` · `holder`
+
+### [Google News AI Search가 Elon Musk 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbS1tQkhfZnZpNnk5blNBUG01ZjZnb19LVmJqdi0yeWphdWhjS0xzbEFoVExNZXlrbFJQYkNCT2hPMUx1c3R3NThPdXp6ZzFMaW9FdllRcFJOeDJCTkVVYzlDbGthN0djWV9QUk8zMmt2UDN2REtwWG1jTnpCTEx1NXlWRldsZ1Vsd1hZ?oc=5)
+
+- **핵심:** Google News AI Search가 'Elon Musk's Grok Releases First AI-Generated "Odyssey" Episode - Variety' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Google News AI Search
+- **키워드:** `elon` · `musk` · `grok` · `releases`
+
+### [Reddit r/MachineLearning가 Here 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xfgf1w/i_ran_a_blind_test_on_selfhosted_ai_agents_here)
+
+- **핵심:** Reddit r/MachineLearning가 'I ran a blind test on self-hosted AI agents. Here are the results, guess who's who [D]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `ran` · `blind` · `test` · `self-hosted`
+
+### [Google News AI Search가 OPINION Your 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkxRVGExQUM4aVJ3WW5FYTJPVVlHVFo3djlDTWo0NkxEMkdFUTRIbThQVmhRcU9VUlV2MHZRdDBpZGtJTFdhMmctMlRjbjNjU2Z0OHNRd0xjaWpVV2IyazI5VVBwM2drNDA3VTQ0TlB6U1ZwLUFzRFdoY0Z1bWlwMHpR?oc=5)
+
+- **핵심:** Google News AI Search가 'OPINION: Your AI posters are ugly - The Louisville Cardinal' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `opinion` · `your` · `posters` · `are`
+
+### [Google News AI Search가 Smart TV 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMibkFVX3lxTFBkY3h1QW4wNFBFdXZLdXE3XzJ6TUduX2I0QXl5TXRPQ1pFUXQ0bFRmSldpM0pHZkxWRDdyLWw0R1NHSkNwY2FUUXJMbVd1eHdubTdZSDZ6SkZPRjNrcVhvNEdSRW0zTi1NRXg4dUR3?oc=5)
+
+- **핵심:** Google News AI Search가 'Smart TV owners have found a new use for AI: Removing home-screen clutter - Mashable' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `smart` · `owners` · `found` · `new`
+
+### [Google News AI Search가 Politico 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMihwFBVV95cUxNNk5udlRxOEM1Z0p4RVU0RElzZVZ2M0JmMnNPbldNcG5idGhSSUJMWTBJRDNSSkRZODNnbkdyaVE4Uy1IT0Q4cjFrUWxoNlFoVDc2Z1BZX3dFdDROeGphbnVDaFRUTTUwR1oyd3pSSHpBdnpBWXhPZlM4c01jMW93OW5BNWVlVTQ?oc=5)
+
+- **핵심:** Google News AI Search가 'AI has a language gap. That could be a problem for some voters. - Politico' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `has` · `language` · `gap.` · `could`
+
+### [Google News AI Search가 Anthropic Elvis 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMimwFBVV95cUxNelFOZFdTZmw2a1FtcjAxZk5lYktWT09FRTRaT0g0MmFrRFpHX0dIbk1IeVJNYmxVVlhBZHRYWk1YZzFHRjh0N29jSEdWd2s3OEJrcFM4SW9Tb29tLTQ5VjJaQ3BFQThpRXNJUzVPbXcwOElvcVJUNl9aZE1SaWVZTTR1VTYtcHNGZVdjU2t4MVItd2ZKYlhZZGd3cw?oc=5)
+
+- **핵심:** Google News AI Search가 'Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models - The Guardian' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Google News AI Search
+- **키워드:** `anthropic` · `sued` · `for` · `allegedly`
+
+### [Google News AI Search가 Apollo TechCrunch 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMitwFBVV95cUxNOW1GQU8wblRMSUZlXzdCY0pDbjNsS1pPQ0EtTk4wTlZnRk1yb0FMWGstcHhKM3J6WmpXZ1d4MXB1QlVlOFR3NlplTlNqcm1SRHBNU2VXZTA4WHd3QnZzWnZJaHpVeV81WkxtYU1oM0N1TldTS0IySXdaQ1hHZzI0c1pBS2tvWnh2Vm9TS29yM1MxYWN2ak0taUMxS0NibGlFS3NPV1NmOUx1MDh4WmFNOE1vbjQxTE0?oc=5)
+
+- **핵심:** Google News AI Search가 'AI delivers ‘zero financial payoff’ to most companies, Apollo economist says - TechCrunch' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `delivers` · `zero` · `financial` · `payoff`
+
+### [Reddit r/MachineLearning가 AI 관련 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xfa17z/whats_the_hardest_part_of_creating_edge_cases_for)
+
+- **핵심:** Reddit r/MachineLearning가 'What's the hardest part of creating edge cases for fine-tuning open-weight models? [D]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `what` · `the` · `hardest` · `part`
 
 ## 오늘의 논문
 
@@ -146,16 +160,16 @@ Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문�
 - **출처:** Hugging Face Papers (Top today) (2026-10-23 기준)
 - **키워드:** `what` · `generation` · `knows` · `unlocking`
 
-### 9. [Self-Distilling Future Video Representations for World Action Models](https://huggingface.co/papers/2610.30320)
-
-- **한 줄:** 이 논문은 로보틱스 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: Self-Distilling).
-- **아이디어:** 문제의식은 로보틱스 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
-- **출처:** Hugging Face Papers (Top today) (2026-10-23 기준)
-- **키워드:** `self-distilling` · `future` · `video` · `representations`
-
-### 10. [LaLa-World: Scaling Latent World Models with Natural Language Actions](https://huggingface.co/papers/2610.27851)
+### 9. [LaLa-World: Scaling Latent World Models with Natural Language Actions](https://huggingface.co/papers/2610.27851)
 
 - **한 줄:** 이 논문은 로보틱스 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: LaLa-World).
 - **아이디어:** 문제의식은 로보틱스 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today) (2026-10-23 기준)
 - **키워드:** `lala-world` · `scaling` · `latent` · `world`
+
+### 10. [Self-Distilling Future Video Representations for World Action Models](https://huggingface.co/papers/2610.30320)
+
+- **한 줄:** 이 논문은 로보틱스 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: Self-Distilling).
+- **아이디어:** 문제의식은 로보틱스 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-10-23 기준)
+- **키워드:** `self-distilling` · `future` · `video` · `representations`
