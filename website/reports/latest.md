@@ -1,76 +1,111 @@
-# IMDIGEST - 2026-11-15
+# IMDIGEST - 2026-11-16
 
-> 2026-11-15 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
+> 2026-11-16 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
 
-2026-11-15 AI 브리핑입니다. 오늘은 TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
+2026-11-16 AI 브리핑입니다. 오늘은 OpenAI News, OpenAI News, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 브리핑 노트
 
-- **핵심 흐름:** TechCrunch AI에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
-- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 7개를 별도 섹션으로 묶었습니다.
+- **핵심 흐름:** OpenAI News, OpenAI News, TechCrunch AI에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
+- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 9개를 별도 섹션으로 묶었습니다.
 - **논문 큐:** Hugging Face 인기 논문 10편을 방법과 의미 중심으로 압축했습니다.
 
 ## 주요 뉴스
 
-### [TechCrunch AI가 AI 관련 이슈를 보도했습니다](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it)
+### [OpenAI News가 Standard Model 관련 AI 이슈를 보도했습니다](https://openai.com/index/step-toward-defining-the-standard-model)
 
-- **핵심:** TechCrunch AI가 'The AI graveyard: a running list of projects and startups that didn’t make it' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** OpenAI News가 'A step toward defining the Standard Model on a lattice' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** OpenAI News
+- **키워드:** `step` · `toward` · `defining` · `the`
+
+### [OpenAI News가 Our 관련 AI 이슈를 보도했습니다](https://openai.com/index/our-new-blog-for-science)
+
+- **핵심:** OpenAI News가 'Our new blog for science' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다.
+- **출처:** OpenAI News
+- **키워드:** `our` · `new` · `blog` · `for`
+
+### [TechCrunch AI가 Indian Bharat 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market)
+
+- **핵심:** TechCrunch AI가 'Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** TechCrunch AI
-- **키워드:** `the` · `graveyard` · `running` · `list`
+- **키워드:** `indian` · `chip` · `startup` · `bharat`
+
+### [TechCrunch AI가 Is Jensen 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry)
+
+- **핵심:** TechCrunch AI가 'Is bad news for Jensen Huang also bad news for the AI industry?' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** TechCrunch AI
+- **키워드:** `bad` · `for` · `jensen` · `huang`
 
 ## 커뮤니티 시그널
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목만 따로 모았습니다.
 
-### [Google News AI Search가 OpenAI ChatGPT 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Ba1QyTkx0cjRqbWxxX2ZPbmpGSmpBU2lkNEdpcXRWa09JNjRkZEswMk8zcFFDbFA1dGJ3LV9KUU96RkRJUjZ1WU1GWnNRVGw0?oc=5)
+### [Reddit r/MachineLearning가 Social Simulation 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xxc63w/social_simulation_with_llms_from_proxies_to)
 
-- **핵심:** Google News AI Search가 'OpenAI | ChatGPT, Sam Altman, & Microsoft - Britannica' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** Google News AI Search
-- **키워드:** `openai` · `chatgpt` · `sam` · `altman`
-
-### [Reddit r/MachineLearning가 ACM Multimedia 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xwh3mw/acm_multimedia_2026_timecues_studio_a_free)
-
-- **핵심:** Reddit r/MachineLearning가 'ACM Multimedia 2026: TimeCues Studio - a free, open-source tool for annotating music structure [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Reddit r/MachineLearning가 'Social Simulation with LLMs - From Proxies to Population (CFP @ AAAI'27) Due Nov. 20 [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Reddit r/MachineLearning
-- **키워드:** `acm` · `multimedia` · `2026` · `timecues`
+- **키워드:** `social` · `simulation` · `llms` · `proxies`
 
-### [Google News AI Search가 Nvidia Ousted 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMilgFBVV95cUxNUWl6b2pYWE9JeUVLZm9CdVJKMG5tZVpVczRqb3cySk5NcjVVZFlMNFBZcnMycmYyZlZIcFk5a3pfdS1BaWthZ0hpaFVMOWxlbmpfOWxWV3YtSXVnV2pFR1RwN25hNlJxZzlGTWsxVExXTGI0cXZuOTRPQXVLNUVwdHVUa0tySVozLVhHVEtzcWw2MzNEWUE?oc=5)
+### [Reddit r/MachineLearning가 Training 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xx1xdm/trainingfree_early_exit_for_reasoning_models_a)
 
-- **핵심:** Google News AI Search가 'Nvidia's Ousted CEO Said a 1-Gigawatt Data Center Delay Costs $10 Billion a Quarter. Here's Why That Matters for Power Stocks. - The Motley Fool' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `nvidia` · `ousted` · `ceo` · `said`
-
-### [Reddit r/MachineLearning가 Should 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xw6fk9/should_shorthorizon_price_forecasting_papers)
-
-- **핵심:** Reddit r/MachineLearning가 'Should short-horizon price forecasting papers benchmark against market-implied forecasts, not just naive baselines? [D]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다.
-- **출처:** Reddit r/MachineLearning
-- **키워드:** `should` · `short-horizon` · `price` · `forecasting`
-
-### [Google News AI Search가 Anthropic IPO 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiywFBVV95cUxQcHZ4cmtrWmFOWXB6M0oyLWFDX2dJMEdOV3ZVelNIUUxpZDF4ZkdJaU5EZ2t6bUduUk9MaFJleEdsOHAzY3V6bWRzNmpxaTJFVGxYQVFic1BBU2VsUU01TjQ3S2dHNWlhZVhZczVzNi1aNTFLV3FnYmx0SVNsNjh1RC1FX21LZ0V0R0ktaDRLWTJjSWl6MHU1bUlrN3UxN0dXMklxNmV6T0VCalBZWm1aYUZYY05LdXJaWGtpM1c3UUFQb1Q5Q1M0Wk5YWQ?oc=5)
-
-- **핵심:** Google News AI Search가 'Anthropic IPO to test Wall Street’s faith in AI as skepticism mounts - Yahoo Finance' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `anthropic` · `ipo` · `test` · `wall`
-
-### [Google News AI Search가 Nvidia Democratic 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMif0FVX3lxTE1iUTd1amNDQzhvSy1kWGcwdk1CZjRGZG9rTFc4VEFRX3p2Y3VTdzd6dDRkSnJnR21nUkt1OVVlajV4R3VJTElDYUpJQlBfbzhKRFB5RUdWdEJWLVotUVJQS2hqZFpJZGpERlJFWUNJb2ZZbUtNYWVtN2pNb3liSGvSAYQBQVVfeXFMTVZlLXNUMVl0Qkc4M2ZKWGFwNnB6U05GSEw5LXlXQlNKN2MwMUg1by1Pb3pyd3JoWHRzQkcxRFJmOG45RzlzcVNybHJ0Q3VyZEtfdlctNDdZSGpYU2NlaUpIUFFrdkE2akpLdFdBRkppeFBWYk1qT0gyd3ByLXhaVmdySDYy?oc=5)
-
-- **핵심:** Google News AI Search가 'How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts - CNBC' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `how` · `nvidia` · `turmoil` · `and`
-
-### [Reddit r/MachineLearning가 Ethical Alternatives 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xw6d7n/ethical_alternatives_to_kaggle_d)
-
-- **핵심:** Reddit r/MachineLearning가 'Ethical Alternatives to Kaggle [D]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Reddit r/MachineLearning가 'Training-free early exit for reasoning models: a linear probe folded into the </think> row of the output layer [p]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Reddit r/MachineLearning
-- **키워드:** `ethical` · `alternatives` · `kaggle` · `personally`
+- **키워드:** `training-free` · `early` · `exit` · `for`
+
+### [Reddit r/MachineLearning가 Hands ML 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xxa13x/handson_ml_orchestration_tutorial_with_airflow3_p)
+
+- **핵심:** Reddit r/MachineLearning가 'Hands-on ML Orchestration Tutorial with Airflow3 [P]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `hands-on` · `orchestration` · `tutorial` · `airflow3`
+
+### [Reddit r/MachineLearning가 We GPU 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xx4ta3/we_made_a_multiplayer_game_where_each_players)
+
+- **핵심:** Reddit r/MachineLearning가 'We made a multiplayer game where each player's view is generated by a world model running on their GPU [P]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `made` · `multiplayer` · `game` · `where`
+
+### [Reddit r/MachineLearning가 Marimba System 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xwzsm4/marimba_a_system_one_model_for_speech_r)
+
+- **핵심:** Reddit r/MachineLearning가 'Marimba: a System One model for speech [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `marimba` · `system` · `one` · `model`
+
+### [Google News AI Search가 Anthropic IPO 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMilAFBVV95cUxNRTd6eHRac3JHWEQ5TElWUXZZUWRsMHdXckRQbjJ6X3ZvOFUtVHZDcjFBVWVqOE9LVnNPS3NWeDROZUtsRFdEdklzRzctYlpWbWszbElsMU94VWxtUm5OZ1ozdUxWWnVGRlpGM3ozYWxISG5fS1Y5QlB1bVQ0Z09sVGphWmgzMlpKMWduNkZYX0N1b1Br?oc=5)
+
+- **핵심:** Google News AI Search가 'Anthropic’s giant IPO puts the heat on OpenAI - The Economist' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `anthropic` · `giant` · `ipo` · `puts`
+
+### [Reddit r/MachineLearning가 Anyone AML 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xx9za4/anyone_working_in_aml_transaction_monitoring)
+
+- **핵심:** Reddit r/MachineLearning가 'Anyone working in AML / transaction monitoring / sanctions screening using ML? Looking for advice on where to start [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `anyone` · `working` · `aml` · `transaction`
+
+### [Reddit r/MachineLearning가 Making B300 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xx2n25/making_cudamemcpy_5x_faster_on_a_b300_p)
+
+- **핵심:** Reddit r/MachineLearning가 'Making cudaMemcpy 5x faster on a B300 [P]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `making` · `cudamemcpy` · `faster` · `b300`
+
+### [Reddit r/MachineLearning가 Meta FAIR 관련 AI 이슈를 보도했습니다](https://www.reddit.com/r/MachineLearning/comments/1xx1k2o/meta_fair_nyu_unbundling_multimodal_vision)
+
+- **핵심:** Reddit r/MachineLearning가 '[Meta FAIR + NYU] Unbundling Multimodal Vision Encoding: training 200+ MLLMs to find encoder pretraining is optional but vision-only parameters are not [R]' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Reddit r/MachineLearning
+- **키워드:** `meta` · `fair` · `nyu` · `unbundling`
 
 ## 오늘의 논문
 
@@ -125,19 +160,19 @@ Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문�
 - **출처:** Hugging Face Papers (Top today) (2026-11-13 기준)
 - **키워드:** `actor` · `judge` · `teacher` · `understanding`
 
-### 8. [On the Design of Hyper-Connections: Simplification, Stability, and Scalability](https://huggingface.co/papers/2611.05984)
-
-- **한 줄:** 이 논문은 검색 결합형 모델 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Hyper-Connections).
-- **아이디어:** 문제의식은 검색 결합형 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
-- **출처:** Hugging Face Papers (Top today) (2026-11-13 기준)
-- **키워드:** `the` · `design` · `hyper-connections` · `simplification`
-
-### 9. [Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors](https://huggingface.co/papers/2611.17060)
+### 8. [Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors](https://huggingface.co/papers/2611.17060)
 
 - **한 줄:** 이 논문은 로보틱스 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다.
 - **아이디어:** 문제의식은 로보틱스 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today) (2026-11-13 기준)
 - **키워드:** `ropedia` · `xperience` · `gold` · `standard`
+
+### 9. [On the Design of Hyper-Connections: Simplification, Stability, and Scalability](https://huggingface.co/papers/2611.05984)
+
+- **한 줄:** 이 논문은 검색 결합형 모델 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Hyper-Connections).
+- **아이디어:** 문제의식은 검색 결합형 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-13 기준)
+- **키워드:** `the` · `design` · `hyper-connections` · `simplification`
 
 ### 10. [TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models](https://huggingface.co/papers/2611.17331)
 
