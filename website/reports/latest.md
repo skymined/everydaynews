@@ -1,147 +1,203 @@
-# IMDIGEST - 2026-11-19
+# IMDIGEST - 2026-11-20
 
-> 2026-11-19 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
+> 2026-11-20 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
 
-2026-11-19 AI 브리핑입니다. 오늘은 TechCrunch AI, AWS Machine Learning Blog, AWS Machine Learning Blog에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 2편도 함께 덧붙였습니다.
+2026-11-20 AI 브리핑입니다. 오늘은 TechCrunch AI, AWS Machine Learning Blog, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 10편도 함께 덧붙였습니다.
 
 ## 브리핑 노트
 
-- **핵심 흐름:** TechCrunch AI, AWS Machine Learning Blog, AWS Machine Learning Blog에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
-- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 5개를 별도 섹션으로 묶었습니다.
-- **논문 큐:** Hugging Face 인기 논문 2편을 방법과 의미 중심으로 압축했습니다.
+- **핵심 흐름:** TechCrunch AI, AWS Machine Learning Blog, TechCrunch AI에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
+- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 2개를 별도 섹션으로 묶었습니다.
+- **논문 큐:** Hugging Face 인기 논문 10편을 방법과 의미 중심으로 압축했습니다.
 
 ## 주요 뉴스
 
-### [TechCrunch AI가 Satya Nadella 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web)
+### [TechCrunch AI가 Apple Mac 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac)
 
-- **핵심:** TechCrunch AI가 'Satya Nadella predicts AI agents will reshuffle the economics of the web' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** TechCrunch AI가 'Apple may be developing its own AI agent that runs your Mac' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** TechCrunch AI
-- **키워드:** `satya` · `nadella` · `predicts` · `agents`
+- **키워드:** `apple` · `may` · `developing` · `its`
 
-### [AWS Machine Learning Blog가 Full Fine 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization)
+### [AWS Machine Learning Blog가 Amazon SageMaker 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2)
 
-- **핵심:** AWS Machine Learning Blog가 'Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** AWS Machine Learning Blog가 'Amazon SageMaker Inference: 2026 launches in review, part 2' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** AWS Machine Learning Blog
-- **키워드:** `full` · `fine-tuning` · `fft` · `sagemaker`
+- **키워드:** `amazon` · `sagemaker` · `inference` · `2026`
 
-### [AWS Machine Learning Blog가 Exa AWS 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips)
+### [TechCrunch AI가 Y2K 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style)
 
-- **핵심:** AWS Machine Learning Blog가 'Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** AWS Machine Learning Blog
-- **키워드:** `exa` · `boosts` · `embedding` · `throughput`
-
-### [AWS Machine Learning Blog가 Introducing Amazon 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard)
-
-- **핵심:** AWS Machine Learning Blog가 'Introducing the Amazon SageMaker JumpStart Model Leaderboard' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** TechCrunch AI가 'These tech outages are giving Y2K, AI agent style' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** AWS Machine Learning Blog
-- **키워드:** `introducing` · `the` · `amazon` · `sagemaker`
-
-### [Google DeepMind Blog가 Genie 관련 AI 이슈를 보도했습니다](https://deepmind.google/blog/genie-4-is-now-available)
-
-- **핵심:** Google DeepMind Blog가 'Genie 4 is now available' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google DeepMind Blog
-- **키워드:** `genie` · `now` · `available` · `earlier`
-
-### [AWS Machine Learning Blog가 Airbnb Amazon 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock)
-
-- **핵심:** AWS Machine Learning Blog가 'How Airbnb uses cost per task to operate coding agents on Amazon Bedrock' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** AWS Machine Learning Blog
-- **키워드:** `how` · `airbnb` · `uses` · `cost`
-
-### [AWS Machine Learning Blog가 Private Amazon 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity)
-
-- **핵심:** AWS Machine Learning Blog가 'Private certificate authority support in Amazon Bedrock AgentCore Identity' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** AWS Machine Learning Blog
-- **키워드:** `private` · `certificate` · `authority` · `support`
-
-### [AWS Machine Learning Blog가 Salesforce Region 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai)
-
-- **핵심:** AWS Machine Learning Blog가 'How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** AWS Machine Learning Blog
-- **키워드:** `how` · `salesforce` · `advancing` · `global-scale`
-
-### [AWS Machine Learning Blog가 Connect Amazon 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection)
-
-- **핵심:** AWS Machine Learning Blog가 'Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** AWS Machine Learning Blog
-- **키워드:** `connect` · `amazon` · `bedrock` · `agentcore`
-
-### [Hugging Face Blog가 DaisyRose Pushing 관련 AI 이슈를 보도했습니다](https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin)
-
-- **핵심:** Hugging Face Blog가 'DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Hugging Face Blog
-- **키워드:** `daisyrose-27b` · `pushing` · `the` · `frontier`
-
-### [TechCrunch AI가 Microsoft Satya 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit)
-
-- **핵심:** TechCrunch AI가 'Microsoft CEO Satya Nadella explains why he asked 60K employees to quit' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** TechCrunch AI
-- **키워드:** `microsoft` · `ceo` · `satya` · `nadella`
+- **키워드:** `these` · `tech` · `outages` · `are`
+
+### [AWS Machine Learning Blog가 BMW Group 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers)
+
+- **핵심:** AWS Machine Learning Blog가 'How the BMW Group governs hundreds of agents across thousands of developers' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** AWS Machine Learning Blog
+- **키워드:** `how` · `the` · `bmw` · `group`
+
+### [AWS Machine Learning Blog가 Amazon SageMaker 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints)
+
+- **핵심:** AWS Machine Learning Blog가 'Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다.
+- **출처:** AWS Machine Learning Blog
+- **키워드:** `amazon` · `sagemaker` · `now` · `detects`
+
+### [AWS Machine Learning Blog가 Amazon Bedrock 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks)
+
+- **핵심:** AWS Machine Learning Blog가 'Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** AWS Machine Learning Blog
+- **키워드:** `amazon` · `bedrock` · `agentcore` · `harness`
+
+### [TechCrunch AI가 Google Gemini 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you)
+
+- **핵심:** TechCrunch AI가 'Google gives Gemini the ability to use your Mac for you' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** TechCrunch AI
+- **키워드:** `google` · `gives` · `gemini` · `the`
+
+### [AWS Machine Learning Blog가 Use Kimi 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock)
+
+- **핵심:** AWS Machine Learning Blog가 'Use Kimi Code CLI with models on Amazon Bedrock' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** AWS Machine Learning Blog
+- **키워드:** `use` · `kimi` · `code` · `cli`
+
+### [NVIDIA Developer Blog가 Reducing Rollout 관련 AI 이슈를 보도했습니다](https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo)
+
+- **핵심:** NVIDIA Developer Blog가 'Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** NVIDIA Developer Blog
+- **키워드:** `reducing` · `rollout` · `bottlenecks` · `reinforcement`
+
+### [AWS Machine Learning Blog가 Enable AWS 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments)
+
+- **핵심:** AWS Machine Learning Blog가 'Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** AWS Machine Learning Blog
+- **키워드:** `enable` · `agents` · `pay` · `for`
+
+### [TechCrunch AI가 Jensen Huang 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline)
+
+- **핵심:** TechCrunch AI가 'The unfolding Jensen Huang scandal: a timeline' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다.
+- **출처:** TechCrunch AI
+- **키워드:** `the` · `unfolding` · `jensen` · `huang`
+
+### [NVIDIA Developer Blog가 Build Tool 관련 AI 이슈를 보도했습니다](https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents)
+
+- **핵심:** NVIDIA Developer Blog가 'Build Tool-Calling Parsers in Rust with AI Agents' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** NVIDIA Developer Blog
+- **키워드:** `build` · `tool-calling` · `parsers` · `rust`
+
+### [AWS Machine Learning Blog가 Amazon Polly 관련 AI 이슈를 보도했습니다](https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand)
+
+- **핵심:** AWS Machine Learning Blog가 'Amazon Polly launches voice cloning: A unique voice for your brand' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** AWS Machine Learning Blog
+- **키워드:** `amazon` · `polly` · `launches` · `voice`
+
+### [TechCrunch AI가 Meta Muse 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says)
+
+- **핵심:** TechCrunch AI가 'Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** TechCrunch AI
+- **키워드:** `meta` · `agent` · `muse` · `mixing`
 
 ## 커뮤니티 시그널
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목만 따로 모았습니다.
 
-### [Google News AI Search가 Governor Newsom 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMimAJBVV95cUxOSTExb21JRlBpZTFvNUlRZFhncGQzNzdSYUR5WWdpSmFzbTlYMnp3M25qVGhjUk1nTXJJdThUMmVpMmpLVWdmZ296R2xxckVlYTJoRjY5ZHBRUXNybGxaN2xTWVA4X2FIZGh4cTB6NTlieHBMb3gwbGh6b2xLbHRmamJZcnlDZmxsRGgtcDB0dzJpRGRYdXVRVGhnSzN5Rlg1TU5FRjJFbTJtbTZMTFlpSXE5MjVOSkJhSXE3MHVaOTFtMFV1ZVNaT2hHSjg1ZlIzbF9hbDNlYkpFSDZVOTdnY0pVeXF1OTdRWFItdGdSTUJKTTVudjVRcGtCakxraFJxbWFWRGlqZi0tbjg4TnZmU0EzX0pZQTc1?oc=5)
+### [Google News AI Search가 Anthropic Turns 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcWFRMHVMWFROREx5em8wYWdDZ2pvUk9nLV9OZS10bjZCVVE4Nmd3bEt3ZFZhZUFsdjU3S3RwMThTZzVsSUY5TEd4RlYwbGp0dVRZX3dTOGVjTVlVNWgxeGo5b0I2aG92ZTNmTTB3SzFfX2s5anZDTFZtbGpteDdnY2JTakFKTHdD?oc=5)
 
-- **핵심:** Google News AI Search가 'Governor Newsom’s nation-leading AI safety framework is getting even stronger as California releases next steps on mandatory safety standards and oversight - California State Portal | CA.gov' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'Anthropic’s I.P.O. Turns Tech Researchers Into Overnight Millionaires - The New York Times' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Google News AI Search
-- **키워드:** `governor` · `newsom` · `nation-leading` · `safety`
+- **키워드:** `anthropic` · `i.p.o.` · `turns` · `tech`
 
-### [Google News AI Search가 Now Washington 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMitgFBVV95cUxPSmdqUFBoSVBSLWN0bkV5azZKaHkyd2JEblNSaDJ6eFgzUFFYalNIYVdSRkVZZ2hLN2JUQ3pYNVRxeThNcFpKZG9uS1RHR2xfNEVRMWFUd0thaEt0MHdRSWFUaVBkNi00UzlYSGRNNnlESE5PWndjby1iU245WE11d0dsbnh4X1FfbnZldm92OWVTei1kWW5rSXExRUdVeFpBazVHRTNCNy1zOEZfbXRJMnBQZ0JCdw?oc=5)
+### [Google News AI Search가 Apple Is 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQzRPX3FrZlMybjdvY2FJVWhVOHU5M2lTTGNPazZYUW0zVlA3ZkVRcWxERk9XM2FvXzgzVDVUaTYwTzVzOXg0TGQtN25fOE9aeTRtUXhqTGE2Q01zQ21iTUg1dmFTNGZQRV9hTDVBV3BjWW4tUzYxXzBVTzA1UzkyOEtySVhfbWZlbmRXSFd1bVZLZElzSThUMmlQVnAyOHJIWUs0YTBNVTBIM29HV2ZieUtzQ1d0SDVIVTA2VTRTYk4?oc=5)
 
-- **핵심:** Google News AI Search가 'The world embraced the AI boom. Now many are having regrets. - The Washington Post' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **핵심:** Google News AI Search가 'Apple Is Working on AI Agent for Device Control, Apps, Browsing and Coding - Bloomberg.com' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Google News AI Search
-- **키워드:** `the` · `world` · `embraced` · `boom.`
-
-### [Google News AI Search가 Anthropic IPO 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMie0FVX3lxTE45ZV9aZUpNTGl2cUJrTEZ3SzR5a2ZjcW42VURGbElXZ1B1TUtISE4zeXhEVlFTWW11ajJpV2FSNzNCM0lRYlBWREpXMURsUWJGUlppbTdnbUpjdXNuVU1yQ3VFLW1wam5kNDVZQ1o1cDE2bVg0UUFweWE3VQ?oc=5)
-
-- **핵심:** Google News AI Search가 'Anthropic IPO raises record $81.3 billion on strong AI demand - NPR' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `anthropic` · `ipo` · `raises` · `record`
-
-### [Google News AI Search가 Anthropic IPO 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVQW5FQUFlUkpzU1BnR2RJV2Q0eG1RWVNNYS0tU0REZU9pNWV0cmI2NTd2OGQyeVhEai04c2cxOGd3LVdRNWFJbVdscGdSTmthblg4SnJRcVVnSi1oRDdxYndNVUI3SDlP?oc=5)
-
-- **핵심:** Google News AI Search가 'Anthropic valued at over $1 trillion in historic IPO - Axios' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `anthropic` · `valued` · `over` · `trillion`
-
-### [Google News AI Search가 Anthropic IPO 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMipgFBVV95cUxOdW1QU3VfRndFeVFEODFZbWVTcUVkcE1CelRpYmJWZ0FleXRVd3EwbjFXeHRmbUJQUDBsQXFQc21iVjdCRHFscy1qQjZWeWhIMnF6d0NBR3gxQmRERFdyLXBDNFFpZDQtY05mT3REaThpVWdVSVQzLUtmOUpweHZmc0dvWEFjbmpxWDdadjNzaFI4ajNmNUZsVVlhb05hWm5qRFdNTV9R?oc=5)
-
-- **핵심:** Google News AI Search가 'Anthropic IPO to mint thousands of millionaires - Reuters' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `anthropic` · `ipo` · `mint` · `thousands`
+- **키워드:** `apple` · `working` · `agent` · `for`
 
 ## 오늘의 논문
 
 Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문들을 짧게 읽을 수 있게 정리했습니다.
 
-### 1. [IDEA: Intent-Dominance Evidence Audit for Inference-Time Backdoor Detection in GUI Agents](https://huggingface.co/papers/2611.24102)
+### 1. [Jeveration: System One Models Now Generate](https://huggingface.co/papers/2611.24738)
 
-- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Intent-Dominance, Inference-Time).
-- **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
-- **출처:** Hugging Face Papers (Top today)
-- **키워드:** `idea` · `intent-dominance` · `evidence` · `audit`
+- **한 줄:** 이 논문은 멀티모달 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다.
+- **아이디어:** 문제의식은 멀티모달 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `jeveration` · `system` · `one` · `models`
 
-### 2. [QDA: Closed-Loop LLM Quantization Design with Agents](https://huggingface.co/papers/2611.23388)
+### 2. [The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements](https://huggingface.co/papers/2611.23068)
 
-- **한 줄:** 이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: Closed-Loop).
+- **한 줄:** 이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다.
 - **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
-- **출처:** Hugging Face Papers (Top today)
-- **키워드:** `qda` · `closed-loop` · `llm` · `quantization`
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `the` · `resolution` · `hypothesis` · `agent`
+
+### 3. [ALIVE: Making Streaming Video Models Interactive](https://huggingface.co/papers/2611.21366)
+
+- **한 줄:** 이 논문은 생성 모델 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다.
+- **아이디어:** 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `alive` · `making` · `streaming` · `video`
+
+### 4. [PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling](https://huggingface.co/papers/2611.11318)
+
+- **한 줄:** 이 논문은 AI 연구 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Principal-Orthogonal, Low-rank).
+- **아이디어:** 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `prola` · `principal-orthogonal` · `low-rank` · `adaptation`
+
+### 5. [Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development](https://huggingface.co/papers/2611.24154)
+
+- **한 줄:** 이 논문은 에이전트 영역에서 새 데이터셋 또는 데이터 생성 방식을 제안하거나 검증하려는 연구입니다. (영문 용어: Environment-Player, Co-Development).
+- **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 데이터셋 또는 데이터 생성 방식을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `game2player` · `scaling` · `gameplay` · `experience`
+
+### 6. [CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning](https://huggingface.co/papers/2611.24654)
+
+- **한 줄:** 이 논문은 AI 연구 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Low-Curvature).
+- **아이디어:** 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `curvdelta` · `low-curvature` · `delta` · `modeling`
+
+### 7. [HINT-WAM: Hindsight-Informed Training for World Action Models](https://huggingface.co/papers/2611.24789)
+
+- **한 줄:** 이 논문은 로보틱스 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: HINT-WAM, Hindsight-Informed).
+- **아이디어:** 문제의식은 로보틱스 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `hint-wam` · `hindsight-informed` · `training` · `for`
+
+### 8. [LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning](https://huggingface.co/papers/2611.17600)
+
+- **한 줄:** 이 논문은 멀티모달 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: Target-Aware).
+- **아이디어:** 문제의식은 멀티모달 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `lighttar` · `light` · `and` · `fast`
+
+### 9. [WorldRuler: Interactive World Modeling under Configurable Rules](https://huggingface.co/papers/2611.24869)
+
+- **한 줄:** 이 논문은 AI 연구 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다.
+- **아이디어:** 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `worldruler` · `interactive` · `world` · `modeling`
+
+### 10. [Code World Model 2.0: Towards Infinite Controllable Video Generation](https://huggingface.co/papers/2611.22925)
+
+- **한 줄:** 이 논문은 생성 모델 영역에서 새 데이터셋 또는 데이터 생성 방식을 제안하거나 검증하려는 연구입니다.
+- **아이디어:** 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 데이터셋 또는 데이터 생성 방식을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today) (2026-11-19 기준)
+- **키워드:** `code` · `world` · `model` · `2.0`
