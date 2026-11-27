@@ -1,161 +1,140 @@
-# IMDIGEST - 2026-11-26
+# IMDIGEST - 2026-11-27
 
-> 2026-11-26 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
+> 2026-11-27 KST 기준 수집. AI 제품, 연구, 인프라, 커뮤니티 신호를 짧게 읽히는 브리핑으로 정리했습니다.
 
-2026-11-26 AI 브리핑입니다. 오늘은 Google Research Blog, Hugging Face Blog, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 5편도 함께 덧붙였습니다.
+2026-11-27 AI 브리핑입니다. 오늘은 TechCrunch AI, TechCrunch AI에서 나온 업데이트를 중심으로 흐름을 정리했습니다. 공식 발표만이 아니라 검색과 커뮤니티에서 어떤 이야기가 같이 올라오는지도 함께 묶었습니다. Hugging Face에서 집계한 최신 인기 논문 8편도 함께 덧붙였습니다.
 
 ## 브리핑 노트
 
-- **핵심 흐름:** Google Research Blog, Hugging Face Blog, TechCrunch AI에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
-- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 6개를 별도 섹션으로 묶었습니다.
-- **논문 큐:** Hugging Face 인기 논문 5편을 방법과 의미 중심으로 압축했습니다.
+- **핵심 흐름:** TechCrunch AI, TechCrunch AI에서 확인된 제품, 연구, 인프라 변화를 먼저 배치했습니다.
+- **현장 신호:** 커뮤니티와 검색에서 함께 떠오른 항목 7개를 별도 섹션으로 묶었습니다.
+- **논문 큐:** Hugging Face 인기 논문 8편을 방법과 의미 중심으로 압축했습니다.
 
 ## 주요 뉴스
 
-### [Google Research Blog가 Verifiable Social 관련 AI 이슈를 보도했습니다](https://research.google/blog/verifiable-social-reasoning-for-llm-assistants)
+### [TechCrunch AI가 Grand Theft 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue)
 
-- **핵심:** Google Research Blog가 'Verifiable Social Reasoning for LLM Assistants' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google Research Blog
-- **키워드:** `verifiable` · `social` · `reasoning` · `for`
-
-### [Hugging Face Blog가 Where 관련 AI 이슈를 보도했습니다](https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents)
-
-- **핵심:** Hugging Face Blog가 'Where scientists draw the line on AI agents' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** Hugging Face Blog
-- **키워드:** `where` · `scientists` · `draw` · `the`
-
-### [TechCrunch AI가 Nvidia 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks)
-
-- **핵심:** TechCrunch AI가 'S&P considers Nvidia credit downgrade over governance and ‘key man’ risks' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다.
-- **출처:** TechCrunch AI
-- **키워드:** `considers` · `nvidia` · `credit` · `downgrade`
-
-### [NVIDIA Developer Blog가 Optimize NVFP4 관련 AI 이슈를 보도했습니다](https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling)
-
-- **핵심:** NVIDIA Developer Blog가 'How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** NVIDIA Developer Blog
-- **키워드:** `how` · `optimize` · `nvfp4` · `attention`
-
-### [TechCrunch AI가 OpenAI ChatGPT 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work)
-
-- **핵심:** TechCrunch AI가 'OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** TechCrunch AI가 'Grand Theft Auto VI proves why efficiency isn’t a virtue' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** TechCrunch AI
-- **키워드:** `openai` · `says` · `heavy` · `chatgpt`
+- **키워드:** `grand` · `theft` · `auto` · `proves`
 
-### [TechCrunch AI가 Anthropic Dario 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd)
+### [TechCrunch AI가 Nvidia Southeast 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia)
 
-- **핵심:** TechCrunch AI가 'Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
-- **출처:** TechCrunch AI
-- **키워드:** `anthropic` · `dario` · `amodei` · `calls`
-
-### [TechCrunch AI가 Want Christmas 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york)
-
-- **핵심:** TechCrunch AI가 'Want to buy your kid an AI toy this Christmas? Not in New York' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 연구·평가 결과는 다음 제품 발표와 기술 방향성을 미리 보여주는 신호입니다.
-- **출처:** TechCrunch AI
-- **키워드:** `want` · `buy` · `your` · `kid`
-
-### [TechCrunch AI가 Character AGs 관련 AI 이슈를 보도했습니다](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats)
-
-- **핵심:** TechCrunch AI가 'Character.AI’s plan to auction off users’ private chats challenged by state AGs' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** TechCrunch AI가 'Nvidia hits pause on chip shipments to Southeast Asia' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** TechCrunch AI
-- **키워드:** `character.ai` · `plan` · `auction` · `off`
-
-### [TechCrunch AI가 AI 관련 이슈를 보도했습니다](https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it)
-
-- **핵심:** TechCrunch AI가 'AI data centers are becoming harder to build, and neoclouds are feeling it' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** TechCrunch AI
-- **키워드:** `data` · `centers` · `are` · `becoming`
+- **키워드:** `nvidia` · `hits` · `pause` · `chip`
 
 ## 커뮤니티 시그널
 
 공식 발표와 함께 사람들의 반응이나 현장성 있는 문제의식이 보인 항목만 따로 모았습니다.
 
-### [Google News AI Search가 Nvidia TechCrunch 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSnFCZTJhQkQzR25PLTNfcWRtdFdUVENhU184c3RraWp0M0g4NGw0NXRVOU5sSFBsR2tnRktxYjBBcUlGRzNJVnEtaVh5Zk82NGY2WVQ2VFdBUkIwZ294SjdHR0trM0k5dTl0MTg2OURCOW9RNklVczNVa0VkZU8tV0tXWDVHY1NxUG1aUXZFdUVzazhJTDlYRHBfaGc2VEFEUHNOOFAwbjI?oc=5)
+### [Google News AI Search가 Anthropic Claude 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMidkFVX3lxTFBBYkVUNFdNUHY4TGo2TnhfOGpReDNjLWNydjluX2ZVd19uclJKU2NlUXhOd1F6RTBpQmRFTUFaYXlVUWt4Rnd1U0JveWFJdmtFQmdBT0oxaFVXRzRDVlozUjIzQ0tONF9xc1hMcElsNy1mZEN6eWc?oc=5)
 
-- **핵심:** Google News AI Search가 'S&P considers Nvidia credit downgrade over governance and ‘key man’ risks - TechCrunch' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 정책·안전 이슈는 배포 범위와 기업 대응 전략을 바꿀 수 있는 변수입니다.
-- **출처:** Google News AI Search
-- **키워드:** `considers` · `nvidia` · `credit` · `downgrade`
-
-### [Google News AI Search가 Your Denny 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMicEFVX3lxTE5XLUdDX1cxTnFzZl95T2dMX0lKR2VPY0xNZkpQby1qbGR6M0xWYkJNc2pCNGhNZWNvZWQzM2lSazRPcDh2bk1hdnE4QjdTRFhaZUVQVElNQzdNb3NEaEJrdjJyY3ZGeXNPcUx0dVNQcETSAXZBVV95cUxObktpNGV4RWJzSEZJV2thdzUwTTZVaFB4NER2VTJrQlRoQXl4MS1OcU5wdzBtdDJmYVpSYm9zU2R5SS1rTjIxQ3Y1eVJGSU1tMlhPY25OWHVkSi0yVGt6b3lNNjRMSFlZb2tJSUdHSVJtTC01VXJ3?oc=5)
-
-- **핵심:** Google News AI Search가 '‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO - CNBC' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `your` · `booth` · `waiting` · `denny`
-
-### [Google News AI Search가 Reuters 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmNMM0doWElDVk9BdjNGZnJHakNCUFg1blQzSlk0eW9zeVduV3ZKcEtJd0hpUkxDMVhnRE9rY1lLUzF1eENZaFh0SUNKbmRjanN3YWtZakZud2RYUnlSRkk5b1RZT2VfbFJPXzhZVEVyYnFnRHBwYVlGdFQzaEt2Z2VjaGVXWUE0Qmd5bjZYandmR2M2QXBSY2tKem80OGNlSzh3?oc=5)
-
-- **핵심:** Google News AI Search가 'AI stock rout deepens but damage is limited by afternoon bounce - Reuters' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `stock` · `rout` · `deepens` · `but`
-
-### [Google News AI Search가 Deploying American 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3YlkzU2d2V2hKdldJNENfYks3NFczNUY0RjJ5WVJDdHNQQ0ZtWm5odzVKWjlxSEtiSmpnbFpFZkV1WGozV3JENGkzRHNQdXFzdElYVUNmRHM?oc=5)
-
-- **핵심:** Google News AI Search가 'Deploying AI into workplaces: What leaders need to know - American Psychological Association (APA)' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
-- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
-- **출처:** Google News AI Search
-- **키워드:** `deploying` · `into` · `workplaces` · `what`
-
-### [Google News AI Search가 Migrating Messages 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91blh2eENvd0hsR25fTlhrSkktUlc3djUxb3NYdGo2dm1maGJfZlhvU3NhSS1rWk45WDczZnpiUzVrOEFWVVA1aDRfSXo3YkpfY0RuSzdESDVlU1FqN1VBV1N3Mm5ZdTQ?oc=5)
-
-- **핵심:** Google News AI Search가 'Migrating our Messages API to Rust - Anthropic' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'Anthropic claims Claude solved 2 enduring mysteries about black holes - Mashable' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
 - **출처:** Google News AI Search
-- **키워드:** `migrating` · `our` · `messages` · `api`
+- **키워드:** `anthropic` · `claims` · `claude` · `solved`
 
-### [Google News AI Search가 Riemann Scientific 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjdHVi1aanhYQ0NBcVlBVHZUa1ozaE9ETGYxeDhhcjYzLUhKb2NVVDR4aHYtMXBtVll6c096aEgyNlB6aVdYNUt4YVhQRk9TT2JSZDRYZjlwV1QxaDNXc2pLaVE2dDFuN2FKbXhXa19XOGdLOEV3cnBST1lOOW1aT3dERm41TWRCVEUzemgwY0FWanlPRkZSMjN5d056VFBaU0FF?oc=5)
+### [Google News AI Search가 Black Friday 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMimgFBVV95cUxPNXpJY1prODV4UmFrVXFLRTBJOVI2LVg0ZzNfRk5jVjRFZVFpZ3VzNVBwX0h1SHpNZV9VcEFmQVBMc2FLaXlxOXUtSElkRmE0SjAzdGc3SW00WGI0OEc0Q2N2VGJmb1pJUlR4cnVhOGdyem1jQU52bkNTTUdRVHdzeVVYcUYwWEE1OG5TWlBldlFuTmUzXzNncXBB?oc=5)
 
-- **핵심:** Google News AI Search가 'Why AI’s proof of the Riemann hypothesis is so bittersweet - Scientific American' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **핵심:** Google News AI Search가 'What to know before using AI agents for Black Friday shopping - WAMU' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 새 모델·기능·API 변화는 실제 도입 속도와 생태계 경쟁 구도에 바로 영향을 줍니다.
+- **출처:** Google News AI Search
+- **키워드:** `what` · `know` · `before` · `using`
+
+### [Google News AI Search가 States Move 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiogFBVV95cUxOZnlfb1p5NXhDX1h4QUVHMmlPeTFYOEpMclRXTmlBNWVaUzFWU2tfN0V4ZVdWOFRfWl9HbWdkYTVXVGRSM3JyX0RtWjBGMVZNcE1qX2htZE5fOXN0Zk92akV3Y2ZBQjJOcHctTkJMdVZkOFJUcWoyUFhrY3NLcjVuS3N4UHkxUFdPdzZOUHVTOGd5YjhYZDREYkswZHZkVXRfSEE?oc=5)
+
+- **핵심:** Google News AI Search가 'States Move to Block Disney’s Bid for Character.ai Assets - WSJ' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
 - **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
 - **출처:** Google News AI Search
-- **키워드:** `why` · `proof` · `the` · `riemann`
+- **키워드:** `states` · `move` · `block` · `disney`
+
+### [Google News AI Search가 Not Nvidia 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiggJBVV95cUxOaTBJZmFiVkpRU3Y1MVlZZXVvamVQMWZsaXlOaEdmaWtLX29ndlEyc25HNG8ybFloV3Bhd0gzSGM0S1pWbnRoUmV5RVBpSWlFVkdzMW9GbnlFM1d3clVXX2dhckd6SC02RG9pMldmbXZpUjBKNlFEYkJmSWhhVjY0bVdJdnlsaE9tWnQ3S1pfTExKZHAwUmMzenJlakF6YlB2bFNYd2tueXVOUWU0MXcyU0NhdGk2VDlfdjJudW5lbDdDaDloYkZob21VTUtmNHlXMVFxMC1ZXzZObFF2UFNYbXhuYm1hOUIxV3A5MXU2X2V0WXYxYWFwR3I0MXZkRXBxQVE?oc=5)
+
+- **핵심:** Google News AI Search가 'Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Semiconductor Stock Through 2030, This Would Be It. - The Motley Fool' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `not` · `nvidia.` · `micron.` · `could`
+
+### [Google News AI Search가 Don Golden 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMiogFBVV95cUxPbWNtRTBsT1hCQi1nNmp1czRuajhwRFZoeVdLbnFIX1NrQmw4MFBIcS1pUGhRQ3gtcE9qeHVsUlRMVkZWTHl0THFyRlpZQVFVUWFKdHA3cW9ZdV9UUDBKV1JZRHA5R0p5eVBqQ1RrZHR0Smw3ZGljTnJ0OUZ5VndnVU4tNEFLR0VwTkd6MUo1RVI0X082S3FSUUNGRG1rUUg4UkHSAacBQVVfeXFMTXItcFc4LWNJR1Raa292U0RjTGpaOWNrLXdXX0s2VmxUdndsUlRSUHpYaGkydnpRU2VQUlBvelZwcjhDYVhiODgxTk1ENzJOWDk0d1BCQ0FkR3pXS2xnamV4eW05d2RMNU1seVhGQXNZVlhKT2JqRF9pTEtaeFVfcE1xcUpmSWNWU05YQWs0a29FN2xpamVudVRqUFVLVlRPMTNhNzFtbzQ?oc=5)
+
+- **핵심:** Google News AI Search가 ''Don't kill the Golden Goose': Trump calls AI warnings a 'HOAX' as AI leaders raise alarms - ABC News - Breaking News, Latest News and Videos' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `don` · `kill` · `the` · `golden`
+
+### [Google News AI Search가 An Anthropic 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMijAFBVV95cUxNN0tLeHhIUXZiclNrSlZmcy1VUzFWb0pQN2RuX2ExcGlZaWtabFJaQ3pyTHpxTnNhRms3NDNJT0Y2eFkzeFVWM3VMVXhTdTNqNjY4SjJ1SDhDejQtamw2M0RKZWdXYzlsczJ0UkZEV1RXNUtRNndFaEotNzJ1bzh4VHZiUmdjNGY0RnRlUg?oc=5)
+
+- **핵심:** Google News AI Search가 'An Anthropic team lead says AI is changing the factors that are weighed in a promotion - Business Insider' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `anthropic` · `team` · `lead` · `says`
+
+### [Google News AI Search가 Nvidia Chinese 관련 AI 이슈를 보도했습니다](https://news.google.com/rss/articles/CBMib0FVX3lxTE1ydHdQWUpYRU16SjgyRXBibzZ6UFN4RThEMUV3VkRJV0NCNmk1Nm1wTFlvTnpsLS1VVHdmczlIQjZRN0RKZnlBdm5oSmFUY0lCaWV5dTY2bDBiRHcyV0lfMjk3ZS1TQW1oM3F0TTJFRdIBdEFVX3lxTE1hb0dnX1V6U3RzcVduQUhNcHBONFFMMVVaaThOcEc5dy1EOVMwUXBVM1lSMWljNm12aTJXT0FvMWdkaUdyTEZyZGY0dHJ0R3kxQllKQ2RaMl9MYmxIY2pHcTh6TWVDRkhCSkVqUVUtbVFOam81?oc=5)
+
+- **핵심:** Google News AI Search가 'Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say - CNBC' 이슈를 보도했습니다. 세부 내용은 원문 확인이 필요합니다.
+- **맥락:** 오늘 AI 흐름에서 제품, 연구, 커뮤니티 반응을 함께 읽을 수 있는 참고 신호입니다.
+- **출처:** Google News AI Search
+- **키워드:** `nvidia` · `chip` · `buyers` · `told`
 
 ## 오늘의 논문
 
 Hugging Face 인기 논문 목록을 바탕으로, 오늘 눈에 띄는 논문들을 짧게 읽을 수 있게 정리했습니다.
 
-### 1. [PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents](https://huggingface.co/papers/2611.33144)
+### 1. [Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability](https://huggingface.co/papers/2611.34051)
 
-- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: PyRUA-Dex).
-- **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **한 줄:** 이 논문은 검색 결합형 모델 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: DeltaNet-2).
+- **아이디어:** 문제의식은 검색 결합형 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `pyrua-dex` · `learning` · `programmatic` · `policies`
+- **키워드:** `stable` · `gated` · `deltanet-2` · `understanding`
 
-### 2. [Target-Part Preference Optimization for Part-Aware 3D Generation](https://huggingface.co/papers/2611.30472)
+### 2. [ProxyGenBench: Benchmarking Proxy-Guided Video Generation](https://huggingface.co/papers/2611.34457)
 
-- **한 줄:** 이 논문은 AI 연구 영역에서 새 연구 접근을 제안하거나 검증하려는 연구입니다. (영문 용어: Target-Part, Part-Aware).
-- **아이디어:** 문제의식은 AI 연구 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 연구 접근을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **한 줄:** 이 논문은 생성 모델 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: Proxy-Guided).
+- **아이디어:** 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `target-part` · `preference` · `optimization` · `for`
+- **키워드:** `proxygenbench` · `benchmarking` · `proxy-guided` · `video`
 
-### 3. [ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification](https://huggingface.co/papers/2611.33143)
+### 3. [OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms](https://huggingface.co/papers/2611.34232)
 
-- **한 줄:** 이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: ROAM-Bench).
+- **한 줄:** 이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: OS-Omni, Computer-Using).
 - **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `roam-bench` · `evaluating` · `embodied` · `active`
+- **키워드:** `os-omni` · `benchmarking` · `generalist` · `computer-using`
 
-### 4. [DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers](https://huggingface.co/papers/2611.30844)
+### 4. [ShowNow: Fine-Grained Speculative Streaming for Responsive World Models](https://huggingface.co/papers/2611.34693)
 
-- **한 줄:** 이 논문은 생성 모델 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: DyLoMo-DiT, Mixture-of-Experts).
-- **아이디어:** 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **한 줄:** 이 논문은 생성 모델 영역에서 새 데이터셋 또는 데이터 생성 방식을 제안하거나 검증하려는 연구입니다. (영문 용어: Fine-Grained).
+- **아이디어:** 문제의식은 생성 모델 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 데이터셋 또는 데이터 생성 방식을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `dylomo-dit` · `dynamic` · `looped` · `mixture-of-experts`
+- **키워드:** `shownow` · `fine-grained` · `speculative` · `streaming`
 
-### 5. [SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation](https://huggingface.co/papers/2611.33915)
+### 5. [StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation](https://huggingface.co/papers/2611.34290)
 
-- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Self-Evolution).
+- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다. (영문 용어: Multi-Agent, Story-State).
 - **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
 - **출처:** Hugging Face Papers (Top today)
-- **키워드:** `seek` · `self-evolution` · `through` · `execution`
+- **키워드:** `stateweaver` · `multi-agent` · `coordination` · `story-state`
+
+### 6. [DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents](https://huggingface.co/papers/2611.34852)
+
+- **한 줄:** 이 논문은 에이전트 영역에서 새 벤치마크 또는 평가 방법을 제안하거나 검증하려는 연구입니다. (영문 용어: Knowledge-Centric).
+- **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 벤치마크 또는 평가 방법을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today)
+- **키워드:** `drbench` · `pro` · `knowledge-centric` · `benchmark`
+
+### 7. [Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models](https://huggingface.co/papers/2611.34813)
+
+- **한 줄:** 이 논문은 에이전트 영역에서 새 시스템 또는 프레임워크을 제안하거나 검증하려는 연구입니다.
+- **아이디어:** 문제의식은 에이전트 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 시스템 또는 프레임워크을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today)
+- **키워드:** `solve` · `vision` · `code` · `coding`
+
+### 8. [Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration](https://huggingface.co/papers/2611.32993)
+
+- **한 줄:** 이 논문은 멀티모달 영역에서 새 모델 또는 방법론을 제안하거나 검증하려는 연구입니다. (영문 용어: Decision-Native).
+- **아이디어:** 문제의식은 멀티모달 영역의 성능, 안정성, 또는 활용성을 개선하는 데 있습니다. 핵심 접근은 새 모델 또는 방법론을 통해 기존 한계를 줄이려는 것입니다. 세부 방법과 실험 결과는 원문 초록 확인이 필요합니다.
+- **출처:** Hugging Face Papers (Top today)
+- **키워드:** `decision-native` · `multimodal` · `clinical` · `modeling`
